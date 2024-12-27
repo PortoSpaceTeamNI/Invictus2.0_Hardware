@@ -1,0 +1,90 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "NX2016SA-52MHZ-EXS00A-CS07103" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "XTAL" (id 0) (at -7.62 8.89 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "NX2016SA-52MHZ-EXS00A-CS07103" (id 1) (at -7.62 -12.7 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "NX2016SA-52MHZ-EXS00A-CS07103:OSCCC200X160X50N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "N/A" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC-7351B" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "NDK" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "NX2016SA-52MHZ-EXS00A-CS07103_0_0"
+      (polyline
+        (pts (xy -7.62 2.54) (xy -1.905 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 2.54) (xy 1.905 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.905 5.08) (xy -1.905 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.905 2.54) (xy -1.905 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.905 0.0) (xy 1.905 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.905 2.54) (xy 1.905 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.27 5.715) (xy -1.27 -0.635)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.27 -0.635) (xy 1.27 -0.635)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 -0.635) (xy 1.27 5.715)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 5.715) (xy -1.27 5.715)) (stroke (width 0.1524))
+      )
+      (rectangle (start -7.62 -10.16) (end 7.62 7.62)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 2.54 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 12.7 -5.08 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 12.7 -7.62 180.0) (length 5.08)
+        (name "GND__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
