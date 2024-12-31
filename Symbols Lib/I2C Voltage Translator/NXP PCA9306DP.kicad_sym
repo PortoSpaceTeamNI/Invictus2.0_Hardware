@@ -1,92 +1,280 @@
-(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "PCA9306DP_118" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (id 0) (at 22.86 10.16 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "PCA9306DP_118" (id 1) (at 22.86 7.62 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "TSSOP8_SOT505-1_NXP" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "PCA9306DP_118" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "PCA9306DP,118" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "TSSOP8_SOT505-1_NXP TSSOP8_SOT505-1_NXP-M TSSOP8_SOT505-1_NXP-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "PCA9306DP_118_0_1"
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 -12.7)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -12.7)
-          (xy 38.1 -12.7)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 38.1 -12.7)
-          (xy 38.1 5.08)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 38.1 5.08)
-          (xy 7.62 5.08)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin power_out line (at 0 0 0) (length 7.62)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -2.54 0) (length 7.62)
-        (name "VREF1" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 -5.08 0) (length 7.62)
-        (name "SCL1" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -7.62 0) (length 7.62)
-        (name "SDA1" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 45.72 -7.62 180) (length 7.62)
-        (name "SDA2" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 45.72 -5.08 180) (length 7.62)
-        (name "SCL2" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 45.72 -2.54 180) (length 7.62)
-        (name "VREF2" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 45.72 0 180) (length 7.62)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "PCA9306DP_118"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 22.86 10.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PCA9306DP_118"
+			(at 22.86 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TSSOP8_SOT505-1_NXP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "PCA9306DP_118"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "PCA9306DP,118"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TSSOP8_SOT505-1_NXP TSSOP8_SOT505-1_NXP-M TSSOP8_SOT505-1_NXP-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PCA9306DP_118_0_1"
+			(polyline
+				(pts
+					(xy 7.62 -12.7) (xy 38.1 -12.7)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 7.62 -12.7)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.1 -12.7) (xy 38.1 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.1 5.08) (xy 7.62 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "SCL1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -7.62 0)
+				(length 7.62)
+				(name "SDA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 45.72 -7.62 180)
+				(length 7.62)
+				(name "SDA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 45.72 -5.08 180)
+				(length 7.62)
+				(name "SCL2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 45.72 0 180)
+				(length 7.62)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCA9306DP_118_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "VREF1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 45.72 -2.54 180)
+				(length 7.62)
+				(name "VREF2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )
-
