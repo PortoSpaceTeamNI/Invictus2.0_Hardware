@@ -9547,6 +9547,157 @@
 	)
 	(hierarchical_label "+5V"
 		(shape input)
+		(at 408.94 32.385 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2789d86d-6908-4495-8a98-9f27fbf7b2a8")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 452.755 123.825 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b043c749-d973-4899-bed5-71f95bbd58b2")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 403.86 55.245 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03042b3b-55d1-4b8e-a277-5692461d3d5b")
+		(property "Reference" "R15"
+			(at 403.86 57.277 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20K"
+			(at 402.59 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RES_0402:RES_0402"
+			(at 405.638 55.245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 403.86 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 403.86 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c5b923c-083c-42ad-abd4-7132e5c10f2e")
+		)
+		(pin "2"
+			(uuid "ebf31f1e-7f9d-406c-9924-e68ff116db09")
+		)
+		(instances
+			(project "OBC board"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 454.66 32.385 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "088764ae-11fa-445f-a754-44cd52d5a7b5")
+		(property "Reference" "#PWR031"
+			(at 454.66 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 454.66 27.813 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 454.66 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 454.66 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 454.66 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+			(justify left)
+		)
+		(uuid "13e0d232-c956-4070-9bbd-643535660331")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
 		(at 452.755 123.825 90)
 		(fields_autoplaced yes)
 		(effects
@@ -9584,8 +9735,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 455.93 31.75 0)
+		(property "Footprint" "RES_0402:RES_0402"
+			(at 385.318 48.895 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9756,7 +9907,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AMASS_XT30UPB-M:CONN_XT30UPB-M_AMA"
 			(at 407.67 120.65 0)
 			(effects
 				(font
@@ -9828,7 +9979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_GCM155_MUR:CAP_GCM155_MUR"
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
 			(at 246.38 173.355 0)
 			(effects
 				(font
@@ -9898,7 +10049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_GCM155_MUR:CAP_GCM155_MUR"
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
 			(at 285.75 67.31 0)
 			(effects
 				(font
@@ -10127,7 +10278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_GCM155_MUR:CAP_GCM155_MUR"
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
 			(at 182.88 224.155 0)
 			(effects
 				(font
@@ -10593,6 +10744,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 397.51 42.545 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27bdd439-d417-462e-aaa4-705a20cc8a47")
+		(property "Reference" "R14"
+			(at 397.51 44.577 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20K"
+			(at 396.24 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RES_0402:RES_0402"
+			(at 399.288 42.545 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 397.51 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 397.51 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4930e07-a5b3-41ec-a971-18b6d57f44b0")
+		)
+		(pin "2"
+			(uuid "bfe382a7-4bb7-4417-a5b6-dedc7f44ca27")
+		)
+		(instances
+			(project "OBC board"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 246.38 167.64 0)
 		(unit 1)
@@ -10892,7 +11113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0402N_VIS:RC0402N_VIS"
+		(property "Footprint" "RES_0402:RES_0402"
 			(at 23.495 243.332 90)
 			(effects
 				(font
@@ -10960,8 +11181,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 142.24 203.2 0)
+		(property "Footprint" "RES_0402:RES_0402"
+			(at 457.962 38.735 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11231,7 +11452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0402N_VIS:RC0402N_VIS"
+		(property "Footprint" "RES_0402:RES_0402"
 			(at 23.495 169.672 90)
 			(effects
 				(font
@@ -11845,6 +12066,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 449.58 38.735 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5275c019-4d3e-4953-9f79-52876ea87776")
+		(property "Reference" "R16"
+			(at 449.58 40.767 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 451.612 40.767 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RES_0402:RES_0402"
+			(at 451.358 38.735 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 449.58 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 449.58 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "833c6cd3-567d-4044-972e-0c06b156d19d")
+		)
+		(pin "2"
+			(uuid "5f44ded6-bc5e-4f39-9e10-6031699b1eca")
+		)
+		(instances
+			(project "OBC board"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 23.495 215.9 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11868,7 +12159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0402N_VIS:RC0402N_VIS"
+		(property "Footprint" "RES_0402:RES_0402"
 			(at 23.495 214.122 90)
 			(effects
 				(font
@@ -12067,7 +12358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0402N_VIS:RC0402N_VIS"
+		(property "Footprint" "RES_0402:RES_0402"
 			(at 23.495 182.372 90)
 			(effects
 				(font
@@ -12200,7 +12491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0402N_VIS:RC0402N_VIS"
+		(property "Footprint" "RES_0402:RES_0402"
 			(at 23.495 201.422 90)
 			(effects
 				(font
@@ -12269,7 +12560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_GCM155_MUR:CAP_GCM155_MUR"
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
 			(at 188.595 224.155 0)
 			(effects
 				(font
@@ -12752,7 +13043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_GCM155_MUR:CAP_GCM155_MUR"
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
 			(at 299.085 207.645 0)
 			(effects
 				(font
@@ -12953,7 +13244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_GCM155_MUR:CAP_GCM155_MUR"
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
 			(at 241.3 173.355 0)
 			(effects
 				(font
@@ -13296,8 +13587,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 363.855 132.08 0)
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
+			(at 301.2948 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13847,7 +14138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAP_GCM155_MUR:CAP_GCM155_MUR"
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
 			(at 413.385 131.1148 0)
 			(effects
 				(font
@@ -14190,7 +14481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_GCM155_MUR:CAP_GCM155_MUR"
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
 			(at 196.85 62.23 0)
 			(effects
 				(font
@@ -14258,7 +14549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAP_GCM155_MUR:CAP_GCM155_MUR"
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
 			(at 329.565 157.48 0)
 			(effects
 				(font
@@ -14698,6 +14989,8 @@
 				(justify left)
 			)
 		)
+		(property "Footprint" "RES_0402:RES_0402"
+			(at 456.438 38.735 90)
 		(property "Footprint" "RC0402N_VIS:RC0402N_VIS"
 			(at 457.708 38.1 90)
 			(effects
@@ -15193,6 +15486,163 @@
 				)
 			)
 		)
+		(property "Footprint" "RES_0402:RES_0402"
+			(at 443.23 133.858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 443.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 443.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6376f908-8ac6-46d9-8a4b-4a0040654571")
+		)
+		(pin "2"
+			(uuid "a1070987-5679-4d93-9e4d-b423dc2b5fce")
+		)
+		(instances
+			(project "OBC board"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TPS1120DR_1")
+		(lib_id "Dual PMOS TPS1120DR:TPS1120DR")
+		(at 46.99 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1817e87-fa66-4f94-95b4-afd82c9ac014")
+		(property "Reference" "U5"
+			(at 82.55 164.592 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS1120DR"
+			(at 82.55 167.132 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "2 PMOS:D8"
+			(at 46.99 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TPS1120DR"
+			(at 46.99 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "fad2363d-0dbd-4109-bf7d-595fe995980c")
+		)
+		(pin "8"
+			(uuid "91d4dd86-6ac8-4838-9f0d-f2c7dc4d3fbb")
+		)
+		(pin "2"
+			(uuid "4209c184-a60f-4d2c-bb29-9a87fc51860c")
+		)
+		(pin "3"
+			(uuid "34afeb14-37f4-4f3b-9845-5252e2d1deb5")
+		)
+		(pin "4"
+			(uuid "c9b7453a-2602-4525-9205-6cddcae35c42")
+		)
+		(pin "7"
+			(uuid "23713530-bb25-4d7f-91ac-f14ed4a8d9ea")
+		)
+		(pin "5"
+			(uuid "b1d48447-9909-4210-9440-ae3458cd888b")
+		)
+		(pin "1"
+			(uuid "7ce630fc-2c24-4493-b8c9-0f1494603534")
+		)
+		(instances
+			(project "OBC board"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 443.23 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce4a6765-d741-49ba-84c5-34a32f68c152")
+		(property "Reference" "R12"
+			(at 443.23 126.365 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 443.23 128.905 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "RC0402N_VIS:RC0402N_VIS"
 			(at 443.23 133.858 90)
 			(effects
@@ -15479,7 +15929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0402N_VIS:RC0402N_VIS"
+		(property "Footprint" "RES_0402:RES_0402"
 			(at 23.495 230.632 90)
 			(effects
 				(font
@@ -15548,7 +15998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_GCM155_MUR:CAP_GCM155_MUR"
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
 			(at 197.485 224.155 0)
 			(effects
 				(font
@@ -15617,7 +16067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_GCM155_MUR:CAP_GCM155_MUR"
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
 			(at 290.83 207.645 0)
 			(effects
 				(font
@@ -15687,7 +16137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_GCM155_MUR:CAP_GCM155_MUR"
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
 			(at 171.45 167.64 0)
 			(effects
 				(font
@@ -16187,7 +16637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAP_GCM155_MUR:CAP_GCM155_MUR"
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
 			(at 185.1152 92.71 0)
 			(effects
 				(font
@@ -16254,7 +16704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAP_GCM155_MUR:CAP_GCM155_MUR"
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
 			(at 267.335 156.21 0)
 			(effects
 				(font
@@ -16411,7 +16861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_GCM155_MUR:CAP_GCM155_MUR"
+		(property "Footprint" "Capacitor_0402:Capacitor_0402"
 			(at 309.245 207.645 0)
 			(effects
 				(font
@@ -16544,8 +16994,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 17.145 170.18 0)
+		(property "Footprint" "RES_0402:RES_0402"
+			(at 374.65 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
