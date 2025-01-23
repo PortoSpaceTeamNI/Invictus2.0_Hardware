@@ -5976,16 +5976,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 102.87) (xy 52.07 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ebc9a17-d87e-4193-a8f6-fa8267d83f36")
-	)
-	(wire
-		(pts
 			(xy 76.2 170.18) (xy 76.2 214.63)
 		)
 		(stroke
@@ -6986,20 +6976,6 @@
 		)
 		(uuid "781750b0-01dc-49f4-9a03-23c6df896b7e")
 	)
-	(text "TO DO:"
-		(exclude_from_sim no)
-		(at 260.985 249.555 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left)
-		)
-		(uuid "dfec136f-c6ff-4aeb-8fd6-2edf986b9fc5")
-	)
 	(text "Temperature Sensor"
 		(exclude_from_sim no)
 		(at 264.16 142.875 0)
@@ -7014,21 +6990,8 @@
 		)
 		(uuid "e3c85f38-1232-419d-b8cb-3ac920c92bb7")
 	)
-	(text "Falta procurar e atribuir footprints\nEscolher modelos de resistências e condensadores\nSimbolos e footprints para o conectores:\n	- 5V e GND do OBC\n	- UART do OBC"
-		(exclude_from_sim no)
-		(at 261.62 274.32 0)
-		(effects
-			(font
-				(size 2.6 2.6)
-				(italic yes)
-			)
-			(justify left)
-		)
-		(uuid "e9a64b07-07fd-4799-bdfb-3bd3b7d5ea23")
-	)
 	(label "SX1280 DIO1"
 		(at 85.09 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7039,7 +7002,6 @@
 	)
 	(label "SX1280 DIO1"
 		(at 128.27 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7050,7 +7012,6 @@
 	)
 	(label "SX1280 SPI ~{CS}"
 		(at 161.925 34.925 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7061,7 +7022,6 @@
 	)
 	(label "SX1280 ~{RST}"
 		(at 128.27 70.485 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7072,7 +7032,6 @@
 	)
 	(label "SX1280 BUSY"
 		(at 128.27 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7083,7 +7042,6 @@
 	)
 	(label "GPS UART RX"
 		(at 254.635 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7094,7 +7052,6 @@
 	)
 	(label "SX1280 XTAL GND"
 		(at 46.99 195.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7105,7 +7062,6 @@
 	)
 	(label "OBC UART RTS"
 		(at 34.29 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7116,7 +7072,6 @@
 	)
 	(label "SX1280 SPI MISO"
 		(at 128.27 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7127,7 +7082,6 @@
 	)
 	(label "GPS I2C SCL"
 		(at 128.27 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7138,7 +7092,6 @@
 	)
 	(label "SX1280 SPI ~{CS}"
 		(at 177.8 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7149,7 +7102,6 @@
 	)
 	(label "GPS 1PPS"
 		(at 128.27 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7160,7 +7112,6 @@
 	)
 	(label "TEMP ALERT"
 		(at 264.795 180.975 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7171,7 +7122,6 @@
 	)
 	(label "SX1280 SPI SCK"
 		(at 177.8 185.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7182,7 +7132,6 @@
 	)
 	(label "SX1280 XTAL GND"
 		(at 85.09 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7193,7 +7142,6 @@
 	)
 	(label "SX1280 XTA"
 		(at 85.09 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7204,7 +7152,6 @@
 	)
 	(label "SX1280 DIO2"
 		(at 128.27 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7215,7 +7162,6 @@
 	)
 	(label "SX1280 XTB"
 		(at 85.09 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7226,7 +7172,6 @@
 	)
 	(label "GPS 1PPS"
 		(at 352.425 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7237,7 +7182,6 @@
 	)
 	(label "GPS VBACKUP"
 		(at 254.635 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7248,7 +7192,6 @@
 	)
 	(label "GPS I2C SDA"
 		(at 128.27 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7259,7 +7202,6 @@
 	)
 	(label "SX1280 DIO3"
 		(at 128.27 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7270,7 +7212,6 @@
 	)
 	(label "SX1280 BUSY"
 		(at 85.09 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7281,7 +7222,6 @@
 	)
 	(label "SX1280 SPI MOSI"
 		(at 177.8 187.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7292,7 +7232,6 @@
 	)
 	(label "TEMP SDA I2C"
 		(at 264.795 175.895 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7303,7 +7242,6 @@
 	)
 	(label "OBC UART CTS"
 		(at 34.29 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7314,7 +7252,6 @@
 	)
 	(label "GPS VBACKUP"
 		(at 273.685 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7325,7 +7262,6 @@
 	)
 	(label "GPS UART RX"
 		(at 128.27 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7336,7 +7272,6 @@
 	)
 	(label "V_IN"
 		(at 34.29 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7347,7 +7282,6 @@
 	)
 	(label "TEMP SDL I2C"
 		(at 264.795 178.435 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7358,7 +7292,6 @@
 	)
 	(label "GPS I2C SCL"
 		(at 351.155 64.77 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7369,7 +7302,6 @@
 	)
 	(label "OBC UART TX"
 		(at 34.29 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7380,7 +7312,6 @@
 	)
 	(label "SX1280 SPI SCK"
 		(at 128.27 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7391,7 +7322,6 @@
 	)
 	(label "SX1280 XTB"
 		(at 50.8 161.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7402,7 +7332,6 @@
 	)
 	(label "GPS UART TX"
 		(at 254.635 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7413,7 +7342,6 @@
 	)
 	(label "SX1280 DIO3"
 		(at 85.09 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7424,7 +7352,6 @@
 	)
 	(label "SX1280 ~{RST}"
 		(at 85.09 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7435,7 +7362,6 @@
 	)
 	(label "TEMP SDL I2C"
 		(at 30.48 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7446,7 +7372,6 @@
 	)
 	(label "TEMP SDA I2C"
 		(at 30.48 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7457,7 +7382,6 @@
 	)
 	(label "SX1280 SPI MISO"
 		(at 177.8 190.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7468,7 +7392,6 @@
 	)
 	(label "SX1280 SPI ~{CS}"
 		(at 128.27 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7479,7 +7402,6 @@
 	)
 	(label "GPS I2C SDA"
 		(at 346.075 64.77 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7490,7 +7412,6 @@
 	)
 	(label "GPS UART TX"
 		(at 128.27 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7501,7 +7422,6 @@
 	)
 	(label "OBC UART RX"
 		(at 34.29 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7512,7 +7432,6 @@
 	)
 	(label "SX1280 XTA"
 		(at 50.8 190.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7523,7 +7442,6 @@
 	)
 	(label "TEMP ALERT"
 		(at 30.48 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7534,7 +7452,6 @@
 	)
 	(label "SX1280 DIO2"
 		(at 85.09 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7545,7 +7462,6 @@
 	)
 	(label "SX1280 ~{RST}"
 		(at 158.115 231.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7556,7 +7472,6 @@
 	)
 	(label "SX1280 SPI MOSI"
 		(at 128.27 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9493,74 +9408,6 @@
 			(project "Communication Board"
 				(path "/169b1789-9bea-4709-830d-1c7983087293"
 					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 43.18 106.68 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4da2fc53-9b95-458a-ab46-b300ae001687")
-		(property "Reference" "R19"
-			(at 43.18 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120"
-			(at 40.64 106.934 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RES_0402:RES_0402"
-			(at 41.402 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 43.18 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab2f22cc-842c-4f14-a46b-f3301d24bdad")
-		)
-		(pin "2"
-			(uuid "d51ff02d-151e-41db-b922-6d676eb012f1")
-		)
-		(instances
-			(project "Communication Board"
-				(path "/169b1789-9bea-4709-830d-1c7983087293"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -12811,148 +12658,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Red SMD LED:HSMH-H191")
-		(at 43.18 125.73 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d23865b9-ccf6-443c-95ff-31621a041258")
-		(property "Reference" "LED2"
-			(at 46.99 116.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "HSMH-H191"
-			(at 46.99 119.3799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Red SMD LED:HSMHH191"
-			(at 136.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.broadcom.com/products/leds-and-displays/chip-leds/0603-1.6-x-0.88mm-top-mount/hsmh-h191"
-			(at 236.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "0603 Top Mount Mono-Color ChipLED"
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at 436.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Avago Technologies"
-			(at 536.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "HSMH-H191"
-			(at 636.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "630-HSMH-H191"
-			(at 736.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMH-H191?qs=Li%252BoUPsLEnsN8XNfO1JPnw%3D%3D"
-			(at 836.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 936.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1036.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b649af6e-dfe1-46a1-9a1c-8e791996366e")
-		)
-		(pin "1"
-			(uuid "6c9fc8b8-e313-420f-a241-8bc2ba662ab3")
-		)
-		(instances
-			(project "Communication Board"
-				(path "/169b1789-9bea-4709-830d-1c7983087293"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 285.115 170.18 0)
 		(unit 1)
@@ -13082,71 +12787,6 @@
 			(project "Communication Board"
 				(path "/169b1789-9bea-4709-830d-1c7983087293"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 43.18 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6073e8d-554d-43b7-ad47-2272176426d1")
-		(property "Reference" "#PWR025"
-			(at 43.18 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff7b4e05-e645-466e-9b9f-9ab2117a712f")
-		)
-		(instances
-			(project "Communication Board"
-				(path "/169b1789-9bea-4709-830d-1c7983087293"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13676,19 +13316,21 @@
 		(fields_autoplaced yes)
 		(uuid "e8ee9dca-b0a6-409a-9ecf-41ff11b24160")
 		(property "Reference" "U2"
-			(at 190.5 72.39 0)
+			(at 186.69 71.1199 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TPS1120DR"
-			(at 187.96 72.39 0)
+			(at 186.69 73.6599 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "2 PMOS:D8"
@@ -14091,16 +13733,6 @@
 				(justify right)
 			)
 			(uuid "7346e9ea-86e4-434c-ab24-93344ba3ff92")
-		)
-		(pin "GP25{slash}PWM4 B" bidirectional
-			(at 52.07 102.87 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "839caaa3-cf43-4dcb-93c9-a36a11e78936")
 		)
 		(pin "GPIO21" bidirectional
 			(at 109.22 80.01 0)
