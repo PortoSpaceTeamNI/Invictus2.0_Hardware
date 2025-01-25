@@ -1029,7 +1029,7 @@
 				)
 			)
 		)
-		(symbol "CONN_Female Header:22022065"
+		(symbol "CONN_SA-4455_06_TE_MOL:22022065"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2368,30 +2368,30 @@
 				)
 			)
 		)
-		(symbol "Dual PMOS TPS1120DR:TPS1120DR"
+		(symbol "GreenLED__VLMC3100-GS08:VLMC3100-GS08"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 35.56 10.16 0)
+			(property "Reference" "CR"
+				(at 5.08 -4.445 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "TPS1120DR"
-				(at 35.56 7.62 0)
+			(property "Value" "VLMC3100-GS08"
+				(at 5.08 -7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "D8"
+			(property "Footprint" "LED_PLCC_VSMB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2401,7 +2401,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "TPS1120DR"
+			(property "Datasheet" "VLMC3100-GS08"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2428,7 +2428,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "TPS1120DR"
+			(property "ki_keywords" "VLMC3100-GS08"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2437,7 +2437,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D8 D8-M D8-L"
+			(property "ki_fp_filters" "LED_PLCC_VSMB LED_PLCC_VSMB-M LED_PLCC_VSMB-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2446,13 +2446,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "TPS1120DR_0_1"
+			(symbol "VLMC3100-GS08_1_1"
 				(polyline
 					(pts
-						(xy 7.62 -12.7) (xy 63.5 -12.7)
+						(xy 2.54 0) (xy 3.4798 0)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -2461,10 +2461,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 -12.7)
+						(xy 3.175 0) (xy 3.81 0)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -2473,10 +2473,10 @@
 				)
 				(polyline
 					(pts
-						(xy 63.5 -12.7) (xy 63.5 5.08)
+						(xy 3.81 -1.905) (xy 6.35 0)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -2485,10 +2485,190 @@
 				)
 				(polyline
 					(pts
-						(xy 63.5 5.08) (xy 7.62 5.08)
+						(xy 3.81 1.905) (xy 3.81 -1.905)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.175) (xy 6.35 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 4.445) (xy 6.985 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 2.54) (xy 8.255 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 3.81) (xy 8.255 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 8.255 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 3.81) (xy 8.89 3.175)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 4.445) (xy 8.255 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 3.175) (xy 10.16 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 4.445) (xy 10.16 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 3.81) (xy 10.16 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 4.445) (xy 9.525 4.445)
+					)
+					(stroke
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -2496,9 +2676,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 7.62)
-					(name "1SOURCE"
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2514,9 +2694,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "1GATE"
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2531,17 +2711,247 @@
 						)
 					)
 				)
+			)
+			(symbol "VLMC3100-GS08_1_2"
+				(polyline
+					(pts
+						(xy -5.08 7.62) (xy -4.445 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 8.255) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 6.35) (xy -3.81 6.985)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 8.255) (xy -5.08 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 9.525) (xy -3.81 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 10.16) (xy -4.445 9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 6.985) (xy -5.08 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 8.255) (xy -3.175 8.89)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 10.16) (xy -4.445 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 5.08) (xy -4.445 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 8.89) (xy -4.445 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 6.985) (xy -3.81 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 3.81) (xy 1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.81) (xy 0 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 6.35) (xy -1.905 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "2SOURCE"
+					(at 0 10.16 270)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2550,88 +2960,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "2GATE"
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 71.12 -7.62 180)
-					(length 7.62)
-					(name "2DRAIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 71.12 -5.08 180)
-					(length 7.62)
-					(name "2DRAIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 71.12 -2.54 180)
-					(length 7.62)
-					(name "1DRAIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 71.12 0 180)
-					(length 7.62)
-					(name "1DRAIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4050,7 +4388,7 @@
 				)
 			)
 		)
-		(symbol "RS_Transceiver_MAX485:MAX485CSA+T"
+		(symbol "RS_Transceiver:MAX485CSA+T"
 			(pin_names
 				(offset 0.254)
 			)
@@ -4323,50 +4661,50 @@
 				)
 			)
 		)
-		(symbol "Red SMD LED:HSMH-H191"
-			(pin_names hide)
+		(symbol "TPS1120DR:TPS1120DR"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "LED"
-				(at 12.7 8.89 0)
+			(property "Reference" "U"
+				(at 35.56 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "HSMH-H191"
-				(at 12.7 6.35 0)
+			(property "Value" "TPS1120DR"
+				(at 35.56 7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "HSMHH191"
-				(at 12.7 -93.65 0)
+			(property "Footprint" "D8"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.broadcom.com/products/leds-and-displays/chip-leds/0603-1.6-x-0.88mm-top-mount/hsmh-h191"
-				(at 12.7 -193.65 0)
+			(property "Datasheet" "TPS1120DR"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Description" "0603 Top Mount Mono-Color ChipLED"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4375,83 +4713,39 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.7"
-				(at 12.7 -393.65 0)
+			(property "ki_locked" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
-					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Avago Technologies"
-				(at 12.7 -493.65 0)
+			(property "ki_keywords" "TPS1120DR"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "HSMH-H191"
-				(at 12.7 -593.65 0)
+			(property "ki_fp_filters" "D8 D8-M D8-L"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "630-HSMH-H191"
-				(at 12.7 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMH-H191?qs=Li%252BoUPsLEnsN8XNfO1JPnw%3D%3D"
-				(at 12.7 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 12.7 -893.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 12.7 -993.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "HSMH-H191_1_1"
+			(symbol "TPS1120DR_0_1"
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 5.08 0)
+						(xy 7.62 -12.7) (xy 63.5 -12.7)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -4460,10 +4754,10 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
+						(xy 7.62 5.08) (xy 7.62 -12.7)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -4472,10 +4766,10 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 2.54) (xy 3.81 5.08)
+						(xy 63.5 -12.7) (xy 63.5 5.08)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -4484,68 +4778,20 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 2.54) (xy 6.35 5.08)
+						(xy 63.5 5.08) (xy 7.62 5.08)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(pin passive line
 					(at 0 0 0)
-					(length 2.54)
-					(name "K"
+					(length 7.62)
+					(name "1SOURCE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4561,9 +4807,9 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "1GATE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4571,6 +4817,114 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "2SOURCE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "2GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 71.12 -7.62 180)
+					(length 7.62)
+					(name "2DRAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 71.12 -5.08 180)
+					(length 7.62)
+					(name "2DRAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 71.12 -2.54 180)
+					(length 7.62)
+					(name "1DRAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 71.12 0 180)
+					(length 7.62)
+					(name "1DRAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5117,22 +5471,10 @@
 		)
 	)
 	(junction
-		(at 118.11 234.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bdb1a14-c209-452e-b77b-b0247b40bea8")
-	)
-	(junction
 		(at 40.64 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f7c41fc-6b6b-41e3-b6aa-aed89c707522")
-	)
-	(junction
-		(at 118.11 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14702b15-ab1c-4b88-bb08-00ee7a1de392")
 	)
 	(junction
 		(at 17.145 232.41)
@@ -5189,12 +5531,6 @@
 		(uuid "2dbaf26c-4773-480a-a7c8-d107738d0d43")
 	)
 	(junction
-		(at 118.11 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39c0eb00-ebf0-40d0-ba6d-5e0f918314be")
-	)
-	(junction
 		(at 196.85 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5213,10 +5549,22 @@
 		(uuid "41fb8dd8-7341-4f79-8cba-0c35c093ec41")
 	)
 	(junction
+		(at 118.11 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "464ab902-dc40-41d7-a521-2b4b56ca9cd8")
+	)
+	(junction
 		(at 171.45 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48a8ea0c-1495-4bda-bbe0-1c28cb5eb3c6")
+	)
+	(junction
+		(at 118.11 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a2b5b9a-fbaa-4ce1-b4af-d57b16b41ef7")
 	)
 	(junction
 		(at 384.81 41.91)
@@ -5235,12 +5583,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53f0d201-ba0d-4cdc-bd4d-6e08f6234adc")
-	)
-	(junction
-		(at 118.11 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55bd936c-6fbe-4ce3-a980-4fe84d1cfe4b")
 	)
 	(junction
 		(at 398.78 49.53)
@@ -5285,6 +5627,12 @@
 		(uuid "6b7b35ba-c9a9-427a-a533-cf4c8b4a362a")
 	)
 	(junction
+		(at 141.605 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dabdc2f-e4bb-4f12-a39e-f80e50ead9ca")
+	)
+	(junction
 		(at 17.145 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5306,7 +5654,7 @@
 		(at 118.11 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "83b1e071-edb5-41d0-83fd-837d99821346")
+		(uuid "831f790e-6a3a-4bef-b4b8-510ae32e4be6")
 	)
 	(junction
 		(at 455.93 46.99)
@@ -5327,16 +5675,22 @@
 		(uuid "9415f7b2-83be-4587-ac1c-cabd290e1b78")
 	)
 	(junction
+		(at 118.11 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "952c4186-6537-48a1-ba33-79a19778a9c4")
+	)
+	(junction
 		(at 299.085 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9565d588-b10f-43c5-bc07-c8cb2814c6de")
 	)
 	(junction
-		(at 450.85 46.99)
+		(at 450.85 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9964f19e-2582-45c4-96d2-ece9086bf46b")
+		(uuid "9665a36e-84aa-4c23-a695-8e6fde82054c")
 	)
 	(junction
 		(at 273.05 156.21)
@@ -5351,6 +5705,12 @@
 		(uuid "a172fed6-b099-4df5-8c11-7d8e58a5595a")
 	)
 	(junction
+		(at 141.605 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a926afd7-d1ac-4234-b55c-edfdbbc93370")
+	)
+	(junction
 		(at 186.69 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5361,6 +5721,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac9a87e7-7476-4fae-a271-1e5f7e1ab01f")
+	)
+	(junction
+		(at 118.11 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acdeb689-78d0-452c-87bd-aa0c8f59e2d0")
 	)
 	(junction
 		(at 40.64 90.17)
@@ -5381,12 +5747,6 @@
 		(uuid "c7d390ef-55b0-41f3-9272-18bfefa46189")
 	)
 	(junction
-		(at 450.85 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb90c60b-e36c-42b4-9ec1-f97d9feec59d")
-	)
-	(junction
 		(at 17.145 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5399,10 +5759,16 @@
 		(uuid "cd6b905a-fb09-489b-b7a5-f8cfdc107757")
 	)
 	(junction
-		(at 118.11 213.36)
+		(at 450.85 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dce558dc-2e0f-4050-bbce-3b997c59a5c8")
+		(uuid "d01550ae-515e-4d31-a872-fbdddeb4d0e9")
+	)
+	(junction
+		(at 118.11 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d35c8a45-0ca7-466a-87bf-68df66b68c01")
 	)
 	(junction
 		(at 186.69 218.44)
@@ -5457,6 +5823,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f737c86c-8bef-4164-8127-5d2e3d034ff9")
+	)
+	(junction
+		(at 141.605 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f75735d7-955a-4988-bdde-d7578b706930")
 	)
 	(junction
 		(at 363.855 120.65)
@@ -5527,6 +5899,16 @@
 			(type default)
 		)
 		(uuid "02caf3aa-c233-41a6-9fcc-7987a661f249")
+	)
+	(wire
+		(pts
+			(xy 141.605 242.57) (xy 141.605 243.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b84d6d-f05a-4030-919b-f4d1878cf664")
 	)
 	(wire
 		(pts
@@ -5640,16 +6022,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 201.93) (xy 124.46 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ed78005-7a99-4fdd-b954-cfc90b68a13f")
-	)
-	(wire
-		(pts
 			(xy 381 41.91) (xy 381 46.99)
 		)
 		(stroke
@@ -5677,16 +6049,6 @@
 			(type default)
 		)
 		(uuid "1120c90a-d72a-486b-8e81-813ae965c05c")
-	)
-	(wire
-		(pts
-			(xy 139.7 217.17) (xy 142.24 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11f550a6-6faf-4b22-a098-8cacd25b5c26")
 	)
 	(wire
 		(pts
@@ -5720,16 +6082,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 213.36) (xy 118.11 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15bf4e6c-fa03-415f-bf0f-5abee76e53b4")
-	)
-	(wire
-		(pts
 			(xy 269.875 156.21) (xy 273.05 156.21)
 		)
 		(stroke
@@ -5737,6 +6089,16 @@
 			(type default)
 		)
 		(uuid "16ee1634-e11d-4ebe-a67c-03e4c0da264b")
+	)
+	(wire
+		(pts
+			(xy 118.11 234.95) (xy 118.11 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1848c5a3-c358-46a0-8cc5-e8bb39a3fd75")
 	)
 	(wire
 		(pts
@@ -5790,6 +6152,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 173.99) (xy 125.73 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2268bb1e-eb1c-4112-9ee4-8dfaa80c3966")
+	)
+	(wire
+		(pts
 			(xy 290.83 210.82) (xy 299.085 210.82)
 		)
 		(stroke
@@ -5820,13 +6192,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 217.17) (xy 124.46 217.17)
+			(xy 118.11 242.57) (xy 125.095 242.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24442591-613e-4091-85f4-321e485f0472")
+		(uuid "240c3b0e-1492-408d-9a87-15b230e21043")
 	)
 	(wire
 		(pts
@@ -5920,16 +6292,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 170.18) (xy 124.46 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e0c95b8-2161-45ef-8233-fbe9c7381a94")
-	)
-	(wire
-		(pts
 			(xy 53.975 92.71) (xy 53.975 94.615)
 		)
 		(stroke
@@ -6017,6 +6379,16 @@
 			(type default)
 		)
 		(uuid "36258347-1195-40bd-9009-880241ae58c8")
+	)
+	(wire
+		(pts
+			(xy 135.89 234.95) (xy 141.605 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3872f79a-415a-49f5-bdd6-4beb01b57226")
 	)
 	(wire
 		(pts
@@ -6230,13 +6602,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 242.57) (xy 118.11 246.38)
+			(xy 141.605 234.95) (xy 141.605 242.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d2d34f5-1152-4ec0-951e-6c052577549a")
+		(uuid "4bf491d8-835a-4252-80ac-d35007045f94")
 	)
 	(wire
 		(pts
@@ -6257,6 +6629,26 @@
 			(type default)
 		)
 		(uuid "4e6b4cd2-31df-41bc-b61c-6191728359ba")
+	)
+	(wire
+		(pts
+			(xy 135.255 213.36) (xy 141.605 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eeeb4fe-32da-4c59-adb8-93e54df857d0")
+	)
+	(wire
+		(pts
+			(xy 141.605 205.74) (xy 141.605 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f604e09-176b-4f9e-9c1f-0475b7542de6")
 	)
 	(wire
 		(pts
@@ -6290,7 +6682,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 185.42) (xy 142.24 186.69)
+			(xy 141.605 181.61) (xy 141.605 182.245)
 		)
 		(stroke
 			(width 0)
@@ -6330,16 +6722,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 240.03) (xy 118.11 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56be4d6a-c25d-4063-ace0-48b9a8d7ad80")
-	)
-	(wire
-		(pts
 			(xy 229.87 158.75) (xy 243.84 158.75)
 		)
 		(stroke
@@ -6357,6 +6739,16 @@
 			(type default)
 		)
 		(uuid "579253be-5c6e-42b0-8934-0e0b61afc07d")
+	)
+	(wire
+		(pts
+			(xy 118.11 205.74) (xy 125.73 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5801d0d7-e88f-41d1-8675-ee9f8e007227")
 	)
 	(wire
 		(pts
@@ -6380,6 +6772,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 205.74) (xy 141.605 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ed9841-149f-41ef-af08-ba9491f86c88")
+	)
+	(wire
+		(pts
 			(xy 398.78 36.83) (xy 398.78 34.29)
 		)
 		(stroke
@@ -6397,16 +6799,6 @@
 			(type default)
 		)
 		(uuid "5c9e43d5-86ac-4f04-8d48-ea3976d2325c")
-	)
-	(wire
-		(pts
-			(xy 139.7 231.14) (xy 142.24 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce0aaf9-53b6-428c-a59c-801f2f623578")
 	)
 	(wire
 		(pts
@@ -6480,6 +6872,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 210.82) (xy 118.11 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61325702-d7b7-4812-a9c3-2680391bd845")
+	)
+	(wire
+		(pts
 			(xy 317.5 167.64) (xy 334.01 167.64)
 		)
 		(stroke
@@ -6537,26 +6939,6 @@
 			(type default)
 		)
 		(uuid "666f6a60-ba58-4204-954d-cac71970edd7")
-	)
-	(wire
-		(pts
-			(xy 139.7 201.93) (xy 142.24 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66f0778c-5514-4b91-8ed0-d5ad7e727c29")
-	)
-	(wire
-		(pts
-			(xy 118.11 231.14) (xy 118.11 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68242c12-90f6-4684-bbfe-ab39519d2722")
 	)
 	(wire
 		(pts
@@ -6738,16 +7120,6 @@
 		)
 		(uuid "77c50b13-b3da-4a73-8e4c-1232bec1cb9f")
 	)
-	(wire
-		(pts
-			(xy 142.24 246.38) (xy 142.24 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79b776ad-7e5e-43af-a3c5-4fd3ae97057a")
-	)
 	(polyline
 		(pts
 			(xy 340.995 156.21) (xy 495.935 156.21)
@@ -6870,16 +7242,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 210.82) (xy 118.11 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8547cc0b-691d-4ff5-8b63-9bb4d090f0cc")
-	)
-	(wire
-		(pts
 			(xy 180.975 218.44) (xy 180.975 221.615)
 		)
 		(stroke
@@ -6897,16 +7259,6 @@
 			(type default)
 		)
 		(uuid "86220c99-1c76-44f8-aa4c-909b5ce5019e")
-	)
-	(wire
-		(pts
-			(xy 142.24 201.93) (xy 142.24 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86a152bb-b2f2-4f2f-abb4-0ecf1caaab38")
 	)
 	(wire
 		(pts
@@ -6970,16 +7322,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 185.42) (xy 124.46 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8da8110a-a7af-4d47-a6d0-3ea6b42ba882")
-	)
-	(wire
-		(pts
 			(xy 387.35 49.53) (xy 387.35 54.61)
 		)
 		(stroke
@@ -7010,16 +7352,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 234.95) (xy 118.11 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9171ac01-2060-4196-9dbb-5b1ac8ffa6eb")
-	)
-	(wire
-		(pts
 			(xy 321.31 153.67) (xy 321.31 157.48)
 		)
 		(stroke
@@ -7037,6 +7369,16 @@
 			(type default)
 		)
 		(uuid "939c6fb6-2100-4dd9-8c1b-4495bdf84cf2")
+	)
+	(wire
+		(pts
+			(xy 118.11 234.95) (xy 125.73 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961df620-d347-4e41-9804-b7d7f35ee830")
 	)
 	(wire
 		(pts
@@ -7067,16 +7409,6 @@
 			(type default)
 		)
 		(uuid "969f365d-7df3-4093-8c13-768284454786")
-	)
-	(wire
-		(pts
-			(xy 118.11 231.14) (xy 124.46 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "983f6e2d-72ba-419d-b376-0cb75e2cf285")
 	)
 	(wire
 		(pts
@@ -7160,26 +7492,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 170.18) (xy 118.11 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9edc92bd-3d7b-4d26-b2d0-254a92406e10")
-	)
-	(wire
-		(pts
-			(xy 139.7 246.38) (xy 142.24 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a080663b-ead7-45f5-adcb-caaa3b67de70")
-	)
-	(wire
-		(pts
 			(xy 121.285 60.325) (xy 142.875 60.325)
 		)
 		(stroke
@@ -7187,6 +7499,16 @@
 			(type default)
 		)
 		(uuid "a23636fb-3607-4bb8-8293-88099c28e8d4")
+	)
+	(wire
+		(pts
+			(xy 118.11 181.61) (xy 125.095 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a261f631-6715-4e12-b440-743add144263")
 	)
 	(wire
 		(pts
@@ -7260,6 +7582,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 213.36) (xy 125.095 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa959183-db79-412e-9580-848df5fc8496")
+	)
+	(wire
+		(pts
 			(xy 246.38 175.895) (xy 246.38 177.8)
 		)
 		(stroke
@@ -7280,13 +7612,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 201.93) (xy 118.11 205.74)
+			(xy 141.605 213.36) (xy 141.605 213.995)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b03137f2-0290-4abd-a6a5-5ce4bda36c7f")
+		(uuid "b0be7339-2886-4761-92ee-e4b50df5f528")
 	)
 	(wire
 		(pts
@@ -7450,6 +7782,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 240.03) (xy 118.11 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a26d9c-57ec-4ca6-95bd-75aa7a141cfc")
+	)
+	(wire
+		(pts
 			(xy 261.62 64.77) (xy 285.75 64.77)
 		)
 		(stroke
@@ -7510,7 +7852,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 185.42) (xy 142.24 185.42)
+			(xy 135.255 181.61) (xy 141.605 181.61)
 		)
 		(stroke
 			(width 0)
@@ -7547,6 +7889,16 @@
 			(type default)
 		)
 		(uuid "cad4bbd1-9aa5-4042-b6c2-02682da25910")
+	)
+	(wire
+		(pts
+			(xy 118.11 205.74) (xy 118.11 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5f9988-fedf-4ee7-b2e6-faf776a69be7")
 	)
 	(wire
 		(pts
@@ -7720,23 +8072,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 170.18) (xy 142.24 171.45)
+			(xy 141.605 173.99) (xy 141.605 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d7e85fd7-2cca-493f-8a12-9cfaa080a86a")
-	)
-	(wire
-		(pts
-			(xy 118.11 181.61) (xy 118.11 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d89e54d2-87ad-4ccf-95fa-c736747f8393")
 	)
 	(wire
 		(pts
@@ -7760,7 +8102,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 170.18) (xy 142.24 170.18)
+			(xy 135.89 173.99) (xy 141.605 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7877,16 +8219,6 @@
 			(type default)
 		)
 		(uuid "e7f1e3d9-5a8b-4021-8cfe-2ced1672f2d3")
-	)
-	(wire
-		(pts
-			(xy 142.24 231.14) (xy 142.24 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eacaf548-2f61-4438-b244-d8b222bc5a35")
 	)
 	(wire
 		(pts
@@ -8070,16 +8402,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 205.74) (xy 118.11 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f99b978e-a559-4920-8109-281632cad0fb")
-	)
-	(wire
-		(pts
 			(xy 288.29 204.47) (xy 290.83 204.47)
 		)
 		(stroke
@@ -8117,16 +8439,6 @@
 			(type default)
 		)
 		(uuid "fa64f280-b51b-4a97-9122-6322b8387008")
-	)
-	(wire
-		(pts
-			(xy 118.11 246.38) (xy 124.46 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa742c46-02e5-49cb-94f9-fec3a111af5c")
 	)
 	(wire
 		(pts
@@ -8170,13 +8482,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 217.17) (xy 142.24 218.44)
+			(xy 135.255 242.57) (xy 141.605 242.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc4d9a5a-8608-4ffe-ad96-f7aa6e23efc0")
+		(uuid "fbe057e3-b152-451a-8134-4c1b8956526b")
 	)
 	(wire
 		(pts
@@ -8325,7 +8637,7 @@
 	)
 	(text "Socket/Female Pins\nConectam à Communication Board\n"
 		(exclude_from_sim no)
-		(at 16.51 32.385 0)
+		(at 16.51 28.575 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8414,7 +8726,7 @@
 	)
 	(text "Os Pins de 5V e Ground permitem passar \na alimentação para a Communication Board"
 		(exclude_from_sim no)
-		(at 16.51 37.465 0)
+		(at 16.51 33.655 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9169,7 +9481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 405.13 54.61 0)
 			(effects
 				(font
@@ -9188,6 +9500,78 @@
 			(project "OBC board"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GreenLED__VLMC3100-GS08:VLMC3100-GS08")
+		(at 125.095 213.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "091e8b0e-f8d8-4451-9788-425fee5de5d0")
+		(property "Reference" "CR3"
+			(at 124.46 222.885 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VLMC3100-GS08"
+			(at 124.46 220.345 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_PLCC_VSMB"
+			(at 125.095 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "VLMC3100-GS08"
+			(at 125.095 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.095 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4516ff2e-cef7-4230-9f9c-b797a27db6ec")
+		)
+		(pin "2"
+			(uuid "3427ef9a-c09b-41e7-8565-c1d04da92df2")
+		)
+		(instances
+			(project "OBC"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "CR3")
 					(unit 1)
 				)
 			)
@@ -9285,7 +9669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IMU BMI323:BMI323_BOS"
+		(property "Footprint" "BMI323_BOS"
 			(at 220.98 49.53 0)
 			(effects
 				(font
@@ -9392,7 +9776,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "AMASS_XT30UPB-M:CONN_XT30UPB-M_AMA"
+		(property "Footprint" "CONN_XT30UPB-M_AMA"
 			(at 407.67 120.65 0)
 			(effects
 				(font
@@ -9577,6 +9961,94 @@
 		)
 	)
 	(symbol
+		(lib_id "TPS1120DR:TPS1120DR")
+		(at 46.99 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "127f548e-2e8b-444e-8cbb-47068dbcc04d")
+		(property "Reference" "U2"
+			(at 82.55 195.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS1120DR"
+			(at 82.55 198.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "D8"
+			(at 46.99 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TPS1120DR"
+			(at 46.99 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "5d3f9a65-d6b0-46af-876e-b2a0fd49c7c9")
+		)
+		(pin "8"
+			(uuid "f060d650-350d-4ed9-a9d9-7a0ea06e355d")
+		)
+		(pin "1"
+			(uuid "3da66353-1aeb-4b1c-8d3b-a9448028464d")
+		)
+		(pin "2"
+			(uuid "ee03cb60-cc19-4b8d-a335-935a7a99fc86")
+		)
+		(pin "3"
+			(uuid "2be46e2b-a80d-486d-a153-38d368dd388b")
+		)
+		(pin "4"
+			(uuid "26cbf719-4866-48ef-a87f-0d5045e43d09")
+		)
+		(pin "7"
+			(uuid "0c5c1202-da69-4521-81f0-f0234d1c10c4")
+		)
+		(pin "6"
+			(uuid "e03a71dc-678f-4205-89e9-057a87cceb1b")
+		)
+		(instances
+			(project "OBC"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BARO_BMP581:BMP581")
 		(at 276.86 160.02 0)
 		(unit 1)
@@ -9602,7 +10074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BARO BMP581:QFN10_BMP581_BOS"
+		(property "Footprint" "QFN10_BMP581_BOS"
 			(at 276.86 160.02 0)
 			(effects
 				(font
@@ -9937,55 +10409,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Red SMD LED:HSMH-H191")
-		(at 139.7 170.18 0)
-		(mirror y)
+		(lib_id "power:GND")
+		(at 141.605 213.995 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "21e8b580-98f7-4214-989e-c9cb2b511fd3")
-		(property "Reference" "LED2"
-			(at 130.048 175.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "HSMH-H191"
-			(at 127 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Red SMD LED:HSMHH191"
-			(at 127 263.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.broadcom.com/products/leds-and-displays/chip-leds/0603-1.6-x-0.88mm-top-mount/hsmh-h191"
-			(at 127 363.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "0603 Top Mount Mono-Color ChipLED"
-			(at 139.7 170.18 0)
+		(uuid "231ce33d-fb6b-4560-a7e1-02480af42d24")
+		(property "Reference" "#PWR01"
+			(at 141.605 220.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9993,170 +10426,48 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.7"
-			(at 127 563.83 0)
+		(property "Value" "GND"
+			(at 141.605 218.059 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Avago Technologies"
-			(at 127 663.83 0)
+		(property "Footprint" ""
+			(at 141.605 213.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "HSMH-H191"
-			(at 127 763.83 0)
+		(property "Datasheet" ""
+			(at 141.605 213.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "630-HSMH-H191"
-			(at 127 863.83 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 141.605 213.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMH-H191?qs=Li%252BoUPsLEnsN8XNfO1JPnw%3D%3D"
-			(at 127 963.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 127 1063.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 127 1163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d6de7d04-1e69-490b-8456-6436286af87b")
 		)
 		(pin "1"
-			(uuid "4255849d-640d-4503-8c79-3b83ca663135")
+			(uuid "d3eab2ae-22d1-447a-af80-2641ec55fd0e")
 		)
 		(instances
-			(project "OBC board"
+			(project "OBC"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CONN_Female Header:22022065")
-		(at 35.56 44.45 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22dae475-323c-42d6-a560-52e48e33a673")
-		(property "Reference" "J8"
-			(at 22.225 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22022065"
-			(at 22.225 63.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CONN Female Header:CONN_SA-4455_06_TE_MOL"
-			(at 35.56 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "22022065"
-			(at 35.56 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b4afe76c-1e5c-4cd0-89ee-4bed964deab4")
-		)
-		(pin "3"
-			(uuid "9edf5391-80a9-4727-bb90-4ae434db1428")
-		)
-		(pin "5"
-			(uuid "e90efe7b-a759-4f87-aa88-cc57b94e0494")
-		)
-		(pin "6"
-			(uuid "2fa16aee-95e1-418e-acd4-80ab808412ef")
-		)
-		(pin "2"
-			(uuid "de9984ff-fdb6-42de-9ee5-7bb912e6733e")
-		)
-		(pin "1"
-			(uuid "14e71632-353a-4522-a108-94ec4d99677e")
-		)
-		(instances
-			(project ""
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "J8")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10223,6 +10534,71 @@
 			(project "OBC board"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 141.605 243.205 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a863e42-665a-413f-a73f-e97229d9a9d2")
+		(property "Reference" "#PWR02"
+			(at 141.605 249.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 141.605 247.269 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.605 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.605 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 141.605 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1b696d8-71f1-44dc-9820-16deeba0b58c")
+		)
+		(instances
+			(project "OBC"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -10362,148 +10738,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Red SMD LED:HSMH-H191")
-		(at 139.7 217.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fe9ebf0-ab27-4075-af2e-f64e7ec36f46")
-		(property "Reference" "LED5"
-			(at 130.048 222.758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "HSMH-H191"
-			(at 127 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Red SMD LED:HSMHH191"
-			(at 127 310.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.broadcom.com/products/leds-and-displays/chip-leds/0603-1.6-x-0.88mm-top-mount/hsmh-h191"
-			(at 127 410.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "0603 Top Mount Mono-Color ChipLED"
-			(at 139.7 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at 127 610.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Avago Technologies"
-			(at 127 710.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "HSMH-H191"
-			(at 127 810.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "630-HSMH-H191"
-			(at 127 910.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMH-H191?qs=Li%252BoUPsLEnsN8XNfO1JPnw%3D%3D"
-			(at 127 1010.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 127 1110.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 127 1210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ca0b608b-814d-4e05-aec5-d4e781058649")
-		)
-		(pin "1"
-			(uuid "a4a4951d-b65c-4ff2-9904-f11f90397fab")
-		)
-		(instances
-			(project "OBC board"
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "LED5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 23.495 245.11 270)
 		(unit 1)
@@ -10565,71 +10799,6 @@
 			(project "OBC board"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 142.24 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3729dcd3-59c4-45a1-8a76-4b524f035b6d")
-		(property "Reference" "#PWR056"
-			(at 142.24 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 207.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RES_0402:RES_0402"
-			(at 457.962 38.735 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5daba750-b54b-4e9e-88b2-15466d9be961")
-		)
-		(instances
-			(project "OBC board"
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -10867,7 +11036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NMOS IRLZ44:PG-TO220-3_INF"
+		(property "Footprint" "PG-TO220-3_INF"
 			(at 379.349 124.968 0)
 			(effects
 				(font
@@ -11140,7 +11309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAG LIS2MDLTR:LGA-12_2X2X1_STM"
+		(property "Footprint" "LGA-12_2X2X1_STM"
 			(at 213.36 208.28 0)
 			(effects
 				(font
@@ -11281,71 +11450,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 142.24 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "504cdfbd-27eb-47e6-b60a-fd309eae5437")
-		(property "Reference" "#PWR065"
-			(at 142.24 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 236.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55dd706d-e035-4868-bce5-c9dd3f1f5597")
-		)
-		(instances
-			(project "OBC board"
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 196.85 58.42 0)
 		(unit 1)
@@ -11406,6 +11510,78 @@
 			(project "OBC board"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GreenLED__VLMC3100-GS08:VLMC3100-GS08")
+		(at 125.095 181.61 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52220ccd-7865-4120-aeb9-7d1088b73df3")
+		(property "Reference" "CR2"
+			(at 124.46 191.135 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VLMC3100-GS08"
+			(at 124.46 188.595 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_PLCC_VSMB"
+			(at 125.095 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "VLMC3100-GS08"
+			(at 125.095 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.095 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea04960b-cc4e-42ac-ac81-573e3c746fec")
+		)
+		(pin "2"
+			(uuid "86bec72f-9b45-4e8e-9cc1-e9bee21babda")
+		)
+		(instances
+			(project "OBC"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "CR2")
 					(unit 1)
 				)
 			)
@@ -11811,6 +11987,78 @@
 		)
 	)
 	(symbol
+		(lib_id "GreenLED__VLMC3100-GS08:VLMC3100-GS08")
+		(at 125.095 242.57 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d26e64b-2f84-4c9a-bbbd-ce00f7051c3e")
+		(property "Reference" "CR5"
+			(at 124.46 252.095 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VLMC3100-GS08"
+			(at 124.46 249.555 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_PLCC_VSMB"
+			(at 125.095 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "VLMC3100-GS08"
+			(at 125.095 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.095 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed88cdf5-15ec-4e7f-afa8-485d6fe444ba")
+		)
+		(pin "2"
+			(uuid "44d8c559-7f19-4009-b2b5-335b1c398b39")
+		)
+		(instances
+			(project "OBC"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "CR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 186.69 224.155 0)
 		(unit 1)
@@ -12151,7 +12399,95 @@
 		)
 	)
 	(symbol
-		(lib_id "Dual PMOS TPS1120DR:TPS1120DR")
+		(lib_id "TPS1120DR:TPS1120DR")
+		(at 46.99 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bf8803e-2980-41ab-b1eb-6387f7ce0c03")
+		(property "Reference" "U1"
+			(at 82.55 224.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS1120DR"
+			(at 82.55 227.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "D8"
+			(at 46.99 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TPS1120DR"
+			(at 46.99 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "627658d8-20f9-46a4-a6e2-d5d2589ac474")
+		)
+		(pin "8"
+			(uuid "addd7454-fb48-431b-9636-b843f40503d2")
+		)
+		(pin "1"
+			(uuid "09f5a6a2-49c5-4e6d-bb10-4791901d23b7")
+		)
+		(pin "2"
+			(uuid "f43c30f4-8b65-4666-8fe9-c7b7bf3a4354")
+		)
+		(pin "3"
+			(uuid "b4870cc7-60f4-4e26-a5a3-472a7aa5097c")
+		)
+		(pin "4"
+			(uuid "e0cbdaed-6e94-447e-b505-53d5a6659afd")
+		)
+		(pin "7"
+			(uuid "21105ae4-fc49-4282-ab49-15461b1c89cc")
+		)
+		(pin "6"
+			(uuid "a4db8788-67ad-43ff-adae-247c08664b1e")
+		)
+		(instances
+			(project ""
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPS1120DR:TPS1120DR")
 		(at 46.99 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12159,7 +12495,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "69184ca6-5dc9-4ea6-838e-9b7da605cc33")
+		(uuid "717e9ecd-8614-4461-b386-ceb986c35547")
 		(property "Reference" "U3"
 			(at 82.55 163.83 0)
 			(effects
@@ -12176,7 +12512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2 PMOS:D8"
+		(property "Footprint" "D8"
 			(at 46.99 173.99 0)
 			(effects
 				(font
@@ -12205,32 +12541,32 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
-			(uuid "582ad3af-8996-45a1-9031-4f195c767f23")
+		(pin "5"
+			(uuid "34cf1868-be8f-434f-a024-09e28de34a31")
 		)
 		(pin "8"
-			(uuid "5e1e9e91-4d8b-4827-9188-dea50a0afe50")
-		)
-		(pin "2"
-			(uuid "8a62e2fe-2824-4f95-8b71-d0c04fc2927d")
-		)
-		(pin "3"
-			(uuid "5c075bab-651c-4050-940d-c140ba36e201")
-		)
-		(pin "4"
-			(uuid "dfb2b600-14fb-4492-97d0-30dbb2e565db")
-		)
-		(pin "7"
-			(uuid "d3186430-4195-487c-bcbe-0a21d0c391fb")
-		)
-		(pin "5"
-			(uuid "e26813d5-10bf-4f7d-8218-04dc6280eae0")
+			(uuid "93ffe367-24d3-46cc-aca1-3f4dfae86eef")
 		)
 		(pin "1"
-			(uuid "3e7a59e5-3368-4535-b940-5ca4ba0e4e6a")
+			(uuid "0df7677e-e6a4-4fb9-8687-442cc1bda7b2")
+		)
+		(pin "2"
+			(uuid "f2ce06ab-514e-4505-a362-c53f86cc3d69")
+		)
+		(pin "3"
+			(uuid "3d352db7-8e14-428c-a0ac-f57e9ef8ea0c")
+		)
+		(pin "4"
+			(uuid "c7c84485-4d9f-4fe3-8589-2af7be5fc6e9")
+		)
+		(pin "7"
+			(uuid "cae82ea0-e62e-423a-abb4-200c71c8e534")
+		)
+		(pin "6"
+			(uuid "71aa8544-14a0-47c1-9712-69bd0235b68e")
 		)
 		(instances
-			(project "OBC board"
+			(project "OBC"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
 					(reference "U3")
 					(unit 1)
@@ -12500,148 +12836,6 @@
 			(project "OBC board"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Red SMD LED:HSMH-H191")
-		(at 139.7 231.14 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e447659-2590-420c-ad73-a449da1df153")
-		(property "Reference" "LED6"
-			(at 130.048 236.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "HSMH-H191"
-			(at 127 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Red SMD LED:HSMHH191"
-			(at 127 324.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.broadcom.com/products/leds-and-displays/chip-leds/0603-1.6-x-0.88mm-top-mount/hsmh-h191"
-			(at 127 424.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "0603 Top Mount Mono-Color ChipLED"
-			(at 139.7 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at 127 624.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Avago Technologies"
-			(at 127 724.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "HSMH-H191"
-			(at 127 824.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "630-HSMH-H191"
-			(at 127 924.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMH-H191?qs=Li%252BoUPsLEnsN8XNfO1JPnw%3D%3D"
-			(at 127 1024.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 127 1124.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 127 1224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9701e998-d39a-486b-8368-855732222555")
-		)
-		(pin "1"
-			(uuid "69ac8927-4c96-4f43-8442-329f41ead58c")
-		)
-		(instances
-			(project "OBC board"
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -12939,71 +13133,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ce094d8-c8de-421e-870d-0509522c918e")
-		(property "Reference" "#PWR054"
-			(at 142.24 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa1511c7-80d1-4b04-b122-e681549ab844")
-		)
-		(instances
-			(project "OBC board"
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 53.975 94.615 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13202,71 +13331,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 142.24 218.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "945e2e98-d29a-46ed-8aaf-6273aa9fc11e")
-		(property "Reference" "#PWR064"
-			(at 142.24 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 222.504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "701288c0-0641-4d80-8fc6-c00d21635050")
-		)
-		(instances
-			(project "OBC board"
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 409.575 132.08 90)
 		(unit 1)
@@ -13394,213 +13458,6 @@
 			(project "OBC board"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Red SMD LED:HSMH-H191")
-		(at 139.7 246.38 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "994fe066-0af9-46d1-8631-7597e4c81e97")
-		(property "Reference" "LED7"
-			(at 130.048 251.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "HSMH-H191"
-			(at 127 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Red SMD LED:HSMHH191"
-			(at 127 340.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.broadcom.com/products/leds-and-displays/chip-leds/0603-1.6-x-0.88mm-top-mount/hsmh-h191"
-			(at 127 440.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "0603 Top Mount Mono-Color ChipLED"
-			(at 139.7 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at 127 640.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Avago Technologies"
-			(at 127 740.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "HSMH-H191"
-			(at 127 840.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "630-HSMH-H191"
-			(at 127 940.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMH-H191?qs=Li%252BoUPsLEnsN8XNfO1JPnw%3D%3D"
-			(at 127 1040.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 127 1140.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 127 1240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "70a46108-25ba-42e3-9529-d194a65a10c6")
-		)
-		(pin "1"
-			(uuid "0555b5c1-3065-4fe6-a56a-179b277e99a4")
-		)
-		(instances
-			(project "OBC board"
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "LED7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 142.24 247.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e11617d-3f59-4366-a270-434466c7efb9")
-		(property "Reference" "#PWR066"
-			(at 142.24 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 251.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dda62b1e-dcf8-40b1-b0fc-f512a22b01c1")
-		)
-		(instances
-			(project "OBC board"
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -13745,6 +13602,87 @@
 		)
 	)
 	(symbol
+		(lib_id "CONN_SA-4455_06_TE_MOL:22022065")
+		(at 35.56 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a13d1523-4044-4e97-aa47-9e6e18973917")
+		(property "Reference" "J1"
+			(at 26.67 37.465 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "22022065"
+			(at 27.305 40.005 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CONN_SA-4455_06_TE_MOL"
+			(at 35.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "22022065"
+			(at 35.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a8843a1-065f-4486-9ec6-afa1ac64c564")
+		)
+		(pin "1"
+			(uuid "00d1b683-1f2b-462c-93af-7d1d8e265f34")
+		)
+		(pin "4"
+			(uuid "f0de5b49-c58d-419f-9f07-ff3707c34f7c")
+		)
+		(pin "3"
+			(uuid "597fc2ce-d8ac-4778-9581-f842d1d2a18e")
+		)
+		(pin "6"
+			(uuid "45e20b2f-d810-43f5-85c8-4ebbd06c1ccd")
+		)
+		(pin "5"
+			(uuid "fa654275-bcee-4132-8307-a1d4d0a2989c")
+		)
+		(instances
+			(project ""
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IMU_ASM330LHHTR:ASM330LHHTR")
 		(at 184.15 153.67 0)
 		(unit 1)
@@ -13770,7 +13708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IMU ASM330LHHTR:LGA-14L_2P5X3X0P83_STM"
+		(property "Footprint" "LGA-14L_2P5X3X0P83_STM"
 			(at 184.15 153.67 0)
 			(effects
 				(font
@@ -13983,6 +13921,77 @@
 		)
 	)
 	(symbol
+		(lib_id "GreenLED__VLMC3100-GS08:VLMC3100-GS08")
+		(at 125.73 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bafbfddb-83d4-48ed-aabd-f086f9bbe91b")
+		(property "Reference" "CR4"
+			(at 125.73 199.39 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VLMC3100-GS08"
+			(at 125.73 196.85 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_PLCC_VSMB"
+			(at 125.73 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "VLMC3100-GS08"
+			(at 125.73 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6504cba9-c94d-4fcf-9092-548cb5def8d5")
+		)
+		(pin "2"
+			(uuid "49b02a1b-7bc0-47d2-9cd5-8982cf8b429f")
+		)
+		(instances
+			(project "OBC"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "CR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 455.93 38.1 0)
 		(mirror y)
@@ -14047,94 +14056,6 @@
 			(project "OBC board"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RS_Transceiver_MAX485:MAX485CSA+T")
-		(at 450.85 44.45 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c528dded-e4ba-4389-b90c-1530e61fb52a")
-		(property "Reference" "U14"
-			(at 430.53 34.29 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "MAX485CSA+T"
-			(at 430.53 36.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "RS Transceiver:21-0041-3-M_90-0096-8L_MXM"
-			(at 450.85 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "MAX485CSA+T"
-			(at 450.85 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 450.85 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "98f9c4d5-06f9-4ac6-acdb-1294bb439d73")
-		)
-		(pin "4"
-			(uuid "4560e365-0c16-45ab-bba5-282fb7e85c6e")
-		)
-		(pin "2"
-			(uuid "6de92f42-202a-4fce-968e-56667dd52da4")
-		)
-		(pin "5"
-			(uuid "cc6c6aed-fef0-4f86-b419-6c2a52ec2bc6")
-		)
-		(pin "1"
-			(uuid "c55ce19f-a2ef-4842-90e8-065403b09596")
-		)
-		(pin "3"
-			(uuid "68e44272-2e26-4a09-b702-4f35e20397e8")
-		)
-		(pin "6"
-			(uuid "f502babf-b2ae-47f5-9b1e-9c664ea7fb93")
-		)
-		(pin "7"
-			(uuid "84ab3b6a-b1c5-41a5-92a7-eb390e5f40c2")
-		)
-		(instances
-			(project "OBC board"
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -14272,148 +14193,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Red SMD LED:HSMH-H191")
-		(at 139.7 185.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb69ed91-f20c-4100-86a8-249c0558bfc2")
-		(property "Reference" "LED3"
-			(at 130.048 191.008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "HSMH-H191"
-			(at 127 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Red SMD LED:HSMHH191"
-			(at 127 279.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.broadcom.com/products/leds-and-displays/chip-leds/0603-1.6-x-0.88mm-top-mount/hsmh-h191"
-			(at 127 379.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "0603 Top Mount Mono-Color ChipLED"
-			(at 139.7 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at 127 579.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Avago Technologies"
-			(at 127 679.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "HSMH-H191"
-			(at 127 779.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "630-HSMH-H191"
-			(at 127 879.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMH-H191?qs=Li%252BoUPsLEnsN8XNfO1JPnw%3D%3D"
-			(at 127 979.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 127 1079.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 127 1179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b86166d-6f9c-4b00-8763-a7d9d05bcae4")
-		)
-		(pin "1"
-			(uuid "7e56f553-6396-4ac9-8ae2-997ad89a8cc5")
-		)
-		(instances
-			(project "OBC board"
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "LED3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 309.245 211.455 0)
 		(mirror y)
@@ -14480,6 +14259,94 @@
 		)
 	)
 	(symbol
+		(lib_id "RS_Transceiver:MAX485CSA+T")
+		(at 450.85 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdf6111c-52fe-40c1-822f-c573d6779e0c")
+		(property "Reference" "U5"
+			(at 430.53 34.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MAX485CSA+T"
+			(at 430.53 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "21-0041-3-M_90-0096-8L_MXM"
+			(at 450.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MAX485CSA+T"
+			(at 450.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 450.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "61729f12-ff82-44d9-9010-c3b4058fbd03")
+		)
+		(pin "4"
+			(uuid "fdb8da5c-42bb-4ee8-8fe5-eaf1239c4f52")
+		)
+		(pin "6"
+			(uuid "fb0bff71-cee6-46f6-96b6-2cc01a2cf869")
+		)
+		(pin "5"
+			(uuid "1edbc221-377a-4af7-a401-eb8eb588269c")
+		)
+		(pin "2"
+			(uuid "d1330c0c-1c00-450b-ad25-6a04ba50529a")
+		)
+		(pin "1"
+			(uuid "b43c1693-47d4-498e-898c-2c789ddd9877")
+		)
+		(pin "7"
+			(uuid "59c6d23e-d260-471c-9b56-0f1e214c10c4")
+		)
+		(pin "3"
+			(uuid "54357340-858a-455d-8e0d-32814e355f80")
+		)
+		(instances
+			(project ""
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 443.23 132.08 90)
 		(unit 1)
@@ -14523,7 +14390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 443.23 132.08 0)
 			(effects
 				(font
@@ -14614,7 +14481,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 186.69 0)
+		(at 141.605 182.245 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14622,7 +14489,7 @@
 		(dnp no)
 		(uuid "da2882c0-cd38-4be4-b6f2-17acadc6afb0")
 		(property "Reference" "#PWR058"
-			(at 142.24 193.04 0)
+			(at 141.605 188.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14631,7 +14498,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 190.754 0)
+			(at 141.605 186.309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14639,7 +14506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 186.69 0)
+			(at 141.605 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14648,7 +14515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 186.69 0)
+			(at 141.605 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14657,7 +14524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 186.69 0)
+			(at 141.605 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15085,33 +14952,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Dual PMOS TPS1120DR:TPS1120DR")
-		(at 46.99 234.95 0)
+		(lib_id "GreenLED__VLMC3100-GS08:VLMC3100-GS08")
+		(at 125.73 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df20503a-da50-471b-9600-bfbdf4ed88d7")
-		(property "Reference" "U7"
-			(at 82.55 224.79 0)
+		(uuid "df46e8bc-8e8b-4641-a436-eb18d2443249")
+		(property "Reference" "CR6"
+			(at 125.73 228.6 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.143 1.143)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TPS1120DR"
-			(at 82.55 227.33 0)
+		(property "Value" "VLMC3100-GS08"
+			(at 125.73 226.06 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.143 1.143)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "2 PMOS:D8"
-			(at 46.99 234.95 0)
+		(property "Footprint" "LED_PLCC_VSMB"
+			(at 125.73 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15120,8 +14988,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TPS1120DR"
-			(at 46.99 234.95 0)
+		(property "Datasheet" "VLMC3100-GS08"
+			(at 125.73 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15131,7 +14999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 234.95 0)
+			(at 125.73 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15139,34 +15007,16 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
-			(uuid "da11b714-dc9d-4834-98d6-fd5e6c79dc71")
-		)
-		(pin "8"
-			(uuid "b0262e67-8af2-425e-b271-52ee5d6773de")
+		(pin "1"
+			(uuid "0930eabe-152d-4ac3-b00a-235fec07f29c")
 		)
 		(pin "2"
-			(uuid "892cb48e-1dce-4098-aaca-100f3512d17e")
-		)
-		(pin "3"
-			(uuid "f663c30e-b3f2-4e7c-b5da-1de084a54d7d")
-		)
-		(pin "4"
-			(uuid "ee5d8892-1c60-48f6-8832-e1dace6656c7")
-		)
-		(pin "7"
-			(uuid "df13b7e5-c6f4-417c-b653-c802dd3fde00")
-		)
-		(pin "5"
-			(uuid "0e5dd37a-f680-4938-84dc-bb87694a9b53")
-		)
-		(pin "1"
-			(uuid "3b0af244-aadb-4c64-a3f6-ebf2937238df")
+			(uuid "10edddb4-28d9-4e49-bfd7-f4c69efdfa97")
 		)
 		(instances
-			(project "OBC board"
+			(project "OBC"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "U7")
+					(reference "CR6")
 					(unit 1)
 				)
 			)
@@ -15237,148 +15087,6 @@
 			(project "OBC board"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Red SMD LED:HSMH-H191")
-		(at 139.7 201.93 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0b14569-1fa4-4d87-8331-a1bd67f7cc6d")
-		(property "Reference" "LED4"
-			(at 130.048 207.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "HSMH-H191"
-			(at 127 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Red SMD LED:HSMHH191"
-			(at 127 295.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.broadcom.com/products/leds-and-displays/chip-leds/0603-1.6-x-0.88mm-top-mount/hsmh-h191"
-			(at 127 395.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "0603 Top Mount Mono-Color ChipLED"
-			(at 139.7 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at 127 595.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Avago Technologies"
-			(at 127 695.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "HSMH-H191"
-			(at 127 795.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "630-HSMH-H191"
-			(at 127 895.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HSMH-H191?qs=Li%252BoUPsLEnsN8XNfO1JPnw%3D%3D"
-			(at 127 995.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 127 1095.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 127 1195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aebf6b03-50f7-44da-bca9-db48cbfdafa4")
-		)
-		(pin "1"
-			(uuid "13356b01-3efb-49dc-b939-06d8c80074f6")
-		)
-		(instances
-			(project "OBC board"
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -15514,94 +15222,6 @@
 			(project "OBC board"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Dual PMOS TPS1120DR:TPS1120DR")
-		(at 46.99 205.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e77dca62-3609-4ed4-bc83-2707eb93c3cd")
-		(property "Reference" "U6"
-			(at 82.55 195.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TPS1120DR"
-			(at 82.55 198.12 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "2 PMOS:D8"
-			(at 46.99 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "TPS1120DR"
-			(at 46.99 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "709bd8fd-b5cc-4613-8a8e-9e61fef62cee")
-		)
-		(pin "8"
-			(uuid "45fdf85b-4070-4816-b871-1139ee146f1d")
-		)
-		(pin "2"
-			(uuid "abf47639-4567-4658-8924-7cbd7aeefe21")
-		)
-		(pin "3"
-			(uuid "fd3fb56a-6ddb-4009-a402-2fdb9c2b6a85")
-		)
-		(pin "4"
-			(uuid "ab1dd714-b577-42c4-afc0-110862c1e392")
-		)
-		(pin "7"
-			(uuid "82363da2-6bdd-411a-84d5-95553312437a")
-		)
-		(pin "5"
-			(uuid "594fbcab-617a-40fd-91bb-87ef1e64953d")
-		)
-		(pin "1"
-			(uuid "dfed902a-e0f5-4fe0-ac01-2d3dba6832a5")
-		)
-		(instances
-			(project "OBC board"
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -15807,6 +15427,77 @@
 		)
 	)
 	(symbol
+		(lib_id "GreenLED__VLMC3100-GS08:VLMC3100-GS08")
+		(at 125.73 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f179aabe-05b0-4aa9-8e45-624ec5d784f3")
+		(property "Reference" "CR1"
+			(at 125.73 167.64 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VLMC3100-GS08"
+			(at 125.73 165.1 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_PLCC_VSMB"
+			(at 125.73 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "VLMC3100-GS08"
+			(at 125.73 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e113c5e-b76a-46e6-8ec1-63b3aea3d2b9")
+		)
+		(pin "2"
+			(uuid "00fe9c62-c63a-4e1b-a390-ea6d0720874b")
+		)
+		(instances
+			(project "OBC"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "CR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 374.65 107.95 90)
 		(unit 1)
@@ -15849,7 +15540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 374.65 107.95 0)
 			(effects
 				(font
@@ -15899,7 +15590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Conn XT60PW-M:AMASS_XT60PW-M"
+		(property "Footprint" "XT60PW-M:AMASS_XT60PW-M"
 			(at 27.305 92.71 0)
 			(effects
 				(font
@@ -16525,7 +16216,7 @@
 			(uuid "84da3cda-145a-46fa-a54f-534681ba29ca")
 		)
 		(instances
-			(project "OBC board"
+			(project "OBC"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
 					(page "2")
 				)
