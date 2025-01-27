@@ -1,0 +1,123 @@
+(footprint "Pico_01pin"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d20a254d-9cb8-4153-85ab-3807c5fd269d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pico_01pin"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6175af02-35f4-466f-993f-9443d402ee60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f6d29af-ff58-46e6-97c5-02a62e713e40")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5244a0d4-f87b-460d-a5b7-42c35f8ec4d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d4cfbcd-f474-466d-bc96-2c786f3d7780")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.6002 -2.54)
+		(end -1.6002 2.54)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "9dccff5d-bba9-4091-b006-04c255c1ef24")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "07a8836b-7887-44a4-8091-7da8a3df11d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "CUT"
+		(at -1.344179 -2.520774 -90)
+		(unlocked yes)
+		(layer "User.4")
+		(uuid "f340e3ce-fdf3-4ec2-9b7f-955714b5ffbe")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.6002 0)
+		(size 2 1.6)
+		(drill 1
+			(offset 0.2 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5a62af0e-0116-495f-83e3-c129d5f114a8")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2 1.6)
+		(drill 1
+			(offset -0.3 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.45)
+		(uuid "e90383c3-03fe-4801-bc83-5e7636d6b850")
+	)
+)
