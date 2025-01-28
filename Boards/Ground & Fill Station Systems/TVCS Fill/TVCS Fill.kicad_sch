@@ -6462,18 +6462,6 @@
 		(color 0 0 0 0)
 		(uuid "fa67d394-1325-4549-ba3c-ae2ca7f85c1b")
 	)
-	(no_connect
-		(at 369.57 99.06)
-		(uuid "40d166e6-8ab4-4ce5-bb57-13c6f3ca7257")
-	)
-	(no_connect
-		(at 369.57 104.14)
-		(uuid "e41b9bd4-6ccb-4702-878b-0880ecc2cebd")
-	)
-	(no_connect
-		(at 369.57 101.6)
-		(uuid "efde313e-b654-4132-8297-e3705ccf3ec3")
-	)
 	(wire
 		(pts
 			(xy 60.96 406.4) (xy 60.96 407.67)
@@ -8376,6 +8364,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 101.6) (xy 379.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e2bb62-d4b4-45cb-9754-b67898b2fc0e")
+	)
+	(wire
+		(pts
 			(xy 58.42 240.03) (xy 58.42 234.95)
 		)
 		(stroke
@@ -8453,6 +8451,16 @@
 			(type default)
 		)
 		(uuid "6df67fa0-cbee-4501-8afc-bac741c87918")
+	)
+	(wire
+		(pts
+			(xy 369.57 104.14) (xy 379.73 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0855cb-35b7-440f-bdf6-aa0895cd0669")
 	)
 	(wire
 		(pts
@@ -10783,6 +10791,16 @@
 			(type default)
 		)
 		(uuid "fe9097ff-151c-4af4-a430-581f5a8ea824")
+	)
+	(wire
+		(pts
+			(xy 369.57 99.06) (xy 379.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef486d2-929f-4a00-8ac0-aa55f04bfd4b")
 	)
 	(wire
 		(pts
@@ -14714,6 +14732,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 384.81 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3539ff3d-13a3-45e0-872d-808828ff5777")
+		(property "Reference" "J19"
+			(at 386.08 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 390.144 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pico_Conn1x1:Pico_01pin"
+			(at 384.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 384.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 384.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d758b73-42cd-4132-8260-fad8512f9833")
+		)
+		(instances
+			(project "TVCS Fill"
+				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 393.7 187.96 180)
 		(unit 1)
@@ -17054,6 +17138,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 384.81 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e4ef533-9a5c-415e-9943-862c47e06b7c")
+		(property "Reference" "J18"
+			(at 386.08 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 390.144 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pico_Conn1x1:Pico_01pin"
+			(at 384.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 384.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 384.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c26cd05-e2dc-4d87-9aba-d19329674c6d")
+		)
+		(instances
+			(project "TVCS Fill"
+				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 41.91 111.76 270)
 		(unit 1)
@@ -18543,6 +18693,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 384.81 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8298912e-4264-4335-88c1-0f80928ebcc9")
+		(property "Reference" "J15"
+			(at 386.08 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 390.144 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pico_Conn1x1:Pico_01pin"
+			(at 384.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 384.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 384.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "132b4e35-09ba-4993-a329-f2ff85b2cb52")
+		)
+		(instances
+			(project "TVCS Fill"
+				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 148.59 54.61 0)
 		(unit 1)
@@ -18922,22 +19138,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "4faf66f8-4c57-4c76-9f24-45a2a06e62d2")
+			(uuid "4faf66f8-4c57-4c76-9f24-45a2a06e62d3")
 		)
 		(pin "1"
-			(uuid "17833fd6-a273-40b6-ae06-76326c6abdf3")
+			(uuid "17833fd6-a273-40b6-ae06-76326c6abdf4")
 		)
 		(pin "4"
-			(uuid "9da5227e-09c1-4bd6-a2ca-eadf9ca4d022")
+			(uuid "9da5227e-09c1-4bd6-a2ca-eadf9ca4d023")
 		)
 		(pin "6"
-			(uuid "0e2e819d-08f5-41cd-ad03-e4efd7073cf5")
+			(uuid "0e2e819d-08f5-41cd-ad03-e4efd7073cf6")
 		)
 		(pin "3"
-			(uuid "8bd8350e-5128-41bb-8b8b-b074ad36651c")
+			(uuid "8bd8350e-5128-41bb-8b8b-b074ad36651d")
 		)
 		(pin "2"
-			(uuid "a2ad13b2-dd6e-4a40-bd34-c1f0076033be")
+			(uuid "a2ad13b2-dd6e-4a40-bd34-c1f0076033bf")
 		)
 		(instances
 			(project ""
@@ -24912,7 +25128,7 @@
 			(uuid "b93e73d7-bafe-4e1e-b6d4-93bdfc7a692f")
 		)
 		(pin "GP29_ADC3" bidirectional
-			(at 369.57 104.775 0)
+			(at 369.57 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24922,7 +25138,7 @@
 			(uuid "bdeb5bf0-7390-4c6a-a7cd-34f5345667a5")
 		)
 		(pin "GP27_ADC1" bidirectional
-			(at 369.57 99.695 0)
+			(at 369.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24932,7 +25148,7 @@
 			(uuid "95ac6bbd-2eaa-4e1a-a67c-a9f0f64c1685")
 		)
 		(pin "GP28_ADC2" bidirectional
-			(at 369.57 102.235 0)
+			(at 369.57 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
