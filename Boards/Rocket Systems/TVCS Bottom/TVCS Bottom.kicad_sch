@@ -56,7 +56,7 @@
 				)
 			)
 			(property "Description" "PCB terminal block, nominal current: 24 A, rated voltage (III/2): 400 V, nominal cross section: 2.5 mm2, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: LPT 2,5/, pitch: 5 mm, connection method: Lever Push-in connection, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
-				(at 0 0 0)
+				(at 1.27 9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -116,8 +116,8 @@
 			)
 			(symbol "1190297_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -5.08)
+					(start 5.08 1.27)
+					(end 15.24 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -127,8 +127,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
+					(at 2.54 -1.27 0)
+					(length 2.54)
 					(name "1.1"
 						(effects
 							(font
@@ -145,8 +145,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
+					(at 2.54 -1.27 0)
+					(length 2.54)
 					(name "1.2"
 						(effects
 							(font
@@ -163,8 +163,8 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
+					(at 17.78 -1.27 180)
+					(length 2.54)
 					(name "2.1"
 						(effects
 							(font
@@ -181,8 +181,8 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
+					(at 17.78 -1.27 180)
+					(length 2.54)
 					(name "2.2"
 						(effects
 							(font
@@ -845,6 +845,381 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DCDC_LM61460:LM61460AASQRJRRQ1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 28.956 9.906 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LM61460AASQRJRRQ1"
+				(at 28.956 7.366 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "VQFN-HR14_RJR_TEX"
+				(at 25.654 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "LM61460AASQRJRRQ1"
+				(at 25.654 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 64.77 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LM61460AASQRJRRQ1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "VQFN-HR14_RJR_TEX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM61460AASQRJRRQ1_0_1"
+				(polyline
+					(pts
+						(xy 13.97 -44.45) (xy 43.18 -44.45)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 5.08) (xy 13.97 -44.45)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 -44.45) (xy 43.18 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.18 5.08) (xy 13.97 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 50.8 -22.86 180)
+					(length 7.62)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 50.8 -36.83 180)
+					(length 7.62)
+					(name "RBOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 50.8 -29.21 180)
+					(length 7.62)
+					(name "CBOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 -36.83 0)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 50.8 -41.91 180)
+					(length 7.62)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -10.16 180)
+					(length 7.62)
+					(name "PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -29.21 0)
+					(length 7.62)
+					(name "RT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 -10.16 0)
+					(length 7.62)
+					(name "EN/SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM61460AASQRJRRQ1_1_1"
+				(pin passive line
+					(at 50.8 -16.51 180)
+					(length 7.62)
+					(name "BIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -3.81 180)
+					(length 7.62)
+					(name "PGND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 2.54 180)
+					(length 7.62)
+					(name "VIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -48.26 90)
+					(length 3.81)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 0)
+					(length 7.62)
+					(name "VIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 0)
+					(length 7.62)
+					(name "PGND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2005,381 +2380,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LM61460AASQRJRRQ1_1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 28.956 9.906 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "LM61460AASQRJRRQ1"
-				(at 28.956 7.366 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "VQFN-HR14_RJR_TEX"
-				(at 25.654 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "LM61460AASQRJRRQ1"
-				(at 25.654 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 64.77 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LM61460AASQRJRRQ1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "VQFN-HR14_RJR_TEX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM61460AASQRJRRQ1_1_0_1"
-				(polyline
-					(pts
-						(xy 13.97 -44.45) (xy 43.18 -44.45)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 5.08) (xy 13.97 -44.45)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 43.18 -44.45) (xy 43.18 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 43.18 5.08) (xy 13.97 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin output line
-					(at 50.8 -22.86 180)
-					(length 7.62)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 50.8 -36.83 180)
-					(length 7.62)
-					(name "RBOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 50.8 -29.21 180)
-					(length 7.62)
-					(name "CBOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 -36.83 0)
-					(length 7.62)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 50.8 -41.91 180)
-					(length 7.62)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 50.8 -10.16 180)
-					(length 7.62)
-					(name "PGOOD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 6.35 -29.21 0)
-					(length 7.62)
-					(name "RT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 -10.16 0)
-					(length 7.62)
-					(name "EN/SYNC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM61460AASQRJRRQ1_1_1_1"
-				(pin passive line
-					(at 50.8 -16.51 180)
-					(length 7.62)
-					(name "BIAS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 50.8 -3.81 180)
-					(length 7.62)
-					(name "PGND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 50.8 2.54 180)
-					(length 7.62)
-					(name "VIN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -48.26 90)
-					(length 3.81)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 2.54 0)
-					(length 7.62)
-					(name "VIN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -3.81 0)
-					(length 7.62)
-					(name "PGND1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5857,12 +5857,6 @@
 		(uuid "3f26849b-a22b-4c5a-8311-fa62c8e60033")
 	)
 	(junction
-		(at 45.72 254)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42d341cc-e4d3-4424-a123-bfd5b21c9dd7")
-	)
-	(junction
 		(at 48.26 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6065,12 +6059,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "826261e9-5847-4224-a4bb-69a4163d1f98")
-	)
-	(junction
-		(at 45.72 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84e11a0e-b438-4031-a901-d92355fac281")
 	)
 	(junction
 		(at 80.01 252.73)
@@ -7014,6 +7002,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 248.92) (xy 52.07 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fced3af-b7f6-4935-85db-78cb79d1bb6c")
+	)
+	(wire
+		(pts
 			(xy 305.435 273.685) (xy 305.435 274.955)
 		)
 		(stroke
@@ -7064,7 +7062,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.265 173.99) (xy 71.755 173.99)
+			(xy 129.54 170.18) (xy 113.03 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7144,7 +7142,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.265 168.91) (xy 71.755 168.91)
+			(xy 129.54 165.1) (xy 113.03 165.1)
 		)
 		(stroke
 			(width 0)
@@ -7164,7 +7162,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.265 163.83) (xy 71.755 163.83)
+			(xy 78.74 167.64) (xy 62.23 167.64)
 		)
 		(stroke
 			(width 0)
@@ -7744,16 +7742,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 254) (xy 45.72 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45fcccfc-f4a7-4cae-80b6-553c6b6cc93a")
-	)
-	(wire
-		(pts
 			(xy 108.585 51.435) (xy 88.265 51.435)
 		)
 		(stroke
@@ -7914,7 +7902,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.265 171.45) (xy 71.755 171.45)
+			(xy 129.54 167.64) (xy 113.03 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8334,7 +8322,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.265 166.37) (xy 71.755 166.37)
+			(xy 78.74 170.18) (xy 62.23 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8371,6 +8359,16 @@
 			(type default)
 		)
 		(uuid "65d9d3ac-b01e-4a06-8484-df5dbd84f115")
+	)
+	(wire
+		(pts
+			(xy 52.07 248.92) (xy 52.07 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66621d3d-cc7f-4fd6-bc27-66163ec450b4")
 	)
 	(wire
 		(pts
@@ -8764,16 +8762,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 247.65) (xy 52.07 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b4c5a2f-a4fe-41ab-b9e4-080f6cfcabee")
-	)
-	(wire
-		(pts
 			(xy 371.475 379.73) (xy 371.475 377.19)
 		)
 		(stroke
@@ -9144,16 +9132,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 254) (xy 43.18 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94cf6fdd-b2bd-485d-a150-b172b6272f0a")
-	)
-	(wire
-		(pts
 			(xy 58.42 242.57) (xy 58.42 247.65)
 		)
 		(stroke
@@ -9264,16 +9242,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 228.6) (xy 45.72 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ae1146f-9e43-46a1-a563-f9df6f767333")
-	)
-	(wire
-		(pts
 			(xy 262.89 419.1) (xy 283.21 419.1)
 		)
 		(stroke
@@ -9314,16 +9282,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 228.6) (xy 43.18 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c77f07d-a48e-46cc-80f4-2d3b2a7c5361")
-	)
-	(wire
-		(pts
 			(xy 360.68 389.89) (xy 360.68 400.685)
 		)
 		(stroke
@@ -9334,7 +9292,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.265 161.29) (xy 71.755 161.29)
+			(xy 78.74 165.1) (xy 62.23 165.1)
 		)
 		(stroke
 			(width 0)
@@ -10144,16 +10102,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 234.95) (xy 52.07 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8289ecc-9e04-4f8e-997b-78a440eb95a2")
-	)
-	(wire
-		(pts
 			(xy 371.475 387.35) (xy 371.475 389.89)
 		)
 		(stroke
@@ -10431,6 +10379,16 @@
 			(type default)
 		)
 		(uuid "d6940432-a3c3-42e6-b05f-fa4765e9cb58")
+	)
+	(wire
+		(pts
+			(xy 52.07 234.95) (xy 52.07 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82ed46d-6697-471a-a91c-5b2ba11c6dac")
 	)
 	(wire
 		(pts
@@ -11202,6 +11160,16 @@
 		)
 		(uuid "ff8dfeff-c999-4074-b8e3-6c9bdfb1e82e")
 	)
+	(wire
+		(pts
+			(xy 52.07 233.68) (xy 44.45 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe0961d-e87b-415e-9b11-8efa7a82b958")
+	)
 	(rectangle
 		(start 237.49 252.095)
 		(end 438.15 332.105)
@@ -11635,7 +11603,7 @@
 		(uuid "276d74be-e228-4f6c-8181-bbaa590916e7")
 	)
 	(label "THERMO2 T-"
-		(at 88.265 168.91 180)
+		(at 129.54 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11811,7 +11779,7 @@
 		(uuid "58da878a-79d1-49b5-b9be-1ead4f99e003")
 	)
 	(label "THERMO2 T+"
-		(at 88.265 166.37 180)
+		(at 78.74 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11855,7 +11823,7 @@
 		(uuid "6594da29-f50b-4304-b3f2-7fddfd18d21d")
 	)
 	(label "THERMO1 T-"
-		(at 88.265 163.83 180)
+		(at 78.74 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12053,7 +12021,7 @@
 		(uuid "ab8194aa-e11e-42e7-9b39-842d398ae796")
 	)
 	(label "THERMO3 T-"
-		(at 88.265 173.99 180)
+		(at 129.54 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12185,7 +12153,7 @@
 		(uuid "c5522296-360a-41b5-8167-152a95c6d044")
 	)
 	(label "THERMO1 T+"
-		(at 88.265 161.29 180)
+		(at 78.74 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12306,7 +12274,7 @@
 		(uuid "e9ae70df-d787-48f7-a51d-b8e1dcc8e13d")
 	)
 	(label "THERMO3 T+"
-		(at 88.265 171.45 180)
+		(at 129.54 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12897,70 +12865,6 @@
 			(project "CANha Boards"
 				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 66.675 166.37 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10013101-cc98-451d-ac16-deebea212538")
-		(property "Reference" "J9"
-			(at 44.577 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 55.753 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Lever_1P2T_NKK_GW12LxH"
-			(at 66.675 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.675 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 66.675 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59063484-2f7c-4ae9-bbd0-eb7cbc3901db")
-		)
-		(instances
-			(project "CANha Boards"
-				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -15358,7 +15262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADS1114:RUG10"
+		(property "Footprint" "ADS1114:ADS1114"
 			(at 57.15 323.215 0)
 			(effects
 				(font
@@ -16103,7 +16007,7 @@
 	)
 	(symbol
 		(lib_id "1190297:1190297")
-		(at 45.72 228.6 270)
+		(at 45.72 231.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16111,15 +16015,6 @@
 		(dnp no)
 		(uuid "5320bd0d-baab-408a-8a99-ff93bd731457")
 		(property "Reference" "J2"
-			(at 29.972 240.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1190297"
 			(at 29.972 242.57 90)
 			(effects
 				(font
@@ -16128,8 +16023,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "1190297"
+			(at 29.972 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "LPT Conn 2 Entradas:1190297"
-			(at -49.2 250.19 0)
+			(at -49.2 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16139,7 +16043,7 @@
 			)
 		)
 		(property "Datasheet" "https://g.componentsearchengine.com/Datasheets/0/15169004.pdf"
-			(at -149.2 250.19 0)
+			(at -149.2 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16149,7 +16053,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block, nominal current: 24 A, rated voltage (III/2): 400 V, nominal cross section: 2.5 mm2, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: LPT 2,5/, pitch: 5 mm, connection method: Lever Push-in connection, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
-			(at 45.72 228.6 0)
+			(at 45.72 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16158,7 +16062,7 @@
 			)
 		)
 		(property "Height" "23.58"
-			(at -349.2 250.19 0)
+			(at -349.2 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16168,7 +16072,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1190297"
-			(at -449.2 250.19 0)
+			(at -449.2 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16178,7 +16082,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1190297?qs=QNEnbhJQKvaBinyAO%252BdsFA%3D%3D"
-			(at -549.2 250.19 0)
+			(at -549.2 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16188,7 +16092,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at -649.2 250.19 0)
+			(at -649.2 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16198,7 +16102,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1190297"
-			(at -749.2 250.19 0)
+			(at -749.2 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16575,70 +16479,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 66.675 161.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d0577a9-d69c-43af-9933-85d3d943673f")
-		(property "Reference" "J1"
-			(at 44.831 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 55.753 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Lever_1P2T_NKK_GW12LxH"
-			(at 66.675 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.675 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 66.675 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89124b63-c5ba-4abb-964d-3df34657ae38")
-		)
-		(instances
-			(project ""
-				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 41.91 111.76 270)
 		(unit 1)
@@ -16843,7 +16683,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LM61460AASQRJRRQ1_1")
 		(lib_id "DCDC_LM61460:LM61460AASQRJRRQ1")
 		(at 279.4 367.03 0)
 		(unit 1)
@@ -18513,70 +18352,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 66.675 168.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8651c485-9160-41cc-8b10-6b7b08a78512")
-		(property "Reference" "J10"
-			(at 44.577 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 55.753 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Lever_1P2T_NKK_GW12LxH"
-			(at 66.675 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.675 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 66.675 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7a4f3a6-7f70-45d5-bedb-f47c2926b28e")
-		)
-		(instances
-			(project "CANha Boards"
-				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 147.955 117.475 0)
 		(unit 1)
@@ -19810,70 +19585,6 @@
 			(project "CANha Boards"
 				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 66.675 173.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4f1d017-96fb-4686-b325-c2a525071823")
-		(property "Reference" "J12"
-			(at 44.323 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 55.753 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Lever_1P2T_NKK_GW12LxH"
-			(at 66.675 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.675 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 66.675 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94f049d8-6838-473b-8cd4-8addb8acb039")
-		)
-		(instances
-			(project "CANha Boards"
-				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
-					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -23351,7 +23062,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LM61460AASQRJRRQ1_1")
 		(lib_id "DCDC_LM61460:LM61460AASQRJRRQ1")
 		(at 299.72 271.145 0)
 		(unit 1)
@@ -24176,70 +23886,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 66.675 163.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e58d4113-2815-4b2c-b29c-69a33a582beb")
-		(property "Reference" "J8"
-			(at 44.577 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 55.753 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Lever_1P2T_NKK_GW12LxH"
-			(at 66.675 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.675 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 66.675 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8fbb0ff0-4d06-4203-8469-a0d7d9a69ca3")
-		)
-		(instances
-			(project "CANha Boards"
-				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 76.2 247.65 0)
 		(mirror y)
@@ -24856,6 +24502,138 @@
 		)
 	)
 	(symbol
+		(lib_id "1190298:1190298")
+		(at 92.71 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efbac65c-ec06-4681-b629-3e170de032be")
+		(property "Reference" "J8"
+			(at 102.87 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1190298"
+			(at 102.87 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LPT Conn 3 Entradas:1190298"
+			(at 109.22 260.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.phoenixcontact.net/product/1190298"
+			(at 109.22 360.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed Terminal Blocks LPT 2,5/ 3-5,0"
+			(at 92.71 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.58"
+			(at 109.22 560.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1190298"
+			(at 109.22 660.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1190298?qs=QNEnbhJQKvbsdZkF4VNMWg%3D%3D"
+			(at 109.22 760.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 109.22 860.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1190298"
+			(at 109.22 960.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "98c4f927-7679-4a76-a28f-c04fb6416b70")
+		)
+		(pin "1"
+			(uuid "85b912bb-101e-4325-8d05-9d6cea0b5fc3")
+		)
+		(pin "6"
+			(uuid "e5f86a13-d7c8-4edf-bce8-6b82f33d58cd")
+		)
+		(pin "3"
+			(uuid "d515daab-a2fe-42d4-8e12-41103fd36168")
+		)
+		(pin "4"
+			(uuid "4e943fef-45ac-488b-a92f-ab99f1cfe993")
+		)
+		(pin "2"
+			(uuid "b188744f-e786-48ad-a489-6a769711c31b")
+		)
+		(instances
+			(project "TVCS Bottom"
+				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 355.6 304.165 0)
 		(mirror y)
@@ -24989,70 +24767,6 @@
 			(project "TVCS Bottom"
 				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
 					(reference "C_IN_HFI3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 66.675 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f569ba9d-5266-477d-b060-65e6166b220f")
-		(property "Reference" "J11"
-			(at 44.577 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 55.753 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Lever_1P2T_NKK_GW12LxH"
-			(at 66.675 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.675 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 66.675 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "426a9d1f-990b-47dd-b4d4-7c30e6f1e5a8")
-		)
-		(instances
-			(project "CANha Boards"
-				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
-					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -25454,6 +25168,138 @@
 			(project "TVCS Bottom"
 				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1190298:1190298")
+		(at 41.91 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc84aee5-16bf-4dd6-a611-1537b7a7a93e")
+		(property "Reference" "J1"
+			(at 52.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1190298"
+			(at 52.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LPT Conn 3 Entradas:1190298"
+			(at 58.42 260.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.phoenixcontact.net/product/1190298"
+			(at 58.42 360.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed Terminal Blocks LPT 2,5/ 3-5,0"
+			(at 41.91 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.58"
+			(at 58.42 560.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1190298"
+			(at 58.42 660.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1190298?qs=QNEnbhJQKvbsdZkF4VNMWg%3D%3D"
+			(at 58.42 760.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 58.42 860.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1190298"
+			(at 58.42 960.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c67373bb-79af-4460-8f29-e6accc92aac3")
+		)
+		(pin "1"
+			(uuid "01d6f4c9-e734-4e5c-ad9c-cd47d22d6a34")
+		)
+		(pin "6"
+			(uuid "ed571c7a-2581-4888-b4c0-0acf23146249")
+		)
+		(pin "3"
+			(uuid "3646f5d6-cfc5-44b2-acb0-f51db64210d0")
+		)
+		(pin "4"
+			(uuid "96e064e8-0a78-443b-80dc-753c068ab273")
+		)
+		(pin "2"
+			(uuid "373289b6-359b-46bf-a700-99f83e8335e3")
+		)
+		(instances
+			(project "TVCS Bottom"
+				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
+					(reference "J1")
 					(unit 1)
 				)
 			)
