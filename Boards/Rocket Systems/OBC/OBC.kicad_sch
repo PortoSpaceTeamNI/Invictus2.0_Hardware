@@ -4321,6 +4321,126 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -4617,6 +4737,12 @@
 		(uuid "53f0d201-ba0d-4cdc-bd4d-6e08f6234adc")
 	)
 	(junction
+		(at 36.83 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59588c98-5806-4400-bdd5-309bff274783")
+	)
+	(junction
 		(at 302.26 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4657,12 +4783,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f5af3a2-90ea-493a-a4e4-685e4a95f44e")
-	)
-	(junction
-		(at 43.815 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "900d9e69-bd06-4d93-a488-ecc9fe845138")
 	)
 	(junction
 		(at 309.245 219.075)
@@ -5070,7 +5190,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.975 173.99) (xy 53.975 176.53)
+			(xy 53.975 175.26) (xy 53.975 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5710,7 +5830,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 54.61) (xy 43.815 54.61)
+			(xy 35.56 54.61) (xy 36.83 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5850,6 +5970,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.085 53.975) (xy 45.085 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b74179c-c848-43c6-8048-1fbaa387ec7d")
+	)
+	(wire
+		(pts
 			(xy 104.775 205.74) (xy 104.775 200.66)
 		)
 		(stroke
@@ -5957,16 +6087,6 @@
 			(type default)
 		)
 		(uuid "a80a4425-c7f4-45d4-ac62-489c81e5cc7f")
-	)
-	(wire
-		(pts
-			(xy 43.815 54.61) (xy 68.58 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9534f2a-c83a-4c32-9e80-8b64411ff7d3")
 	)
 	(wire
 		(pts
@@ -6420,6 +6540,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.085 54.61) (xy 36.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80d9339-107e-43ca-bd75-44b02e01904c")
+	)
+	(wire
+		(pts
 			(xy 104.775 223.52) (xy 104.775 224.79)
 		)
 		(stroke
@@ -6722,16 +6852,6 @@
 		)
 		(uuid "0ff1acae-e13f-49dd-b897-c8825ff38b65")
 	)
-	(label "VIN"
-		(at 48.26 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "12468797-bea4-421c-b149-adfe223884c8")
-	)
 	(label "SPI0_SCK"
 		(at 190.5 95.25 0)
 		(effects
@@ -6741,6 +6861,16 @@
 			(justify left bottom)
 		)
 		(uuid "1f308bbb-74f0-48ff-b1be-96a793fe6dc5")
+	)
+	(label "Comms UART TX"
+		(at 48.26 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21dfb74c-11c2-4a08-9582-30366d6f34c6")
 	)
 	(label "SPI0_MISO"
 		(at 143.51 68.58 180)
@@ -6761,6 +6891,16 @@
 			(justify left bottom)
 		)
 		(uuid "2fcf25a1-cff5-40eb-87a3-db3280c76c3b")
+	)
+	(label "Comms UART TX"
+		(at 48.26 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36e1eb5b-00ae-4540-92ef-9f23a9901d26")
 	)
 	(label "SPI1_SCK"
 		(at 48.26 74.93 0)
@@ -6962,16 +7102,6 @@
 		)
 		(uuid "6dcb0946-8eff-4902-b8e1-2c71c8e2523f")
 	)
-	(label "Comms UART TX"
-		(at 48.26 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "711816a8-e864-475e-a5e7-e74b623834b4")
-	)
 	(label "SPI0_MOSI"
 		(at 143.51 73.66 180)
 		(effects
@@ -7071,16 +7201,6 @@
 			(justify right bottom)
 		)
 		(uuid "ae15c9ea-6f7b-43b6-81ce-6a4a1c0da3f6")
-	)
-	(label "Comms UART RX"
-		(at 48.26 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5d4bcc7-8282-4a4d-94eb-6e10c2f2d75d")
 	)
 	(label "Comms UART CTS"
 		(at 48.26 62.23 0)
@@ -7222,6 +7342,16 @@
 		)
 		(uuid "f5dbd005-24eb-4cc4-953b-b100bb7128a1")
 	)
+	(label "Comms UART RX"
+		(at 54.61 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f919310a-9baf-47d2-8d00-1bc98bbfa130")
+	)
 	(label "LED Driver"
 		(at 143.51 110.49 180)
 		(effects
@@ -7242,38 +7372,71 @@
 		)
 		(uuid "fe544fc6-be18-4a89-be49-2e2b61932be1")
 	)
-	(hierarchical_label "+5V"
-		(shape input)
-		(at 118.745 199.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:+5V")
+		(at 118.745 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "020d3560-f40a-4243-b7f2-669f2d7f0a07")
+		(property "Reference" "#PWR027"
+			(at 118.745 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left)
 		)
-		(uuid "02da7707-4a68-4e07-a317-dc5c3ca808ec")
-	)
-	(hierarchical_label "+5V"
-		(shape input)
-		(at 53.975 173.99 90)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Value" "+5V"
+			(at 118.745 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify left)
 		)
-		(uuid "701c8498-590f-4ead-9721-60b7ec336016")
-	)
-	(hierarchical_label "+5V"
-		(shape input)
-		(at 53.975 232.41 90)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Footprint" ""
+			(at 118.745 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify left)
 		)
-		(uuid "bf0b66be-e6d9-44af-9e09-74a561444faf")
+		(property "Datasheet" ""
+			(at 118.745 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 118.745 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d8c080f-b1bd-406d-bfc4-d34dd1dbdad7")
+		)
+		(instances
+			(project ""
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "GreenLED__VLMC3100-GS08:VLMC3100-GS08")
@@ -7302,7 +7465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED-Green_VLMC3100-GS08:LED_PLCC_VSMB"
+		(property "Footprint" "LED_PLCC_VSMB"
 			(at 69.215 180.34 0)
 			(effects
 				(font
@@ -7372,7 +7535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IMU BMI323:BMI323_BOS"
+		(property "Footprint" "BMI323_BOS"
 			(at 220.98 49.53 0)
 			(effects
 				(font
@@ -7683,7 +7846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BARO BMP581:QFN10_BMP581_BOS"
+		(property "Footprint" "QFN10_BMP581_BOS"
 			(at 274.955 172.085 0)
 			(effects
 				(font
@@ -7981,7 +8144,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED-Green_VLMC3100-GS08:LED_PLCC_VSMB"
+		(property "Footprint" "LED_PLCC_VSMB"
 			(at 104.775 205.74 0)
 			(effects
 				(font
@@ -8588,7 +8751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAG LIS2MDLTR:LGA-12_2X2X1_STM"
+		(property "Footprint" "LGA-12_2X2X1_STM"
 			(at 212.725 216.535 0)
 			(effects
 				(font
@@ -9120,7 +9283,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED-Green_VLMC3100-GS08:LED_PLCC_VSMB"
+		(property "Footprint" "LED_PLCC_VSMB"
 			(at 40.005 180.34 0)
 			(effects
 				(font
@@ -9531,7 +9694,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED-Green_VLMC3100-GS08:LED_PLCC_VSMB"
+		(property "Footprint" "LED_PLCC_VSMB"
 			(at 40.005 238.76 0)
 			(effects
 				(font
@@ -9576,6 +9739,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 45.085 53.975 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a2971a0-7c4f-41e8-ac0f-550bca863b1c")
+		(property "Reference" "#PWR050"
+			(at 45.085 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 45.085 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.085 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.085 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 45.085 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fbdf670-27de-4034-8e4b-08e9571a8bc6")
+		)
+		(instances
+			(project "OBC"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NSVT30010MXV6T1G:NSVT30010MXV6T1G")
 		(at 130.175 224.79 0)
 		(mirror y)
@@ -9601,7 +9829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2 PNP:SOTFL50P160X60-6N"
+		(property "Footprint" "SOTFL50P160X60-6N"
 			(at 111.125 319.71 0)
 			(effects
 				(font
@@ -9709,7 +9937,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 43.815 54.61 0)
+		(at 36.83 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9718,7 +9946,7 @@
 		(fields_autoplaced yes)
 		(uuid "6dd7ef3b-3657-49cb-9aeb-787e9aa85dc6")
 		(property "Reference" "#FLG01"
-			(at 43.815 52.705 0)
+			(at 36.83 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9727,7 +9955,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 43.815 49.53 0)
+			(at 36.83 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9735,7 +9963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.815 54.61 0)
+			(at 36.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9744,7 +9972,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.815 54.61 0)
+			(at 36.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9753,7 +9981,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 43.815 54.61 0)
+			(at 36.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10066,7 +10294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2 PNP:SOTFL50P160X60-6N"
+		(property "Footprint" "SOTFL50P160X60-6N"
 			(at 46.355 352.73 0)
 			(effects
 				(font
@@ -10334,7 +10562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BARO LPS22DFTR:QFN_22DFTR_STM"
+		(property "Footprint" "QFN_22DFTR_STM"
 			(at 225.044 86.36 0)
 			(effects
 				(font
@@ -10770,7 +10998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED-Green_VLMC3100-GS08:LED_PLCC_VSMB"
+		(property "Footprint" "LED_PLCC_VSMB"
 			(at 133.985 205.74 0)
 			(effects
 				(font
@@ -10840,7 +11068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IMU ASM330LHHTR:LGA-14L_2P5X3X0P83_STM"
+		(property "Footprint" "LGA-14L_2P5X3X0P83_STM"
 			(at 182.245 164.465 0)
 			(effects
 				(font
@@ -10947,7 +11175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED-Green_VLMC3100-GS08:LED_PLCC_VSMB"
+		(property "Footprint" "LED_PLCC_VSMB"
 			(at 69.215 238.76 0)
 			(effects
 				(font
@@ -11118,6 +11346,72 @@
 			(project "OBC board"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 53.975 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b56b9e4e-5f55-4997-bac4-94756596527e")
+		(property "Reference" "#PWR029"
+			(at 53.975 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 53.975 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.975 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.975 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 53.975 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bd522a5-8c50-4a10-a0dd-1564a78f7057")
+		)
+		(instances
+			(project "OBC"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11856,6 +12150,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 53.975 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e441c100-b803-4f02-a1e4-1fa2974420fd")
+		(property "Reference" "#PWR047"
+			(at 53.975 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 53.975 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.975 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.975 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 53.975 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d323cd36-bbb7-48ae-9db0-d471ecf1c83e")
+		)
+		(instances
+			(project "OBC"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 184.15 96.52 0)
 		(mirror x)
@@ -12152,7 +12512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2 PNP:SOTFL50P160X60-6N"
+		(property "Footprint" "SOTFL50P160X60-6N"
 			(at 46.355 294.31 0)
 			(effects
 				(font
@@ -12703,16 +13063,6 @@
 				(justify right)
 			)
 			(uuid "4cfcd223-2583-47c0-be02-545dc4f7d4c1")
-		)
-		(pin "+5V" input
-			(at 68.58 54.61 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "84da3cda-145a-46fa-a54f-534681ba29ca")
 		)
 		(pin "GPIO24" bidirectional
 			(at 121.92 110.49 0)
