@@ -5998,16 +5998,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 50.8) (xy 125.095 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1721056b-a45e-41c9-80b9-ec0a64983401")
-	)
-	(wire
-		(pts
 			(xy 269.24 53.975) (xy 269.24 57.785)
 		)
 		(stroke
@@ -6688,7 +6678,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 61.595) (xy 125.095 61.595)
+			(xy 105.41 60.325) (xy 125.095 60.325)
 		)
 		(stroke
 			(width 0)
@@ -7028,7 +7018,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 59.055) (xy 125.095 59.055)
+			(xy 105.41 57.785) (xy 125.095 57.785)
 		)
 		(stroke
 			(width 0)
@@ -7268,7 +7258,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 66.675) (xy 125.095 66.675)
+			(xy 105.41 65.405) (xy 125.095 65.405)
 		)
 		(stroke
 			(width 0)
@@ -7445,6 +7435,16 @@
 			(type default)
 		)
 		(uuid "d5595e49-a65e-47f4-9ea7-db6e88842843")
+	)
+	(wire
+		(pts
+			(xy 105.41 50.8) (xy 125.095 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d576e579-8d4f-4625-ba24-5152a1d5874f")
 	)
 	(wire
 		(pts
@@ -7838,7 +7838,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 64.135) (xy 125.095 64.135)
+			(xy 105.41 62.865) (xy 125.095 62.865)
 		)
 		(stroke
 			(width 0)
@@ -8234,16 +8234,6 @@
 		)
 		(uuid "1ba4491d-55c4-4ca3-9053-82ec7543da4e")
 	)
-	(label "OBC UART RTS"
-		(at 44.45 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2833f580-a854-4647-b072-e5912b79f440")
-	)
 	(label "SX1280 XTA"
 		(at 50.8 192.405 180)
 		(effects
@@ -8265,7 +8255,7 @@
 		(uuid "2d618bda-de00-459a-8655-1647782942f0")
 	)
 	(label "SD-Card SPI SCK"
-		(at 125.095 61.595 180)
+		(at 125.095 60.325 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8295,7 +8285,7 @@
 		(uuid "34c451a3-9cdb-468d-9020-70a5edfd29bb")
 	)
 	(label "SD-Card SPI MISO"
-		(at 125.095 66.675 180)
+		(at 125.095 65.405 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8485,6 +8475,16 @@
 		(uuid "82016d33-8d9f-4e71-bc99-46c41dfc9db4")
 	)
 	(label "OBC UART CTS"
+		(at 44.45 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83622bdd-dbdd-4825-b31d-b1cc24eb71a3")
+	)
+	(label "OBC UART RTS"
 		(at 44.45 53.34 0)
 		(effects
 			(font
@@ -8492,7 +8492,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8aec1e0c-4471-427e-9ee5-97b418d65c7b")
+		(uuid "935c1f7b-ba83-45f0-8d3a-fbb4e5b0d08b")
 	)
 	(label "OBC UART RX"
 		(at 44.45 48.26 0)
@@ -8615,7 +8615,7 @@
 		(uuid "c8fb965f-0849-423d-a210-377d6b6aa4a1")
 	)
 	(label "SD-Card SPI ~{CS}"
-		(at 125.095 59.055 180)
+		(at 125.095 57.785 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8705,7 +8705,7 @@
 		(uuid "f42f504e-796e-4c86-a925-23aec63f8b3e")
 	)
 	(label "SD-Card SPI MOSI"
-		(at 125.095 64.135 180)
+		(at 125.095 62.865 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15238,7 +15238,7 @@
 			(uuid "a7321fdc-e9ce-4746-b9ca-73638c5f27c7")
 		)
 		(pin "GP19{slash}SPI0 MOSI" bidirectional
-			(at 105.41 64.135 0)
+			(at 105.41 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15258,7 +15258,7 @@
 			(uuid "d7c2e048-6fce-4688-b4ef-7955851506fd")
 		)
 		(pin "GP17{slash}SPI0 ~{CS}" bidirectional
-			(at 105.41 59.055 0)
+			(at 105.41 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15268,7 +15268,7 @@
 			(uuid "067d58ab-5fe8-4b88-a657-4ec4f8da0d50")
 		)
 		(pin "GP18{slash}SPI0 SCK" bidirectional
-			(at 105.41 61.595 0)
+			(at 105.41 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15317,8 +15317,8 @@
 			)
 			(uuid "ec6f8fbf-fa18-4aa8-b61d-d79e9ecc26a3")
 		)
-		(pin "GPIO6" bidirectional
-			(at 105.41 76.835 0)
+		(pin "GP6{slash}UART1 CTS" bidirectional
+			(at 105.41 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15398,7 +15398,7 @@
 			(uuid "ea50eafa-3c54-4054-b496-0ed97bd3a90c")
 		)
 		(pin "GPIO12" bidirectional
-			(at 105.41 50.8 0)
+			(at 105.41 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15408,7 +15408,7 @@
 			(uuid "d34458b0-c3de-4504-840f-9e9f1adc919c")
 		)
 		(pin "GP16{slash}SPI0 MISO" bidirectional
-			(at 105.41 66.675 0)
+			(at 105.41 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
