@@ -25880,71 +25880,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 127 151.765 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04be39cb-bfdb-4376-bd36-3a3793f364b5")
-		(property "Reference" "#PWR015"
-			(at 127 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e85f10f-b113-4199-b080-232a45249c3c")
-		)
-		(instances
-			(project "RP2040 P"
-				(path "/7712695e-3038-4da8-a54c-20dbd93db58d/3d4082b5-a5ce-4208-94d0-5d9dbdc70dd6"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 380.365 354.33 0)
 		(mirror y)
@@ -38431,76 +38366,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 127 137.795 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88298490-871e-4dcf-ab9f-45a35379b368")
-		(property "Reference" "R8"
-			(at 129.54 136.5249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "650"
-			(at 129.54 139.0649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.222 137.795 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 127 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a76310eb-3873-4f0d-bd0e-5069ab6e4152")
-		)
-		(pin "1"
-			(uuid "63eaba5c-ccb6-457f-a260-49ad845f6262")
-		)
-		(instances
-			(project "RP2040 P"
-				(path "/7712695e-3038-4da8-a54c-20dbd93db58d/3d4082b5-a5ce-4208-94d0-5d9dbdc70dd6"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 349.25 435.61 0)
 		(unit 1)
@@ -43437,7 +43302,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ba04f1cc-cf1f-478d-890a-b7cd946dd373")
 		(property "Reference" "#PWR050"
 			(at 85.09 549.275 0)
@@ -43449,7 +43313,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 547.37 0)
+			(at 85.09 546.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45333,77 +45197,6 @@
 			(project "RP2040 P"
 				(path "/7712695e-3038-4da8-a54c-20dbd93db58d/3d4082b5-a5ce-4208-94d0-5d9dbdc70dd6"
 					(reference "CV6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GreenLED__VLMC3100-GS08:VLMC3100-GS08")
-		(at 127 141.605 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d343c08c-6e4a-43ff-bb51-770c7910ad9b")
-		(property "Reference" "CR1"
-			(at 130.81 142.875 90)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VLMC3100-GS08"
-			(at 130.81 145.415 90)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_PLCC_VSMB"
-			(at 127 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "VLMC3100-GS08"
-			(at 127 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a1f37fd-4321-4ed0-9963-1818867cb27b")
-		)
-		(pin "2"
-			(uuid "dce75aa7-e6e7-430a-ada9-84ebe213138e")
-		)
-		(instances
-			(project "RP2040 P"
-				(path "/7712695e-3038-4da8-a54c-20dbd93db58d/3d4082b5-a5ce-4208-94d0-5d9dbdc70dd6"
-					(reference "CR1")
 					(unit 1)
 				)
 			)
