@@ -6304,6 +6304,12 @@
 		(uuid "b2cb44f1-f8dc-4197-9280-18e9b1ff65dd")
 	)
 	(junction
+		(at 200.025 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baac00c1-86ec-4abc-bc09-b99f2eae642a")
+	)
+	(junction
 		(at 326.39 99.695)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6362,6 +6368,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd905340-37ba-4149-b6b6-2a0829ff096e")
+	)
+	(junction
+		(at 200.025 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdd0d9b9-1f59-442a-ba39-ce34081f3a9f")
 	)
 	(no_connect
 		(at 200.025 40.64)
@@ -6724,16 +6736,6 @@
 			(type default)
 		)
 		(uuid "2b7e663e-5978-4866-aac2-6a87e732bf90")
-	)
-	(wire
-		(pts
-			(xy 198.755 53.34) (xy 200.025 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c28849b-699a-4f37-8480-ea342576db55")
 	)
 	(wire
 		(pts
@@ -7187,16 +7189,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 58.42) (xy 200.025 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "702967df-a055-4547-bd99-70c6f2d9eacf")
-	)
-	(wire
-		(pts
 			(xy 280.67 107.315) (xy 280.67 112.395)
 		)
 		(stroke
@@ -7394,6 +7386,16 @@
 			(type default)
 		)
 		(uuid "88b3bf84-849d-4629-97d2-a0f2d6727665")
+	)
+	(wire
+		(pts
+			(xy 200.025 58.42) (xy 200.025 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89892237-7c97-441b-9637-b5fa47bdb907")
 	)
 	(wire
 		(pts
@@ -8327,6 +8329,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.025 53.34) (xy 200.025 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a6db3b-203f-4bbf-b052-41c3b9ff505c")
+	)
+	(wire
+		(pts
 			(xy 37.465 49.53) (xy 60.96 49.53)
 		)
 		(stroke
@@ -9236,16 +9248,6 @@
 			(justify right bottom)
 		)
 		(uuid "9fa1f794-d3ac-4348-a006-89cb0beffe0f")
-	)
-	(label "SD-Card SPI MISO"
-		(at 181.61 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a77ba1f6-2847-48cb-9334-b405fd484259")
 	)
 	(label "RS_TX"
 		(at 262.89 117.475 0)
@@ -14257,71 +14259,6 @@
 			(project "R COMMS"
 				(path "/169b1789-9bea-4709-830d-1c7983087293"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 198.755 53.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9adde48-2ed8-48c7-a04e-989d561d395f")
-		(property "Reference" "#PWR069"
-			(at 192.405 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.675 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.755 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.755 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.755 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d9c127d-8545-4a2a-b208-894b0f2e243e")
-		)
-		(instances
-			(project "R COMMS"
-				(path "/169b1789-9bea-4709-830d-1c7983087293"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
