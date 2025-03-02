@@ -8,10 +8,12 @@
 	)
 	(paper "A4")
 	(layers
-		(0 "F.Cu" signal)
-		(1 "In1.Cu" signal)
-		(2 "In2.Cu" signal)
-		(31 "B.Cu" power)
+		(0 "F.Cu" signal "F(12V).Cu")
+		(1 "In1.Cu" power "GND1.Cu")
+		(2 "In2.Cu" power "Power.Cu")
+		(3 "In3.Cu" signal "5V.Cu")
+		(4 "In4.Cu" power "GND2.Cu")
+		(31 "B.Cu" signal)
 		(32 "B.Adhes" user "B.Adhesive")
 		(33 "F.Adhes" user "F.Adhesive")
 		(34 "B.Paste" user)
@@ -69,7 +71,7 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.24)
+				(thickness 0.535)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -79,6 +81,28 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In3.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 4"
+				(type "core")
+				(thickness 0.535)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In4.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 5"
 				(type "prepreg")
 				(thickness 0.1)
 				(material "FR4")
@@ -455,7 +479,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "01737c61-2294-492c-81ec-74cca315d557")
-		(at 66.288005 54.1416)
+		(at 207 136)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R8"
 			(at 0 0 0)
@@ -734,7 +758,7 @@
 			)
 			(polygon
 				(pts
-					(xy 66.113805 53.9424) (xy 66.462205 53.9424) (xy 66.462205 54.3408) (xy 66.113805 54.3408)
+					(xy 206.8258 135.8008) (xy 207.1742 135.8008) (xy 207.1742 136.1992) (xy 206.8258 136.1992)
 				)
 			)
 		)
@@ -1176,7 +1200,7 @@
 		(descr "TL1017AABF160QG-1")
 		(tags "Switch")
 		(property "Reference" "S2"
-			(at 0 0.475 360)
+			(at 0 0.475 0)
 			(layer "F.SilkS")
 			(uuid "15a95db2-a315-439e-b83c-548f49edb837")
 			(effects
@@ -1187,7 +1211,7 @@
 			)
 		)
 		(property "Value" "TL1017AABF160QG"
-			(at 0 0.475 360)
+			(at 0 0.475 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bba1db12-df77-4664-b35a-fb63793ed060")
@@ -1199,7 +1223,7 @@
 			)
 		)
 		(property "Footprint" "E-Switch_Small:TL1017AABF160QG"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a42a958d-5dc3-4f83-92a5-100749183bbb")
@@ -1211,7 +1235,7 @@
 			)
 		)
 		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1017AABF160QG.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e3d39236-bfac-4f10-a832-6b0eb3d85108")
@@ -1223,7 +1247,7 @@
 			)
 		)
 		(property "Description" "TACT, Surface Mount"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4f39e42d-a8b6-45e9-81c5-f517261853f3")
@@ -1456,7 +1480,7 @@
 			(uuid "c94d25a5-84c8-411a-9198-d0fe32cedb21")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.475 360)
+			(at 0 0.475 0)
 			(layer "F.Fab")
 			(uuid "3af9114e-39d1-4435-ac63-fcbf0f957a2e")
 			(effects
@@ -2852,7 +2876,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "09fd07bb-5a2b-4ac7-8d05-280a21573e2c")
-		(at 79.974397 49.8208)
+		(at 108 127)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R46"
 			(at 0 0 0)
@@ -3131,7 +3155,7 @@
 			)
 			(polygon
 				(pts
-					(xy 79.800197 49.6216) (xy 80.148597 49.6216) (xy 80.148597 50.02) (xy 79.800197 50.02)
+					(xy 107.8258 126.8008) (xy 108.1742 126.8008) (xy 108.1742 127.1992) (xy 107.8258 127.1992)
 				)
 			)
 		)
@@ -3139,7 +3163,7 @@
 	(footprint "LED-Red_VLMT3100-GS08:LED_PLCC_VSMB"
 		(layer "F.Cu")
 		(uuid "0a1bc298-97ae-411b-8d37-904f53c483f8")
-		(at 118.7681 125)
+		(at -64.7681 74.5)
 		(tags "VLMT3100-GS08 ")
 		(property "Reference" "CR6"
 			(at 0 0 0)
@@ -3711,7 +3735,7 @@
 			)
 			(polygon
 				(pts
-					(xy 116.9647 123.5776) (xy 120.5715 123.5776) (xy 120.5715 123.8443) (xy 116.9647 123.8443)
+					(xy -66.5715 73.0776) (xy -62.9647 73.0776) (xy -62.9647 73.3443) (xy -66.5715 73.3443)
 				)
 			)
 		)
@@ -3739,7 +3763,7 @@
 			)
 			(polygon
 				(pts
-					(xy 116.9647 126.1557) (xy 120.5715 126.1557) (xy 120.5715 126.4224) (xy 116.9647 126.4224)
+					(xy -66.5715 75.6557) (xy -62.9647 75.6557) (xy -62.9647 75.9224) (xy -66.5715 75.9224)
 				)
 			)
 		)
@@ -3767,7 +3791,7 @@
 			)
 			(polygon
 				(pts
-					(xy 118.3617 123.8443) (xy 119.1745 123.8443) (xy 119.1745 126.1557) (xy 118.3617 126.1557)
+					(xy -65.1745 73.3443) (xy -64.3617 73.3443) (xy -64.3617 75.6557) (xy -65.1745 75.6557)
 				)
 			)
 		)
@@ -3775,7 +3799,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "0b4ba81f-dbb2-4495-8d5c-fbfc20e6955a")
-		(at 66.288005 45.5)
+		(at 266.947201 48)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R4"
 			(at 0 0 0)
@@ -4054,7 +4078,7 @@
 			)
 			(polygon
 				(pts
-					(xy 66.113805 45.3008) (xy 66.462205 45.3008) (xy 66.462205 45.6992) (xy 66.113805 45.6992)
+					(xy 266.773001 47.8008) (xy 267.121401 47.8008) (xy 267.121401 48.1992) (xy 266.773001 48.1992)
 				)
 			)
 		)
@@ -4349,7 +4373,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "0eead348-27f7-4667-9d99-7f5868e7e834")
-		(at 76.552799 51.9812)
+		(at 281.947201 32)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R36"
 			(at 0 0 0)
@@ -4628,7 +4652,7 @@
 			)
 			(polygon
 				(pts
-					(xy 76.378599 51.782) (xy 76.726999 51.782) (xy 76.726999 52.1804) (xy 76.378599 52.1804)
+					(xy 281.773001 31.8008) (xy 282.121401 31.8008) (xy 282.121401 32.1992) (xy 281.773001 32.1992)
 				)
 			)
 		)
@@ -4636,7 +4660,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "0f509c7b-fdad-4f55-8fd0-f88466e5db10")
-		(at 90.7477 92.5644)
+		(at 65.8909 75.9368)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C_IN_HFI3"
 			(at 0 0 0)
@@ -4926,7 +4950,7 @@
 			)
 			(polygon
 				(pts
-					(xy 90.5064 92.3612) (xy 90.989 92.3612) (xy 90.989 92.7676) (xy 90.5064 92.7676)
+					(xy 65.6496 75.7336) (xy 66.1322 75.7336) (xy 66.1322 76.14) (xy 65.6496 76.14)
 				)
 			)
 		)
@@ -5680,7 +5704,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "14ca3286-3610-4f93-ac3e-b3a6a47d3d0c")
-		(at 80.6611 101.238)
+		(at 125.4285 125.5)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C8"
 			(at 0 0 0)
@@ -5970,7 +5994,7 @@
 			)
 			(polygon
 				(pts
-					(xy 80.4198 101.0348) (xy 80.9024 101.0348) (xy 80.9024 101.4412) (xy 80.4198 101.4412)
+					(xy 125.1872 125.2968) (xy 125.6698 125.2968) (xy 125.6698 125.7032) (xy 125.1872 125.7032)
 				)
 			)
 		)
@@ -6563,7 +6587,7 @@
 	(footprint "Diode-Schottky_RSX301L:DIOM5026X220N"
 		(layer "F.Cu")
 		(uuid "15c1dae5-ffca-4fcf-aaff-c2a29eafad0f")
-		(at 87 148.65)
+		(at 271.5 24)
 		(descr "DO-214AC(SMA),(PMDS)")
 		(tags "Schottky Diode")
 		(property "Reference" "D2"
@@ -7533,7 +7557,7 @@
 	(footprint "Resistor-0805:RES_0805"
 		(layer "F.Cu")
 		(uuid "1810d602-e136-4f4f-9663-0c0f313e3186")
-		(at 75.15 104.91)
+		(at 50.2932 88.2824)
 		(descr "ERA6A")
 		(tags "Resistor")
 		(property "Reference" "Rsense3"
@@ -8071,7 +8095,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "19be5cd2-bf31-4687-8db4-90e3deda36c3")
-		(at 73.131201 47.6604)
+		(at 248.447201 26.5)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R23"
 			(at 0 0 0)
@@ -8350,7 +8374,7 @@
 			)
 			(polygon
 				(pts
-					(xy 72.957001 47.4612) (xy 73.305401 47.4612) (xy 73.305401 47.8596) (xy 72.957001 47.8596)
+					(xy 248.273001 26.3008) (xy 248.621401 26.3008) (xy 248.621401 26.6992) (xy 248.273001 26.6992)
 				)
 			)
 		)
@@ -8358,7 +8382,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "1a7bfa83-8576-4515-a7a6-bd8e7522169d")
-		(at 35.052799 177.5)
+		(at 112.947201 78.5)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R44"
 			(at 0 0 0)
@@ -8637,7 +8661,7 @@
 			)
 			(polygon
 				(pts
-					(xy 34.878599 177.3008) (xy 35.226999 177.3008) (xy 35.226999 177.6992) (xy 34.878599 177.6992)
+					(xy 112.773001 78.3008) (xy 113.121401 78.3008) (xy 113.121401 78.6992) (xy 112.773001 78.6992)
 				)
 			)
 		)
@@ -9397,7 +9421,7 @@
 	(footprint "Capacitor-1206:Capacitor_1206"
 		(layer "F.Cu")
 		(uuid "1df5b903-c796-40f0-901d-57d68db1b61d")
-		(at 68.915 90.36)
+		(at 257 46.5)
 		(descr "1206")
 		(tags "Capacitor")
 		(property "Reference" "C24"
@@ -10215,7 +10239,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "228bcbca-03b6-4a09-88e5-36a9c6bc9060")
-		(at 66.288005 49.8208)
+		(at 265.447201 31.3396)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R6"
 			(at 0 0 0)
@@ -10494,7 +10518,7 @@
 			)
 			(polygon
 				(pts
-					(xy 66.113805 49.6216) (xy 66.462205 49.6216) (xy 66.462205 50.02) (xy 66.113805 50.02)
+					(xy 265.273001 31.1404) (xy 265.621401 31.1404) (xy 265.621401 31.5388) (xy 265.273001 31.5388)
 				)
 			)
 		)
@@ -11211,7 +11235,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "27cd2de6-1578-4e01-840b-c475669e0998")
-		(at 73.131201 43.3396)
+		(at 26.947201 174)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R21"
 			(at 0 0 0)
@@ -11490,7 +11514,7 @@
 			)
 			(polygon
 				(pts
-					(xy 72.957001 43.1404) (xy 73.305401 43.1404) (xy 73.305401 43.5388) (xy 72.957001 43.5388)
+					(xy 26.773001 173.8008) (xy 27.121401 173.8008) (xy 27.121401 174.1992) (xy 26.773001 174.1992)
 				)
 			)
 		)
@@ -12470,7 +12494,7 @@
 	(footprint "Capacitor-0603:Capacitor_0603"
 		(layer "F.Cu")
 		(uuid "295c7aa2-c9a7-4af0-8382-5d275fbf847f")
-		(at 80.99 108.28)
+		(at 267.225 18.5)
 		(property "Reference" "C18"
 			(at -0.24 -1.08 0)
 			(layer "F.SilkS")
@@ -12636,7 +12660,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "29f92623-72ac-4e7d-811b-4dd2f35cf978")
-		(at 80.6611 94.7328)
+		(at 125.4285 118.8316)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C5"
 			(at 0 0 0)
@@ -12926,7 +12950,7 @@
 			)
 			(polygon
 				(pts
-					(xy 80.4198 94.5296) (xy 80.9024 94.5296) (xy 80.9024 94.936) (xy 80.4198 94.936)
+					(xy 125.1872 118.6284) (xy 125.6698 118.6284) (xy 125.6698 119.0348) (xy 125.1872 119.0348)
 				)
 			)
 		)
@@ -12934,7 +12958,7 @@
 	(footprint "Test Hook:KEYSTONE_5277"
 		(layer "F.Cu")
 		(uuid "2aca19aa-eac5-44e7-9cc6-619f34b51846")
-		(at -18 27.27)
+		(at 76 129.27)
 		(property "Reference" "TP31"
 			(at 0.032 -2.2064 0)
 			(layer "F.SilkS")
@@ -13214,7 +13238,7 @@
 	(footprint "DMP2040USD-13:SOIC127P600X175-8N"
 		(layer "F.Cu")
 		(uuid "2aeed17d-36e6-4030-b932-cd04312a7904")
-		(at 189.3 51.095)
+		(at 275.5 31.5)
 		(descr "SO-8")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC6"
@@ -13583,7 +13607,7 @@
 	(footprint "Capacitor-1206:Capacitor_1206"
 		(layer "F.Cu")
 		(uuid "2b1b0b1d-7129-440f-b8ab-b6679e7999e2")
-		(at 68.915 99.87)
+		(at 44.0582 83.2424)
 		(descr "1206")
 		(tags "Capacitor")
 		(property "Reference" "C_IN3"
@@ -14590,7 +14614,7 @@
 	(footprint "LED-Red_VLMS1500-GS08:LED_00-GS08_VIS_RED"
 		(layer "F.Cu")
 		(uuid "2e83f77b-b3f1-48c4-a350-63207f50aa48")
-		(at 89.3615 115.4592)
+		(at 253.5047 39)
 		(tags "VLMS1500-GS08 ")
 		(property "Reference" "LED1"
 			(at 0 0 0)
@@ -14891,7 +14915,7 @@
 			)
 			(polygon
 				(pts
-					(xy 89.2726 115.256) (xy 89.4504 115.256) (xy 89.4504 115.6624) (xy 89.2726 115.6624)
+					(xy 253.4158 38.7968) (xy 253.5936 38.7968) (xy 253.5936 39.2032) (xy 253.4158 39.2032)
 				)
 			)
 		)
@@ -14899,7 +14923,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "30b00851-a1b3-4a37-9867-8648d7ade3d6")
-		(at 90.7477 94.7328)
+		(at 65.8909 78.1052)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C_IN_HFI4"
 			(at 0 0 0)
@@ -15189,7 +15213,7 @@
 			)
 			(polygon
 				(pts
-					(xy 90.5064 94.5296) (xy 90.989 94.5296) (xy 90.989 94.936) (xy 90.5064 94.936)
+					(xy 65.6496 77.902) (xy 66.1322 77.902) (xy 66.1322 78.3084) (xy 65.6496 78.3084)
 				)
 			)
 		)
@@ -15197,7 +15221,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "32d3e9e4-7a46-4ffb-a8ee-0ae8d090f7b2")
-		(at 90.7477 86.0592)
+		(at 65.8909 69.4316)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C_FF1"
 			(at 0 0 0)
@@ -15487,7 +15511,7 @@
 			)
 			(polygon
 				(pts
-					(xy 90.5064 85.856) (xy 90.989 85.856) (xy 90.989 86.2624) (xy 90.5064 86.2624)
+					(xy 65.6496 69.2284) (xy 66.1322 69.2284) (xy 66.1322 69.6348) (xy 65.6496 69.6348)
 				)
 			)
 		)
@@ -15782,7 +15806,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "34e083bc-e1da-44c9-a010-43e95e08348e")
-		(at 87.3855 96.9012)
+		(at 62.5287 80.2736)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C37"
 			(at 0 0 0)
@@ -16072,7 +16096,7 @@
 			)
 			(polygon
 				(pts
-					(xy 87.1442 96.698) (xy 87.6268 96.698) (xy 87.6268 97.1044) (xy 87.1442 97.1044)
+					(xy 62.2874 80.0704) (xy 62.77 80.0704) (xy 62.77 80.4768) (xy 62.2874 80.4768)
 				)
 			)
 		)
@@ -16445,7 +16469,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "3612c777-707a-4571-b28d-5c44662695f8")
-		(at 90.7477 96.9012)
+		(at 65.8909 80.2736)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C_IN_HFI5"
 			(at 0 0 0)
@@ -16735,7 +16759,7 @@
 			)
 			(polygon
 				(pts
-					(xy 90.5064 96.698) (xy 90.989 96.698) (xy 90.989 97.1044) (xy 90.5064 97.1044)
+					(xy 65.6496 80.0704) (xy 66.1322 80.0704) (xy 66.1322 80.4768) (xy 65.6496 80.4768)
 				)
 			)
 		)
@@ -17030,7 +17054,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "39165e64-469f-4882-b760-ecec5a024960")
-		(at 84.0233 92.5644)
+		(at 256.4285 24.3316)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C20"
 			(at 0 0 0)
@@ -17320,7 +17344,7 @@
 			)
 			(polygon
 				(pts
-					(xy 83.782 92.3612) (xy 84.2646 92.3612) (xy 84.2646 92.7676) (xy 83.782 92.7676)
+					(xy 256.1872 24.1284) (xy 256.6698 24.1284) (xy 256.6698 24.5348) (xy 256.1872 24.5348)
 				)
 			)
 		)
@@ -18313,7 +18337,7 @@
 	(footprint "SQJA36EP-T1-GE3:PowerPAK_SO-8L_3_VIS"
 		(layer "F.Cu")
 		(uuid "3aded644-256e-4756-be1c-cf7d72bc62a3")
-		(at 74.8321 93.1866)
+		(at 25.5 168.1303)
 		(tags "SQJA36EP-T1_GE3 ")
 		(property "Reference" "U1"
 			(at 0 0 0)
@@ -19057,7 +19081,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "3b76c6e6-4b19-406a-a59d-36578d6a9fa4")
-		(at 87.3855 88.2276)
+		(at 62.5287 71.6)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C33"
 			(at 0 0 0)
@@ -19347,7 +19371,7 @@
 			)
 			(polygon
 				(pts
-					(xy 87.1442 88.0244) (xy 87.6268 88.0244) (xy 87.6268 88.4308) (xy 87.1442 88.4308)
+					(xy 62.2874 71.3968) (xy 62.77 71.3968) (xy 62.77 71.8032) (xy 62.2874 71.8032)
 				)
 			)
 		)
@@ -19355,7 +19379,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "3bb915f9-0635-44a9-a6a7-9feeb6bfc459")
-		(at 79.974397 41.1792)
+		(at 63.447201 136.5)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R40"
 			(at 0 0 0)
@@ -19634,7 +19658,7 @@
 			)
 			(polygon
 				(pts
-					(xy 79.800197 40.98) (xy 80.148597 40.98) (xy 80.148597 41.3784) (xy 79.800197 41.3784)
+					(xy 63.273001 136.3008) (xy 63.621401 136.3008) (xy 63.621401 136.6992) (xy 63.273001 136.6992)
 				)
 			)
 		)
@@ -20722,7 +20746,7 @@
 	(footprint "Capacitor-0603:Capacitor_0603"
 		(layer "F.Cu")
 		(uuid "41976ebd-9f3a-4844-959b-b46e0d76bbd7")
-		(at 80.99 115.87)
+		(at 56.1332 99.2424)
 		(property "Reference" "C_BIAS1"
 			(at -0.24 -1.08 0)
 			(layer "F.SilkS")
@@ -21463,7 +21487,7 @@
 	(footprint "Test Hook:KEYSTONE_5277"
 		(layer "F.Cu")
 		(uuid "42fef22f-4028-4d0b-9164-24b0897b3c70")
-		(at -8.54 27.27)
+		(at 230 20.5)
 		(property "Reference" "TP49"
 			(at 0.032 -2.2064 0)
 			(layer "F.SilkS")
@@ -21576,7 +21600,7 @@
 	(footprint "Resistor-0805:RES_0805"
 		(layer "F.Cu")
 		(uuid "46aa3dc2-984e-4d6b-a41f-a9bf82281038")
-		(at 75.15 100.56)
+		(at 50.2932 83.9324)
 		(descr "ERA6A")
 		(tags "Resistor")
 		(property "Reference" "Rsense1"
@@ -22108,7 +22132,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "4a42adcd-8259-4327-9448-4fb1711af8e0")
-		(at 87.3855 90.396)
+		(at 62.5287 73.7684)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C34"
 			(at 0 0 0)
@@ -22398,7 +22422,7 @@
 			)
 			(polygon
 				(pts
-					(xy 87.1442 90.1928) (xy 87.6268 90.1928) (xy 87.6268 90.5992) (xy 87.1442 90.5992)
+					(xy 62.2874 73.5652) (xy 62.77 73.5652) (xy 62.77 73.9716) (xy 62.2874 73.9716)
 				)
 			)
 		)
@@ -23966,7 +23990,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "4da42bd2-745d-4bc5-88f1-40f972889940")
-		(at 33.552799 179)
+		(at 111.447201 80)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R50"
 			(at 0 0 0)
@@ -24245,7 +24269,7 @@
 			)
 			(polygon
 				(pts
-					(xy 33.378599 178.8008) (xy 33.726999 178.8008) (xy 33.726999 179.1992) (xy 33.378599 179.1992)
+					(xy 111.273001 79.8008) (xy 111.621401 79.8008) (xy 111.621401 80.1992) (xy 111.273001 80.1992)
 				)
 			)
 		)
@@ -25840,7 +25864,7 @@
 	(footprint "ADS1115:ADS1115IRUGR"
 		(layer "F.Cu")
 		(uuid "52d92683-7218-4e8e-a5dd-fa155248df80")
-		(at 185.4039 86.751599)
+		(at 66.25 129.138)
 		(descr "ADS1115IRUGR-4")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC4"
@@ -26587,7 +26611,7 @@
 	(footprint "USBC-PD_CYPD3177:QFN50P400X400X60-25N-D"
 		(layer "F.Cu")
 		(uuid "54884ad7-ae06-4821-aa46-3601db5baef1")
-		(at 113.489201 53.7248)
+		(at 260.75 25)
 		(descr "PG-VQFN-24")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC2"
@@ -27070,7 +27094,7 @@
 	(footprint "Capacitor-0603:Capacitor_0603"
 		(layer "F.Cu")
 		(uuid "54f53dc8-f9a2-4448-b893-622293b2b037")
-		(at 80.99 113.34)
+		(at 256.225 29)
 		(property "Reference" "C22"
 			(at -0.24 -1.08 0)
 			(layer "F.SilkS")
@@ -27236,7 +27260,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "55254416-e85a-4a65-8255-3565d30a4419")
-		(at 80.6611 92.5644)
+		(at 73.4285 123.5)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C4"
 			(at 0 0 0)
@@ -27526,7 +27550,7 @@
 			)
 			(polygon
 				(pts
-					(xy 80.4198 92.3612) (xy 80.9024 92.3612) (xy 80.9024 92.7676) (xy 80.4198 92.7676)
+					(xy 73.1872 123.2968) (xy 73.6698 123.2968) (xy 73.6698 123.7032) (xy 73.1872 123.7032)
 				)
 			)
 		)
@@ -27854,7 +27878,7 @@
 			)
 		)
 		(property "Footprint" "Resistor-0603:RES_0603"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9a5f10a6-7fd1-4da0-b2ef-ee3bb2ea041b")
@@ -27866,7 +27890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f0bae903-be91-48b8-8bc5-2261f804130a")
@@ -27878,7 +27902,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "132e8c16-50a8-415d-976d-26534085e2f9")
@@ -28134,7 +28158,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "5ad597b2-dba5-456b-98cf-44895d9b11f5")
-		(at 87.3855 103.4064)
+		(at 62.5287 86.7788)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C_BT3"
 			(at 0 0 0)
@@ -28424,7 +28448,7 @@
 			)
 			(polygon
 				(pts
-					(xy 87.1442 103.2032) (xy 87.6268 103.2032) (xy 87.6268 103.6096) (xy 87.1442 103.6096)
+					(xy 62.2874 86.5756) (xy 62.77 86.5756) (xy 62.77 86.982) (xy 62.2874 86.982)
 				)
 			)
 		)
@@ -28643,7 +28667,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "5e36d4c9-37ee-4f19-a0a0-ee2dcbb58816")
-		(at 79.974397 45.5)
+		(at 63.052799 134.5)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R42"
 			(at 0 0 0)
@@ -28922,7 +28946,7 @@
 			)
 			(polygon
 				(pts
-					(xy 79.800197 45.3008) (xy 80.148597 45.3008) (xy 80.148597 45.6992) (xy 79.800197 45.6992)
+					(xy 62.878599 134.3008) (xy 63.226999 134.3008) (xy 63.226999 134.6992) (xy 62.878599 134.6992)
 				)
 			)
 		)
@@ -29237,7 +29261,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "601aa1ed-4421-46f7-be4b-16eefc05cc0e")
-		(at 69.709603 54.1416)
+		(at 265.447201 39)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R17"
 			(at 0 0 0)
@@ -29516,7 +29540,7 @@
 			)
 			(polygon
 				(pts
-					(xy 69.535403 53.9424) (xy 69.883803 53.9424) (xy 69.883803 54.3408) (xy 69.535403 54.3408)
+					(xy 265.273001 38.8008) (xy 265.621401 38.8008) (xy 265.621401 39.1992) (xy 265.273001 39.1992)
 				)
 			)
 		)
@@ -30358,7 +30382,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "63aa4a7a-810f-4aec-8e22-f69014b0422d")
-		(at 76.552799 39.0188)
+		(at 271.447201 18)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R30"
 			(at 0 0 0)
@@ -30637,7 +30661,7 @@
 			)
 			(polygon
 				(pts
-					(xy 76.378599 38.8196) (xy 76.726999 38.8196) (xy 76.726999 39.218) (xy 76.378599 39.218)
+					(xy 271.273001 17.8008) (xy 271.621401 17.8008) (xy 271.621401 18.1992) (xy 271.273001 18.1992)
 				)
 			)
 		)
@@ -30758,7 +30782,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "6563e889-5830-419e-968c-a36f87dc02aa")
-		(at 73.131201 49.8208)
+		(at 249.5 21)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R24"
 			(at 0 0 0)
@@ -31037,7 +31061,7 @@
 			)
 			(polygon
 				(pts
-					(xy 72.957001 49.6216) (xy 73.305401 49.6216) (xy 73.305401 50.02) (xy 72.957001 50.02)
+					(xy 249.3258 20.8008) (xy 249.6742 20.8008) (xy 249.6742 21.1992) (xy 249.3258 21.1992)
 				)
 			)
 		)
@@ -31045,7 +31069,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "66a45b80-fb83-48f2-ba5a-593eafe213af")
-		(at 87.3855 99.0696)
+		(at 62.5287 82.442)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C_BT1"
 			(at 0 0 0)
@@ -31335,7 +31359,7 @@
 			)
 			(polygon
 				(pts
-					(xy 87.1442 98.8664) (xy 87.6268 98.8664) (xy 87.6268 99.2728) (xy 87.1442 99.2728)
+					(xy 62.2874 82.2388) (xy 62.77 82.2388) (xy 62.77 82.6452) (xy 62.2874 82.6452)
 				)
 			)
 		)
@@ -31475,7 +31499,7 @@
 	(footprint "Capacitor-1206:Capacitor_1206"
 		(layer "F.Cu")
 		(uuid "69605282-6a88-4d0b-a242-6d07fd3b9550")
-		(at 68.915 103.04)
+		(at 44.0582 86.4124)
 		(descr "1206")
 		(tags "Capacitor")
 		(property "Reference" "C_IN4"
@@ -32933,7 +32957,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "6c7ff36c-5a6c-48ab-a4be-64dedb01cda4")
-		(at 84.0233 90.396)
+		(at 59.1665 73.7684)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C12"
 			(at 0 0 0)
@@ -33223,7 +33247,7 @@
 			)
 			(polygon
 				(pts
-					(xy 83.782 90.1928) (xy 84.2646 90.1928) (xy 84.2646 90.5992) (xy 83.782 90.5992)
+					(xy 58.9252 73.5652) (xy 59.4078 73.5652) (xy 59.4078 73.9716) (xy 58.9252 73.9716)
 				)
 			)
 		)
@@ -33231,7 +33255,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "6ca9c8e8-90a5-48d6-afdf-e9daebee9d8d")
-		(at 87.3855 86.0592)
+		(at 62.5287 69.4316)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C32"
 			(at 0 0 0)
@@ -33521,7 +33545,7 @@
 			)
 			(polygon
 				(pts
-					(xy 87.1442 85.856) (xy 87.6268 85.856) (xy 87.6268 86.2624) (xy 87.1442 86.2624)
+					(xy 62.2874 69.2284) (xy 62.77 69.2284) (xy 62.77 69.6348) (xy 62.2874 69.6348)
 				)
 			)
 		)
@@ -33836,7 +33860,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "6cfc0c1d-0322-45e3-bd21-b00716d1f5b9")
-		(at 87.3855 101.238)
+		(at 62.5287 84.6104)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C_BT2"
 			(at 0 0 0)
@@ -34126,7 +34150,7 @@
 			)
 			(polygon
 				(pts
-					(xy 87.1442 101.0348) (xy 87.6268 101.0348) (xy 87.6268 101.4412) (xy 87.1442 101.4412)
+					(xy 62.2874 84.4072) (xy 62.77 84.4072) (xy 62.77 84.8136) (xy 62.2874 84.8136)
 				)
 			)
 		)
@@ -34134,7 +34158,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "6e15576a-ebd4-46d4-aeac-60d1a5107091")
-		(at 80.6611 103.4064)
+		(at 55.8043 86.7788)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C9"
 			(at 0 0 0)
@@ -34424,7 +34448,7 @@
 			)
 			(polygon
 				(pts
-					(xy 80.4198 103.2032) (xy 80.9024 103.2032) (xy 80.9024 103.6096) (xy 80.4198 103.6096)
+					(xy 55.563 86.5756) (xy 56.0456 86.5756) (xy 56.0456 86.982) (xy 55.563 86.982)
 				)
 			)
 		)
@@ -34432,7 +34456,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "6eeba010-c956-410b-b35b-2455dbd02634")
-		(at 69.709603 51.9812)
+		(at 120.947201 123)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R16"
 			(at 0 0 0)
@@ -34711,7 +34735,7 @@
 			)
 			(polygon
 				(pts
-					(xy 69.535403 51.782) (xy 69.883803 51.782) (xy 69.883803 52.1804) (xy 69.535403 52.1804)
+					(xy 120.773001 122.8008) (xy 121.121401 122.8008) (xy 121.121401 123.1992) (xy 120.773001 123.1992)
 				)
 			)
 		)
@@ -34719,7 +34743,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "6f979f8e-ab47-4c15-b755-eb86cf1cf247")
-		(at 84.0233 96.9012)
+		(at 59.1665 80.2736)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C23"
 			(at 0 0 0)
@@ -35009,7 +35033,7 @@
 			)
 			(polygon
 				(pts
-					(xy 83.782 96.698) (xy 84.2646 96.698) (xy 84.2646 97.1044) (xy 83.782 97.1044)
+					(xy 58.9252 80.0704) (xy 59.4078 80.0704) (xy 59.4078 80.4768) (xy 58.9252 80.4768)
 				)
 			)
 		)
@@ -35130,7 +35154,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "7099d5aa-aaab-4c9d-83cf-69b3fdcb8e2d")
-		(at 80.6611 96.9012)
+		(at 125.4285 121)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C6"
 			(at 0 0 0)
@@ -35420,7 +35444,7 @@
 			)
 			(polygon
 				(pts
-					(xy 80.4198 96.698) (xy 80.9024 96.698) (xy 80.9024 97.1044) (xy 80.4198 97.1044)
+					(xy 125.1872 120.7968) (xy 125.6698 120.7968) (xy 125.6698 121.2032) (xy 125.1872 121.2032)
 				)
 			)
 		)
@@ -36146,7 +36170,7 @@
 	(footprint "Test Hook:KEYSTONE_5277"
 		(layer "F.Cu")
 		(uuid "73b63f5e-0697-491b-9a83-80b0847e6828")
-		(at -22.73 22.54)
+		(at 97.5 129.5)
 		(property "Reference" "TP21"
 			(at 0.032 -2.2064 0)
 			(layer "F.SilkS")
@@ -36259,7 +36283,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "74529e3b-75d2-4948-9dae-dd62c1352277")
-		(at 84.0233 86.0592)
+		(at 59.1665 69.4316)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C10"
 			(at 0 0 0)
@@ -36549,7 +36573,7 @@
 			)
 			(polygon
 				(pts
-					(xy 83.782 85.856) (xy 84.2646 85.856) (xy 84.2646 86.2624) (xy 83.782 86.2624)
+					(xy 58.9252 69.2284) (xy 59.4078 69.2284) (xy 59.4078 69.6348) (xy 58.9252 69.6348)
 				)
 			)
 		)
@@ -36783,10 +36807,10 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "78ba694d-8990-4c86-8b0b-9105da5c03cd")
-		(at 140.5 74)
+		(at 140.5 74 -90)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R52"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a53865d1-ad2f-4047-9775-1c8bf3206f7e")
@@ -36798,7 +36822,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "dd73eba9-742d-4698-ba65-0ec5de301978")
@@ -36810,7 +36834,7 @@
 			)
 		)
 		(property "Footprint" "Resistor-0402:RES_0402"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "38f1de1a-2c72-4fdb-b33e-a937629065dd")
@@ -36822,7 +36846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "25da48b6-d622-44fe-a9a0-5801e67fd240")
@@ -36834,7 +36858,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b8015cfd-7545-4202-9ce1-3af86aba4b2e")
@@ -36851,16 +36875,6 @@
 		(sheetfile "RP2040 Standard Design.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -1.134599 -0.504)
-			(end 1.134599 -0.504)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "26bbe3fe-d734-40b0-845d-57906cd5bbcb")
-		)
-		(fp_line
 			(start -1.134599 0.504)
 			(end -1.134599 -0.504)
 			(stroke
@@ -36869,16 +36883,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "3c1b6437-f563-4528-ba5b-6877e2773f3c")
-		)
-		(fp_line
-			(start 1.134599 -0.504)
-			(end 1.134599 0.504)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3bcd163a-5796-4fd8-97c9-a6d3f4635678")
 		)
 		(fp_line
 			(start 1.134599 0.504)
@@ -36891,24 +36895,24 @@
 			(uuid "3657ee0a-9f99-4744-b5d7-8f949ffa6a70")
 		)
 		(fp_line
-			(start -0.524999 -0.249999)
-			(end -0.524999 0.249999)
+			(start -1.134599 -0.504)
+			(end 1.134599 -0.504)
 			(stroke
-				(width 0.0254)
+				(width 0.1524)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "2fa0af53-dac1-4037-a5c7-fa567bb8c6f6")
+			(layer "F.CrtYd")
+			(uuid "26bbe3fe-d734-40b0-845d-57906cd5bbcb")
 		)
 		(fp_line
-			(start -0.524999 -0.249999)
-			(end -0.524999 0.249999)
+			(start 1.134599 -0.504)
+			(end 1.134599 0.504)
 			(stroke
-				(width 0.0254)
+				(width 0.1524)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "4cf0112c-39ce-42c8-a7b4-93ae523ac753")
+			(layer "F.CrtYd")
+			(uuid "3bcd163a-5796-4fd8-97c9-a6d3f4635678")
 		)
 		(fp_line
 			(start -0.524999 0.249999)
@@ -36931,16 +36935,6 @@
 			(uuid "70b9e07f-ff1e-406c-91de-1738ebba21c8")
 		)
 		(fp_line
-			(start -0.225 -0.249999)
-			(end -0.524999 -0.249999)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "78d1340f-bad3-4b92-b7a9-fe99b8c3d040")
-		)
-		(fp_line
 			(start -0.225 0.249999)
 			(end -0.225 -0.249999)
 			(stroke
@@ -36951,16 +36945,6 @@
 			(uuid "8972f36a-a90d-41f0-bcd3-35ccbdafe9d2")
 		)
 		(fp_line
-			(start 0.225 -0.249999)
-			(end 0.225 0.249999)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "703d27ce-14e7-4bde-aa8b-eabea67993e6")
-		)
-		(fp_line
 			(start 0.225 0.249999)
 			(end 0.524999 0.249999)
 			(stroke
@@ -36969,26 +36953,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "1a484951-2155-4ce4-a6e5-7fc26cc8f4e6")
-		)
-		(fp_line
-			(start 0.524999 -0.249999)
-			(end -0.524999 -0.249999)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "29db8173-d76a-4e98-af75-a7f3b5e7188f")
-		)
-		(fp_line
-			(start 0.524999 -0.249999)
-			(end 0.225 -0.249999)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6a9ece4e-e832-49a5-9b24-278b5829d97e")
 		)
 		(fp_line
 			(start 0.524999 0.249999)
@@ -37010,8 +36974,68 @@
 			(layer "F.Fab")
 			(uuid "f067657b-ec05-437f-a068-758b15a17b52")
 		)
+		(fp_line
+			(start -0.524999 -0.249999)
+			(end -0.524999 0.249999)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2fa0af53-dac1-4037-a5c7-fa567bb8c6f6")
+		)
+		(fp_line
+			(start -0.524999 -0.249999)
+			(end -0.524999 0.249999)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4cf0112c-39ce-42c8-a7b4-93ae523ac753")
+		)
+		(fp_line
+			(start -0.225 -0.249999)
+			(end -0.524999 -0.249999)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "78d1340f-bad3-4b92-b7a9-fe99b8c3d040")
+		)
+		(fp_line
+			(start 0.225 -0.249999)
+			(end 0.225 0.249999)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "703d27ce-14e7-4bde-aa8b-eabea67993e6")
+		)
+		(fp_line
+			(start 0.524999 -0.249999)
+			(end -0.524999 -0.249999)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "29db8173-d76a-4e98-af75-a7f3b5e7188f")
+		)
+		(fp_line
+			(start 0.524999 -0.249999)
+			(end 0.225 -0.249999)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6a9ece4e-e832-49a5-9b24-278b5829d97e")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ca4ecb3f-9ce8-493c-b07d-ca9e95498883")
@@ -37023,7 +37047,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.552799 0)
+			(at -0.552799 0 270)
 			(size 0.655599 0.499999)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 147 "/RP2040 Standard1/~{USB_BOOT}")
@@ -37031,7 +37055,7 @@
 			(uuid "70458b1e-0c11-4447-8b42-0d773bc3e679")
 		)
 		(pad "2" smd rect
-			(at 0.552799 0)
+			(at 0.552799 0 270)
 			(size 0.655599 0.499999)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 136 "/RP2040 Standard1/MCU QSPI_SS")
@@ -37062,7 +37086,7 @@
 			)
 			(polygon
 				(pts
-					(xy 140.3258 73.8008) (xy 140.6742 73.8008) (xy 140.6742 74.1992) (xy 140.3258 74.1992)
+					(xy 140.6992 73.8258) (xy 140.6992 74.1742) (xy 140.3008 74.1742) (xy 140.3008 73.8258)
 				)
 			)
 		)
@@ -37070,7 +37094,7 @@
 	(footprint "Capacitor-0603:Capacitor_0603"
 		(layer "F.Cu")
 		(uuid "7a1a3791-8905-448f-a4a3-44d4c23af7a7")
-		(at 85.01 108.28)
+		(at 60.1532 91.6524)
 		(property "Reference" "C_OUT1"
 			(at -0.24 -1.08 0)
 			(layer "F.SilkS")
@@ -37263,7 +37287,7 @@
 			)
 		)
 		(property "Footprint" "Resistor-0603:RES_0603"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e3d18397-ccc8-4fe1-b307-fc18688a6e36")
@@ -37275,7 +37299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b2c1eec-19a7-4c4e-b829-ae1c99a424d8")
@@ -37287,7 +37311,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "99b6e6b5-cb70-4d80-8c87-e204f97755ae")
@@ -37543,7 +37567,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "7c5e52d8-9dc5-4f6f-a61b-0722dfb3e9b6")
-		(at 79.974397 47.6604)
+		(at 74.052799 137)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R45"
 			(at 0 0 0)
@@ -37822,7 +37846,7 @@
 			)
 			(polygon
 				(pts
-					(xy 79.800197 47.4612) (xy 80.148597 47.4612) (xy 80.148597 47.8596) (xy 79.800197 47.8596)
+					(xy 73.878599 136.8008) (xy 74.226999 136.8008) (xy 74.226999 137.1992) (xy 73.878599 137.1992)
 				)
 			)
 		)
@@ -37830,7 +37854,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "7d2e7320-592b-4a6b-a597-bfd3ae5596b6")
-		(at 108.4435 96.3666)
+		(at 161.0715 138.8316)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "CV15"
 			(at 0 0 0)
@@ -38120,7 +38144,7 @@
 			)
 			(polygon
 				(pts
-					(xy 108.2022 96.1634) (xy 108.6848 96.1634) (xy 108.6848 96.5698) (xy 108.2022 96.5698)
+					(xy 160.8302 138.6284) (xy 161.3128 138.6284) (xy 161.3128 139.0348) (xy 160.8302 139.0348)
 				)
 			)
 		)
@@ -38128,7 +38152,7 @@
 	(footprint "Capacitor-0603:Capacitor_0603"
 		(layer "F.Cu")
 		(uuid "7d4e4817-5187-4283-95f9-a73621ba8afd")
-		(at 80.99 105.75)
+		(at 259.5 19.5)
 		(property "Reference" "C17"
 			(at -0.24 -1.08 0)
 			(layer "F.SilkS")
@@ -38294,7 +38318,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "7e1e5650-229c-4b98-a84b-9ffbd21a8888")
-		(at 84.0233 101.238)
+		(at 69.5715 138.5)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C30"
 			(at 0 0 0)
@@ -38584,7 +38608,7 @@
 			)
 			(polygon
 				(pts
-					(xy 83.782 101.0348) (xy 84.2646 101.0348) (xy 84.2646 101.4412) (xy 83.782 101.4412)
+					(xy 69.3302 138.2968) (xy 69.8128 138.2968) (xy 69.8128 138.7032) (xy 69.3302 138.7032)
 				)
 			)
 		)
@@ -38592,7 +38616,7 @@
 	(footprint "LED-Driver_NCR420ZX:SOT230P700X180-4N"
 		(layer "F.Cu")
 		(uuid "80df0fe5-e50f-483e-8028-367bd6348f0c")
-		(at 143 124.5)
+		(at 246.5 39)
 		(descr "SOT223 (SC-73)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC7"
@@ -39232,7 +39256,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "8208c4b5-4e82-44a9-aa72-b8e70d0420f0")
-		(at 66.288005 43.3396)
+		(at 266.947201 45.8396)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R3"
 			(at 0 0 0)
@@ -39511,7 +39535,7 @@
 			)
 			(polygon
 				(pts
-					(xy 66.113805 43.1404) (xy 66.462205 43.1404) (xy 66.462205 43.5388) (xy 66.113805 43.5388)
+					(xy 266.773001 45.6404) (xy 267.121401 45.6404) (xy 267.121401 46.0388) (xy 266.773001 46.0388)
 				)
 			)
 		)
@@ -39519,7 +39543,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "834c384c-3fe4-4441-8429-338d2d116358")
-		(at 90.7477 90.396)
+		(at 65.8909 73.7684)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C_IN_HFI2"
 			(at 0 0 0)
@@ -39809,7 +39833,7 @@
 			)
 			(polygon
 				(pts
-					(xy 90.5064 90.1928) (xy 90.989 90.1928) (xy 90.989 90.5992) (xy 90.5064 90.5992)
+					(xy 65.6496 73.5652) (xy 66.1322 73.5652) (xy 66.1322 73.9716) (xy 65.6496 73.9716)
 				)
 			)
 		)
@@ -39817,7 +39841,7 @@
 	(footprint "DMP2040USD-13:SOIC127P600X175-8N"
 		(layer "F.Cu")
 		(uuid "83e4fec6-cd17-4564-9f97-0bf0e4d3229e")
-		(at 189.3 44.595)
+		(at 240.5 23)
 		(descr "SO-8")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC3"
@@ -40186,7 +40210,7 @@
 	(footprint "INA181A4QDCKRQ1:SOT65P210X110-6N"
 		(layer "F.Cu")
 		(uuid "8403be77-fd06-4dbe-be1f-1892d3f2a438")
-		(at 73.825 108.935)
+		(at 48.9682 92.3074)
 		(descr "DCK0006A")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC5"
@@ -41173,7 +41197,7 @@
 	(footprint "Capacitor-0603:Capacitor_0603"
 		(layer "F.Cu")
 		(uuid "854bc43e-f331-4840-ade0-e327da15e46b")
-		(at 85.01 105.75)
+		(at 60.1532 89.1224)
 		(property "Reference" "C_BIAS2"
 			(at -0.24 -1.08 0)
 			(layer "F.SilkS")
@@ -41339,7 +41363,7 @@
 	(footprint "Capacitor-1206:Capacitor_1206"
 		(layer "F.Cu")
 		(uuid "8570c7c9-1676-4e0b-8b27-5ac30a810e01")
-		(at 68.915 96.7)
+		(at 44.0582 80.0724)
 		(descr "1206")
 		(tags "Capacitor")
 		(property "Reference" "C_IN2"
@@ -43261,7 +43285,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "8bc6082c-6398-4f8f-9576-1413a772e326")
-		(at 80.6611 88.2276)
+		(at 73.4285 119.1632)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C2"
 			(at 0 0 0)
@@ -43551,7 +43575,7 @@
 			)
 			(polygon
 				(pts
-					(xy 80.4198 88.0244) (xy 80.9024 88.0244) (xy 80.9024 88.4308) (xy 80.4198 88.4308)
+					(xy 73.1872 118.96) (xy 73.6698 118.96) (xy 73.6698 119.3664) (xy 73.1872 119.3664)
 				)
 			)
 		)
@@ -45269,7 +45293,7 @@
 	(footprint "SD-CARD_MEM2061-01-188-00-A:GCT_MEM2061-01-188-00-A_REVA"
 		(layer "F.Cu")
 		(uuid "9259fcd6-3a84-43b1-8daa-36da6efb1208")
-		(at 26.45 93.325)
+		(at 26.75 132.325)
 		(property "Reference" "J4"
 			(at -2.42133 -9.32106 0)
 			(layer "F.SilkS")
@@ -45774,7 +45798,7 @@
 			)
 			(polygon
 				(pts
-					(xy 19.43947 88.15) (xy 29.82 88.15) (xy 29.82 90.22535) (xy 19.43947 90.22535)
+					(xy 19.73947 127.15) (xy 30.12 127.15) (xy 30.12 129.22535) (xy 19.73947 129.22535)
 				)
 			)
 		)
@@ -45782,7 +45806,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "92b0f5e1-6a9f-4d72-8b04-0bb8b2a6679a")
-		(at 76.552799 54.1416)
+		(at 239.552799 41)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R37"
 			(at 0 0 0)
@@ -46061,7 +46085,7 @@
 			)
 			(polygon
 				(pts
-					(xy 76.378599 53.9424) (xy 76.726999 53.9424) (xy 76.726999 54.3408) (xy 76.378599 54.3408)
+					(xy 239.378599 40.8008) (xy 239.726999 40.8008) (xy 239.726999 41.1992) (xy 239.378599 41.1992)
 				)
 			)
 		)
@@ -46778,7 +46802,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "97cca4bf-dfd0-45b7-9cb5-a94ac7341d43")
-		(at 66.288005 56.302)
+		(at 265.447201 37)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R9"
 			(at 0 0 0)
@@ -47057,7 +47081,7 @@
 			)
 			(polygon
 				(pts
-					(xy 66.113805 56.1028) (xy 66.462205 56.1028) (xy 66.462205 56.5012) (xy 66.113805 56.5012)
+					(xy 265.273001 36.8008) (xy 265.621401 36.8008) (xy 265.621401 37.1992) (xy 265.273001 37.1992)
 				)
 			)
 		)
@@ -47065,7 +47089,7 @@
 	(footprint "Thermocouple:21-0066J_14_MXM"
 		(layer "F.Cu")
 		(uuid "98eeb84c-c4da-4507-a303-95d640dff3c8")
-		(at 122.05995 137.349999)
+		(at 132.5 124.5)
 		(tags "MAX31856MUD+T ")
 		(property "Reference" "U2"
 			(at 0 0 0)
@@ -48935,7 +48959,7 @@
 	(footprint "SWD_Con:CONN_BM03B-SRSS-TBLFSN_JST"
 		(layer "F.Cu")
 		(uuid "9b1003d8-e409-4fe1-8c8d-8064e7d913b5")
-		(at 34 183)
+		(at 111.999999 83.9284)
 		(tags "BM03B-SRSS-TBLFSN ")
 		(property "Reference" "J18"
 			(at 0 -1.4284 0)
@@ -49220,7 +49244,7 @@
 	(footprint "Capacitor-0603:Capacitor_0603"
 		(layer "F.Cu")
 		(uuid "9bba0ccb-8bcd-469e-ae57-207e27273e00")
-		(at 85.01 110.81)
+		(at 60.1532 94.1824)
 		(property "Reference" "C_VCC1"
 			(at -0.24 -1.08 0)
 			(layer "F.SilkS")
@@ -49764,7 +49788,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "9bfc3b01-3c62-42f3-8c55-ef575b6e44b3")
-		(at 73.131201 56.302)
+		(at 280.947201 45)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R29"
 			(at 0 0 0)
@@ -50043,7 +50067,7 @@
 			)
 			(polygon
 				(pts
-					(xy 72.957001 56.1028) (xy 73.305401 56.1028) (xy 73.305401 56.5012) (xy 72.957001 56.5012)
+					(xy 280.773001 44.8008) (xy 281.121401 44.8008) (xy 281.121401 45.1992) (xy 280.773001 45.1992)
 				)
 			)
 		)
@@ -50051,7 +50075,7 @@
 	(footprint "Capacitor-0603:Capacitor_0603"
 		(layer "F.Cu")
 		(uuid "9c155d98-4cb3-4d73-b1b3-00daeaf8ed0f")
-		(at 80.99 110.81)
+		(at 275.5 38.5)
 		(property "Reference" "C19"
 			(at -0.24 -1.08 0)
 			(layer "F.SilkS")
@@ -50637,7 +50661,7 @@
 	(footprint "Test Hook:KEYSTONE_5277"
 		(layer "F.Cu")
 		(uuid "a12a900b-c834-47e8-a9c7-81a0709f3c01")
-		(at -18 50.92)
+		(at 61.5 125.5)
 		(property "Reference" "TP36"
 			(at 0.032 -2.2064 0)
 			(layer "F.SilkS")
@@ -50917,7 +50941,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "a17cc106-258c-4b79-b27b-676653f57324")
-		(at 73.131201 45.5)
+		(at 240.447201 18)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R22"
 			(at 0 0 0)
@@ -51196,7 +51220,7 @@
 			)
 			(polygon
 				(pts
-					(xy 72.957001 45.3008) (xy 73.305401 45.3008) (xy 73.305401 45.6992) (xy 72.957001 45.6992)
+					(xy 240.273001 17.8008) (xy 240.621401 17.8008) (xy 240.621401 18.1992) (xy 240.273001 18.1992)
 				)
 			)
 		)
@@ -51204,7 +51228,7 @@
 	(footprint "Capacitor-0603:Capacitor_0603"
 		(layer "F.Cu")
 		(uuid "a37bcb19-3c42-477d-9dbf-387e81e0b920")
-		(at 85.01 113.34)
+		(at 60.1532 96.7124)
 		(property "Reference" "C_VCC2"
 			(at -0.24 -1.08 0)
 			(layer "F.SilkS")
@@ -51748,7 +51772,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "a50cf838-cc7d-4741-8830-e3541222f9df")
-		(at 87.3855 92.5644)
+		(at 62.5287 75.9368)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C35"
 			(at 0 0 0)
@@ -52038,7 +52062,7 @@
 			)
 			(polygon
 				(pts
-					(xy 87.1442 92.3612) (xy 87.6268 92.3612) (xy 87.6268 92.7676) (xy 87.1442 92.7676)
+					(xy 62.2874 75.7336) (xy 62.77 75.7336) (xy 62.77 76.14) (xy 62.2874 76.14)
 				)
 			)
 		)
@@ -52344,7 +52368,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "a616489a-e97a-4e8e-ac55-e6b81564f098")
-		(at 69.709603 47.6604)
+		(at 69.709603 123.5)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R14"
 			(at 0 0 0)
@@ -52623,7 +52647,7 @@
 			)
 			(polygon
 				(pts
-					(xy 69.535403 47.4612) (xy 69.883803 47.4612) (xy 69.883803 47.8596) (xy 69.535403 47.8596)
+					(xy 69.535403 123.3008) (xy 69.883803 123.3008) (xy 69.883803 123.6992) (xy 69.535403 123.6992)
 				)
 			)
 		)
@@ -53787,7 +53811,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "aba745f1-9aee-41c0-9d83-ca04dac4c82a")
-		(at 73.131201 51.9812)
+		(at 195.447201 133)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R27"
 			(at 0 0 0)
@@ -54066,7 +54090,7 @@
 			)
 			(polygon
 				(pts
-					(xy 72.957001 51.782) (xy 73.305401 51.782) (xy 73.305401 52.1804) (xy 72.957001 52.1804)
+					(xy 195.273001 132.8008) (xy 195.621401 132.8008) (xy 195.621401 133.1992) (xy 195.273001 133.1992)
 				)
 			)
 		)
@@ -54074,7 +54098,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "abc16c3c-7420-4a29-aa59-429507c4ee37")
-		(at 79.974397 51.9812)
+		(at 103.052799 127)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R47"
 			(at 0 0 0)
@@ -54353,7 +54377,7 @@
 			)
 			(polygon
 				(pts
-					(xy 79.800197 51.782) (xy 80.148597 51.782) (xy 80.148597 52.1804) (xy 79.800197 52.1804)
+					(xy 102.878599 126.8008) (xy 103.226999 126.8008) (xy 103.226999 127.1992) (xy 102.878599 127.1992)
 				)
 			)
 		)
@@ -54361,7 +54385,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "abee514a-b6fa-4395-b918-8f7bfcc38f98")
-		(at 79.974397 39.0188)
+		(at 57.947201 129.5)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R39"
 			(at 0 0 0)
@@ -54640,7 +54664,7 @@
 			)
 			(polygon
 				(pts
-					(xy 79.800197 38.8196) (xy 80.148597 38.8196) (xy 80.148597 39.218) (xy 79.800197 39.218)
+					(xy 57.773001 129.3008) (xy 58.121401 129.3008) (xy 58.121401 129.6992) (xy 57.773001 129.6992)
 				)
 			)
 		)
@@ -54761,7 +54785,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "ad3c96fd-f003-460e-a8ea-22fd87e8770a")
-		(at 84.0233 99.0696)
+		(at 59.1665 134.5)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C25"
 			(at 0 0 0)
@@ -55051,7 +55075,7 @@
 			)
 			(polygon
 				(pts
-					(xy 83.782 98.8664) (xy 84.2646 98.8664) (xy 84.2646 99.2728) (xy 83.782 99.2728)
+					(xy 58.9252 134.2968) (xy 59.4078 134.2968) (xy 59.4078 134.7032) (xy 58.9252 134.7032)
 				)
 			)
 		)
@@ -55059,7 +55083,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "ae9ca2ec-6afd-416a-bc81-31d9c10321d7")
-		(at 80.6611 86.0592)
+		(at 55.8043 69.4316)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C1"
 			(at 0 0 0)
@@ -55349,7 +55373,7 @@
 			)
 			(polygon
 				(pts
-					(xy 80.4198 85.856) (xy 80.9024 85.856) (xy 80.9024 86.2624) (xy 80.4198 86.2624)
+					(xy 55.563 69.2284) (xy 56.0456 69.2284) (xy 56.0456 69.6348) (xy 55.563 69.6348)
 				)
 			)
 		)
@@ -55357,7 +55381,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "b1feedb4-8b2c-44dc-8115-0079753c4323")
-		(at 84.0233 88.2276)
+		(at 61.5715 129)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C11"
 			(at 0 0 0)
@@ -55647,7 +55671,7 @@
 			)
 			(polygon
 				(pts
-					(xy 83.782 88.0244) (xy 84.2646 88.0244) (xy 84.2646 88.4308) (xy 83.782 88.4308)
+					(xy 61.3302 128.7968) (xy 61.8128 128.7968) (xy 61.8128 129.2032) (xy 61.3302 129.2032)
 				)
 			)
 		)
@@ -55655,7 +55679,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "b42be019-a0f7-48ca-9511-2ed9c255f069")
-		(at 76.552799 56.302)
+		(at 57.472804 127.4812)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R38"
 			(at 0 0 0)
@@ -55934,7 +55958,7 @@
 			)
 			(polygon
 				(pts
-					(xy 76.378599 56.1028) (xy 76.726999 56.1028) (xy 76.726999 56.5012) (xy 76.378599 56.5012)
+					(xy 57.298604 127.282) (xy 57.647004 127.282) (xy 57.647004 127.6804) (xy 57.298604 127.6804)
 				)
 			)
 		)
@@ -56669,7 +56693,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "b5b15920-1772-44f1-bb7c-e1013507f54a")
-		(at 108.4435 98.535)
+		(at 161.0715 141)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "CV16"
 			(at 0 0 0)
@@ -56959,7 +56983,7 @@
 			)
 			(polygon
 				(pts
-					(xy 108.2022 98.3318) (xy 108.6848 98.3318) (xy 108.6848 98.7382) (xy 108.2022 98.7382)
+					(xy 160.8302 140.7968) (xy 161.3128 140.7968) (xy 161.3128 141.2032) (xy 160.8302 141.2032)
 				)
 			)
 		)
@@ -58327,7 +58351,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "ba4d36e0-5c03-47d1-a983-9c503d7f557f")
-		(at 80.6611 99.0696)
+		(at 125.4285 123.3316)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C7"
 			(at 0 0 0)
@@ -58617,7 +58641,7 @@
 			)
 			(polygon
 				(pts
-					(xy 80.4198 98.8664) (xy 80.9024 98.8664) (xy 80.9024 99.2728) (xy 80.4198 99.2728)
+					(xy 125.1872 123.1284) (xy 125.6698 123.1284) (xy 125.6698 123.5348) (xy 125.1872 123.5348)
 				)
 			)
 		)
@@ -58625,7 +58649,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "ba8e7bd8-4afd-4414-a69a-2239b5af4b41")
-		(at 76.552799 43.3396)
+		(at 192.447201 139)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R32"
 			(at 0 0 0)
@@ -58904,7 +58928,7 @@
 			)
 			(polygon
 				(pts
-					(xy 76.378599 43.1404) (xy 76.726999 43.1404) (xy 76.726999 43.5388) (xy 76.378599 43.5388)
+					(xy 192.273001 138.8008) (xy 192.621401 138.8008) (xy 192.621401 139.1992) (xy 192.273001 139.1992)
 				)
 			)
 		)
@@ -59613,7 +59637,7 @@
 	(footprint "NMOS_2N7002:PG-SOT23-3-5_INF_MIN"
 		(layer "F.Cu")
 		(uuid "be656c2d-1cfb-430e-a18d-2feab92c1f58")
-		(at 206.2907 96.993999)
+		(at 66 138.6938)
 		(tags "2N7002H6327XTSA2 ")
 		(property "Reference" "Q2"
 			(at 0 0 0)
@@ -60643,7 +60667,7 @@
 	(footprint "SchottkyDiode-RB095BGE:RD3P175SNFRATL"
 		(layer "F.Cu")
 		(uuid "c056e2dd-a5ce-45ec-a5ef-c441512b4791")
-		(at 90.6 21.25)
+		(at 36 164.75)
 		(descr "TO-252 (DPAK)_Master")
 		(tags "Diode")
 		(property "Reference" "D1"
@@ -60976,7 +61000,7 @@
 	(footprint "RS Transceiver:21-0041-3-M_90-0096-8L_MXM"
 		(layer "F.Cu")
 		(uuid "c0dfa3dd-e479-4dbc-9470-d0efe8837006")
-		(at 97.035001 53.905)
+		(at 199.964999 136.905)
 		(tags "MAX485CSA+T ")
 		(property "Reference" "U3"
 			(at 0 0 0)
@@ -61914,7 +61938,7 @@
 	(footprint "Test Hook:KEYSTONE_5277"
 		(layer "F.Cu")
 		(uuid "c215563a-232f-4646-bbfb-91bfe0c4bcdb")
-		(at -8.54 32)
+		(at 255 52.5)
 		(property "Reference" "TP50"
 			(at 0.032 -2.2064 0)
 			(layer "F.SilkS")
@@ -62194,7 +62218,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "c3304a92-ce40-410e-a08e-9b84112ad815")
-		(at 76.552799 41.1792)
+		(at 192.447201 136.8396)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R31"
 			(at 0 0 0)
@@ -62473,7 +62497,7 @@
 			)
 			(polygon
 				(pts
-					(xy 76.378599 40.98) (xy 76.726999 40.98) (xy 76.726999 41.3784) (xy 76.378599 41.3784)
+					(xy 192.273001 136.6404) (xy 192.621401 136.6404) (xy 192.621401 137.0388) (xy 192.273001 137.0388)
 				)
 			)
 		)
@@ -63213,7 +63237,7 @@
 	(footprint "LDO ST1L05A:DFN_5APU33R_STM"
 		(layer "F.Cu")
 		(uuid "c72d2169-d083-4dc1-9320-495259c4c3be")
-		(at 124.1208 110.762)
+		(at 167 139.5)
 		(tags "ST1L05APU33R ")
 		(property "Reference" "U5"
 			(at 0 0 0)
@@ -64504,7 +64528,7 @@
 	(footprint "Test Hook:KEYSTONE_5277"
 		(layer "F.Cu")
 		(uuid "c9440ee5-3cd6-461e-b4d1-88b3a863607e")
-		(at -22.73 27.27)
+		(at 113.5 129.5)
 		(property "Reference" "TP22"
 			(at 0.032 -2.2064 0)
 			(layer "F.SilkS")
@@ -64617,7 +64641,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "ca1da078-adcd-4bed-a6a9-c37b3bb618f4")
-		(at 90.7477 99.0696)
+		(at 65.8909 82.442)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C_IN_HFI6"
 			(at 0 0 0)
@@ -64907,7 +64931,7 @@
 			)
 			(polygon
 				(pts
-					(xy 90.5064 98.8664) (xy 90.989 98.8664) (xy 90.989 99.2728) (xy 90.5064 99.2728)
+					(xy 65.6496 82.2388) (xy 66.1322 82.2388) (xy 66.1322 82.6452) (xy 65.6496 82.6452)
 				)
 			)
 		)
@@ -66105,7 +66129,7 @@
 	(footprint "Capacitor-0805:Capacitor_0805"
 		(layer "F.Cu")
 		(uuid "ce651874-4cfa-4dbd-83d3-873c49589981")
-		(at 191.4439 91.151599)
+		(at 26.4 143)
 		(property "Reference" "C13"
 			(at 1.375 -1.635 0)
 			(layer "F.SilkS")
@@ -66305,7 +66329,7 @@
 	(footprint "Capacitor-1206:Capacitor_1206"
 		(layer "F.Cu")
 		(uuid "d127330f-e4f7-4f2e-a3cf-0dc52dec5bdb")
-		(at 68.915 93.53)
+		(at 44.0582 76.9024)
 		(descr "1206")
 		(tags "Capacitor")
 		(property "Reference" "C_IN1"
@@ -66811,7 +66835,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "d1f74ab0-c11d-40b6-ac61-468b297a660c")
-		(at 69.709603 56.302)
+		(at 207.447201 139.5)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R18"
 			(at 0 0 0)
@@ -67090,7 +67114,7 @@
 			)
 			(polygon
 				(pts
-					(xy 69.535403 56.1028) (xy 69.883803 56.1028) (xy 69.883803 56.5012) (xy 69.535403 56.5012)
+					(xy 207.273001 139.3008) (xy 207.621401 139.3008) (xy 207.621401 139.6992) (xy 207.273001 139.6992)
 				)
 			)
 		)
@@ -67211,7 +67235,7 @@
 	(footprint "PTS060301B100RP100:RESC1508X55N"
 		(layer "F.Cu")
 		(uuid "d435b9a5-ca7a-4baf-b071-0468b854ce6a")
-		(at 107.119201 57.1898)
+		(at 103 130)
 		(descr "PTS060301B100RP100*-*")
 		(tags "Resistor")
 		(property "Reference" "R48"
@@ -67466,7 +67490,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "d43f140d-1656-4086-ac3c-5d016abd009c")
-		(at 66.288005 47.6604)
+		(at 280.552799 59)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R5"
 			(at 0 0 0)
@@ -67745,7 +67769,7 @@
 			)
 			(polygon
 				(pts
-					(xy 66.113805 47.4612) (xy 66.462205 47.4612) (xy 66.462205 47.8596) (xy 66.113805 47.8596)
+					(xy 280.378599 58.8008) (xy 280.726999 58.8008) (xy 280.726999 59.1992) (xy 280.378599 59.1992)
 				)
 			)
 		)
@@ -68269,7 +68293,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "d5566306-ca33-4b41-9511-53d43c3767a6")
-		(at 84.0233 94.7328)
+		(at 256.4285 26.5)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C21"
 			(at 0 0 0)
@@ -68559,7 +68583,7 @@
 			)
 			(polygon
 				(pts
-					(xy 83.782 94.5296) (xy 84.2646 94.5296) (xy 84.2646 94.936) (xy 83.782 94.936)
+					(xy 256.1872 26.2968) (xy 256.6698 26.2968) (xy 256.6698 26.7032) (xy 256.1872 26.7032)
 				)
 			)
 		)
@@ -68567,7 +68591,7 @@
 	(footprint "LED-Red_VLMS1500-GS08:LED_00-GS08_VIS_RED"
 		(layer "F.Cu")
 		(uuid "d78745b8-3c5d-4f7e-8325-1722cb8b52b1")
-		(at 89.3615 117.6276)
+		(at 64.5047 101)
 		(tags "VLMS1500-GS08 ")
 		(property "Reference" "LED2"
 			(at 0 0 0)
@@ -68868,7 +68892,7 @@
 			)
 			(polygon
 				(pts
-					(xy 89.2726 117.4244) (xy 89.4504 117.4244) (xy 89.4504 117.8308) (xy 89.2726 117.8308)
+					(xy 64.4158 100.7968) (xy 64.5936 100.7968) (xy 64.5936 101.2032) (xy 64.4158 101.2032)
 				)
 			)
 		)
@@ -69105,7 +69129,7 @@
 	(footprint "Test Hook:KEYSTONE_5277"
 		(layer "F.Cu")
 		(uuid "d8e8cb3d-0659-4cf8-81d1-c22554673e50")
-		(at -18 32)
+		(at 76 134)
 		(property "Reference" "TP32"
 			(at 0.032 -2.2064 0)
 			(layer "F.SilkS")
@@ -69385,7 +69409,7 @@
 	(footprint "Test Hook:KEYSTONE_5277"
 		(layer "F.Cu")
 		(uuid "d94d40cb-1a73-4440-be04-52203ca30bbf")
-		(at -18 46.19)
+		(at 61.5 120.77)
 		(property "Reference" "TP35"
 			(at 0.032 -2.2064 0)
 			(layer "F.SilkS")
@@ -70498,7 +70522,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "de930295-c2dc-4acd-8678-983ffa672191")
-		(at 87.3855 94.7328)
+		(at 62.5287 78.1052)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C36"
 			(at 0 0 0)
@@ -70788,7 +70812,7 @@
 			)
 			(polygon
 				(pts
-					(xy 87.1442 94.5296) (xy 87.6268 94.5296) (xy 87.6268 94.936) (xy 87.1442 94.936)
+					(xy 62.2874 77.902) (xy 62.77 77.902) (xy 62.77 78.3084) (xy 62.2874 78.3084)
 				)
 			)
 		)
@@ -71483,7 +71507,7 @@
 	(footprint "Capacitor-0603:Capacitor_0603"
 		(layer "F.Cu")
 		(uuid "df13952a-5f97-408c-99f8-61c89b52eb23")
-		(at 85.01 115.87)
+		(at 60.1532 99.2424)
 		(property "Reference" "C_VCC3"
 			(at -0.24 -1.08 0)
 			(layer "F.SilkS")
@@ -71649,7 +71673,7 @@
 	(footprint "Capacitor-1206:Capacitor_1206"
 		(layer "F.Cu")
 		(uuid "e15d2293-75d8-4896-8994-e5b3820c5bcb")
-		(at 68.915 109.38)
+		(at 44.0582 92.7524)
 		(descr "1206")
 		(tags "Capacitor")
 		(property "Reference" "C_IN6"
@@ -71848,7 +71872,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "e16abda0-28c6-4327-b77e-e42ede42cdaf")
-		(at 69.709603 41.1792)
+		(at 206.447201 132.5)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R11"
 			(at 0 0 0)
@@ -72127,7 +72151,7 @@
 			)
 			(polygon
 				(pts
-					(xy 69.535403 40.98) (xy 69.883803 40.98) (xy 69.883803 41.3784) (xy 69.535403 41.3784)
+					(xy 206.273001 132.3008) (xy 206.621401 132.3008) (xy 206.621401 132.6992) (xy 206.273001 132.6992)
 				)
 			)
 		)
@@ -73028,7 +73052,7 @@
 	(footprint "Test Hook:KEYSTONE_5277"
 		(layer "F.Cu")
 		(uuid "e5f81aa3-8980-4dbc-a28d-fa020b7259a4")
-		(at -8.54 36.73)
+		(at 259.5 56)
 		(property "Reference" "TP51"
 			(at 0.032 -2.2064 0)
 			(layer "F.SilkS")
@@ -73308,7 +73332,7 @@
 	(footprint "Capacitor-1206:Capacitor_1206"
 		(layer "F.Cu")
 		(uuid "e6e8910c-8a44-485a-90df-0eb611f3ee27")
-		(at 68.915 106.21)
+		(at 44.0582 89.5824)
 		(descr "1206")
 		(tags "Capacitor")
 		(property "Reference" "C_IN5"
@@ -74563,7 +74587,7 @@
 	(footprint "PCA9306GM,125:PCA9570GMH"
 		(layer "F.Cu")
 		(uuid "ea063621-8080-468a-8c22-48dc108d227c")
-		(at 103.419201 57.6648)
+		(at 70.6 135.5)
 		(descr "XQFN8 (SOT902-2)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC8"
@@ -75067,7 +75091,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "ea982da9-4fc1-47dd-947f-c1a7ec6a59f4")
-		(at 69.709603 39.0188)
+		(at 265.552799 35.5)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R10"
 			(at 0 0 0)
@@ -75346,7 +75370,7 @@
 			)
 			(polygon
 				(pts
-					(xy 69.535403 38.8196) (xy 69.883803 38.8196) (xy 69.883803 39.218) (xy 69.535403 39.218)
+					(xy 265.378599 35.3008) (xy 265.726999 35.3008) (xy 265.726999 35.6992) (xy 265.378599 35.6992)
 				)
 			)
 		)
@@ -76064,7 +76088,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "f0fd0578-4bc8-4971-b4ce-f6afbc6850e6")
-		(at 66.288005 51.9812)
+		(at 265.447201 33.5)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R7"
 			(at 0 0 0)
@@ -76343,7 +76367,7 @@
 			)
 			(polygon
 				(pts
-					(xy 66.113805 51.782) (xy 66.462205 51.782) (xy 66.462205 52.1804) (xy 66.113805 52.1804)
+					(xy 265.273001 33.3008) (xy 265.621401 33.3008) (xy 265.621401 33.6992) (xy 265.273001 33.6992)
 				)
 			)
 		)
@@ -76351,7 +76375,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "f22c5421-da14-4e67-ac9d-64ac743a37cc")
-		(at 80.6611 90.396)
+		(at 73.4285 121.3316)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C3"
 			(at 0 0 0)
@@ -76641,7 +76665,7 @@
 			)
 			(polygon
 				(pts
-					(xy 80.4198 90.1928) (xy 80.9024 90.1928) (xy 80.9024 90.5992) (xy 80.4198 90.5992)
+					(xy 73.1872 121.1284) (xy 73.6698 121.1284) (xy 73.6698 121.5348) (xy 73.1872 121.5348)
 				)
 			)
 		)
@@ -77079,7 +77103,7 @@
 	(footprint "Test Hook:KEYSTONE_5277"
 		(layer "F.Cu")
 		(uuid "f4eb9fe9-bb3f-4884-8832-3dffa282d052")
-		(at -8.54 17.81)
+		(at 281.5 48.5)
 		(property "Reference" "TP47"
 			(at 0.032 -2.2064 0)
 			(layer "F.SilkS")
@@ -77192,7 +77216,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "f507db57-3970-4fa8-97ed-ff7c36f91c4a")
-		(at 90.7477 88.2276)
+		(at 65.8909 71.6)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "C_IN_HFI1"
 			(at 0 0 0)
@@ -77482,7 +77506,7 @@
 			)
 			(polygon
 				(pts
-					(xy 90.5064 88.0244) (xy 90.989 88.0244) (xy 90.989 88.4308) (xy 90.5064 88.4308)
+					(xy 65.6496 71.3968) (xy 66.1322 71.3968) (xy 66.1322 71.8032) (xy 65.6496 71.8032)
 				)
 			)
 		)
@@ -77490,7 +77514,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "f527131c-1e16-4277-9a6c-4184c66b0a5a")
-		(at 69.709603 49.8208)
+		(at 120.947201 120.8396)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R15"
 			(at 0 0 0)
@@ -77769,7 +77793,7 @@
 			)
 			(polygon
 				(pts
-					(xy 69.535403 49.6216) (xy 69.883803 49.6216) (xy 69.883803 50.02) (xy 69.535403 50.02)
+					(xy 120.773001 120.6404) (xy 121.121401 120.6404) (xy 121.121401 121.0388) (xy 120.773001 121.0388)
 				)
 			)
 		)
@@ -79318,7 +79342,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "f8ab6733-d759-4890-9ec0-28d7c2692c9e")
-		(at 69.709603 45.5)
+		(at 69.709603 121.3396)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R13"
 			(at 0 0 0)
@@ -79597,7 +79621,7 @@
 			)
 			(polygon
 				(pts
-					(xy 69.535403 45.3008) (xy 69.883803 45.3008) (xy 69.883803 45.6992) (xy 69.535403 45.6992)
+					(xy 69.535403 121.1404) (xy 69.883803 121.1404) (xy 69.883803 121.5388) (xy 69.535403 121.5388)
 				)
 			)
 		)
@@ -80103,7 +80127,7 @@
 	(footprint "Capacitor-0402:Capacitor_0402"
 		(layer "F.Cu")
 		(uuid "fb51ad6c-1db7-4897-bf2a-78cbde6df1e0")
-		(at 105.0813 109.377)
+		(at 165.0715 145)
 		(tags "GRM155R61A105KE15 ")
 		(property "Reference" "CV14"
 			(at 0 0 0)
@@ -80393,7 +80417,7 @@
 			)
 			(polygon
 				(pts
-					(xy 104.84 109.1738) (xy 105.3226 109.1738) (xy 105.3226 109.5802) (xy 104.84 109.5802)
+					(xy 164.8302 144.7968) (xy 165.3128 144.7968) (xy 165.3128 145.2032) (xy 164.8302 145.2032)
 				)
 			)
 		)
@@ -81219,7 +81243,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "fddb2a0f-c33d-40c9-a822-0a3ec2258170")
-		(at 69.709603 43.3396)
+		(at 69.709603 119.1792)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R12"
 			(at 0 0 0)
@@ -81498,7 +81522,7 @@
 			)
 			(polygon
 				(pts
-					(xy 69.535403 43.1404) (xy 69.883803 43.1404) (xy 69.883803 43.5388) (xy 69.535403 43.5388)
+					(xy 69.535403 118.98) (xy 69.883803 118.98) (xy 69.883803 119.3784) (xy 69.535403 119.3784)
 				)
 			)
 		)
@@ -81506,7 +81530,7 @@
 	(footprint "Resistor-0402:RES_0402"
 		(layer "F.Cu")
 		(uuid "fec47fbf-2ea3-41b9-b817-99c8bd843fb6")
-		(at 79.974397 54.1416)
+		(at 108.052799 130)
 		(tags "CRCW0402130KFKTD ")
 		(property "Reference" "R49"
 			(at 0 0 0)
@@ -81785,7 +81809,7 @@
 			)
 			(polygon
 				(pts
-					(xy 79.800197 53.9424) (xy 80.148597 53.9424) (xy 80.148597 54.3408) (xy 79.800197 54.3408)
+					(xy 107.878599 129.8008) (xy 108.226999 129.8008) (xy 108.226999 130.1992) (xy 107.878599 130.1992)
 				)
 			)
 		)
@@ -82096,5 +82120,13 @@
 				)
 			)
 		)
+	)
+	(segment
+		(start 137.4375 82.4625)
+		(end 137.5 82.4625)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 136)
+		(uuid "579357a8-7d54-479b-8eef-21c2b1b44de8")
 	)
 )
