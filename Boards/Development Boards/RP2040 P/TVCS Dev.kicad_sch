@@ -4380,381 +4380,6 @@
 				)
 			)
 		)
-		(symbol "LM61460AASQRJRRQ1_1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 28.956 9.906 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "LM61460AASQRJRRQ1"
-				(at 28.956 7.366 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "VQFN-HR14_RJR_TEX"
-				(at 25.654 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "LM61460AASQRJRRQ1"
-				(at 25.654 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 64.77 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LM61460AASQRJRRQ1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "VQFN-HR14_RJR_TEX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM61460AASQRJRRQ1_1_0_1"
-				(polyline
-					(pts
-						(xy 13.97 -44.45) (xy 43.18 -44.45)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 5.08) (xy 13.97 -44.45)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 43.18 -44.45) (xy 43.18 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 43.18 5.08) (xy 13.97 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin output line
-					(at 50.8 -22.86 180)
-					(length 7.62)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 50.8 -36.83 180)
-					(length 7.62)
-					(name "RBOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 50.8 -29.21 180)
-					(length 7.62)
-					(name "CBOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -36.83 0)
-					(length 7.62)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 50.8 -41.91 180)
-					(length 7.62)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 50.8 -10.16 180)
-					(length 7.62)
-					(name "PGOOD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 6.35 -29.21 0)
-					(length 7.62)
-					(name "RT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 -10.16 0)
-					(length 7.62)
-					(name "EN/SYNC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM61460AASQRJRRQ1_1_1_1"
-				(pin passive line
-					(at 50.8 -16.51 180)
-					(length 7.62)
-					(name "BIAS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 50.8 -3.81 180)
-					(length 7.62)
-					(name "PGND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 50.8 2.54 180)
-					(length 7.62)
-					(name "VIN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -48.26 90)
-					(length 3.81)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 2.54 0)
-					(length 7.62)
-					(name "VIN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -3.81 0)
-					(length 7.62)
-					(name "PGND1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MAX31856MUD-T:MAX31856MUD+T"
 			(pin_names
 				(offset 0.254)
@@ -8433,351 +8058,6 @@
 				)
 			)
 			(symbol "VLMS1500-GS08_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.905) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.905) (xy 3.81 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 3.175) (xy 6.35 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -1.905) (xy 6.35 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 3.81 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 4.445) (xy 6.985 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 2.54) (xy 8.255 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 3.81) (xy 8.255 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 8.255 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 3.81) (xy 8.89 3.175)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 4.445) (xy 8.255 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 3.175) (xy 10.16 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 4.445) (xy 10.16 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 3.81) (xy 10.16 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 4.445) (xy 9.525 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "VLMS1500-GS08_2"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 5.08 -4.445 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "VLMS1500-GS08"
-				(at 5.08 -7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "LED_00-GS08_VIS_RED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "VLMS1500-GS08"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "VLMS1500-GS08"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED_00-GS08_VIS_RED LED_00-GS08_VIS-M_RED LED_00-GS08_VIS-L_RED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VLMS1500-GS08_2_0_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 3.4798 0)
@@ -21707,6 +20987,7 @@
 	)
 	(label "TEMP SENSE -"
 		(at 141.605 156.845 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21717,6 +20998,7 @@
 	)
 	(label "AIN1"
 		(at 76.2 226.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21727,6 +21009,7 @@
 	)
 	(label "DC.DC3 PGOOD"
 		(at 243.205 62.865 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21737,6 +21020,7 @@
 	)
 	(label "DC.DC1 VCC"
 		(at 394.335 226.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21747,6 +21031,7 @@
 	)
 	(label "SDL I2C"
 		(at 25.4 433.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21757,6 +21042,7 @@
 	)
 	(label "I_Sense3+"
 		(at 164.465 483.235 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21768,6 +21054,7 @@
 	)
 	(label "12V_Sense"
 		(at 333.375 95.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21779,6 +21066,7 @@
 	)
 	(label "DC.DC2 PGOOD"
 		(at 243.205 60.325 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21789,6 +21077,7 @@
 	)
 	(label "AIN0"
 		(at 76.2 223.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21799,6 +21088,7 @@
 	)
 	(label "DC.DC2 VCC"
 		(at 394.335 314.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21809,6 +21099,7 @@
 	)
 	(label "SPI0_MOSI"
 		(at 388.62 155.575 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21819,6 +21110,7 @@
 	)
 	(label "THERMO1 T-"
 		(at 409.575 62.865 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21829,6 +21121,7 @@
 	)
 	(label "VBAT"
 		(at 409.575 70.485 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21839,6 +21132,7 @@
 	)
 	(label "GND"
 		(at 246.38 504.825 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21849,6 +21143,7 @@
 	)
 	(label "8.4V_Sense"
 		(at 92.71 498.475 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21860,6 +21155,7 @@
 	)
 	(label "DC.DC1 PGOOD"
 		(at 394.335 233.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21870,6 +21166,7 @@
 	)
 	(label "I_Sense1+"
 		(at 92.71 478.155 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21881,6 +21178,7 @@
 	)
 	(label "Status1 Green"
 		(at 26.67 103.505 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21891,6 +21189,7 @@
 	)
 	(label "PRESS_SENSE"
 		(at 25.4 238.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21901,6 +21200,7 @@
 	)
 	(label "THERMO1_~{FAULT}"
 		(at 333.375 70.485 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21911,6 +21211,7 @@
 	)
 	(label "SDA I2C"
 		(at 198.12 226.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21921,6 +21222,7 @@
 	)
 	(label "I_Sense1+"
 		(at 399.415 267.335 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21932,6 +21234,7 @@
 	)
 	(label "USB-C Power Out"
 		(at 154.305 351.155 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21942,6 +21245,7 @@
 	)
 	(label "VBUS_IN"
 		(at 85.725 354.965 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21952,6 +21256,7 @@
 	)
 	(label "Solenoid Valve Enable"
 		(at 76.2 295.275 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21962,6 +21267,7 @@
 	)
 	(label "Status1 Green"
 		(at 243.205 97.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21972,6 +21278,7 @@
 	)
 	(label "AIN1"
 		(at 67.31 226.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21982,6 +21289,7 @@
 	)
 	(label "Solenoid Valve Drive"
 		(at 409.575 78.105 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21992,6 +21300,7 @@
 	)
 	(label "SPI1_MOSI"
 		(at 331.47 165.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22002,6 +21311,7 @@
 	)
 	(label "USB-C PD ~{INT}"
 		(at 25.4 442.595 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22012,6 +21322,7 @@
 	)
 	(label "PRESS_SENSE"
 		(at 409.575 80.645 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22022,6 +21333,7 @@
 	)
 	(label "Status2 Red"
 		(at 135.255 103.505 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22032,6 +21344,7 @@
 	)
 	(label "I_Sense3-"
 		(at 405.13 455.295 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22043,6 +21356,7 @@
 	)
 	(label "ADC RDY"
 		(at 243.205 88.265 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22053,6 +21367,7 @@
 	)
 	(label "TEMP SENSE +"
 		(at 25.4 213.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22063,6 +21378,7 @@
 	)
 	(label "DC.DC3 VCC"
 		(at 394.335 407.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22073,6 +21389,7 @@
 	)
 	(label "I_Sense1-"
 		(at 92.71 480.695 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22084,6 +21401,7 @@
 	)
 	(label "Solenoid Valve Drive"
 		(at 26.035 307.975 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22094,6 +21412,7 @@
 	)
 	(label "SCL I2C"
 		(at 243.205 85.725 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22104,6 +21423,7 @@
 	)
 	(label "THERMO1_~{FAULT}"
 		(at 23.495 40.005 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -22114,6 +21434,7 @@
 	)
 	(label "RS_TX"
 		(at 123.825 162.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22124,6 +21445,7 @@
 	)
 	(label "RS_ENABLE"
 		(at 243.205 80.645 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22134,6 +21456,7 @@
 	)
 	(label "SPI1_MISO"
 		(at 331.47 162.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22144,6 +21467,7 @@
 	)
 	(label "USB-C PD ~{INT}"
 		(at 243.205 90.805 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22154,6 +21478,7 @@
 	)
 	(label "THERMO1 T-"
 		(at 243.205 157.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22164,6 +21489,7 @@
 	)
 	(label "8.4V_Sense"
 		(at 333.375 97.79 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22175,6 +21501,7 @@
 	)
 	(label "AIN0"
 		(at 66.675 213.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22185,6 +21512,7 @@
 	)
 	(label "USB-C Power Out"
 		(at 127.635 398.78 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22195,6 +21523,7 @@
 	)
 	(label "DC.DC3 PGOOD"
 		(at 394.335 416.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22205,6 +21534,7 @@
 	)
 	(label "I_Sense2+"
 		(at 92.71 483.235 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22216,6 +21546,7 @@
 	)
 	(label "GND"
 		(at 409.575 73.025 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22226,6 +21557,7 @@
 	)
 	(label "LED Test1"
 		(at 243.205 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22236,6 +21568,7 @@
 	)
 	(label "Status2 Red"
 		(at 243.205 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22246,6 +21579,7 @@
 	)
 	(label "SD-Card ~{CS}"
 		(at 388.62 153.035 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22256,6 +21590,7 @@
 	)
 	(label "THERMO1_~{FAULT}"
 		(at 331.47 152.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22266,6 +21601,7 @@
 	)
 	(label "Main Servo Valve"
 		(at 409.575 75.565 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22276,6 +21612,7 @@
 	)
 	(label "SPI1_MISO"
 		(at 333.375 60.325 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22286,6 +21623,7 @@
 	)
 	(label "5V_Sense"
 		(at 333.375 100.33 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22297,6 +21635,7 @@
 	)
 	(label "Status1 Red"
 		(at 243.205 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22307,6 +21646,7 @@
 	)
 	(label "SPI0_MISO"
 		(at 333.375 75.565 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22317,6 +21657,7 @@
 	)
 	(label "RS_B"
 		(at 16.51 152.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22327,6 +21668,7 @@
 	)
 	(label "SD-Card ~{CS}"
 		(at 333.375 78.105 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22337,6 +21679,7 @@
 	)
 	(label "I_Sense3+"
 		(at 405.13 448.945 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22348,6 +21691,7 @@
 	)
 	(label "VBAT"
 		(at 246.38 498.475 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22358,6 +21702,7 @@
 	)
 	(label "I_Sense2-"
 		(at 92.71 485.775 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22369,6 +21714,7 @@
 	)
 	(label "AIN2"
 		(at 67.31 238.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22379,6 +21725,7 @@
 	)
 	(label "RS_RX"
 		(at 243.205 75.565 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22389,6 +21736,7 @@
 	)
 	(label "RS_ENABLE"
 		(at 123.825 157.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22399,6 +21747,7 @@
 	)
 	(label "ADC RDY"
 		(at 186.69 252.73 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22409,6 +21758,7 @@
 	)
 	(label "TEMP SENSE -"
 		(at 25.4 226.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22419,6 +21769,7 @@
 	)
 	(label "SDA I2C"
 		(at 25.4 436.245 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22429,6 +21780,7 @@
 	)
 	(label "SDA I2C"
 		(at 243.205 83.185 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22439,6 +21791,7 @@
 	)
 	(label "Servo Valve PWM"
 		(at 135.89 307.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22449,6 +21802,7 @@
 	)
 	(label "I_Sense3-"
 		(at 164.465 490.855 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22460,6 +21814,7 @@
 	)
 	(label "THERMO1 T+"
 		(at 243.205 152.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22470,6 +21825,7 @@
 	)
 	(label "DC.DC2 VCC"
 		(at 263.525 351.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22480,6 +21836,7 @@
 	)
 	(label "RS_B"
 		(at 409.575 65.405 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22490,6 +21847,7 @@
 	)
 	(label "I_Sense1-"
 		(at 399.415 273.685 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22501,6 +21859,7 @@
 	)
 	(label "THERMO1_~{DRDY}"
 		(at 333.375 67.945 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22511,6 +21870,7 @@
 	)
 	(label "THERMO1 T+"
 		(at 409.575 60.325 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22521,6 +21881,7 @@
 	)
 	(label "Status1 Red"
 		(at 74.93 103.505 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22531,6 +21892,7 @@
 	)
 	(label "SPI0_MOSI"
 		(at 333.375 83.185 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22541,6 +21903,7 @@
 	)
 	(label "SPI1_SCK"
 		(at 333.375 62.865 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22551,6 +21914,7 @@
 	)
 	(label "I_Sense2-"
 		(at 405.765 364.49 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22562,6 +21926,7 @@
 	)
 	(label "AIN2"
 		(at 76.2 228.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22572,6 +21937,7 @@
 	)
 	(label "VBUS_IN"
 		(at 110.49 394.97 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22582,6 +21948,7 @@
 	)
 	(label "RS_A"
 		(at 16.51 165.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22592,6 +21959,7 @@
 	)
 	(label "Solenoid Valve Enable"
 		(at 243.205 67.945 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22602,6 +21970,7 @@
 	)
 	(label "5V_Sense"
 		(at 164.465 498.475 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22613,6 +21982,7 @@
 	)
 	(label "THERMO1_~{CS}"
 		(at 333.375 57.785 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22623,6 +21993,7 @@
 	)
 	(label "SPI0_SCK"
 		(at 333.375 80.645 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22633,6 +22004,7 @@
 	)
 	(label "Status2 Green"
 		(at 243.205 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22643,6 +22015,7 @@
 	)
 	(label "TEMP SENSE +"
 		(at 220.345 156.845 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22653,6 +22026,7 @@
 	)
 	(label "SPI0_MISO"
 		(at 388.62 145.415 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22663,6 +22037,7 @@
 	)
 	(label "DC.DC1 PGOOD"
 		(at 243.205 57.785 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22673,6 +22048,7 @@
 	)
 	(label "Main Servo Valve"
 		(at 81.915 307.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22683,6 +22059,7 @@
 	)
 	(label "DC.DC2 PGOOD"
 		(at 394.335 325.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22693,6 +22070,7 @@
 	)
 	(label "12V_Sense"
 		(at 92.71 488.315 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22704,6 +22082,7 @@
 	)
 	(label "Servo Valve PWM"
 		(at 243.205 65.405 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22714,6 +22093,7 @@
 	)
 	(label "THERMO1_~{CS}"
 		(at 331.47 157.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22724,6 +22104,7 @@
 	)
 	(label "SCL I2C"
 		(at 198.12 223.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22734,6 +22115,7 @@
 	)
 	(label "SPI1_SCK"
 		(at 331.47 160.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22744,6 +22126,7 @@
 	)
 	(label "Status2 Green"
 		(at 86.995 103.505 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22754,6 +22137,7 @@
 	)
 	(label "RS_TX"
 		(at 243.205 78.105 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22764,6 +22148,7 @@
 	)
 	(label "DC.DC1 VCC"
 		(at 263.525 260.35 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22774,6 +22159,7 @@
 	)
 	(label "RS_A"
 		(at 409.575 67.945 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22784,6 +22170,7 @@
 	)
 	(label "RS_RX"
 		(at 123.825 154.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22794,6 +22181,7 @@
 	)
 	(label "SPI0_SCK"
 		(at 388.62 158.115 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22804,6 +22192,7 @@
 	)
 	(label "LED Test1"
 		(at 59.055 40.005 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22814,6 +22203,7 @@
 	)
 	(label "I_Sense2+"
 		(at 405.765 358.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22825,6 +22215,7 @@
 	)
 	(label "DC.DC3 VCC"
 		(at 263.525 443.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22835,6 +22226,7 @@
 	)
 	(label "THERMO1_~{DRDY}"
 		(at 331.47 149.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22845,6 +22237,7 @@
 	)
 	(label "SPI1_MOSI"
 		(at 333.375 65.405 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23125,7 +22518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 38.735 52.07 0)
 			(effects
 				(font
@@ -23260,7 +22653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 133.985 106.045 0)
 			(effects
 				(font
@@ -23396,7 +22789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 89.535 85.725 0)
 			(effects
 				(font
@@ -24218,7 +23611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 172.085 306.07 0)
 			(effects
 				(font
@@ -25168,7 +24561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 155.575 41.275 0)
 			(effects
 				(font
@@ -25235,7 +24628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 205.74 312.42 0)
 			(effects
 				(font
@@ -25367,7 +24760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 238.125 78.105 0)
 			(effects
 				(font
@@ -25638,7 +25031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 338.455 57.785 0)
 			(effects
 				(font
@@ -26675,7 +26068,6 @@
 		)
 	)
 	(symbol
-		(lib_name "VLMS1500-GS08_2")
 		(lib_id "VLMS1500-GS08:VLMS1500-GS08")
 		(at 48.895 34.29 270)
 		(unit 1)
@@ -26843,7 +26235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_PLCC_VSMB"
+		(property "Footprint" "LED-Red_VLMT3100-GS08:LED_PLCC_VSMB"
 			(at 85.09 34.29 0)
 			(effects
 				(font
@@ -27455,7 +26847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 255.905 463.55 0)
 			(effects
 				(font
@@ -27930,7 +27322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 205.74 306.07 0)
 			(effects
 				(font
@@ -28067,7 +27459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 28.575 106.045 0)
 			(effects
 				(font
@@ -28692,7 +28084,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 168.91 400.05 0)
 			(effects
 				(font
@@ -29933,7 +29325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 134.62 312.42 0)
 			(effects
 				(font
@@ -30196,7 +29588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 189.865 306.07 0)
 			(effects
 				(font
@@ -30263,7 +29655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 165.1 52.07 0)
 			(effects
 				(font
@@ -30330,7 +29722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 175.895 41.275 0)
 			(effects
 				(font
@@ -30728,7 +30120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 74.295 52.07 0)
 			(effects
 				(font
@@ -30865,7 +30257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 141.605 161.925 0)
 			(effects
 				(font
@@ -30932,7 +30324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 88.9 106.045 0)
 			(effects
 				(font
@@ -30996,7 +30388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3361P-1-102GLF:TRIM_3361P-1-102GLF"
+		(property "Footprint" "1k Potenciometro:TRIM_3361P-1-102GLF"
 			(at 135.636 56.896 0)
 			(effects
 				(font
@@ -31235,7 +30627,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 144.145 218.44 0)
 			(effects
 				(font
@@ -31631,7 +31023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 86.995 41.275 0)
 			(effects
 				(font
@@ -32093,7 +31485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3361P-1-102GLF:TRIM_3361P-1-102GLF"
+		(property "Footprint" "1k Potenciometro:TRIM_3361P-1-102GLF"
 			(at 175.641 56.896 0)
 			(effects
 				(font
@@ -32205,7 +31597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PowerPAK_SO-8L_3_VIS"
+		(property "Footprint" "SQJA36EP-T1-GE3:PowerPAK_SO-8L_3_VIS"
 			(at 46.355 302.387 0)
 			(effects
 				(font
@@ -33167,7 +32559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 128.27 394.97 0)
 			(effects
 				(font
@@ -33301,7 +32693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 255.905 440.69 0)
 			(effects
 				(font
@@ -33957,7 +33349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3361P-1-102GLF:TRIM_3361P-1-102GLF"
+		(property "Footprint" "1k Potenciometro:TRIM_3361P-1-102GLF"
 			(at 29.464 93.091 0)
 			(effects
 				(font
@@ -34205,7 +33597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3361P-1-102GLF:TRIM_3361P-1-102GLF"
+		(property "Footprint" "1k Potenciometro:TRIM_3361P-1-102GLF"
 			(at 89.789 93.091 0)
 			(effects
 				(font
@@ -34449,7 +33841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 338.455 62.865 0)
 			(effects
 				(font
@@ -34725,7 +34117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 238.125 83.185 0)
 			(effects
 				(font
@@ -35141,7 +34533,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 159.385 397.51 0)
 			(effects
 				(font
@@ -35339,7 +34731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 172.085 312.42 0)
 			(effects
 				(font
@@ -36059,7 +35451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3361P-1-102GLF:TRIM_3361P-1-102GLF"
+		(property "Footprint" "1k Potenciometro:TRIM_3361P-1-102GLF"
 			(at 84.836 56.896 0)
 			(effects
 				(font
@@ -36306,7 +35698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3361P-1-102GLF:TRIM_3361P-1-102GLF"
+		(property "Footprint" "1k Potenciometro:TRIM_3361P-1-102GLF"
 			(at 48.641 56.896 0)
 			(effects
 				(font
@@ -36560,7 +35952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 144.145 231.14 0)
 			(effects
 				(font
@@ -36829,7 +36221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3361P-1-102GLF:TRIM_3361P-1-102GLF"
+		(property "Footprint" "1k Potenciometro:TRIM_3361P-1-102GLF"
 			(at 73.406 93.091 0)
 			(effects
 				(font
@@ -36941,7 +36333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3361P-1-102GLF:TRIM_3361P-1-102GLF"
+		(property "Footprint" "1k Potenciometro:TRIM_3361P-1-102GLF"
 			(at 133.731 93.091 0)
 			(effects
 				(font
@@ -37740,7 +37132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMP3098LSD-13:SOIC127P600X175-8N"
+		(property "Footprint" "DMP2040USD-13:SOIC127P600X175-8N"
 			(at 23.19 376.555 0)
 			(effects
 				(font
@@ -38138,7 +37530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 50.8 41.275 0)
 			(effects
 				(font
@@ -38205,7 +37597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 125.095 52.07 0)
 			(effects
 				(font
@@ -38336,7 +37728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 338.455 65.405 0)
 			(effects
 				(font
@@ -38789,7 +38181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 250.825 498.475 0)
 			(effects
 				(font
@@ -40267,7 +39659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3361P-1-102GLF:TRIM_3361P-1-102GLF"
+		(property "Footprint" "1k Potenciometro:TRIM_3361P-1-102GLF"
 			(at 155.321 56.896 0)
 			(effects
 				(font
@@ -40381,7 +39773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 114.3 40.64 0)
 			(effects
 				(font
@@ -40856,7 +40248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 133.985 85.725 0)
 			(effects
 				(font
@@ -41325,7 +40717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 60.96 356.87 0)
 			(effects
 				(font
@@ -41523,7 +40915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3361P-1-102GLF:TRIM_3361P-1-102GLF"
+		(property "Footprint" "1k Potenciometro:TRIM_3361P-1-102GLF"
 			(at 114.046 56.896 0)
 			(effects
 				(font
@@ -42152,7 +41544,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LM61460AASQRJRRQ1_1")
 		(lib_id "DCDC_LM61460:LM61460AASQRJRRQ1")
 		(at 272.415 223.52 0)
 		(unit 1)
@@ -42619,7 +42010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 338.455 60.325 0)
 			(effects
 				(font
@@ -43625,7 +43016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 154.94 312.42 0)
 			(effects
 				(font
@@ -43892,7 +43283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 186.69 257.81 0)
 			(effects
 				(font
@@ -44903,7 +44294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 238.125 85.725 0)
 			(effects
 				(font
@@ -45667,7 +45058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 73.66 85.725 0)
 			(effects
 				(font
@@ -46207,7 +45598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 128.27 257.81 0)
 			(effects
 				(font
@@ -46405,7 +45796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 103.505 52.07 0)
 			(effects
 				(font
@@ -46540,7 +45931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 29.21 85.725 0)
 			(effects
 				(font
@@ -48259,7 +47650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 189.865 312.42 0)
 			(effects
 				(font
@@ -48457,7 +47848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 220.345 151.765 0)
 			(effects
 				(font
@@ -49536,7 +48927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 84.455 312.42 0)
 			(effects
 				(font
@@ -49873,7 +49264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5277:KEYSTONE_5277"
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 238.125 75.565 0)
 			(effects
 				(font
@@ -50307,7 +49698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 135.89 40.64 0)
 			(effects
 				(font
@@ -51112,7 +50503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DMP3098LSD-13:SOIC127P600X175-8N"
+		(property "Footprint" "DMP2040USD-13:SOIC127P600X175-8N"
 			(at 50.8 454.965 0)
 			(effects
 				(font
@@ -51449,7 +50840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 154.94 305.435 0)
 			(effects
 				(font
@@ -51515,7 +50906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 73.66 106.045 0)
 			(effects
 				(font
@@ -51579,7 +50970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "APHB1608LG3R2CAMT"
+		(property "Footprint" "APHB1608LG3R2C-AMT:APHB1608LG3R2CAMT"
 			(at 88.265 -6.655 0)
 			(effects
 				(font
@@ -52173,7 +51564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:KEYSTONE_5277"
 			(at 144.78 52.07 0)
 			(effects
 				(font
@@ -52543,7 +51934,7 @@
 			(uuid "4b38eb8a-e93f-46b2-a4c8-bb925cb5ce38")
 		)
 		(instances
-			(project "RP2040 P"
+			(project "TVCS Dev"
 				(path "/7712695e-3038-4da8-a54c-20dbd93db58d"
 					(page "2")
 				)
