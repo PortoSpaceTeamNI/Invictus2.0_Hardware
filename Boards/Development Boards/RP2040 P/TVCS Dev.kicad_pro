@@ -75,16 +75,19 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -95,9 +98,11 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
@@ -112,7 +117,9 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -128,6 +135,7 @@
         "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
@@ -147,10 +155,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -239,6 +248,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -434,10 +444,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -450,9 +465,14 @@
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -464,7 +484,7 @@
   },
   "meta": {
     "filename": "TVCS Dev.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -479,19 +499,229 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "name": "12V",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 0, 0)"
+      },
+      {
+        "name": "3V3",
+        "pcb_color": "rgb(255, 255, 0)",
+        "priority": 6,
+        "schematic_color": "rgb(255, 255, 0)"
+      },
+      {
+        "name": "5V",
+        "pcb_color": "rgb(194, 194, 0)",
+        "priority": 5,
+        "schematic_color": "rgb(194, 194, 0)"
+      },
+      {
+        "name": "8V4",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 7,
+        "schematic_color": "rgb(255, 153, 0)"
+      },
+      {
+        "name": "Analog",
+        "pcb_color": "rgb(194, 194, 194)",
+        "priority": 10,
+        "schematic_color": "rgb(0, 0, 0)"
+      },
+      {
+        "name": "Digital",
+        "pcb_color": "rgb(132, 0, 132)",
+        "priority": 11,
+        "schematic_color": "rgb(132, 0, 132)"
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(0, 0, 194)",
+        "priority": 9,
+        "schematic_color": "rgb(0, 0, 194)"
+      },
+      {
+        "name": "I2C",
+        "pcb_color": "rgb(0, 255, 255)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 255, 255)"
+      },
+      {
+        "name": "SPI",
+        "pcb_color": "rgb(0, 194, 194)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 194, 194)"
+      },
+      {
+        "name": "UART",
+        "pcb_color": "rgb(0, 194, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 194, 0)"
+      },
+      {
+        "name": "USB-C",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 8,
+        "schematic_color": "rgb(0, 132, 0)"
+      },
+      {
+        "name": "VBUS",
+        "pcb_color": "rgb(132, 0, 0)",
+        "priority": 3,
+        "schematic_color": "rgb(132, 0, 0)"
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "SPI",
+        "pattern": "/SPI*"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/RS_*X"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*I2C"
+      },
+      {
+        "netclass": "VBUS",
+        "pattern": "/VBUS*"
+      },
+      {
+        "netclass": "VBUS",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "USB-C",
+        "pattern": "USB_*"
+      },
+      {
+        "netclass": "12V",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "8V4",
+        "pattern": "+8.4V"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/THERMO1_*"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*Sense"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*+"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*-"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*SENSE"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "*PGOOD"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "*VCC"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "^Net-.*"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/ADC*"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/USB-C *"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "*Valve*"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/Status*"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/RS_A"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/RS_ENABLE"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/RS_B"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/AIN*"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "*Crystal"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*MCU QSPI*"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "*{RST}"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "*BOOT}"
+      },
+      {
+        "netclass": "VBUS",
+        "pattern": "VBAT"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/LED*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*Card*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -587,6 +817,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -636,6 +867,7 @@
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -649,7 +881,7 @@
   "sheets": [
     [
       "7712695e-3038-4da8-a54c-20dbd93db58d",
-      "Raiz"
+      "Root"
     ],
     [
       "d32ffe6c-86e3-41d2-b513-f8cb3273b7bc",
