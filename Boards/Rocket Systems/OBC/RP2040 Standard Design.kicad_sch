@@ -307,7 +307,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ASE-3.2X2.5_ABR"
+			(property "Footprint" "ASE24576MHZLCT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -345,15 +345,6 @@
 				)
 			)
 			(property "ki_keywords" "ASE-12.000MHZ-LC-T"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "ASE-3.2X2.5_ABR ASE-3.2X2.5_ABR-M ASE-3.2X2.5_ABR-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5362,7 +5353,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 116.84) (xy 48.26 116.84)
+			(xy 33.02 116.84) (xy 48.26 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5892,7 +5883,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 185.42) (xy 127 185.42)
+			(xy 123.19 185.42) (xy 136.525 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6120,6 +6111,16 @@
 		)
 		(uuid "114b1ac5-e12c-4c03-b08e-d1bd4717cdc0")
 	)
+	(label "Crystal"
+		(at 136.525 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b357c68-ae6e-4d2c-9842-e8525c6ce9d3")
+	)
 	(label "MCU QSPI_SD1"
 		(at 162.56 48.26 0)
 		(effects
@@ -6220,6 +6221,16 @@
 		)
 		(uuid "8c9088ea-ebb9-4eca-910a-604735538223")
 	)
+	(label "Crystal"
+		(at 33.02 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "badfab64-1fbe-4c8f-b0f0-5a3e36037069")
+	)
 	(label "MCU QSPI_SCLK"
 		(at 33.02 104.14 0)
 		(effects
@@ -6289,50 +6300,6 @@
 			(justify left bottom)
 		)
 		(uuid "f83cfba6-de55-44ee-9fe8-73b469255f58")
-	)
-	(global_label "CRYSTAL"
-		(shape output)
-		(at 127 185.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4a4a5421-d44f-4972-8fb8-b19af7cddd0e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.3355 185.3406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CRYSTAL"
-		(shape input)
-		(at 44.45 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7fde333c-3ede-413c-bfc2-1cca054a1962")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.1145 116.7606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(hierarchical_label "GP10{slash}SPI1 SCK"
 		(shape bidirectional)
@@ -6690,7 +6657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AS12MHz:ASE-3.2X2.5_ABR"
+		(property "Footprint" "AS12MHz:ASE24576MHZLCT"
 			(at 57.15 182.88 0)
 			(effects
 				(font
