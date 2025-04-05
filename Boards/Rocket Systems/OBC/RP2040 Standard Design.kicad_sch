@@ -1472,6 +1472,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LDO_ST1L05A:ST1L05APU33R"
 			(pin_names
 				(offset 0.254)
@@ -3563,224 +3713,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TL1017AABF160QG:TL1017AABF160QG"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at 0.762 14.732 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "TL1017AABF160QG"
-				(at 0.762 12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "TL1017AABF160QG"
-				(at -0.762 19.812 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1017AABF160QG.pdf"
-				(at -25.908 24.892 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "TACT, Surface Mount"
-				(at 9.144 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.7"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "612-TL1017AABF160QG"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1017AABF160QG?qs=9vOqFld9vZWEDSBQD0ZM5A%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "E-Switch"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TL1017AABF160QG"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TL1017AABF160QG_0_1"
-				(polyline
-					(pts
-						(xy 6.35 5.08) (xy 11.43 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.985 3.81)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 5.08) (xy 8.89 6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 10.795 3.81)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TL1017AABF160QG_1_1"
-				(rectangle
-					(start 3.175 6.985)
-					(end 14.605 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 1.27 3.81 0)
-					(length 1.778)
-					(name "COM"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 0 90)
-					(length 1.778)
-					(name "G1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "G1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 3.81 180)
-					(length 1.778)
-					(name "NO"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -4418,22 +4350,10 @@
 		(uuid "45a280b6-c3f5-49aa-8c30-ba816be2ee5a")
 	)
 	(junction
-		(at 153.67 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "462a482d-15fe-4959-a16d-1e43e9da02a7")
-	)
-	(junction
 		(at 128.27 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52cbbced-308e-4cb9-83aa-b6b61e7b629e")
-	)
-	(junction
-		(at 33.02 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f64cac2-02ce-4478-b4f0-ca0eecd5af41")
 	)
 	(junction
 		(at 243.84 86.36)
@@ -4833,7 +4753,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 34.29) (xy 153.67 38.1)
+			(xy 153.67 34.29) (xy 153.67 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4853,7 +4773,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 55.88) (xy 25.4 55.88)
+			(xy 25.4 55.88) (xy 34.29 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4870,16 +4790,6 @@
 			(type default)
 		)
 		(uuid "37002aef-82f7-47b3-ab93-10547d7cbdbd")
-	)
-	(wire
-		(pts
-			(xy 153.67 38.1) (xy 153.67 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38cde3b2-0844-45b2-9fbb-7441aa466bd8")
 	)
 	(wire
 		(pts
@@ -5313,7 +5223,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 34.29) (xy 153.67 34.29)
+			(xy 153.67 34.29) (xy 157.48 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5453,7 +5363,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 34.29) (xy 170.18 34.29)
+			(xy 38.1 52.07) (xy 45.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9508ec12-f56f-4259-afb6-3d0430c2e66b")
+	)
+	(wire
+		(pts
+			(xy 180.34 34.29) (xy 167.64 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5560,16 +5480,6 @@
 			(type default)
 		)
 		(uuid "a4c5895f-4dc5-4624-905f-fca1fdd1cfc4")
-	)
-	(wire
-		(pts
-			(xy 153.67 38.1) (xy 162.56 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5aac979-551d-441e-864f-b30c3eca766c")
 	)
 	(wire
 		(pts
@@ -5923,16 +5833,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 52.07) (xy 45.72 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc8233af-66a4-4da9-a27e-a1ade47b4ad3")
-	)
-	(wire
-		(pts
 			(xy 100.33 43.18) (xy 93.98 43.18)
 		)
 		(stroke
@@ -5993,6 +5893,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 52.07) (xy 27.94 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97bcc37-ac01-4c8e-8f4c-ab633f38ab57")
+	)
+	(wire
+		(pts
 			(xy 34.29 71.12) (xy 20.32 71.12)
 		)
 		(stroke
@@ -6030,16 +5940,6 @@
 			(type default)
 		)
 		(uuid "f2119586-d193-4c71-9722-bd882aa77ad3")
-	)
-	(wire
-		(pts
-			(xy 34.29 55.88) (xy 33.02 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3a13986-cca5-434b-8dd5-29aade057b69")
 	)
 	(wire
 		(pts
@@ -7693,129 +7593,6 @@
 			(project "OBC"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe/131a9704-942d-4843-a3d4-218a5885dac4"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TL1017AABF160QG:TL1017AABF160QG")
-		(at 153.67 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "332d0924-2a22-4f85-af45-c4320db91f52")
-		(property "Reference" "S2"
-			(at 162.56 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL1017AABF160QG"
-			(at 162.56 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "E-Switch_Small:TL1017AABF160QG"
-			(at 152.908 18.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1017AABF160QG.pdf"
-			(at 127.762 13.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "TACT, Surface Mount"
-			(at 162.814 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.7"
-			(at 175.26 433.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "612-TL1017AABF160QG"
-			(at 175.26 533.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1017AABF160QG?qs=9vOqFld9vZWEDSBQD0ZM5A%3D%3D"
-			(at 175.26 633.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "E-Switch"
-			(at 175.26 733.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TL1017AABF160QG"
-			(at 175.26 833.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "G1"
-			(uuid "c1b2ccec-f504-443d-a989-49caeb11b41c")
-		)
-		(pin "1"
-			(uuid "41b2cec9-b5a4-49b5-a195-5bf4d46928e0")
-		)
-		(pin "2"
-			(uuid "0ba56979-4abe-4696-b570-657f5c38dbea")
-		)
-		(instances
-			(project "OBC"
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe/131a9704-942d-4843-a3d4-218a5885dac4"
-					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -10188,129 +9965,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TL1017AABF160QG:TL1017AABF160QG")
-		(at 24.13 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1383846-f47c-4183-b7c6-c167f191045e")
-		(property "Reference" "S1"
-			(at 33.02 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL1017AABF160QG"
-			(at 33.02 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "E-Switch_Small:TL1017AABF160QG"
-			(at 23.368 36.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1017AABF160QG.pdf"
-			(at -1.778 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "TACT, Surface Mount"
-			(at 33.274 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.7"
-			(at 45.72 450.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "612-TL1017AABF160QG"
-			(at 45.72 550.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1017AABF160QG?qs=9vOqFld9vZWEDSBQD0ZM5A%3D%3D"
-			(at 45.72 650.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "E-Switch"
-			(at 45.72 750.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TL1017AABF160QG"
-			(at 45.72 850.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "G1"
-			(uuid "c9599506-4342-4cfd-9a8d-05f80915d351")
-		)
-		(pin "1"
-			(uuid "89f9be35-1136-4823-a092-44b0ab371c98")
-		)
-		(pin "2"
-			(uuid "fde0b518-839b-4923-84ba-0f28dfa4692e")
-		)
-		(instances
-			(project "OBC"
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe/131a9704-942d-4843-a3d4-218a5885dac4"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 135.89 50.8 0)
 		(unit 1)
@@ -10833,6 +10487,74 @@
 			(project "OBC"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe/131a9704-942d-4843-a3d4-218a5885dac4"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 33.02 52.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3cd22b1-f2fd-4979-86f4-182007810445")
+		(property "Reference" "JP2"
+			(at 33.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 33.02 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 33.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 33.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67368dc8-31cd-4bbe-8a1c-24f4dbb5894e")
+		)
+		(pin "1"
+			(uuid "cf7633e9-36a5-430b-9edd-4b1aba9aa7cb")
+		)
+		(instances
+			(project "OBC"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe/131a9704-942d-4843-a3d4-218a5885dac4"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -11500,6 +11222,74 @@
 			(project "OBC"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe/131a9704-942d-4843-a3d4-218a5885dac4"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 162.56 34.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8066c2d-b0f4-4ab7-9333-acde33d0806b")
+		(property "Reference" "JP1"
+			(at 162.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 162.56 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37f3a95c-3872-47b2-aab1-58af9b5821e6")
+		)
+		(pin "1"
+			(uuid "f4cd6116-adb7-4086-a0a3-e8e793872356")
+		)
+		(instances
+			(project "OBC"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe/131a9704-942d-4843-a3d4-218a5885dac4"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
