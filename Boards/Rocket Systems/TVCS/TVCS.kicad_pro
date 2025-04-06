@@ -478,73 +478,79 @@
         "name": "12V",
         "pcb_color": "rgb(255, 0, 0)",
         "priority": 7,
-        "schematic_color": "rgb(255, 0, 0)"
+        "schematic_color": "rgb(255, 4, 20)"
+      },
+      {
+        "name": "2V5",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(169, 240, 0)"
       },
       {
         "name": "3V3",
         "pcb_color": "rgb(255, 255, 0)",
-        "priority": 5,
-        "schematic_color": "rgb(255, 255, 0)"
+        "priority": 4,
+        "schematic_color": "rgb(217, 255, 5)"
       },
       {
         "name": "5V",
         "pcb_color": "rgb(194, 194, 0)",
-        "priority": 6,
-        "schematic_color": "rgb(194, 194, 0)"
+        "priority": 5,
+        "schematic_color": "rgb(222, 177, 47)"
       },
       {
         "name": "8V4",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 4,
-        "schematic_color": "rgb(255, 153, 0)"
+        "priority": 6,
+        "schematic_color": "rgb(255, 155, 65)"
       },
       {
         "name": "Analog",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(226, 0, 255)"
+      },
+      {
+        "name": "Differential",
         "pcb_color": "rgb(194, 194, 194)",
         "priority": 1,
-        "schematic_color": "rgb(0, 0, 0)"
+        "schematic_color": "rgb(255, 116, 224)"
       },
       {
         "name": "Digital",
         "pcb_color": "rgb(132, 0, 132)",
-        "priority": 0,
-        "schematic_color": "rgb(132, 0, 132)"
+        "priority": 9,
+        "schematic_color": "rgb(43, 255, 182)"
       },
       {
         "name": "GND",
         "pcb_color": "rgb(0, 0, 194)",
         "priority": 2,
-        "schematic_color": "rgb(0, 0, 194)"
+        "schematic_color": "rgb(0, 0, 255)"
       },
       {
         "name": "I2C",
         "pcb_color": "rgb(0, 255, 255)",
-        "priority": 10,
-        "schematic_color": "rgb(0, 255, 255)"
+        "priority": 11,
+        "schematic_color": "rgb(39, 200, 210)"
+      },
+      {
+        "name": "POWER",
+        "pcb_color": "rgb(132, 0, 0)",
+        "priority": 8,
+        "schematic_color": "rgb(165, 64, 47)"
       },
       {
         "name": "SPI",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 11,
-        "schematic_color": "rgb(0, 194, 194)"
+        "priority": 12,
+        "schematic_color": "rgb(0, 119, 194)"
       },
       {
         "name": "UART",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 9,
-        "schematic_color": "rgb(0, 194, 0)"
-      },
-      {
-        "name": "USB-C",
-        "pcb_color": "rgb(0, 132, 0)",
-        "priority": 3,
-        "schematic_color": "rgb(0, 132, 0)"
-      },
-      {
-        "name": "VBUS",
-        "pcb_color": "rgb(132, 0, 0)",
-        "priority": 8,
-        "schematic_color": "rgb(132, 0, 0)"
+        "priority": 10,
+        "schematic_color": "rgb(0, 216, 175)"
       }
     ],
     "meta": {
@@ -554,60 +560,60 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "SPI",
-        "pattern": "/SPI_MOSI"
+        "netclass": "Differential",
+        "pattern": "*DN"
       },
       {
-        "netclass": "I2C",
-        "pattern": "/SCL I2C"
+        "netclass": "Differential",
+        "pattern": "*DP"
       },
       {
-        "netclass": "UART",
-        "pattern": "UART"
+        "netclass": "Differential",
+        "pattern": "*+"
       },
       {
-        "netclass": "SPI",
-        "pattern": "/SPI_SCK"
+        "netclass": "Differential",
+        "pattern": "*-"
       },
       {
-        "netclass": "SPI",
-        "pattern": "/SPI_MISO"
-      },
-      {
-        "netclass": "I2C",
-        "pattern": "/SDA I2C"
-      },
-      {
-        "netclass": "VBUS",
-        "pattern": "/VBUS_IN"
-      },
-      {
-        "netclass": "USB-C",
-        "pattern": "USB_DM"
-      },
-      {
-        "netclass": "USB-C",
-        "pattern": "USB_DP"
-      },
-      {
-        "netclass": "5V",
-        "pattern": "+5V"
+        "netclass": "Analog",
+        "pattern": "*Sense"
       },
       {
         "netclass": "3V3",
         "pattern": "+3.3V"
       },
       {
-        "netclass": "I2C",
-        "pattern": "/SDL I2C"
+        "netclass": "5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "8V4",
+        "pattern": "+8.4V"
       },
       {
         "netclass": "12V",
         "pattern": "+12V"
       },
       {
-        "netclass": "8V4",
-        "pattern": "+8.4V"
+        "netclass": "POWER",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "VBAT"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "VDC"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*SPI"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "*THERMO"
       },
       {
         "netclass": "GND",
@@ -615,127 +621,23 @@
       },
       {
         "netclass": "UART",
-        "pattern": "/RS_RX"
+        "pattern": "*RS"
       },
       {
-        "netclass": "UART",
-        "pattern": "/RS_TX"
-      },
-      {
-        "netclass": "UART",
-        "pattern": "/RS_ENABLE"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/DC.DC2 VCC"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/DC.DC2 PGOOD"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/DC.DC1 VCC"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/DC.DC1 PGOOD"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/DC.DC3 PGOOD"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/DC.DC3 VCC"
-      },
-      {
-        "netclass": "VBUS",
-        "pattern": "VBUS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/12V_Sense"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/5V_Sense"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/8.4V_Sense"
+        "netclass": "I2C",
+        "pattern": "*I2C"
       },
       {
         "netclass": "Digital",
-        "pattern": "/THERMO1_~{CS}"
+        "pattern": "*Status"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "*Valve"
       },
       {
         "netclass": "Digital",
-        "pattern": "/THERMO1_~{FAULT}"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/THERMO1_~{DRDY}"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/THERMO2_~{CS}"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/THERMO3_~{CS}"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/THERMO2_~{FAULT}"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/THERMO2_~{DRDY}"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/THERMO3_~{DRDY}"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/THERMO3_~{FAULT}"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "*Sense"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "*+"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "*-"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "*SENSE"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "*PGOOD"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "*VCC"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "^Net-.*"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/ADC RDY"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/USB-C PD ~{INT}"
+        "pattern": "*PWM"
       },
       {
         "netclass": "Digital",
@@ -743,55 +645,11 @@
       },
       {
         "netclass": "Digital",
-        "pattern": "/Servo Valve PWM"
+        "pattern": "*USB-C"
       },
       {
-        "netclass": "Digital",
-        "pattern": "/Status Red"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/Status Green"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/RS_A"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/RS_B"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "/AIN*"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "*Crystal"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "*MCU QSPI*"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "*{RST}"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "*BOOT}"
-      },
-      {
-        "netclass": "VBUS",
-        "pattern": "VBAT"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "*Valve"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/Purge Valve Drive"
+        "netclass": "2V5",
+        "pattern": "*2.5V"
       }
     ]
   },
@@ -1013,7 +871,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "../../../../../Esquemas/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1032,6 +890,14 @@
     [
       "10f1de56-07bf-4172-ae82-8a448f5612d1",
       "RP2040 Standard"
+    ],
+    [
+      "2cbeb4b4-96df-4eba-affc-b7f2c346466c",
+      "Sensor Unit"
+    ],
+    [
+      "1d3e1938-2181-482b-a6e3-3e03c94a0c3c",
+      "Power Unit"
     ]
   ],
   "text_variables": {}

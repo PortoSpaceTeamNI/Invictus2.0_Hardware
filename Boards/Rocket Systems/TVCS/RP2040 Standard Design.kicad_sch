@@ -4692,16 +4692,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.735 81.915) (xy 40.005 81.915)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de49dc0d-a27f-4ec2-b7a3-ba01ca6fd665")
-	)
-	(wire
-		(pts
 			(xy 36.195 56.515) (xy 34.925 56.515)
 		)
 		(stroke
@@ -4752,7 +4742,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 117.475) (xy 50.165 117.475)
+			(xy 34.925 117.475) (xy 50.165 117.475)
 		)
 		(stroke
 			(width 0)
@@ -4960,17 +4950,7 @@
 		)
 		(uuid "ff937e04-bd93-4554-8bae-36c5859ab889")
 	)
-	(wire
-		(pts
-			(xy 38.735 79.375) (xy 40.005 79.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffd4d5a8-6503-4275-b86c-05c8e318858a")
-	)
-	(label "MCU QSPI_SD0"
+	(label "MCU SD0 SPI"
 		(at 283.21 53.975 180)
 		(effects
 			(font
@@ -4980,17 +4960,7 @@
 		)
 		(uuid "1151070c-0d1b-4983-8049-c40a7717767a")
 	)
-	(label "MCU QSPI_SS"
-		(at 34.925 89.535 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2dea0e85-8e8d-451b-8b4b-6720d3341526")
-	)
-	(label "MCU QSPI_SD2"
+	(label "MCU SD2 SPI"
 		(at 34.925 99.695 0)
 		(effects
 			(font
@@ -4998,9 +4968,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2e9b0976-74eb-43e0-ab1c-79f4d3517f90")
+		(uuid "145cf3d2-8a02-4586-8cac-560117f62913")
 	)
-	(label "MCU QSPI_SD3"
+	(label "MCU SD3 SPI"
 		(at 283.21 48.895 180)
 		(effects
 			(font
@@ -5010,7 +4980,7 @@
 		)
 		(uuid "2f4a660b-3cb9-4a55-b0b4-1bb98ce1db40")
 	)
-	(label "MCU QSPI_SS"
+	(label "MCU ~{CS} SPI"
 		(at 163.83 46.355 0)
 		(effects
 			(font
@@ -5020,7 +4990,7 @@
 		)
 		(uuid "36ee5e80-3a54-4c46-a591-d3020d425938")
 	)
-	(label "MCU QSPI_SCLK"
+	(label "MCU SCLK SPI"
 		(at 283.21 51.435 180)
 		(effects
 			(font
@@ -5030,7 +5000,7 @@
 		)
 		(uuid "371a5f68-381f-4063-bdda-c00fd5f5e9ef")
 	)
-	(label "MCU QSPI_SD3"
+	(label "MCU SD3 SPI"
 		(at 34.925 102.235 0)
 		(effects
 			(font
@@ -5038,7 +5008,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "51ec514c-be71-44f6-ad81-0b3e40f826c5")
+		(uuid "62ea6e55-5502-4e44-8b7e-b0e307563f69")
 	)
 	(label "~{RST}"
 		(at 45.085 52.705 0)
@@ -5060,6 +5030,26 @@
 		)
 		(uuid "7ac323c7-d49a-4fa9-9c13-85d31b77aa91")
 	)
+	(label "MCU SCLK SPI"
+		(at 34.925 104.775 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95504943-d42e-4f02-9030-2c98b9fad4ce")
+	)
+	(label "MCU ~{CS} SPI"
+		(at 34.925 89.535 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95b39e4f-1f06-4fa8-a721-5f9efb529fcd")
+	)
 	(label "~{USB_BOOT}"
 		(at 171.45 34.925 0)
 		(effects
@@ -5071,7 +5061,7 @@
 		(uuid "9a81d89f-3024-4e35-b4ce-030757c7d1e5")
 	)
 	(label "Crystal"
-		(at 42.545 117.475 0)
+		(at 34.925 117.475 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5080,7 +5070,7 @@
 		)
 		(uuid "aac0548e-34b3-4c0b-ba77-c40642a4b232")
 	)
-	(label "MCU QSPI_SD2"
+	(label "MCU SD2 SPI"
 		(at 163.83 51.435 0)
 		(effects
 			(font
@@ -5090,7 +5080,17 @@
 		)
 		(uuid "b4b47a01-9c12-4135-a2a0-9b3e6d4871ef")
 	)
-	(label "MCU QSPI_SD1"
+	(label "MCU SD1 SPI"
+		(at 34.925 97.155 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8b6d149-9bfa-4152-82a4-17b54387e52b")
+	)
+	(label "MCU SD1 SPI"
 		(at 163.83 48.895 0)
 		(effects
 			(font
@@ -5100,27 +5100,7 @@
 		)
 		(uuid "c8e71896-fbeb-4560-80c5-dabe4a0ade8a")
 	)
-	(label "MCU QSPI_SD1"
-		(at 34.925 97.155 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d138f143-e8ea-4f2d-8ad2-95f9e1e2c7f8")
-	)
-	(label "MCU QSPI_SCLK"
-		(at 34.925 104.775 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e32693e1-954a-4a66-b100-e92ee5342e44")
-	)
-	(label "MCU QSPI_SD0"
+	(label "MCU SD0 SPI"
 		(at 34.925 94.615 0)
 		(effects
 			(font
@@ -5128,51 +5108,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fa54db7c-0d28-4e65-96c4-6fa573fd5597")
-	)
-	(global_label "USB_DM"
-		(shape input)
-		(at 38.735 81.915 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1b85b4e0-47d0-4c22-891a-5a32178f162c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.2508 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_DP"
-		(shape input)
-		(at 38.735 79.375 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8cbbc803-7d10-439b-93b4-9ad3bbe1515f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.4322 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "d07f4795-c971-480c-bc8b-15b315a5f11f")
 	)
 	(hierarchical_label "GPIO7"
 		(shape bidirectional)
@@ -5339,6 +5275,17 @@
 		)
 		(uuid "794278b6-973c-4c37-bc60-ce060f39cbf8")
 	)
+	(hierarchical_label "USB DN"
+		(shape input)
+		(at 40.005 79.375 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81b37dfa-0330-4cb4-bb74-d502e40e0879")
+	)
 	(hierarchical_label "GPIO21"
 		(shape bidirectional)
 		(at 109.855 125.095 0)
@@ -5492,6 +5439,17 @@
 			(justify left)
 		)
 		(uuid "f0eeedc8-cc1b-4b01-abc9-27e241bb8043")
+	)
+	(hierarchical_label "USB DP"
+		(shape input)
+		(at 40.005 81.915 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3114a1b-0f1d-48be-b5f5-25c411319c49")
 	)
 	(hierarchical_label "GP3{slash}PWM1 B"
 		(shape bidirectional)
