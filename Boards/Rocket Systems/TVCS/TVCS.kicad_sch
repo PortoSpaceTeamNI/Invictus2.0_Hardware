@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "2cb205da-01dc-4dd5-90f3-3844dc2f7334")
-	(paper "User" 469.9 533.4)
+	(paper "User" 469.9 431.8)
 	(title_block
 		(title "Temperature & Valve Control System")
 		(date "2025-02-20")
@@ -14,6 +14,262 @@
 		(comment 4 "Teresa Monteiro")
 	)
 	(lib_symbols
+		(symbol "BC846BLT1G:BC846BLT1G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 0 10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BC846BLT1G"
+				(at 0 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT96P237X111-3N"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Moisture Sensitivity Level: 1; ESD Rating - Human Body Model: >4000 V ESD Rating - Machine Model: >400 V; Pb-Free Packages are Available; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.11"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "863-BC846BLT1G"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BC846BLT1G?qs=vNc2DXHODiJuwwGLruzsRg%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BC846BLT1G"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BC846BLT1G_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.715 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.905) (xy 5.715 -1.905) (xy 5.715 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 0.635) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -0.635) (xy 7.62 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.778) (xy 6.858 -1.27) (xy 7.366 -2.286) (xy 6.35 -1.778) (xy 6.35 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 -1.27) (xy 7.874 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 -1.27) (xy 7.874 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC846BLT1G_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BC857CMB_315:BC857CMB_315"
 			(pin_names
 				(offset 1.016)
@@ -1208,6 +1464,369 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PKLCS1212E20A0-R1:PKLCS1212E20A0-R1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LS"
+				(at -3.82 8.9133 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PKLCS1212E20A0-R1"
+				(at -3.823 -11.469 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PKLCS1212E20A0-R1:SPKR_PKLCS1212E20A0-R1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Murata"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.0 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD-2 Murata"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/PKLCS1212E20A0-R1/Murata/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "January 22, 2018"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PKLCS1212E20A0-R1/Murata/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "PKLCS1212E20A0-R1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Buzzers Transducer, Externally Driven Piezo 1.5 V - 2kHz 70dB @ 1.5V, 10cm Surface Mount Solder Pads"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Murata Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PKLCS1212E20A0-R1_0_0"
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 1.905 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.175) (xy 1.905 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -3.175) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -1.905 1.27 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "-"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left top)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -4986,9 +5605,9 @@
 		)
 		(uuid "8caf8428-97c6-458b-9b89-21f504b29f4b")
 	)
-	(text "TODO LIST:\nLEDs PGOOD\nPower Multiplexer na USB-C\nNovo LED Driver USB-C\nAtualizar Pinout\nRecalcular Current Sense Resistors\nBuffer a criar Vref nos sensores de corrente\nBuzzer\n"
+	(text "TODO LIST:\n\nPower Multiplexer na USB-C\nBuffer a criar Vref nos sensores de corrente\nMeter isto  mais apresentavel \nAtualizar Pinout"
 		(exclude_from_sim no)
-		(at 122.555 242.57 0)
+		(at 115.316 193.04 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -5090,6 +5709,12 @@
 		(uuid "1733e4df-5d45-49c7-bb23-a96c9e81af32")
 	)
 	(junction
+		(at 406.4 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b37c097-7de8-43f2-882a-b1934a8f93a7")
+	)
+	(junction
 		(at 429.26 83.185)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5148,6 +5773,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab68ea08-0283-4c52-92d2-4f8411324b63")
+	)
+	(junction
+		(at 406.4 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acd6f735-ff40-446f-886b-6cfd67a4965d")
 	)
 	(junction
 		(at 339.09 209.55)
@@ -5285,6 +5916,16 @@
 	)
 	(wire
 		(pts
+			(xy 400.685 213.36) (xy 400.685 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0364eb87-e90b-47b6-996d-65a1f349c83e")
+	)
+	(wire
+		(pts
 			(xy 277.495 246.38) (xy 277.495 248.92)
 		)
 		(stroke
@@ -5342,6 +5983,16 @@
 			(type default)
 		)
 		(uuid "08877717-7af0-4a9b-aa54-6348ebc1ef51")
+	)
+	(wire
+		(pts
+			(xy 400.685 205.74) (xy 400.685 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c6bddf-274a-4ee4-b460-4c68f16c1271")
 	)
 	(wire
 		(pts
@@ -5695,6 +6346,16 @@
 	)
 	(wire
 		(pts
+			(xy 400.685 214.63) (xy 406.4 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33947a79-d4d8-4eb4-9cdb-91fa81783be0")
+	)
+	(wire
+		(pts
 			(xy 345.44 219.71) (xy 360.68 219.71)
 		)
 		(stroke
@@ -5745,6 +6406,16 @@
 	)
 	(wire
 		(pts
+			(xy 406.4 213.995) (xy 406.4 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c28d174-e609-4b75-be62-5139f23e5d63")
+	)
+	(wire
+		(pts
 			(xy 190.5 119.38) (xy 213.36 119.38)
 		)
 		(stroke
@@ -5792,6 +6463,16 @@
 			(type default)
 		)
 		(uuid "429f7fd0-a763-4e3b-9cde-e994dd09e7aa")
+	)
+	(wire
+		(pts
+			(xy 406.4 203.2) (xy 406.4 203.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437703e7-a2f3-433f-92c5-80490a39369f")
 	)
 	(wire
 		(pts
@@ -6115,6 +6796,16 @@
 	)
 	(wire
 		(pts
+			(xy 406.4 214.63) (xy 406.4 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9039cb-1bb9-463b-aeba-bdbc3892c071")
+	)
+	(wire
+		(pts
 			(xy 379.095 173.99) (xy 379.095 168.275)
 		)
 		(stroke
@@ -6202,6 +6893,16 @@
 			(type default)
 		)
 		(uuid "852975b4-3b6f-4b48-8255-c73ee1a4704a")
+	)
+	(wire
+		(pts
+			(xy 406.4 226.06) (xy 406.4 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863a83a3-ad56-4530-a446-d49ffa00fbac")
 	)
 	(wire
 		(pts
@@ -6785,6 +7486,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 220.98) (xy 391.16 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a1151f-9d72-4405-a060-53b60972cced")
+	)
+	(wire
+		(pts
 			(xy 69.215 96.52) (xy 71.755 96.52)
 		)
 		(stroke
@@ -6822,6 +7533,16 @@
 			(type default)
 		)
 		(uuid "e0092c2e-b054-47f4-9a58-80c9a38a50d3")
+	)
+	(wire
+		(pts
+			(xy 406.4 200.66) (xy 406.4 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03bf076-c8a5-4360-a1ab-2d480e9a7afe")
 	)
 	(wire
 		(pts
@@ -6982,6 +7703,16 @@
 			(type default)
 		)
 		(uuid "f2903bf3-0dee-47be-8490-6cda3c83009c")
+	)
+	(wire
+		(pts
+			(xy 400.685 203.2) (xy 406.4 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b44be8-865d-4920-ac94-d699dcb79b97")
 	)
 	(wire
 		(pts
@@ -7613,6 +8344,16 @@
 		)
 		(uuid "eeca816b-38ec-48aa-add1-b09374bfc056")
 	)
+	(label "Buzzer"
+		(at 384.81 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f414a984-0f9d-4ad5-a045-6831632e6ca6")
+	)
 	(label "THERMO1 DN"
 		(at 422.275 62.865 180)
 		(effects
@@ -7919,6 +8660,197 @@
 			(project "TVCS"
 				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
 					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PKLCS1212E20A0-R1:PKLCS1212E20A0-R1")
+		(at 406.4 208.915 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1872af3c-edc5-458c-a06d-ffce076b65cf")
+		(property "Reference" "LS1"
+			(at 410.21 207.6449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PKLCS1212E20A0-R1"
+			(at 410.21 210.1849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PKLCS1212E20A0-R1:PKLCS1212E20A0-R1"
+			(at 406.4 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 406.4 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 406.4 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Murata"
+			(at 406.4 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.0 mm"
+			(at 406.4 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-2 Murata"
+			(at 406.4 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 406.4 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PKLCS1212E20A0-R1/Murata/view-part/?ref=eda"
+			(at 406.4 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 406.4 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "January 22, 2018"
+			(at 406.4 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PKLCS1212E20A0-R1/Murata/view-part/?ref=snap"
+			(at 406.4 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PKLCS1212E20A0-R1"
+			(at 406.4 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Buzzers Transducer, Externally Driven Piezo 1.5 V - 2kHz 70dB @ 1.5V, 10cm Surface Mount Solder Pads"
+			(at 406.4 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 406.4 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 406.4 208.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "N"
+			(uuid "48d026b9-4992-445a-857d-9fbe0f47b601")
+		)
+		(pin "P"
+			(uuid "8c061ee9-a0a2-493f-8f80-f063b892782b")
+		)
+		(instances
+			(project "TVCS"
+				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
+					(reference "LS1")
 					(unit 1)
 				)
 			)
@@ -8652,6 +9584,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 394.97 220.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37ae5654-d1c3-497e-aaa1-55cb0af70583")
+		(property "Reference" "R18"
+			(at 396.875 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 396.24 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor-0402:RES_0402"
+			(at 394.97 219.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 394.97 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 394.97 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e8443bd-ef45-4870-9076-2111cf131cdb")
+		)
+		(pin "2"
+			(uuid "21b9e72a-867e-4123-82f4-79a414bce0e8")
+		)
+		(instances
+			(project "TVCS"
+				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
 		(at 396.875 70.485 180)
 		(unit 1)
@@ -9189,6 +10190,131 @@
 		)
 	)
 	(symbol
+		(lib_id "BC846BLT1G:BC846BLT1G")
+		(at 398.78 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46adf4b4-77a2-44aa-8200-c3aa9109a6f0")
+		(property "Reference" "IC1"
+			(at 408.94 219.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC846BLT1G"
+			(at 408.94 222.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BJT NPN:SOT96P237X111-3N"
+			(at 415.29 315.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"
+			(at 415.29 415.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Moisture Sensitivity Level: 1; ESD Rating - Human Body Model: >4000 V ESD Rating - Machine Model: >400 V; Pb-Free Packages are Available; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable"
+			(at 398.78 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.11"
+			(at 415.29 615.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-BC846BLT1G"
+			(at 415.29 715.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BC846BLT1G?qs=vNc2DXHODiJuwwGLruzsRg%3D%3D"
+			(at 415.29 815.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 415.29 915.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BC846BLT1G"
+			(at 415.29 1015.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4d22e088-6ae3-4b54-922f-28809ed0510a")
+		)
+		(pin "2"
+			(uuid "9d0c02f4-efa5-4ee3-ac15-15a6fd765a1c")
+		)
+		(pin "1"
+			(uuid "fc2b0b46-bb4d-4322-8777-1efe1abdb6aa")
+		)
+		(instances
+			(project "TVCS"
+				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 439.42 79.375 0)
 		(unit 1)
@@ -9443,6 +10569,75 @@
 			(project "TVCS Top"
 				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 400.685 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53143e1b-c3f9-4aaf-b808-d93c44a7be0d")
+		(property "Reference" "R19"
+			(at 400.685 207.645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 398.145 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor-0402:RES_0402"
+			(at 398.907 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 400.685 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 400.685 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f280593e-cc27-47c6-91b6-a812bf2ccabb")
+		)
+		(pin "2"
+			(uuid "1f769d44-98e6-4289-95d0-36d6cb5805a1")
+		)
+		(instances
+			(project "TVCS"
+				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -11242,6 +12437,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 406.4 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dad19e3-d947-44fa-9d0f-ded09d345dfa")
+		(property "Reference" "#PWR023"
+			(at 406.4 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 406.4 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 406.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 406.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 406.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f7c9174-dd3f-4870-882f-913c9cf7baa1")
+		)
+		(instances
+			(project "TVCS"
+				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 367.03 140.97 0)
 		(unit 1)
@@ -12726,6 +13986,71 @@
 			(project "TVCS Top"
 				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 406.4 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5543c25-c4fc-442a-9993-062ab6bdbe4a")
+		(property "Reference" "#PWR021"
+			(at 406.4 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 406.4 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 406.4 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 406.4 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 406.4 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7aecfbdc-b670-4253-bc79-71416b536997")
+		)
+		(instances
+			(project "TVCS"
+				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
