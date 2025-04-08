@@ -477,79 +477,85 @@
       {
         "name": "12V",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(255, 4, 20)"
       },
       {
         "name": "2V5",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(169, 240, 0)"
       },
       {
         "name": "3V3",
         "pcb_color": "rgb(255, 255, 0)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(217, 255, 5)"
       },
       {
         "name": "5V",
         "pcb_color": "rgb(194, 194, 0)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(222, 177, 47)"
       },
       {
         "name": "8V4",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(255, 155, 65)"
       },
       {
         "name": "Analog",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(226, 0, 255)"
       },
       {
         "name": "Differential",
         "pcb_color": "rgb(194, 194, 194)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 116, 224)"
       },
       {
         "name": "Digital",
         "pcb_color": "rgb(132, 0, 132)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgb(43, 255, 182)"
       },
       {
         "name": "GND",
         "pcb_color": "rgb(0, 0, 194)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 0, 255)"
+      },
+      {
+        "name": "GNDA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(82, 34, 255)"
       },
       {
         "name": "I2C",
         "pcb_color": "rgb(0, 255, 255)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgb(39, 200, 210)"
       },
       {
         "name": "POWER",
         "pcb_color": "rgb(132, 0, 0)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(165, 64, 47)"
       },
       {
         "name": "SPI",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 12,
+        "priority": 13,
         "schematic_color": "rgb(0, 119, 194)"
       },
       {
         "name": "UART",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgb(0, 216, 175)"
       }
     ],
@@ -650,6 +656,10 @@
       {
         "netclass": "2V5",
         "pattern": "*2.5V"
+      },
+      {
+        "netclass": "GNDA",
+        "pattern": "*GNDA"
       }
     ]
   },
