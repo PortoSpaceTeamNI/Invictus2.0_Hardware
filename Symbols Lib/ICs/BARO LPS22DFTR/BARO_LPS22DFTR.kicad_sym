@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "LPS22DFTR"
 		(pin_names
 			(offset 0.254)
@@ -83,18 +83,6 @@
 		(symbol "LPS22DFTR_0_1"
 			(polyline
 				(pts
-					(xy 7.62 -15.24) (xy 43.18 -15.24)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 7.62 5.08) (xy 7.62 -15.24)
 				)
 				(stroke
@@ -107,7 +95,7 @@
 			)
 			(polyline
 				(pts
-					(xy 43.18 -15.24) (xy 43.18 5.08)
+					(xy 7.62 -15.24) (xy 38.1 -15.24)
 				)
 				(stroke
 					(width 0.127)
@@ -119,7 +107,19 @@
 			)
 			(polyline
 				(pts
-					(xy 43.18 5.08) (xy 7.62 5.08)
+					(xy 38.1 5.08) (xy 7.62 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.1 -15.24) (xy 38.1 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -140,42 +140,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 50.8 0 180)
-				(length 7.62)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -10.16 0)
-				(length 7.62)
-				(name "RES"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -220,7 +184,43 @@
 				)
 			)
 			(pin passive line
-				(at 50.8 -2.54 180)
+				(at 0 -10.16 0)
+				(length 7.62)
+				(name "RES"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 45.72 0 180)
+				(length 7.62)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 45.72 -2.54 180)
 				(length 7.62)
 				(name "CS"
 					(effects
@@ -238,7 +238,7 @@
 				)
 			)
 			(pin input line
-				(at 50.8 -5.08 180)
+				(at 45.72 -5.08 180)
 				(length 7.62)
 				(name "INT_DRDY"
 					(effects
@@ -256,25 +256,7 @@
 				)
 			)
 			(pin passive line
-				(at 50.8 -10.16 180)
-				(length 7.62)
-				(name "GND_IO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 50.8 -7.62 180)
+				(at 45.72 -7.62 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -284,6 +266,24 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 45.72 -10.16 180)
+				(length 7.62)
+				(name "GND_IO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -312,5 +312,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
