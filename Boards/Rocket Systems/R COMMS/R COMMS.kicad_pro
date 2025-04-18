@@ -108,6 +108,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -189,6 +190,7 @@
       "track_widths": [
         0.0,
         0.125,
+        0.185,
         0.25,
         0.5,
         0.75,
@@ -497,7 +499,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.12,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -508,10 +510,70 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.12,
-        "via_diameter": 0.5,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "3V3",
+        "pcb_color": "rgb(217, 255, 5)",
+        "priority": 3,
+        "schematic_color": "rgb(217, 255, 5)"
+      },
+      {
+        "name": "5V",
+        "pcb_color": "rgb(222, 177, 47)",
+        "priority": 4,
+        "schematic_color": "rgb(222, 177, 47)"
+      },
+      {
+        "name": "Analog",
+        "pcb_color": "rgb(226, 0, 255)",
+        "priority": 0,
+        "schematic_color": "rgb(226, 0, 255)"
+      },
+      {
+        "name": "Differential",
+        "pcb_color": "rgb(255, 116, 224)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 116, 224)"
+      },
+      {
+        "name": "Digital",
+        "pcb_color": "rgb(43, 255, 182)",
+        "priority": 6,
+        "schematic_color": "rgb(43, 255, 182)"
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 0, 255)"
+      },
+      {
+        "name": "I2C",
+        "pcb_color": "rgb(39, 200, 210)",
+        "priority": 8,
+        "schematic_color": "rgb(39, 200, 210)"
+      },
+      {
+        "name": "POWER",
+        "pcb_color": "rgb(165, 64, 47)",
+        "priority": 5,
+        "schematic_color": "rgb(165, 64, 47)"
+      },
+      {
+        "name": "SPI",
+        "pcb_color": "rgb(0, 119, 194)",
+        "priority": 9,
+        "schematic_color": "rgb(0, 119, 194)"
+      },
+      {
+        "name": "UART",
+        "pcb_color": "rgb(0, 216, 175)",
+        "priority": 7,
+        "schematic_color": "rgb(0, 216, 175)"
       }
     ],
     "meta": {
@@ -519,7 +581,88 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Differential",
+        "pattern": "*DN"
+      },
+      {
+        "netclass": "Differential",
+        "pattern": "*DP"
+      },
+      {
+        "netclass": "Differential",
+        "pattern": "*+"
+      },
+      {
+        "netclass": "Differential",
+        "pattern": "*-"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*Sense"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*SPI"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "*RS"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*I2C"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "*Status"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "*SX1280"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "*NRF21540"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "*UART"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "*Buzzer"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*Crystal"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "*~{BOOT}"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*SWD"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
