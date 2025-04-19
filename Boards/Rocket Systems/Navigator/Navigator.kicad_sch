@@ -10231,7 +10231,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 131.445) (xy 52.705 130.175)
+			(xy 53.34 132.08) (xy 53.34 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10268,6 +10268,16 @@
 			(type default)
 		)
 		(uuid "1b6233fe-fbef-4d7e-bcc1-b5623e1f753f")
+	)
+	(wire
+		(pts
+			(xy 16.51 130.81) (xy 31.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6f8cd3-3fe5-40ed-bd5b-2720d03ea433")
 	)
 	(wire
 		(pts
@@ -10511,16 +10521,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 130.175) (xy 31.115 130.175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "352736f5-6e6a-4c69-ae7b-f5a2c4232cbb")
-	)
-	(wire
-		(pts
 			(xy 81.915 118.745) (xy 81.915 113.665)
 		)
 		(stroke
@@ -10551,7 +10551,17 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 122.555) (xy 31.115 122.555)
+			(xy 16.51 128.27) (xy 31.75 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "385f2f76-71ed-4788-aa8e-d40e2f25398e")
+	)
+	(wire
+		(pts
+			(xy 16.51 123.19) (xy 31.75 123.19)
 		)
 		(stroke
 			(width 0)
@@ -11761,7 +11771,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 125.095) (xy 31.115 125.095)
+			(xy 16.51 125.73) (xy 31.75 125.73)
 		)
 		(stroke
 			(width 0)
@@ -11921,7 +11931,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 121.285) (xy 52.705 122.555)
+			(xy 53.34 121.92) (xy 53.34 123.19)
 		)
 		(stroke
 			(width 0)
@@ -12439,16 +12449,6 @@
 		)
 		(uuid "e3f5d860-37a9-4080-a1d5-5ea00887f300")
 	)
-	(wire
-		(pts
-			(xy 16.51 127.635) (xy 31.115 127.635)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e41fd6db-28ad-490d-bd39-cd29065cc080")
-	)
 	(polyline
 		(pts
 			(xy 12.065 139.7) (xy 158.75 139.7)
@@ -12760,7 +12760,7 @@
 		(uuid "22b79c2a-6848-4f69-99d0-ca52c233775a")
 	)
 	(label "OBC TX UART"
-		(at 16.51 122.555 0)
+		(at 16.51 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12770,7 +12770,7 @@
 		(uuid "24b5bba0-5e6d-4d5f-bad5-7355ad8b5aff")
 	)
 	(label "OBC RTS UART"
-		(at 16.51 130.175 0)
+		(at 16.51 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13010,7 +13010,7 @@
 		(uuid "763e322f-3402-4cba-9313-d8a7377c9c00")
 	)
 	(label "OBC RX UART"
-		(at 16.51 125.095 0)
+		(at 16.51 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13050,7 +13050,7 @@
 		(uuid "81fdb7d0-6ca9-4d33-b461-dec5f6e24f7e")
 	)
 	(label "OBC CTS UART"
-		(at 16.51 127.635 0)
+		(at 16.51 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15067,7 +15067,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.705 131.445 0)
+		(at 53.34 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15075,7 +15075,7 @@
 		(dnp no)
 		(uuid "2ce70439-9943-490e-9218-f10e205227b1")
 		(property "Reference" "#PWR011"
-			(at 52.705 137.795 0)
+			(at 53.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15084,7 +15084,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.705 135.255 0)
+			(at 53.34 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15092,7 +15092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.705 131.445 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15101,7 +15101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.705 131.445 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15110,7 +15110,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.705 131.445 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19202,7 +19202,7 @@
 	)
 	(symbol
 		(lib_id "SP3004-04XTG:SP3004-04XTG")
-		(at 31.115 122.555 0)
+		(at 31.75 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19210,7 +19210,7 @@
 		(dnp no)
 		(uuid "9d617f58-f833-4098-97fb-816cf1d46670")
 		(property "Reference" "D1"
-			(at 42.545 116.84 0)
+			(at 43.18 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19218,7 +19218,7 @@
 			)
 		)
 		(property "Value" "SP3004-04XTG"
-			(at 42.545 119.38 0)
+			(at 43.18 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19226,7 +19226,7 @@
 			)
 		)
 		(property "Footprint" "TVS-SP3004:SOT563_LTF"
-			(at 57.785 217.475 0)
+			(at 58.42 218.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19236,7 +19236,7 @@
 			)
 		)
 		(property "Datasheet" "https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp3004_datasheet.pdf.pdf"
-			(at 57.785 317.475 0)
+			(at 58.42 318.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19246,7 +19246,7 @@
 			)
 		)
 		(property "Description" "LITTELFUSE - SP3004-04XTG - TVS Diode, Unidirectional, 6 V, 15 V, SOT-563, 6 Pins"
-			(at 31.115 122.555 0)
+			(at 31.75 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19255,7 +19255,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at 57.785 517.475 0)
+			(at 58.42 518.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19265,7 +19265,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SP3004-04XTG"
-			(at 57.785 617.475 0)
+			(at 58.42 618.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19275,7 +19275,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SP3004-04XTG?qs=trbuaetfxXQ7JjseAkJ3Ww%3D%3D"
-			(at 57.785 717.475 0)
+			(at 58.42 718.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19285,7 +19285,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 57.785 817.475 0)
+			(at 58.42 818.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19295,7 +19295,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SP3004-04XTG"
-			(at 57.785 917.475 0)
+			(at 58.42 918.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20976,7 +20976,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 52.705 121.285 0)
+		(at 53.34 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20984,7 +20984,7 @@
 		(dnp no)
 		(uuid "c7c79383-a4a5-49e5-ae43-34816b142c7a")
 		(property "Reference" "#PWR010"
-			(at 52.705 125.095 0)
+			(at 53.34 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20993,7 +20993,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 52.705 117.475 0)
+			(at 53.34 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21001,7 +21001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.705 121.285 0)
+			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21010,7 +21010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.705 121.285 0)
+			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21019,7 +21019,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 52.705 121.285 0)
+			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
