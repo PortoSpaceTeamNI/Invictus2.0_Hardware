@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.195,
+          "via_gap": 2.0,
+          "width": 0.185
         }
       ],
       "drc_exclusions": [],
@@ -190,6 +195,7 @@
       "track_widths": [
         0.0,
         0.125,
+        0.185,
         0.25,
         0.5,
         0.75,
@@ -220,7 +226,7 @@
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.1,
           "single_sided": false,
           "spacing": 0.6
         }
@@ -528,6 +534,8 @@
         "schematic_color": "rgb(226, 0, 255)"
       },
       {
+        "diff_pair_gap": 0.195,
+        "diff_pair_width": 0.185,
         "name": "Differential",
         "pcb_color": "rgb(255, 116, 224)",
         "priority": 2,
@@ -563,7 +571,7 @@
         "pcb_color": "rgb(60, 255, 44)",
         "priority": 0,
         "schematic_color": "rgb(60, 255, 44)",
-        "track_width": 0.154
+        "track_width": 0.185
       },
       {
         "name": "SPI",
@@ -690,7 +698,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "OBC.step",
+      "step": "Nav.step",
       "svg": "",
       "vrml": ""
     },
