@@ -1,6 +1,0 @@
-(version 1)
-
-(rule "BJT pad to pad clearance"
-  (constraint clearance (min 0.1mm))
-  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Name == '[/LED Status]' && B.Name == '[Net-(Q1-Pad2)]'")
-)
