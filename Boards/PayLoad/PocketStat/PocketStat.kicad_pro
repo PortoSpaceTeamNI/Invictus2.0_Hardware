@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.195,
+          "via_gap": 2.0,
+          "width": 0.185
         }
       ],
       "drc_exclusions": [],
@@ -129,13 +134,13 @@
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
-        "min_hole_to_hole": 0.2,
+        "min_hole_to_hole": 0.22,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.1,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_silk_clearance": 0.11,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.12,
         "min_via_annular_width": 0.1,
@@ -190,6 +195,7 @@
       "track_widths": [
         0.0,
         0.125,
+        0.185,
         0.25,
         0.5,
         0.75,
@@ -204,7 +210,7 @@
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.1,
           "single_sided": false,
           "spacing": 1.0
         },
@@ -212,15 +218,15 @@
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.1,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.8
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.1,
           "single_sided": false,
           "spacing": 0.6
         }
@@ -643,9 +649,9 @@
       {
         "bus_width": 12,
         "clearance": 0.12,
-        "diff_pair_gap": 0.15,
+        "diff_pair_gap": 0.195,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.185,
         "line_style": 0,
         "microvia_diameter": 0.25,
         "microvia_drill": 0.1,
