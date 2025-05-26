@@ -1741,7 +1741,7 @@
 			(symbol "5023520200_1_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -5.08)
+						(xy 5.08 2.54) (xy 5.08 -6.604)
 					)
 					(stroke
 						(width 0.2032)
@@ -1753,7 +1753,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -5.08) (xy 12.7 -5.08)
+						(xy 5.08 -6.604) (xy 12.7 -6.604)
 					)
 					(stroke
 						(width 0.2032)
@@ -1849,7 +1849,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -5.08) (xy 12.7 2.54)
+						(xy 12.7 -6.604) (xy 12.7 2.54)
 					)
 					(stroke
 						(width 0.2032)
@@ -1888,6 +1888,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 0)
+					(length 3.81)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 0)
+					(length 3.81)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13907,7 +13943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Molex 2 Conn:CONN02_502352_MOL"
+		(property "Footprint" "CONN02_502352_MOL"
 			(at 110.49 108.585 0)
 			(effects
 				(font
@@ -13941,6 +13977,12 @@
 		)
 		(pin "2"
 			(uuid "e3f587b2-c9af-4e20-8ee9-f123b7ceba41")
+		)
+		(pin "3"
+			(uuid "2ed2a05b-9840-48d3-aaea-3cee213c819a")
+		)
+		(pin "4"
+			(uuid "a94e44c3-3b85-4fae-a13d-b08fd450a050")
 		)
 		(instances
 			(project ""
@@ -18542,6 +18584,71 @@
 			(project ""
 				(path "/169b1789-9bea-4709-830d-1c7983087293"
 					(reference "MP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 113.665 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97769e4e-736d-4834-b8fe-af2a7ee12aac")
+		(property "Reference" "#PWR070"
+			(at 111.76 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37fff6ca-4707-4c12-8d2a-4d71ba23f3d3")
+		)
+		(instances
+			(project "OBC"
+				(path "/169b1789-9bea-4709-830d-1c7983087293"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
