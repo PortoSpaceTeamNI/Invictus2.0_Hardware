@@ -1,30 +1,183 @@
-(module "CAPC3216X75N" (layer F.Cu)
-  (descr "1206")
-  (tags "Capacitor")
-  (attr smd)
-  (fp_text reference C** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "CAPC3216X75N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -2.06 -1.06) (end 2.06 -1.06) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.06 -1.06) (end 2.06 1.06) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.06 1.06) (end -2.06 1.06) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.06 1.06) (end -2.06 -1.06) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.6 -0.8) (end 1.6 -0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.6 0.8) (end -1.6 0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start 0 -0.7) (end 0 0.7) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -1.4 0 0) (size 1.02 1.82) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.4 0 0) (size 1.02 1.82) (layers F.Cu F.Paste F.Mask))
-  (model KAM31GR71H475KL.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "Capacitor_1206"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1206")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "2980cf84-223d-4ab8-8177-c10da3e4b002")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPC3216X75N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "42f86888-3fbb-4498-8f35-340655e1bd28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5474c815-2443-4efb-b5ef-60ce8061c5fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b02c6ff-d01b-4ab2-8679-888e66c23eff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.7)
+		(end 0 0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81d9f9b3-7de2-4089-aa27-a51718fc035f")
+	)
+	(fp_line
+		(start -2.06 -1.06)
+		(end 2.06 -1.06)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a9ac5124-4fc6-4455-ba38-28c555ffc2e0")
+	)
+	(fp_line
+		(start -2.06 1.06)
+		(end -2.06 -1.06)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b125e22c-f821-4496-afa7-94b25d14f274")
+	)
+	(fp_line
+		(start 2.06 -1.06)
+		(end 2.06 1.06)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d7b1de6-d3a7-4cba-91b0-662733b12cb5")
+	)
+	(fp_line
+		(start 2.06 1.06)
+		(end -2.06 1.06)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a04bfccc-72ca-4071-92d1-b818441d1f47")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b38add82-49cb-4d87-9730-3a07aa0aaedc")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d400716-4d87-4ecb-9d7a-176fc959639a")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf78d06d-0ce9-4b4a-acc9-9b218ca813ae")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b766edef-18b3-4c50-a4ed-9818bead721f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "39824893-94a1-4677-ab5d-1108fcc7f606")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.4 0)
+		(size 1.02 1.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2450980392)
+		(uuid "b199514c-42d9-4b7b-919b-da5b67dd6139")
+	)
+	(pad "2" smd roundrect
+		(at 1.4 0)
+		(size 1.02 1.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2450980392)
+		(uuid "06964619-818d-42d6-8499-268376db3e98")
+	)
+	(embedded_fonts no)
+	(model "KAM31GR71H475KL.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -1,27 +1,161 @@
-
-(footprint CAPC1608X90N (layer F.Cu) (tedit 679CE770)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at -0.24 -1.08 0) (layer F.SilkS)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (fp_text value CAPC1608X90N (at 1.51 1.08 0) (layer F.Fab)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -0.775 0.0) (size 0.92 0.98) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 0.775 0.0) (size 0.92 0.98) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start 0.88 0.48) (end -0.88 0.48) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.88 -0.48) (end -0.88 -0.48) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.88 0.48) (end 0.88 -0.48) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.88 0.48) (end -0.88 -0.48) (layer F.Fab) (width 0.127))
-  (fp_line (start -1.485 0.74) (end 1.485 0.74) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.485 -0.74) (end 1.485 -0.74) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.485 0.74) (end -1.485 -0.74) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.485 0.74) (end 1.485 -0.74) (layer F.CrtYd) (width 0.05))
-  (model CAP_0603.step
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-    (offset (xyz 0 -0.45 0.4))
-  )
+(footprint "Capacitor_0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.24 -1.08 0)
+		(layer "F.SilkS")
+		(uuid "fad7f24b-3f5e-4eb2-9152-aacf71251eaf")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAPC1608X90N"
+		(at 1.51 1.08 0)
+		(layer "F.Fab")
+		(uuid "cebcc3a3-17dc-4d3c-9892-cd1808d9fc1b")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc964b87-46d6-4d34-9af5-cfdda34d160b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b8ebd92-0016-4ae4-9cd7-ab7023acb8bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.485 -0.74)
+		(end 1.485 -0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dfcedd11-2039-40eb-ad6e-4ed923e37608")
+	)
+	(fp_line
+		(start -1.485 0.74)
+		(end -1.485 -0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2f578f30-ec8f-4bad-b4a2-bffd49bf9d3b")
+	)
+	(fp_line
+		(start -1.485 0.74)
+		(end 1.485 0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "074ed892-9775-45b4-adb2-d33daa2264d6")
+	)
+	(fp_line
+		(start 1.485 0.74)
+		(end 1.485 -0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5672725-a00e-4a37-9f8c-a2d343e39121")
+	)
+	(fp_line
+		(start -0.88 0.48)
+		(end -0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9defec81-e62a-49d5-8429-5494c47059d9")
+	)
+	(fp_line
+		(start 0.88 -0.48)
+		(end -0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e4ef50d-9757-4fd6-99fd-fe96e6e2fa5e")
+	)
+	(fp_line
+		(start 0.88 0.48)
+		(end -0.88 0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44f19d11-364b-4bb3-9d7c-f6eccc3a03c5")
+	)
+	(fp_line
+		(start 0.88 0.48)
+		(end 0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbaa4153-e61f-4903-890b-0f0c17216480")
+	)
+	(pad "1" smd roundrect
+		(at -0.775 0)
+		(size 0.92 0.98)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "1478c361-25f8-475f-9075-aa9e3c39859b")
+	)
+	(pad "2" smd roundrect
+		(at 0.775 0)
+		(size 0.92 0.98)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "4a7d8acc-addf-4978-aa7d-050bd9600227")
+	)
+	(embedded_fonts no)
+	(model "CAP_0603.step"
+		(offset
+			(xyz 0 -0.45 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
