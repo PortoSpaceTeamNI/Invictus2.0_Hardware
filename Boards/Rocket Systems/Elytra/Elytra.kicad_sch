@@ -109,57 +109,47 @@
 					(hide yes)
 				)
 			)
+			(symbol "B340A-E3_61T_0_1"
+				(polyline
+					(pts
+						(xy 5.715 0.635) (xy 5.715 1.27) (xy 6.35 1.27) (xy 6.35 -1.27) (xy 6.985 -1.27) (xy 6.985 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 1.27) (xy 8.89 -1.27) (xy 6.35 0) (xy 8.89 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
 			(symbol "B340A-E3_61T_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at 0 0 0)
+					(at 3.81 0 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -177,7 +167,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 0 180)
+					(at 11.43 0 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -187,129 +177,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x01_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Socket"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -427,161 +294,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ERJ-P06F5600V:ERJ-P06F5600V"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 13.97 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "ERJ-P06F5600V"
-				(at 13.97 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "ERJP06D1000V"
-				(at 13.97 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf"
-				(at 13.97 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Anti-Surge Thick Film Chip Resistor, 0603, 0.5W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.7"
-				(at 13.97 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "667-ERJ-P06F5600V"
-				(at 13.97 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-P06F5600V?qs=iIVTEDlrHA1ahTQP0kElew%3D%3D"
-				(at 13.97 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Panasonic"
-				(at 13.97 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ERJ-P06F5600V"
-				(at 13.97 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "ERJ-P06F5600V_1_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -968,25 +680,27 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "K"
-				(at 19.05 7.62 0)
+				(at 8.128 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
+					(hide yes)
 				)
 			)
 			(property "Value" "G3VM-31DR_TR05_"
-				(at 19.05 5.08 0)
+				(at 8.128 -4.572 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "G3VM31DRTR05"
-				(at 19.05 -94.92 0)
+				(at -2.54 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1064,10 +778,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "G3VM-31DR_TR05__1_1"
+			(symbol "G3VM-31DR_TR05__0_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -5.08)
+					(start 0 0)
+					(end 10.16 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1076,10 +790,426 @@
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.905 -1.27) (xy 1.905 -6.35) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -4.445) (xy 2.54 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -4.445) (xy 1.27 -3.175) (xy 2.54 -3.175) (xy 1.905 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -3.302) (xy 4.445 -3.302) (xy 4.064 -3.429) (xy 4.064 -3.175) (xy 4.445 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -4.318) (xy 4.445 -4.318) (xy 4.064 -4.445) (xy 4.064 -4.191) (xy 4.445 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 -1.651) (xy 6.096 -3.175)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 -4.445) (xy 6.096 -5.969)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 -1.524) (xy 6.604 -1.778) (xy 6.604 -1.778)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 -2.286) (xy 6.604 -2.54) (xy 6.604 -2.54)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 -3.048) (xy 6.604 -3.302) (xy 6.604 -3.302)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 -4.318) (xy 6.604 -4.572)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 -5.08) (xy 6.604 -5.334) (xy 6.604 -5.334)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 -5.842) (xy 6.604 -6.096) (xy 6.604 -6.096)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.731 -1.651) (xy 7.874 -1.651) (xy 7.874 -1.27) (xy 10.16 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.731 -2.413) (xy 7.874 -2.413) (xy 7.874 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.731 -4.445) (xy 7.874 -4.445) (xy 7.874 -3.175) (xy 6.731 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.731 -5.207) (xy 7.874 -5.207) (xy 7.874 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.731 -5.969) (xy 7.874 -5.969) (xy 7.874 -6.35) (xy 10.16 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.858 -2.413) (xy 7.366 -2.286) (xy 7.366 -2.54) (xy 6.858 -2.413)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.858 -5.207) (xy 7.366 -5.08) (xy 7.366 -5.334) (xy 6.858 -5.207)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.874 -3.175)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 -3.81) (xy 8.89 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.874 -3.81)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.874 -4.445)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.509 -2.159) (xy 9.271 -2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.509 -5.461) (xy 9.271 -5.461)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.89 -1.27)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -2.159) (xy 8.509 -2.921) (xy 9.271 -2.921) (xy 8.89 -2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.89 -3.81)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -5.461) (xy 8.509 -4.699) (xy 9.271 -4.699) (xy 8.89 -5.461)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -6.35) (xy 8.89 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.89 -6.35)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "G3VM-31DR_TR05__1_1"
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "D"
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -6.35 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1095,27 +1225,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 22.86 0 180)
-					(length 5.08)
-					(name "NC"
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1123,24 +1235,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -2.54 180)
-					(length 5.08)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1306,16 +1400,17 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at 24.13 7.62 0)
+				(at 2.794 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
+					(hide yes)
 				)
 			)
 			(property "Value" "LMV321LILT"
-				(at 24.13 5.08 0)
+				(at 2.794 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1403,9 +1498,10 @@
 				)
 			)
 			(symbol "LMV321LILT_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -7.62)
+				(polyline
+					(pts
+						(xy 2.794 3.81) (xy 15.24 -2.54) (xy 2.794 -8.89) (xy 2.794 3.556)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1415,45 +1511,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "VCC-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "IN-"
+					(at -1.27 0 0)
+					(length 3.81)
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1469,16 +1529,16 @@
 					)
 				)
 				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "OUT"
+					(at -1.27 -5.08 0)
+					(length 3.81)
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1487,9 +1547,9 @@
 					)
 				)
 				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "VCC+"
+					(at 7.62 5.08 270)
+					(length 3.81)
+					(name "V+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1497,6 +1557,42 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -10.16 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1636,8 +1732,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
+					(at 2.54 0 0)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
@@ -1654,8 +1750,8 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 0 180)
-					(length 5.08)
+					(at 15.24 0 180)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -2152,240 +2248,108 @@
 		)
 	)
 	(junction
-		(at 187.96 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "038d5144-2bfa-47fa-a3b6-df8915b7a0f2")
-	)
-	(junction
-		(at 181.61 40.64)
+		(at 208.28 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10f3b61f-8e3c-4a5d-b2b6-c2eb62e92576")
 	)
 	(junction
-		(at 195.58 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24a76f05-1a9a-4fec-bb1e-f980c68eb416")
-	)
-	(junction
-		(at 55.88 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e526a4d-0633-47e5-8faf-a7c8e737c9ab")
-	)
-	(junction
-		(at 124.46 246.38)
+		(at 208.915 200.025)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f8f38e7-08cd-4763-b093-67eabe1f26ba")
 	)
 	(junction
-		(at 172.72 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37605fc9-ce61-4279-a5ae-59e290fe8ec8")
-	)
-	(junction
-		(at 143.51 246.38)
+		(at 227.965 200.025)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b9ca252-76d7-4b3a-86ff-803ebeed3ac4")
 	)
 	(junction
-		(at 172.72 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4325cef4-0c3f-42e4-b3c8-17ff467a6b50")
-	)
-	(junction
-		(at 304.8 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5159f5aa-1c6f-4a29-ad1c-af3124ef33d7")
-	)
-	(junction
-		(at 298.45 40.64)
+		(at 325.12 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51636a83-3e0d-435a-8c09-5b240f95976a")
 	)
 	(junction
-		(at 115.57 246.38)
+		(at 200.025 200.025)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54383652-9c42-4c39-95d7-b3537abe4ca5")
 	)
 	(junction
-		(at 289.56 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57914bb9-34bd-49a7-87b0-9d886205e541")
-	)
-	(junction
-		(at 55.88 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c1425f8-5ab5-417e-bb01-08cc152552ce")
-	)
-	(junction
-		(at 48.26 251.46)
+		(at 132.715 205.105)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f4898f9-c3b5-4b4a-8b46-a250f99456a2")
 	)
 	(junction
-		(at 187.96 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82db5fa5-4233-4620-b6b8-e1b5418365fc")
-	)
-	(junction
-		(at 165.1 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85058ebc-9cc1-43a6-9e70-31e0d84640d7")
-	)
-	(junction
-		(at 304.8 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8edcbd89-d45d-452e-abbb-60269049a7af")
-	)
-	(junction
-		(at 181.61 29.21)
+		(at 208.28 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "919f4d03-4e71-4a2a-a5a6-0f623ce22916")
 	)
 	(junction
-		(at 48.26 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94b0ef81-ee8e-4594-9dbd-3d6044198be9")
-	)
-	(junction
-		(at 81.28 246.38)
+		(at 165.735 200.025)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "995de4e5-6cc1-4be9-888b-dc138ac75e18")
 	)
 	(junction
-		(at 133.35 246.38)
+		(at 217.805 200.025)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99d647d7-289a-49a4-b43d-ad8eefce04df")
 	)
 	(junction
-		(at 96.52 246.38)
+		(at 180.975 200.025)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3afd990-d7f3-4f7f-9f78-b4d5b85129c4")
 	)
 	(junction
-		(at 281.94 66.04)
+		(at 154.305 215.265)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b818782d-718f-40fe-b1a5-06458840717b")
+		(uuid "b3181ad9-9e68-4df9-bfa2-88c0975dd07f")
 	)
 	(junction
-		(at 143.51 238.76)
+		(at 227.965 192.405)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8f6f1c4-0018-4ac3-9c10-2345c513f465")
 	)
 	(junction
-		(at 78.74 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c82cc108-a94e-41df-8e16-ba6e94527bfc")
-	)
-	(junction
-		(at 312.42 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d36db5ec-938a-415f-b115-a4df38a51d61")
-	)
-	(junction
-		(at 289.56 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7af42d3-d3ec-47a6-bac3-4c6daa28ac40")
-	)
-	(junction
-		(at 71.12 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8859b12-4f54-4f90-b5f1-11831c3186d3")
-	)
-	(junction
-		(at 80.01 261.62)
+		(at 164.465 215.265)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb2a737d-10b5-47b4-b197-b0b3cbcb8ce7")
 	)
 	(junction
-		(at 63.5 40.64)
+		(at 90.17 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f335cb89-c5e4-4f2e-b8a4-29510c5c2e9d")
 	)
 	(junction
-		(at 106.68 246.38)
+		(at 191.135 200.025)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f45d2554-0705-4fdf-87b9-89016ba6fcdf")
 	)
-	(junction
-		(at 71.12 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f62eb574-87fa-4a26-ba03-622db93be6c6")
-	)
 	(wire
 		(pts
-			(xy 311.15 59.69) (xy 304.8 59.69)
+			(xy 156.21 200.025) (xy 165.735 200.025)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01ec0f0a-8d20-4fb8-a1b7-e44aaa59992f")
+		(uuid "0785bb81-27b8-4448-b11e-3093a1f67b95")
 	)
 	(wire
 		(pts
-			(xy 267.97 83.82) (xy 281.94 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "029a7d4d-3fdc-4f83-b4e8-6956665ef985")
-	)
-	(wire
-		(pts
-			(xy 195.58 63.5) (xy 195.58 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03515f55-ab1e-41ff-9af9-6e548313da8d")
-	)
-	(wire
-		(pts
-			(xy 172.72 40.64) (xy 181.61 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "046346c9-ccec-485c-9d17-116cb09bd63e")
-	)
-	(wire
-		(pts
-			(xy 298.45 40.64) (xy 304.8 40.64)
+			(xy 325.12 60.96) (xy 331.47 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2395,17 +2359,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 59.69) (xy 71.12 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12475762-0b76-4a96-8ea8-5876bd96c694")
-	)
-	(wire
-		(pts
-			(xy 80.01 251.46) (xy 80.01 261.62)
+			(xy 164.465 205.105) (xy 164.465 215.265)
 		)
 		(stroke
 			(width 0)
@@ -2415,7 +2369,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 29.21) (xy 298.45 40.64)
+			(xy 325.12 49.53) (xy 325.12 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2425,7 +2379,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 231.14) (xy 124.46 238.76)
+			(xy 208.915 182.88) (xy 208.915 192.405)
 		)
 		(stroke
 			(width 0)
@@ -2435,7 +2389,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 24.13) (xy 181.61 29.21)
+			(xy 208.28 44.45) (xy 208.28 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2445,7 +2399,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 29.21) (xy 181.61 40.64)
+			(xy 208.28 49.53) (xy 208.28 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2455,7 +2409,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 261.62) (xy 82.55 261.62)
+			(xy 164.465 215.265) (xy 167.005 215.265)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2419,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 246.38) (xy 152.4 246.38)
+			(xy 227.965 200.025) (xy 236.855 200.025)
 		)
 		(stroke
 			(width 0)
@@ -2475,7 +2429,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 245.11) (xy 52.07 248.92)
+			(xy 136.525 198.755) (xy 136.525 202.565)
 		)
 		(stroke
 			(width 0)
@@ -2485,37 +2439,17 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 63.5) (xy 312.42 63.5)
+			(xy 154.305 215.265) (xy 156.21 215.265)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "213dfb26-c89d-4c74-b5aa-d86ad2defde7")
+		(uuid "23b3f125-ac53-4069-9b8a-952b08415135")
 	)
 	(wire
 		(pts
-			(xy 194.31 59.69) (xy 187.96 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26044212-2389-4900-8929-5954cc379f72")
-	)
-	(wire
-		(pts
-			(xy 165.1 63.5) (xy 165.1 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2677777c-c32d-4a07-8832-c7671e104538")
-	)
-	(wire
-		(pts
-			(xy 55.88 40.64) (xy 63.5 40.64)
+			(xy 82.55 60.96) (xy 90.17 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2525,7 +2459,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 231.14) (xy 143.51 238.76)
+			(xy 227.965 182.88) (xy 227.965 192.405)
 		)
 		(stroke
 			(width 0)
@@ -2535,47 +2469,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 59.69) (xy 55.88 59.69)
+			(xy 186.055 213.36) (xy 186.055 215.265)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e345738-4cd3-489e-8b1d-eaba07e46a9f")
+		(uuid "32f3e388-a48a-452d-a106-4ce22aa6945c")
 	)
 	(wire
 		(pts
-			(xy 289.56 63.5) (xy 281.94 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30fe3cad-7117-4a82-b2a8-dfada9dc8845")
-	)
-	(wire
-		(pts
-			(xy 71.12 63.5) (xy 78.74 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "353c72ae-debd-4c11-8ea7-cc84577f72a2")
-	)
-	(wire
-		(pts
-			(xy 55.88 63.5) (xy 48.26 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37078f7a-3f96-4995-8224-84e65dadefed")
-	)
-	(wire
-		(pts
-			(xy 115.57 246.38) (xy 124.46 246.38)
+			(xy 200.025 200.025) (xy 208.915 200.025)
 		)
 		(stroke
 			(width 0)
@@ -2585,37 +2489,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 49.53) (xy 187.96 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d9930dc-f386-42d5-9bb6-d0c6e5fc87a2")
-	)
-	(wire
-		(pts
-			(xy 289.56 59.69) (xy 289.56 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40388d2e-17d1-4dde-921d-89981294a6ac")
-	)
-	(wire
-		(pts
-			(xy 55.88 59.69) (xy 55.88 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40908959-77e5-4a3e-92c5-7b703103abc0")
-	)
-	(wire
-		(pts
-			(xy 143.51 238.76) (xy 152.4 238.76)
+			(xy 227.965 192.405) (xy 236.855 192.405)
 		)
 		(stroke
 			(width 0)
@@ -2625,17 +2499,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 49.53) (xy 71.12 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "457d0848-df93-4612-8724-996f2ef05c1b")
-	)
-	(wire
-		(pts
-			(xy 48.26 251.46) (xy 52.07 251.46)
+			(xy 132.715 205.105) (xy 136.525 205.105)
 		)
 		(stroke
 			(width 0)
@@ -2645,7 +2509,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 261.62) (xy 80.01 261.62)
+			(xy 186.055 215.265) (xy 182.245 215.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b717b8f-d017-42b4-9c52-8559f9753d7d")
+	)
+	(wire
+		(pts
+			(xy 161.925 215.265) (xy 164.465 215.265)
 		)
 		(stroke
 			(width 0)
@@ -2655,107 +2529,17 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 83.82) (xy 208.28 83.82)
+			(xy 217.805 182.88) (xy 217.805 184.785)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52433fd1-5d6f-4910-b578-a25964df70bf")
+		(uuid "55a3571d-d1d5-43e8-a05b-1ebd7a9a9d08")
 	)
 	(wire
 		(pts
-			(xy 172.72 49.53) (xy 172.72 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52f4a180-9ab3-4d9d-b994-dab7efb6da20")
-	)
-	(wire
-		(pts
-			(xy 187.96 45.72) (xy 187.96 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53fe310d-87cc-4e00-b631-2ff7d6cf3fcd")
-	)
-	(wire
-		(pts
-			(xy 166.37 59.69) (xy 172.72 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57e9bca9-63ff-4f26-b294-7cd804e75684")
-	)
-	(wire
-		(pts
-			(xy 48.26 63.5) (xy 48.26 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58186b55-e635-4f45-867e-c8ed223bf88a")
-	)
-	(wire
-		(pts
-			(xy 78.74 83.82) (xy 91.44 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61b6a30d-64e3-4e91-8586-e40836db495d")
-	)
-	(wire
-		(pts
-			(xy 78.74 63.5) (xy 78.74 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "698b8392-a144-4b05-a71d-c12f7c39ada1")
-	)
-	(wire
-		(pts
-			(xy 187.96 59.69) (xy 187.96 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69daf0bf-f92d-46d1-9a97-2718b612f83d")
-	)
-	(wire
-		(pts
-			(xy 281.94 63.5) (xy 281.94 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cca4f0a-028e-4c12-b70a-b19fa95c8e65")
-	)
-	(wire
-		(pts
-			(xy 172.72 59.69) (xy 172.72 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dfcf890-b353-42f5-9338-1545d94dc042")
-	)
-	(wire
-		(pts
-			(xy 181.61 29.21) (xy 298.45 29.21)
+			(xy 208.28 49.53) (xy 325.12 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2765,7 +2549,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 40.64) (xy 187.96 40.64)
+			(xy 208.28 60.96) (xy 214.63 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2775,17 +2559,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 49.53) (xy 289.56 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "773f95dd-7070-4e5d-921e-9b7cfc55291f")
-	)
-	(wire
-		(pts
-			(xy 181.61 29.21) (xy 63.5 29.21)
+			(xy 208.28 49.53) (xy 90.17 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2795,7 +2569,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 246.38) (xy 115.57 246.38)
+			(xy 191.135 200.025) (xy 200.025 200.025)
 		)
 		(stroke
 			(width 0)
@@ -2805,7 +2579,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 231.14) (xy 106.68 238.76)
+			(xy 191.135 182.88) (xy 191.135 192.405)
 		)
 		(stroke
 			(width 0)
@@ -2815,7 +2589,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 246.38) (xy 143.51 246.38)
+			(xy 217.805 200.025) (xy 227.965 200.025)
 		)
 		(stroke
 			(width 0)
@@ -2825,27 +2599,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 45.72) (xy 71.12 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5122f1-d8cf-4fd5-98f6-d5c7f88fa478")
-	)
-	(wire
-		(pts
-			(xy 304.8 45.72) (xy 304.8 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e67350b-f8e9-4fa9-a893-90ab09055b82")
-	)
-	(wire
-		(pts
-			(xy 48.26 236.22) (xy 81.28 236.22)
+			(xy 132.715 189.865) (xy 165.735 189.865)
 		)
 		(stroke
 			(width 0)
@@ -2855,7 +2609,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 236.22) (xy 81.28 246.38)
+			(xy 165.735 189.865) (xy 165.735 200.025)
 		)
 		(stroke
 			(width 0)
@@ -2865,27 +2619,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 49.53) (xy 55.88 49.53)
+			(xy 191.77 60.96) (xy 208.28 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92e48536-56c2-4a91-9dc2-933e486f18ef")
+		(uuid "9be53d22-dd77-47cd-9a1d-f58561ae2a35")
 	)
 	(wire
 		(pts
-			(xy 172.72 40.64) (xy 172.72 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95539cfb-fe40-4cd5-8a42-582795ecfa17")
-	)
-	(wire
-		(pts
-			(xy 124.46 246.38) (xy 133.35 246.38)
+			(xy 208.915 200.025) (xy 217.805 200.025)
 		)
 		(stroke
 			(width 0)
@@ -2895,47 +2639,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 59.69) (xy 71.12 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c0000eb-09d6-4bee-a67f-57c21455386b")
-	)
-	(wire
-		(pts
-			(xy 187.96 63.5) (xy 195.58 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c58f1b9-7f37-4735-9f46-62e8fd386233")
-	)
-	(wire
-		(pts
-			(xy 80.01 246.38) (xy 81.28 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c896de3-c899-4a72-8a23-74c24341f966")
-	)
-	(wire
-		(pts
-			(xy 289.56 40.64) (xy 289.56 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cc59d75-eb65-4f77-9da4-50d30cd76851")
-	)
-	(wire
-		(pts
-			(xy 48.26 251.46) (xy 48.26 236.22)
+			(xy 132.715 205.105) (xy 132.715 189.865)
 		)
 		(stroke
 			(width 0)
@@ -2945,7 +2649,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 251.46) (xy 48.26 251.46)
+			(xy 180.975 182.88) (xy 180.975 184.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3fbddcb-b6f9-46a2-b035-f18bd18a0a9d")
+	)
+	(wire
+		(pts
+			(xy 128.905 205.105) (xy 132.715 205.105)
 		)
 		(stroke
 			(width 0)
@@ -2955,17 +2669,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 49.53) (xy 55.88 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab0b93a6-b902-4c37-8f27-60ee7fee9060")
-	)
-	(wire
-		(pts
-			(xy 81.28 246.38) (xy 96.52 246.38)
+			(xy 165.735 200.025) (xy 180.975 200.025)
 		)
 		(stroke
 			(width 0)
@@ -2975,27 +2679,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 83.82) (xy 165.1 83.82)
+			(xy 156.21 215.265) (xy 156.21 200.025)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af9d45f1-37a4-42c9-91c9-39074b35caa6")
+		(uuid "afaf3aab-5bfc-419f-af67-9854aecde872")
 	)
 	(wire
 		(pts
-			(xy 55.88 40.64) (xy 55.88 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3f54c77-c234-4380-aeb6-b384f5823287")
-	)
-	(wire
-		(pts
-			(xy 63.5 29.21) (xy 63.5 40.64)
+			(xy 90.17 49.53) (xy 90.17 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3005,7 +2699,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 246.38) (xy 106.68 246.38)
+			(xy 180.975 200.025) (xy 191.135 200.025)
 		)
 		(stroke
 			(width 0)
@@ -3015,87 +2709,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 40.64) (xy 71.12 45.72)
+			(xy 180.34 71.12) (xy 180.34 67.945)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6a369f4-ef0a-4ff4-b60a-fcfc797926b4")
+		(uuid "e9a71858-1627-497b-9d10-4ff717897ca5")
 	)
 	(wire
 		(pts
-			(xy 289.56 49.53) (xy 289.56 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c922cee6-0be2-4c76-b4c3-20e634c6f6f2")
-	)
-	(wire
-		(pts
-			(xy 34.29 83.82) (xy 48.26 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d53c8a7b-9cf1-45b5-bded-ad31592b2dea")
-	)
-	(wire
-		(pts
-			(xy 312.42 63.5) (xy 312.42 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da31f5c0-14d7-4c29-86ef-cdfe1b785751")
-	)
-	(wire
-		(pts
-			(xy 166.37 49.53) (xy 172.72 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e146c3dc-9bfa-473e-99dd-300b1cef6de7")
-	)
-	(wire
-		(pts
-			(xy 187.96 40.64) (xy 187.96 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e19e664e-055b-48b6-854c-0447a81cb233")
-	)
-	(wire
-		(pts
-			(xy 304.8 59.69) (xy 304.8 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb365fa8-afc0-4d0a-ab12-b9b3b1083863")
-	)
-	(wire
-		(pts
-			(xy 311.15 49.53) (xy 304.8 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f85d0e67-bdc9-4fa5-bc5d-d3fb72d66d82")
-	)
-	(wire
-		(pts
-			(xy 63.5 40.64) (xy 71.12 40.64)
+			(xy 90.17 60.96) (xy 97.79 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3105,27 +2729,17 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 40.64) (xy 304.8 45.72)
+			(xy 200.025 182.88) (xy 200.025 184.785)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc1b8912-b3f5-47da-8aaa-67fbf52c0cf1")
+		(uuid "f8fb8210-8e75-4237-b23b-3111420ecf0f")
 	)
 	(wire
 		(pts
-			(xy 312.42 83.82) (xy 325.12 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc71bf46-ba36-4687-8f00-cd3cc9a723d1")
-	)
-	(wire
-		(pts
-			(xy 289.56 40.64) (xy 298.45 40.64)
+			(xy 316.23 60.96) (xy 325.12 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3133,28 +2747,8 @@
 		)
 		(uuid "fcfbb0b0-6178-42dc-bf72-6488479bf4df")
 	)
-	(wire
-		(pts
-			(xy 283.21 59.69) (xy 289.56 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd63117b-d917-463c-9f5a-2faf1d232efc")
-	)
-	(wire
-		(pts
-			(xy 172.72 63.5) (xy 165.1 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff9d8deb-f347-469d-9d89-daefb8979757")
-	)
 	(label "VB"
-		(at 342.9 114.3 0)
+		(at 369.57 141.605 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3164,7 +2758,7 @@
 		(uuid "102e6877-54eb-4d0c-bc26-864eed11f0bc")
 	)
 	(label "V6"
-		(at 143.51 231.14 0)
+		(at 227.965 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3174,7 +2768,7 @@
 		(uuid "19be694c-cfe9-4148-88bf-03f38b06f312")
 	)
 	(label "V5"
-		(at 133.35 231.14 0)
+		(at 217.805 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3184,7 +2778,7 @@
 		(uuid "1d2db4a2-6c98-4e6e-bdea-85607476388e")
 	)
 	(label "V4"
-		(at 124.46 231.14 0)
+		(at 208.915 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3194,7 +2788,7 @@
 		(uuid "229e79cb-e100-4f00-91ad-bb01bfa96a64")
 	)
 	(label "VB"
-		(at 16.51 114.3 180)
+		(at 45.085 144.145 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3204,7 +2798,7 @@
 		(uuid "253097cc-0666-42ca-a2c5-e6bb6b844f3f")
 	)
 	(label "V3"
-		(at 115.57 231.14 0)
+		(at 200.025 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3214,7 +2808,7 @@
 		(uuid "2825c527-5e4a-4fed-b416-e20f9de0fac2")
 	)
 	(label "VB"
-		(at 250.19 114.3 180)
+		(at 276.86 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3224,7 +2818,7 @@
 		(uuid "4b1bfbda-8012-45f5-8926-16689e14d033")
 	)
 	(label "VB"
-		(at 133.35 114.3 180)
+		(at 160.02 140.335 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3234,7 +2828,7 @@
 		(uuid "52b0a02f-1a43-42dc-9495-7474e525516c")
 	)
 	(label "VB"
-		(at 109.22 114.3 0)
+		(at 136.525 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3244,7 +2838,7 @@
 		(uuid "7e659be9-0cd0-485f-922e-62f4635e3a35")
 	)
 	(label "VB"
-		(at 226.06 114.3 0)
+		(at 252.73 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3254,7 +2848,7 @@
 		(uuid "915eef27-32ee-49cf-acef-448e7db7a1b9")
 	)
 	(label "V2"
-		(at 106.68 231.14 0)
+		(at 191.135 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3264,7 +2858,7 @@
 		(uuid "baedacb6-ca04-4ced-9ea8-70f0c293c96d")
 	)
 	(label "V1"
-		(at 96.52 231.14 0)
+		(at 180.975 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3275,7 +2869,7 @@
 	)
 	(global_label "ADC"
 		(shape input)
-		(at 44.45 251.46 180)
+		(at 128.905 205.105 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3285,7 +2879,7 @@
 		)
 		(uuid "61dd3bc9-a8b3-4d07-b458-a56125d0aa6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.8362 251.46 0)
+			(at 122.2912 205.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,252 +2890,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ERJ-P06F5600V:ERJ-P06F5600V")
-		(at 281.94 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02fd5d04-2125-41b2-ad7b-5a36d10459b3")
-		(property "Reference" "R24"
-			(at 284.48 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ERJ-P06F5600V"
-			(at 284.48 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ERJP06D1000V"
-			(at 185.75 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf"
-			(at 85.75 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Anti-Surge Thick Film Chip Resistor, 0603, 0.5W"
-			(at 281.94 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at -114.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-ERJ-P06F5600V"
-			(at -214.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-P06F5600V?qs=iIVTEDlrHA1ahTQP0kElew%3D%3D"
-			(at -314.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at -414.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-P06F5600V"
-			(at -514.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5c978b3d-8687-4cdc-bdb8-48cc6b3bbd02")
-		)
-		(pin "1"
-			(uuid "4ed4c495-e6f2-4e4c-a251-9b6f98330cfd")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ERJ-P06F5600V:ERJ-P06F5600V")
-		(at 48.26 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "048b12da-3605-4cf1-9596-8f2cdb869fcf")
-		(property "Reference" "R1"
-			(at 50.8 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ERJ-P06F5600V"
-			(at 50.8 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ERJP06D1000V"
-			(at -47.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf"
-			(at -147.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Anti-Surge Thick Film Chip Resistor, 0603, 0.5W"
-			(at 48.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at -347.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-ERJ-P06F5600V"
-			(at -447.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-P06F5600V?qs=iIVTEDlrHA1ahTQP0kElew%3D%3D"
-			(at -547.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at -647.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-P06F5600V"
-			(at -747.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22b89039-4600-43fd-9cec-c36ddfb0d4c6")
-		)
-		(pin "1"
-			(uuid "feddbedb-c590-40c5-b182-bd42ee98a324")
-		)
-		(instances
-			(project ""
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 86.36 261.62 90)
+		(at 170.815 215.265 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3550,7 +2900,7 @@
 		(fields_autoplaced yes)
 		(uuid "08cf82d0-8437-4ad9-8d76-5ead4d0beab2")
 		(property "Reference" "R5"
-			(at 86.36 255.27 90)
+			(at 170.815 208.915 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +2908,7 @@
 			)
 		)
 		(property "Value" "1.3K"
-			(at 86.36 257.81 90)
+			(at 170.815 211.455 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +2916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 263.398 90)
+			(at 170.815 217.043 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3575,7 +2925,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 261.62 0)
+			(at 170.815 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +2934,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 261.62 0)
+			(at 170.815 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3609,7 +2959,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 137.16 0)
+		(at 234.95 165.1 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3619,7 +2969,7 @@
 		(fields_autoplaced yes)
 		(uuid "099bd3ef-7c09-48a8-a042-a43574bfb233")
 		(property "Reference" "#PWR012"
-			(at 208.28 143.51 0)
+			(at 234.95 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,7 +2978,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 142.24 0)
+			(at 234.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3636,7 +2986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 137.16 0)
+			(at 234.95 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +2995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 137.16 0)
+			(at 234.95 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +3004,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 137.16 0)
+			(at 234.95 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +3026,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 137.16 0)
+		(at 118.745 166.37 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3686,7 +3036,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cfb9d65-50f0-4539-a968-4fa107c7b961")
 		(property "Reference" "#PWR09"
-			(at 91.44 143.51 0)
+			(at 118.745 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3045,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 142.24 0)
+			(at 118.745 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,7 +3053,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 137.16 0)
+			(at 118.745 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +3062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 137.16 0)
+			(at 118.745 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3071,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 137.16 0)
+			(at 118.745 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,73 +3092,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 76.2 45.72 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0eee7bfa-ed40-4733-b75d-637925e50b36")
-		(property "Reference" "J2"
-			(at 83.82 40.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 83.058 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 76.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46dd0f65-29e0-4575-b62f-1a6111a85b7d")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 151.13 133.35 0)
+		(at 177.8 159.385 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3817,7 +3102,7 @@
 		(fields_autoplaced yes)
 		(uuid "17a3f44c-d6eb-4003-aef1-ad4290c97f9a")
 		(property "Reference" "R19"
-			(at 153.67 132.0799 0)
+			(at 180.34 158.1149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +3111,7 @@
 			)
 		)
 		(property "Value" "1.2K"
-			(at 153.67 134.6199 0)
+			(at 180.34 160.6549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,7 +3120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.352 133.35 90)
+			(at 176.022 159.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,7 +3129,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 133.35 0)
+			(at 177.8 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +3138,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 151.13 133.35 0)
+			(at 177.8 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,7 +3163,7 @@
 	)
 	(symbol
 		(lib_id "PFNF_035_2:PFNF.035.2")
-		(at 55.88 63.5 90)
+		(at 71.755 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3887,7 +3172,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cc5461b-8e0e-443d-97f8-6c1bc93fd611")
 		(property "Reference" "F1"
-			(at 58.42 53.3399 90)
+			(at 74.295 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +3181,7 @@
 			)
 		)
 		(property "Value" "PFNF.035.2"
-			(at 58.42 55.8799 90)
+			(at 74.295 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +3190,7 @@
 			)
 		)
 		(property "Footprint" "FUSC3216X85N"
-			(at 152.07 49.53 0)
+			(at 167.945 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +3200,7 @@
 			)
 		)
 		(property "Datasheet" "https://ch.schurter.com/en/datasheet/typ_PFNF.pdf"
-			(at 252.07 49.53 0)
+			(at 267.945 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +3210,7 @@
 			)
 		)
 		(property "Description" "PCB;Fuse;Fast;Resetable Schurter 0.35A Resettable Surface Mount Fuse, 6 V dc"
-			(at 55.88 63.5 0)
+			(at 71.755 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +3219,7 @@
 			)
 		)
 		(property "Height" "0.85"
-			(at 452.07 49.53 0)
+			(at 467.945 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +3229,7 @@
 			)
 		)
 		(property "Mouser Part Number" "693-PFNF.035.2"
-			(at 552.07 49.53 0)
+			(at 567.945 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +3239,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Schurter/PFNF0352?qs=1auRipcfynAU6bHG9P5yrg%3D%3D"
-			(at 652.07 49.53 0)
+			(at 667.945 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,7 +3249,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 752.07 49.53 0)
+			(at 767.945 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +3259,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PFNF.035.2"
-			(at 852.07 49.53 0)
+			(at 867.945 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +3285,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 234.95 0)
+		(at 180.975 188.595 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4009,7 +3294,7 @@
 		(fields_autoplaced yes)
 		(uuid "2234fe0c-a3fa-4c59-8f09-e27e9de91161")
 		(property "Reference" "R8"
-			(at 99.06 233.6799 0)
+			(at 183.515 187.3249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +3303,7 @@
 			)
 		)
 		(property "Value" "50"
-			(at 99.06 236.2199 0)
+			(at 183.515 189.8649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,7 +3312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 94.742 234.95 90)
+			(at 179.197 188.595 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +3321,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 234.95 0)
+			(at 180.975 188.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +3330,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 96.52 234.95 0)
+			(at 180.975 188.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4070,7 +3355,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 49.53 54.61 90)
+		(at 65.405 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4078,7 +3363,7 @@
 		(dnp no)
 		(uuid "258d91bd-c743-4c22-ba89-70c8c34ed772")
 		(property "Reference" "JP1"
-			(at 38.354 53.34 90)
+			(at 54.229 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +3372,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 32.512 55.626 90)
+			(at 48.387 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +3381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 54.61 0)
+			(at 65.405 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +3390,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 54.61 0)
+			(at 65.405 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,7 +3399,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 49.53 54.61 0)
+			(at 65.405 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +3424,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 242.57 0)
+		(at 180.975 196.215 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4148,7 +3433,7 @@
 		(fields_autoplaced yes)
 		(uuid "25a60226-8e3e-4aff-8205-479660278247")
 		(property "Reference" "R7"
-			(at 99.06 241.2999 0)
+			(at 183.515 194.9449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +3442,7 @@
 			)
 		)
 		(property "Value" "6.2K"
-			(at 99.06 243.8399 0)
+			(at 183.515 197.4849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +3451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 94.742 242.57 90)
+			(at 179.197 196.215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +3460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 242.57 0)
+			(at 180.975 196.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +3469,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 96.52 242.57 0)
+			(at 180.975 196.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +3494,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 194.31 54.61 270)
+		(at 239.395 75.565 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4218,7 +3503,7 @@
 		(dnp no)
 		(uuid "2a394e3f-fda5-4d06-9f80-b2ca1d118cdf")
 		(property "Reference" "JP4"
-			(at 205.486 53.34 90)
+			(at 250.571 74.295 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +3512,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 211.328 55.626 90)
+			(at 256.413 76.581 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +3521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 54.61 0)
+			(at 239.395 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +3530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 54.61 0)
+			(at 239.395 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +3539,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 194.31 54.61 0)
+			(at 239.395 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +3564,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 267.97 137.16 0)
+		(at 294.64 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4288,7 +3573,7 @@
 		(fields_autoplaced yes)
 		(uuid "31563c9a-8de4-4eef-9a12-47c1c1625923")
 		(property "Reference" "#PWR015"
-			(at 267.97 143.51 0)
+			(at 294.64 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +3582,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 267.97 142.24 0)
+			(at 294.64 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,7 +3590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 137.16 0)
+			(at 294.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +3599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 137.16 0)
+			(at 294.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +3608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 137.16 0)
+			(at 294.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +3630,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 325.12 137.16 0)
+		(at 351.79 164.465 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4355,7 +3640,7 @@
 		(fields_autoplaced yes)
 		(uuid "324f5abf-eaf7-4fc1-ab7d-d5399302354e")
 		(property "Reference" "#PWR016"
-			(at 325.12 143.51 0)
+			(at 351.79 170.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +3649,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 325.12 142.24 0)
+			(at 351.79 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +3657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 137.16 0)
+			(at 351.79 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +3666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 137.16 0)
+			(at 351.79 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +3675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 325.12 137.16 0)
+			(at 351.79 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +3697,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115.57 242.57 0)
+		(at 200.025 196.215 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4421,7 +3706,7 @@
 		(fields_autoplaced yes)
 		(uuid "357860bc-fef7-4f06-974e-d3d941eef608")
 		(property "Reference" "R10"
-			(at 118.11 241.2999 0)
+			(at 202.565 194.9449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +3715,7 @@
 			)
 		)
 		(property "Value" "12K"
-			(at 118.11 243.8399 0)
+			(at 202.565 197.4849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +3724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.792 242.57 90)
+			(at 198.247 196.215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,7 +3733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 242.57 0)
+			(at 200.025 196.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +3742,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 115.57 242.57 0)
+			(at 200.025 196.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,73 +3766,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 193.04 45.72 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3596429a-b5a4-48f6-95f6-aa02a086f36d")
-		(property "Reference" "J4"
-			(at 200.66 40.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 199.898 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1eab092-5468-4270-9f3b-729c3d8783d7")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 69.85 265.43 0)
+		(at 154.305 219.075 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4556,7 +3776,7 @@
 		(fields_autoplaced yes)
 		(uuid "378a4616-bc39-49e0-bf26-59f4c79dc067")
 		(property "Reference" "R4"
-			(at 72.39 264.1599 0)
+			(at 156.845 217.8049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +3785,7 @@
 			)
 		)
 		(property "Value" "24K"
-			(at 72.39 266.6999 0)
+			(at 156.845 220.3449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +3794,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.072 265.43 90)
+			(at 152.527 219.075 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +3803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 265.43 0)
+			(at 154.305 219.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +3812,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 69.85 265.43 0)
+			(at 154.305 219.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4617,7 +3837,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 52.07 245.11 0)
+		(at 136.525 198.755 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4626,7 +3846,7 @@
 		(fields_autoplaced yes)
 		(uuid "390631e4-1a90-43a9-955f-99c09eca4372")
 		(property "Reference" "#PWR03"
-			(at 52.07 248.92 0)
+			(at 136.525 202.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,7 +3855,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 52.07 240.03 0)
+			(at 136.525 193.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +3863,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 245.11 0)
+			(at 136.525 198.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +3872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 245.11 0)
+			(at 136.525 198.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,7 +3881,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 52.07 245.11 0)
+			(at 136.525 198.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +3903,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115.57 234.95 0)
+		(at 200.025 188.595 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4692,7 +3912,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ce25539-51ac-4fb3-a74f-56efe7c174ec")
 		(property "Reference" "R11"
-			(at 118.11 233.6799 0)
+			(at 202.565 187.3249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +3921,7 @@
 			)
 		)
 		(property "Value" "500"
-			(at 118.11 236.2199 0)
+			(at 202.565 189.8649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,7 +3930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.792 234.95 90)
+			(at 198.247 188.595 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4719,7 +3939,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 234.95 0)
+			(at 200.025 188.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4728,7 +3948,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 115.57 234.95 0)
+			(at 200.025 188.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +3973,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 248.92 90)
+		(at 164.465 202.565 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4762,7 +3982,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f16ad42-c558-4adb-bf7d-0e9c1384920c")
 		(property "Reference" "#PWR04"
-			(at 86.36 248.92 0)
+			(at 170.815 202.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +3991,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 248.9199 90)
+			(at 168.275 202.5649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,7 +4000,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 248.92 0)
+			(at 164.465 202.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4789,7 +4009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 248.92 0)
+			(at 164.465 202.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,7 +4018,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 248.92 0)
+			(at 164.465 202.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +4040,7 @@
 	)
 	(symbol
 		(lib_id "PFNF_035_2:PFNF.035.2")
-		(at 304.8 63.5 90)
+		(at 331.47 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4829,7 +4049,7 @@
 		(fields_autoplaced yes)
 		(uuid "40681c11-5fa5-4559-bbe7-d881a31d4a57")
 		(property "Reference" "F6"
-			(at 307.34 53.3399 90)
+			(at 334.01 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +4058,7 @@
 			)
 		)
 		(property "Value" "PFNF.035.2"
-			(at 307.34 55.8799 90)
+			(at 334.01 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +4067,7 @@
 			)
 		)
 		(property "Footprint" "FUSC3216X85N"
-			(at 400.99 49.53 0)
+			(at 427.66 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +4077,7 @@
 			)
 		)
 		(property "Datasheet" "https://ch.schurter.com/en/datasheet/typ_PFNF.pdf"
-			(at 500.99 49.53 0)
+			(at 527.66 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,7 +4087,7 @@
 			)
 		)
 		(property "Description" "PCB;Fuse;Fast;Resetable Schurter 0.35A Resettable Surface Mount Fuse, 6 V dc"
-			(at 304.8 63.5 0)
+			(at 331.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,7 +4096,7 @@
 			)
 		)
 		(property "Height" "0.85"
-			(at 700.99 49.53 0)
+			(at 727.66 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +4106,7 @@
 			)
 		)
 		(property "Mouser Part Number" "693-PFNF.035.2"
-			(at 800.99 49.53 0)
+			(at 827.66 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4896,7 +4116,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Schurter/PFNF0352?qs=1auRipcfynAU6bHG9P5yrg%3D%3D"
-			(at 900.99 49.53 0)
+			(at 927.66 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,7 +4126,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 1000.99 49.53 0)
+			(at 1027.66 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +4136,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PFNF.035.2"
-			(at 1100.99 49.53 0)
+			(at 1127.66 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +4162,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.44 133.35 0)
+		(at 118.745 162.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4952,7 +4172,7 @@
 		(fields_autoplaced yes)
 		(uuid "46c652cf-37ad-426c-8483-991d2468c893")
 		(property "Reference" "R18"
-			(at 88.9 132.0799 0)
+			(at 116.205 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,7 +4181,7 @@
 			)
 		)
 		(property "Value" "1.2K"
-			(at 88.9 134.6199 0)
+			(at 116.205 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4970,7 +4190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.218 133.35 90)
+			(at 120.523 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,7 +4199,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 133.35 0)
+			(at 118.745 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +4208,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 91.44 133.35 0)
+			(at 118.745 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +4233,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 242.57 0)
+		(at 217.805 196.215 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5022,7 +4242,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b632427-7d50-4826-8878-cba6431b29a9")
 		(property "Reference" "R13"
-			(at 135.89 241.2999 0)
+			(at 220.345 194.9449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +4251,7 @@
 			)
 		)
 		(property "Value" "24K"
-			(at 135.89 243.8399 0)
+			(at 220.345 197.4849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +4260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 131.572 242.57 90)
+			(at 216.027 196.215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +4269,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 242.57 0)
+			(at 217.805 196.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +4278,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 242.57 0)
+			(at 217.805 196.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,74 +4302,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 327.66 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c1bcecd-5006-41c5-9376-d571c8295739")
-		(property "Reference" "#PWR017"
-			(at 327.66 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 330.708 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 327.66 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "984524c7-2690-4f51-b75e-08e75753ad64")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "B340A-E3_61T:B340A-E3_61T")
-		(at 63.5 66.04 0)
+		(at 88.9 98.425 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5158,7 +4312,7 @@
 		(fields_autoplaced yes)
 		(uuid "50bc245b-f675-4a39-be49-1db17350296b")
 		(property "Reference" "D3"
-			(at 71.12 58.42 0)
+			(at 96.52 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,7 +4320,7 @@
 			)
 		)
 		(property "Value" "B340A-E3_61T"
-			(at 71.12 60.96 0)
+			(at 96.52 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,7 +4328,7 @@
 			)
 		)
 		(property "Footprint" "DIOM5127X229N"
-			(at 74.93 163.5 0)
+			(at 100.33 195.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5184,7 +4338,7 @@
 			)
 		)
 		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/B340A-E3_61T.pdf"
-			(at 74.93 263.5 0)
+			(at 100.33 295.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,7 +4348,7 @@
 			)
 		)
 		(property "Description" "VISHAY - B340A-E3/61T - Schottky Rectifier, 40 V, 3 A, Single, DO-214AC (SMA), 2 Pins, 550 mV"
-			(at 63.5 66.04 0)
+			(at 88.9 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +4357,7 @@
 			)
 		)
 		(property "Height" "2.29"
-			(at 74.93 463.5 0)
+			(at 100.33 495.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5213,7 +4367,7 @@
 			)
 		)
 		(property "Mouser Part Number" "625-BD340A-E3/61T"
-			(at 74.93 563.5 0)
+			(at 100.33 595.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +4377,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/B340A-E3-61T?qs=tdXsjSi%2FIMY4I2dGLbnpzg%3D%3D"
-			(at 74.93 663.5 0)
+			(at 100.33 695.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,7 +4387,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 74.93 763.5 0)
+			(at 100.33 795.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +4397,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B340A-E3/61T"
-			(at 74.93 863.5 0)
+			(at 100.33 895.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,7 +4423,7 @@
 	)
 	(symbol
 		(lib_id "FJB102TM:FJB102TM")
-		(at 250.19 114.3 0)
+		(at 276.86 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5278,7 +4432,7 @@
 		(fields_autoplaced yes)
 		(uuid "5aea356c-732d-4cb4-ae8f-2d2c1a858328")
 		(property "Reference" "Q5"
-			(at 271.78 116.8399 0)
+			(at 298.45 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +4441,7 @@
 			)
 		)
 		(property "Value" "FJB102TM"
-			(at 271.78 119.3799 0)
+			(at 298.45 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +4450,7 @@
 			)
 		)
 		(property "Footprint" "FJB102TM"
-			(at 271.78 216.84 0)
+			(at 298.45 244.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5306,7 +4460,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FJB102-D.pdf"
-			(at 271.78 316.84 0)
+			(at 298.45 344.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +4470,7 @@
 			)
 		)
 		(property "Description" "Industrial Use; High DC Current Gain : hFE=1000 @ VCE= 4 V, IC= 3 A (Min.); High Collector-Emitter Sustaining Voltage; Low Collector-Emitter Saturation Voltage; Monolithic Construction with Built-in Base-Emitter Shunt Resistors"
-			(at 250.19 114.3 0)
+			(at 276.86 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,7 +4479,7 @@
 			)
 		)
 		(property "Height" "5.08"
-			(at 271.78 516.84 0)
+			(at 298.45 544.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +4489,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-FJB102TM"
-			(at 271.78 616.84 0)
+			(at 298.45 644.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +4499,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FJB102TM?qs=VOMQJJE%252BBNn2%2F6TQhKCUSQ%3D%3D"
-			(at 271.78 716.84 0)
+			(at 298.45 744.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +4509,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 271.78 816.84 0)
+			(at 298.45 844.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +4519,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FJB102TM"
-			(at 271.78 916.84 0)
+			(at 298.45 944.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +4548,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 133.35 0)
+		(at 62.865 163.195 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5403,7 +4557,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d27f4bb-cce6-43b0-a6ba-df77f4238160")
 		(property "Reference" "R17"
-			(at 36.83 132.0799 0)
+			(at 65.405 161.9249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +4566,7 @@
 			)
 		)
 		(property "Value" "1.2K"
-			(at 36.83 134.6199 0)
+			(at 65.405 164.4649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,7 +4575,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 32.512 133.35 90)
+			(at 61.087 163.195 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5430,7 +4584,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 133.35 0)
+			(at 62.865 163.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,7 +4593,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 34.29 133.35 0)
+			(at 62.865 163.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,7 +4618,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 283.21 54.61 90)
+		(at 309.88 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5472,7 +4626,7 @@
 		(dnp no)
 		(uuid "60045517-41fa-47fe-b51a-b59195fd42c3")
 		(property "Reference" "JP5"
-			(at 272.034 53.34 90)
+			(at 298.704 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5481,7 +4635,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 266.192 55.626 90)
+			(at 292.862 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5490,7 +4644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 54.61 0)
+			(at 309.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +4653,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 283.21 54.61 0)
+			(at 309.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5508,7 +4662,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 283.21 54.61 0)
+			(at 309.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,16 +4687,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 97.79 261.62 270)
+		(at 186.055 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6342914e-72df-4f09-9506-791e849173c8")
 		(property "Reference" "#PWR05"
-			(at 93.98 261.62 0)
+			(at 186.055 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +4704,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 101.6 261.6199 90)
+			(at 184.15 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +4713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 261.62 0)
+			(at 186.055 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,7 +4722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 261.62 0)
+			(at 186.055 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,7 +4731,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 97.79 261.62 0)
+			(at 186.055 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5600,7 +4753,7 @@
 	)
 	(symbol
 		(lib_id "FJB102TM:FJB102TM")
-		(at 133.35 114.3 0)
+		(at 160.02 140.335 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5609,7 +4762,7 @@
 		(fields_autoplaced yes)
 		(uuid "647fa448-2411-4400-83db-201e4100f8f3")
 		(property "Reference" "Q3"
-			(at 154.94 116.8399 0)
+			(at 181.61 142.8749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,7 +4771,7 @@
 			)
 		)
 		(property "Value" "FJB102TM"
-			(at 154.94 119.3799 0)
+			(at 181.61 145.4149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,7 +4780,7 @@
 			)
 		)
 		(property "Footprint" "FJB102TM"
-			(at 154.94 216.84 0)
+			(at 181.61 242.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,7 +4790,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FJB102-D.pdf"
-			(at 154.94 316.84 0)
+			(at 181.61 342.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,7 +4800,7 @@
 			)
 		)
 		(property "Description" "Industrial Use; High DC Current Gain : hFE=1000 @ VCE= 4 V, IC= 3 A (Min.); High Collector-Emitter Sustaining Voltage; Low Collector-Emitter Saturation Voltage; Monolithic Construction with Built-in Base-Emitter Shunt Resistors"
-			(at 133.35 114.3 0)
+			(at 160.02 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5656,7 +4809,7 @@
 			)
 		)
 		(property "Height" "5.08"
-			(at 154.94 516.84 0)
+			(at 181.61 542.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +4819,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-FJB102TM"
-			(at 154.94 616.84 0)
+			(at 181.61 642.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5676,7 +4829,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FJB102TM?qs=VOMQJJE%252BBNn2%2F6TQhKCUSQ%3D%3D"
-			(at 154.94 716.84 0)
+			(at 181.61 742.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5686,7 +4839,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 154.94 816.84 0)
+			(at 181.61 842.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +4849,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FJB102TM"
-			(at 154.94 916.84 0)
+			(at 181.61 942.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,259 +4877,17 @@
 		)
 	)
 	(symbol
-		(lib_id "ERJ-P06F5600V:ERJ-P06F5600V")
-		(at 195.58 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a1e16d5-5c4c-4f03-bd74-b37f9d6ca6d7")
-		(property "Reference" "R21"
-			(at 198.12 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ERJ-P06F5600V"
-			(at 198.12 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ERJP06D1000V"
-			(at 99.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf"
-			(at -0.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Anti-Surge Thick Film Chip Resistor, 0603, 0.5W"
-			(at 195.58 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at -200.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-ERJ-P06F5600V"
-			(at -300.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-P06F5600V?qs=iIVTEDlrHA1ahTQP0kElew%3D%3D"
-			(at -400.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at -500.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-P06F5600V"
-			(at -600.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0f9f028f-c58e-4a0a-9ad6-cca26435d262")
-		)
-		(pin "1"
-			(uuid "7a429b2d-ee18-4da6-bd49-fd8adbbedfe6")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "B340A-E3_61T:B340A-E3_61T")
-		(at 180.34 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "714f3c3f-1929-45ce-9439-64777f6cccfb")
-		(property "Reference" "D2"
-			(at 187.96 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B340A-E3_61T"
-			(at 187.96 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DIOM5127X229N"
-			(at 191.77 163.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/B340A-E3_61T.pdf"
-			(at 191.77 263.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "VISHAY - B340A-E3/61T - Schottky Rectifier, 40 V, 3 A, Single, DO-214AC (SMA), 2 Pins, 550 mV"
-			(at 180.34 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.29"
-			(at 191.77 463.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "625-BD340A-E3/61T"
-			(at 191.77 563.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/B340A-E3-61T?qs=tdXsjSi%2FIMY4I2dGLbnpzg%3D%3D"
-			(at 191.77 663.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 191.77 763.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B340A-E3/61T"
-			(at 191.77 863.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fec0ea9d-9dca-442a-9f5b-d423ee75220d")
-		)
-		(pin "2"
-			(uuid "a85a973a-cb1a-4c6f-a802-d8b5585a37bc")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LMV321LILT:LMV321LILT")
-		(at 80.01 251.46 180)
+		(at 144.145 212.725 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "74b654a7-7565-4db8-8fdd-f692f213e770")
 		(property "Reference" "IC1"
-			(at 66.04 238.76 0)
+			(at 130.175 225.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,7 +4895,7 @@
 			)
 		)
 		(property "Value" "LMV321LILT"
-			(at 66.04 241.3 0)
+			(at 130.175 222.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,7 +4903,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P280X145-5N"
-			(at 55.88 156.54 0)
+			(at 120.015 307.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +4913,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/fa/2c/e4/1d/5f/74/45/2a/DM00052423.pdf/files/DM00052423.pdf/jcr:content/translations/en.DM00052423.pdf"
-			(at 55.88 56.54 0)
+			(at 120.015 407.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +4923,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics LMV321LILT Low Power Op Amp, 1.3MHz Rail to Rail, Swing, 2.7 V, 5 V, 5-Pin SOT-23"
-			(at 80.01 251.46 0)
+			(at 144.145 212.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,7 +4932,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at 55.88 -143.46 0)
+			(at 120.015 607.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,7 +4942,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-LMV321LILT"
-			(at 55.88 -243.46 0)
+			(at 120.015 707.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6041,7 +4952,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LMV321LILT?qs=0PAMiCYhSzEO4kUYl9lr1Q%3D%3D"
-			(at 55.88 -343.46 0)
+			(at 120.015 807.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,7 +4962,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 55.88 -443.46 0)
+			(at 120.015 907.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +4972,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LMV321LILT"
-			(at 55.88 -543.46 0)
+			(at 120.015 1007.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,7 +5007,7 @@
 	)
 	(symbol
 		(lib_id "FJB102TM:FJB102TM")
-		(at 226.06 114.3 0)
+		(at 252.73 142.24 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6106,7 +5017,7 @@
 		(fields_autoplaced yes)
 		(uuid "778a7371-cc2a-4a19-9117-f89a09201c3b")
 		(property "Reference" "Q4"
-			(at 204.47 116.8399 0)
+			(at 231.14 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +5026,7 @@
 			)
 		)
 		(property "Value" "FJB102TM"
-			(at 204.47 119.3799 0)
+			(at 231.14 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +5035,7 @@
 			)
 		)
 		(property "Footprint" "FJB102TM"
-			(at 204.47 216.84 0)
+			(at 231.14 244.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +5045,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FJB102-D.pdf"
-			(at 204.47 316.84 0)
+			(at 231.14 344.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +5055,7 @@
 			)
 		)
 		(property "Description" "Industrial Use; High DC Current Gain : hFE=1000 @ VCE= 4 V, IC= 3 A (Min.); High Collector-Emitter Sustaining Voltage; Low Collector-Emitter Saturation Voltage; Monolithic Construction with Built-in Base-Emitter Shunt Resistors"
-			(at 226.06 114.3 0)
+			(at 252.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +5064,7 @@
 			)
 		)
 		(property "Height" "5.08"
-			(at 204.47 516.84 0)
+			(at 231.14 544.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6163,7 +5074,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-FJB102TM"
-			(at 204.47 616.84 0)
+			(at 231.14 644.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,7 +5084,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FJB102TM?qs=VOMQJJE%252BBNn2%2F6TQhKCUSQ%3D%3D"
-			(at 204.47 716.84 0)
+			(at 231.14 744.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +5094,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 204.47 816.84 0)
+			(at 231.14 844.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,7 +5104,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FJB102TM"
-			(at 204.47 916.84 0)
+			(at 231.14 944.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,7 +5133,7 @@
 	)
 	(symbol
 		(lib_id "PFNF_035_2:PFNF.035.2")
-		(at 289.56 63.5 90)
+		(at 316.23 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6231,7 +5142,7 @@
 		(fields_autoplaced yes)
 		(uuid "7882bec8-2571-4157-b083-a5b957f364d4")
 		(property "Reference" "F5"
-			(at 292.1 53.3399 90)
+			(at 318.77 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +5151,7 @@
 			)
 		)
 		(property "Value" "PFNF.035.2"
-			(at 292.1 55.8799 90)
+			(at 318.77 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6249,7 +5160,7 @@
 			)
 		)
 		(property "Footprint" "FUSC3216X85N"
-			(at 385.75 49.53 0)
+			(at 412.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +5170,7 @@
 			)
 		)
 		(property "Datasheet" "https://ch.schurter.com/en/datasheet/typ_PFNF.pdf"
-			(at 485.75 49.53 0)
+			(at 512.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +5180,7 @@
 			)
 		)
 		(property "Description" "PCB;Fuse;Fast;Resetable Schurter 0.35A Resettable Surface Mount Fuse, 6 V dc"
-			(at 289.56 63.5 0)
+			(at 316.23 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +5189,7 @@
 			)
 		)
 		(property "Height" "0.85"
-			(at 685.75 49.53 0)
+			(at 712.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,7 +5199,7 @@
 			)
 		)
 		(property "Mouser Part Number" "693-PFNF.035.2"
-			(at 785.75 49.53 0)
+			(at 812.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,7 +5209,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Schurter/PFNF0352?qs=1auRipcfynAU6bHG9P5yrg%3D%3D"
-			(at 885.75 49.53 0)
+			(at 912.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +5219,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 985.75 49.53 0)
+			(at 1012.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,7 +5229,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PFNF.035.2"
-			(at 1085.75 49.53 0)
+			(at 1112.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,72 +5254,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 284.48 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7bc3b2fa-5e77-4a66-9bff-cbc907c60d3a")
-		(property "Reference" "J5"
-			(at 276.86 40.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 277.622 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 284.48 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 284.48 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 284.48 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5bc3e324-45b8-4b39-99f5-a9e3aac68802")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "G3VM-31DR_TR05_:G3VM-31DR_TR05_")
-		(at 151.13 83.82 270)
+		(at 177.8 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6417,7 +5264,7 @@
 		(fields_autoplaced yes)
 		(uuid "85370df9-2594-4ff8-8037-0ad5108dacf8")
 		(property "Reference" "K3"
-			(at 154.94 93.9799 90)
+			(at 181.61 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6426,7 +5273,7 @@
 			)
 		)
 		(property "Value" "G3VM-31DR_TR05_"
-			(at 154.94 96.5199 90)
+			(at 181.61 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +5282,7 @@
 			)
 		)
 		(property "Footprint" "G3VM31DRTR05"
-			(at 56.21 102.87 0)
+			(at 82.88 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6445,7 +5292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -43.79 102.87 0)
+			(at -17.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6455,7 +5302,7 @@
 			)
 		)
 		(property "Description" "Solid State Relays - PCB Mount High power, 4.0-A switching with a 30-V load voltage, DIP4 package. Low 25 mO ON Resistance."
-			(at 151.13 83.82 0)
+			(at 177.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +5311,7 @@
 			)
 		)
 		(property "Height" "3.8"
-			(at -243.79 102.87 0)
+			(at -217.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +5321,7 @@
 			)
 		)
 		(property "Mouser Part Number" "653-G3VM-31DR(TR05)"
-			(at -343.79 102.87 0)
+			(at -317.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +5331,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G3VM-31DRTR05?qs=wnTfsH77Xs5ttufbIZctbg%3D%3D"
-			(at -443.79 102.87 0)
+			(at -417.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +5341,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Omron Electronics"
-			(at -543.79 102.87 0)
+			(at -517.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +5351,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "G3VM-31DR(TR05)"
-			(at -643.79 102.87 0)
+			(at -617.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,195 +5382,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ERJ-P06F5600V:ERJ-P06F5600V")
-		(at 78.74 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "853f8500-0d28-4ed9-9d3b-cf6357fa186b")
-		(property "Reference" "R2"
-			(at 81.28 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ERJ-P06F5600V"
-			(at 81.28 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ERJP06D1000V"
-			(at -17.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf"
-			(at -117.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Anti-Surge Thick Film Chip Resistor, 0603, 0.5W"
-			(at 78.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at -317.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-ERJ-P06F5600V"
-			(at -417.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-P06F5600V?qs=iIVTEDlrHA1ahTQP0kElew%3D%3D"
-			(at -517.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at -617.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-P06F5600V"
-			(at -717.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5cdcf440-3d2d-4fbf-a3c3-30cbc62067e9")
-		)
-		(pin "1"
-			(uuid "75c7ac16-8484-4e0e-8048-b5a00114911f")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 309.88 45.72 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86889b7e-7cb3-4499-ab08-6e830f35a0a5")
-		(property "Reference" "J6"
-			(at 317.5 40.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 316.738 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 309.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 309.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ccef1c9-77c0-4860-8985-62a0a956f4f8")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "G3VM-31DR_TR05_:G3VM-31DR_TR05_")
-		(at 267.97 83.82 270)
+		(at 294.64 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6732,7 +5392,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b307aaa-d90f-4c21-ab65-34a27956af71")
 		(property "Reference" "K5"
-			(at 271.78 93.9799 90)
+			(at 298.45 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,7 +5401,7 @@
 			)
 		)
 		(property "Value" "G3VM-31DR_TR05_"
-			(at 271.78 96.5199 90)
+			(at 298.45 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +5410,7 @@
 			)
 		)
 		(property "Footprint" "G3VM31DRTR05"
-			(at 173.05 102.87 0)
+			(at 199.72 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +5420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.05 102.87 0)
+			(at 99.72 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +5430,7 @@
 			)
 		)
 		(property "Description" "Solid State Relays - PCB Mount High power, 4.0-A switching with a 30-V load voltage, DIP4 package. Low 25 mO ON Resistance."
-			(at 267.97 83.82 0)
+			(at 294.64 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,7 +5439,7 @@
 			)
 		)
 		(property "Height" "3.8"
-			(at -126.95 102.87 0)
+			(at -100.28 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6789,7 +5449,7 @@
 			)
 		)
 		(property "Mouser Part Number" "653-G3VM-31DR(TR05)"
-			(at -226.95 102.87 0)
+			(at -200.28 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,7 +5459,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G3VM-31DRTR05?qs=wnTfsH77Xs5ttufbIZctbg%3D%3D"
-			(at -326.95 102.87 0)
+			(at -300.28 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6809,7 +5469,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Omron Electronics"
-			(at -426.95 102.87 0)
+			(at -400.28 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,7 +5479,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "G3VM-31DR(TR05)"
-			(at -526.95 102.87 0)
+			(at -500.28 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,192 +5510,8 @@
 		)
 	)
 	(symbol
-		(lib_id "B340A-E3_61T:B340A-E3_61T")
-		(at 297.18 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c00cfe2-22db-4eee-aea6-f5ecab082812")
-		(property "Reference" "D5"
-			(at 289.56 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B340A-E3_61T"
-			(at 289.56 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DIOM5127X229N"
-			(at 285.75 -31.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/B340A-E3_61T.pdf"
-			(at 285.75 -131.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "VISHAY - B340A-E3/61T - Schottky Rectifier, 40 V, 3 A, Single, DO-214AC (SMA), 2 Pins, 550 mV"
-			(at 297.18 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.29"
-			(at 285.75 -331.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "625-BD340A-E3/61T"
-			(at 285.75 -431.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/B340A-E3-61T?qs=tdXsjSi%2FIMY4I2dGLbnpzg%3D%3D"
-			(at 285.75 -531.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 285.75 -631.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B340A-E3/61T"
-			(at 285.75 -731.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df55ade8-bd90-4ad4-be4f-81717e892cbd")
-		)
-		(pin "2"
-			(uuid "bb844ab8-b47d-4918-8b57-883cad3076c6")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 167.64 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8cbe356e-0736-4bd7-a833-1d3919e3fd81")
-		(property "Reference" "J3"
-			(at 160.02 40.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 160.782 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 167.64 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b63a0213-0f93-4d71-bf3e-0edd43e0ebce")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 93.98 261.62 90)
+		(at 178.435 215.265 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7044,7 +5520,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e7210e1-8f1f-406e-bcf5-167164e5bce3")
 		(property "Reference" "R6"
-			(at 93.98 255.27 90)
+			(at 178.435 208.915 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,7 +5528,7 @@
 			)
 		)
 		(property "Value" "22K"
-			(at 93.98 257.81 90)
+			(at 178.435 211.455 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7060,7 +5536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 263.398 90)
+			(at 178.435 217.043 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7069,7 +5545,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 261.62 0)
+			(at 178.435 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7078,7 +5554,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 261.62 0)
+			(at 178.435 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +5579,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 137.16 0)
+		(at 62.865 167.005 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7112,7 +5588,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ef51a70-ad06-4f6e-bf97-3a8bbceb92de")
 		(property "Reference" "#PWR07"
-			(at 34.29 143.51 0)
+			(at 62.865 173.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +5597,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 142.24 0)
+			(at 62.865 172.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,7 +5605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 137.16 0)
+			(at 62.865 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7138,7 +5614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 137.16 0)
+			(at 62.865 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7147,7 +5623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 137.16 0)
+			(at 62.865 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7168,130 +5644,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ERJ-P06F5600V:ERJ-P06F5600V")
-		(at 165.1 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "914d1ddb-b892-4bd6-936a-afe6980495b7")
-		(property "Reference" "R20"
-			(at 167.64 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ERJ-P06F5600V"
-			(at 167.64 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ERJP06D1000V"
-			(at 68.91 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf"
-			(at -31.09 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Anti-Surge Thick Film Chip Resistor, 0603, 0.5W"
-			(at 165.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at -231.09 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-ERJ-P06F5600V"
-			(at -331.09 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-P06F5600V?qs=iIVTEDlrHA1ahTQP0kElew%3D%3D"
-			(at -431.09 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at -531.09 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-P06F5600V"
-			(at -631.09 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "552cfcc0-1966-46cf-812f-12a158757678")
-		)
-		(pin "1"
-			(uuid "e3b2c83b-637d-4716-a7be-f42e82a1ea5b")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
-		(at 181.61 24.13 0)
+		(at 208.28 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7300,7 +5654,7 @@
 		(fields_autoplaced yes)
 		(uuid "961e837b-a283-4c21-a6c4-dc0d41f04157")
 		(property "Reference" "#PWR01"
-			(at 181.61 27.94 0)
+			(at 208.28 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7309,7 +5663,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 181.61 19.05 0)
+			(at 208.28 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +5671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 24.13 0)
+			(at 208.28 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +5680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 24.13 0)
+			(at 208.28 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +5689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 181.61 24.13 0)
+			(at 208.28 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7357,7 +5711,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 166.37 54.61 90)
+		(at 180.34 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7365,7 +5719,7 @@
 		(dnp no)
 		(uuid "9999334b-b5eb-4d39-9882-2ff5dd9532e0")
 		(property "Reference" "JP3"
-			(at 155.194 53.34 90)
+			(at 169.164 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7374,7 +5728,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 149.352 55.626 90)
+			(at 163.322 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,7 +5737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 54.61 0)
+			(at 180.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,7 +5746,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 54.61 0)
+			(at 180.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7401,7 +5755,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 166.37 54.61 0)
+			(at 180.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7426,7 +5780,7 @@
 	)
 	(symbol
 		(lib_id "FJB102TM:FJB102TM")
-		(at 342.9 114.3 0)
+		(at 369.57 141.605 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7436,7 +5790,7 @@
 		(fields_autoplaced yes)
 		(uuid "a11f5150-988b-4858-8379-ac27eb3d04ec")
 		(property "Reference" "Q6"
-			(at 321.31 116.8399 0)
+			(at 347.98 144.1449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +5799,7 @@
 			)
 		)
 		(property "Value" "FJB102TM"
-			(at 321.31 119.3799 0)
+			(at 347.98 146.6849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,7 +5808,7 @@
 			)
 		)
 		(property "Footprint" "FJB102TM"
-			(at 321.31 216.84 0)
+			(at 347.98 244.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7464,7 +5818,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FJB102-D.pdf"
-			(at 321.31 316.84 0)
+			(at 347.98 344.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,7 +5828,7 @@
 			)
 		)
 		(property "Description" "Industrial Use; High DC Current Gain : hFE=1000 @ VCE= 4 V, IC= 3 A (Min.); High Collector-Emitter Sustaining Voltage; Low Collector-Emitter Saturation Voltage; Monolithic Construction with Built-in Base-Emitter Shunt Resistors"
-			(at 342.9 114.3 0)
+			(at 369.57 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,7 +5837,7 @@
 			)
 		)
 		(property "Height" "5.08"
-			(at 321.31 516.84 0)
+			(at 347.98 544.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7493,7 +5847,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-FJB102TM"
-			(at 321.31 616.84 0)
+			(at 347.98 644.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7503,7 +5857,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FJB102TM?qs=VOMQJJE%252BBNn2%2F6TQhKCUSQ%3D%3D"
-			(at 321.31 716.84 0)
+			(at 347.98 744.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7513,7 +5867,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 321.31 816.84 0)
+			(at 347.98 844.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7523,7 +5877,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FJB102TM"
-			(at 321.31 916.84 0)
+			(at 347.98 944.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +5906,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 77.47 54.61 270)
+		(at 120.65 76.2 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7561,7 +5915,7 @@
 		(dnp no)
 		(uuid "a2b45753-f8db-4a42-a4e7-9c65203664c3")
 		(property "Reference" "JP2"
-			(at 88.646 53.34 90)
+			(at 131.826 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,7 +5924,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 94.488 55.626 90)
+			(at 137.668 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,7 +5933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 54.61 0)
+			(at 120.65 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,7 +5942,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 54.61 0)
+			(at 120.65 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,7 +5951,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 77.47 54.61 0)
+			(at 120.65 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +5976,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 208.28 133.35 0)
+		(at 234.95 161.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7632,7 +5986,7 @@
 		(fields_autoplaced yes)
 		(uuid "a521362e-dad6-4703-a63f-3c2142e99389")
 		(property "Reference" "R22"
-			(at 205.74 132.0799 0)
+			(at 232.41 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7641,7 +5995,7 @@
 			)
 		)
 		(property "Value" "1.2K"
-			(at 205.74 134.6199 0)
+			(at 232.41 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7650,7 +6004,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.058 133.35 90)
+			(at 236.728 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7659,7 +6013,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 133.35 0)
+			(at 234.95 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,7 +6022,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 208.28 133.35 0)
+			(at 234.95 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7693,7 +6047,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 242.57 0)
+		(at 236.855 196.215 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7702,7 +6056,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa84e650-8e4d-407a-a035-2abdbf70020f")
 		(property "Reference" "R16"
-			(at 154.94 241.2999 0)
+			(at 239.395 194.9449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7711,7 +6065,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 154.94 243.8399 0)
+			(at 239.395 197.4849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7720,7 +6074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 150.622 242.57 90)
+			(at 235.077 196.215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +6083,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 242.57 0)
+			(at 236.855 196.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7738,7 +6092,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 242.57 0)
+			(at 236.855 196.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7763,7 +6117,7 @@
 	)
 	(symbol
 		(lib_id "PFNF_035_2:PFNF.035.2")
-		(at 172.72 63.5 90)
+		(at 186.055 84.455 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7772,7 +6126,7 @@
 		(fields_autoplaced yes)
 		(uuid "af42b2a6-3a26-407a-93bd-28e8d6f1ceb7")
 		(property "Reference" "F3"
-			(at 175.26 53.3399 90)
+			(at 188.595 74.2949 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7781,7 +6135,7 @@
 			)
 		)
 		(property "Value" "PFNF.035.2"
-			(at 175.26 55.8799 90)
+			(at 188.595 76.8349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7790,7 +6144,7 @@
 			)
 		)
 		(property "Footprint" "FUSC3216X85N"
-			(at 268.91 49.53 0)
+			(at 282.245 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7800,7 +6154,7 @@
 			)
 		)
 		(property "Datasheet" "https://ch.schurter.com/en/datasheet/typ_PFNF.pdf"
-			(at 368.91 49.53 0)
+			(at 382.245 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,7 +6164,7 @@
 			)
 		)
 		(property "Description" "PCB;Fuse;Fast;Resetable Schurter 0.35A Resettable Surface Mount Fuse, 6 V dc"
-			(at 172.72 63.5 0)
+			(at 186.055 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7819,7 +6173,7 @@
 			)
 		)
 		(property "Height" "0.85"
-			(at 568.91 49.53 0)
+			(at 582.245 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,7 +6183,7 @@
 			)
 		)
 		(property "Mouser Part Number" "693-PFNF.035.2"
-			(at 668.91 49.53 0)
+			(at 682.245 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7839,7 +6193,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Schurter/PFNF0352?qs=1auRipcfynAU6bHG9P5yrg%3D%3D"
-			(at 768.91 49.53 0)
+			(at 782.245 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7849,7 +6203,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 868.91 49.53 0)
+			(at 882.245 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7859,7 +6213,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PFNF.035.2"
-			(at 968.91 49.53 0)
+			(at 982.245 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,7 +6239,7 @@
 	)
 	(symbol
 		(lib_id "G3VM-31DR_TR05_:G3VM-31DR_TR05_")
-		(at 34.29 83.82 270)
+		(at 60.96 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7894,7 +6248,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1407d8d-4439-4759-a36d-718115731aac")
 		(property "Reference" "K1"
-			(at 38.1 93.9799 90)
+			(at 64.77 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,7 +6257,7 @@
 			)
 		)
 		(property "Value" "G3VM-31DR_TR05_"
-			(at 38.1 96.5199 90)
+			(at 64.77 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7912,7 +6266,7 @@
 			)
 		)
 		(property "Footprint" "G3VM31DRTR05"
-			(at -60.63 102.87 0)
+			(at -33.96 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +6276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -160.63 102.87 0)
+			(at -133.96 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7932,7 +6286,7 @@
 			)
 		)
 		(property "Description" "Solid State Relays - PCB Mount High power, 4.0-A switching with a 30-V load voltage, DIP4 package. Low 25 mO ON Resistance."
-			(at 34.29 83.82 0)
+			(at 60.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7941,7 +6295,7 @@
 			)
 		)
 		(property "Height" "3.8"
-			(at -360.63 102.87 0)
+			(at -333.96 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +6305,7 @@
 			)
 		)
 		(property "Mouser Part Number" "653-G3VM-31DR(TR05)"
-			(at -460.63 102.87 0)
+			(at -433.96 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7961,7 +6315,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G3VM-31DRTR05?qs=wnTfsH77Xs5ttufbIZctbg%3D%3D"
-			(at -560.63 102.87 0)
+			(at -533.96 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7971,7 +6325,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Omron Electronics"
-			(at -660.63 102.87 0)
+			(at -633.96 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7981,7 +6335,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "G3VM-31DR(TR05)"
-			(at -760.63 102.87 0)
+			(at -733.96 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8013,7 +6367,7 @@
 	)
 	(symbol
 		(lib_id "G3VM-31DR_TR05_:G3VM-31DR_TR05_")
-		(at 208.28 83.82 90)
+		(at 234.95 104.14 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8023,7 +6377,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4bc80b7-0c3b-42ce-aee2-b03138d3d133")
 		(property "Reference" "K4"
-			(at 204.47 93.9799 90)
+			(at 231.14 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8032,7 +6386,7 @@
 			)
 		)
 		(property "Value" "G3VM-31DR_TR05_"
-			(at 204.47 96.5199 90)
+			(at 231.14 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8041,7 +6395,7 @@
 			)
 		)
 		(property "Footprint" "G3VM31DRTR05"
-			(at 303.2 102.87 0)
+			(at 329.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +6405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 403.2 102.87 0)
+			(at 429.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,7 +6415,7 @@
 			)
 		)
 		(property "Description" "Solid State Relays - PCB Mount High power, 4.0-A switching with a 30-V load voltage, DIP4 package. Low 25 mO ON Resistance."
-			(at 208.28 83.82 0)
+			(at 234.95 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +6424,7 @@
 			)
 		)
 		(property "Height" "3.8"
-			(at 603.2 102.87 0)
+			(at 629.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8080,7 +6434,7 @@
 			)
 		)
 		(property "Mouser Part Number" "653-G3VM-31DR(TR05)"
-			(at 703.2 102.87 0)
+			(at 729.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8090,7 +6444,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G3VM-31DRTR05?qs=wnTfsH77Xs5ttufbIZctbg%3D%3D"
-			(at 803.2 102.87 0)
+			(at 829.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8100,7 +6454,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Omron Electronics"
-			(at 903.2 102.87 0)
+			(at 929.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +6464,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "G3VM-31DR(TR05)"
-			(at 1003.2 102.87 0)
+			(at 1029.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8141,128 +6495,8 @@
 		)
 	)
 	(symbol
-		(lib_id "B340A-E3_61T:B340A-E3_61T")
-		(at 180.34 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6e93de6-3b4b-47dc-8254-a34e5f5197c5")
-		(property "Reference" "D4"
-			(at 172.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B340A-E3_61T"
-			(at 172.72 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DIOM5127X229N"
-			(at 168.91 -31.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/B340A-E3_61T.pdf"
-			(at 168.91 -131.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "VISHAY - B340A-E3/61T - Schottky Rectifier, 40 V, 3 A, Single, DO-214AC (SMA), 2 Pins, 550 mV"
-			(at 180.34 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.29"
-			(at 168.91 -331.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "625-BD340A-E3/61T"
-			(at 168.91 -431.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/B340A-E3-61T?qs=tdXsjSi%2FIMY4I2dGLbnpzg%3D%3D"
-			(at 168.91 -531.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 168.91 -631.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B340A-E3/61T"
-			(at 168.91 -731.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10203f07-fa23-48db-b97d-68495fabfdff")
-		)
-		(pin "2"
-			(uuid "1eb6d5eb-aa2c-4843-b653-8dc5022c008b")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 124.46 242.57 0)
+		(at 208.915 196.215 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8271,7 +6505,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7fbf214-bfe7-4fce-8847-46a8a685e869")
 		(property "Reference" "R12"
-			(at 127 241.2999 0)
+			(at 211.455 194.9449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +6514,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 127 243.8399 0)
+			(at 211.455 197.4849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8289,7 +6523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.682 242.57 90)
+			(at 207.137 196.215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +6532,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 242.57 0)
+			(at 208.915 196.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +6541,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 242.57 0)
+			(at 208.915 196.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8331,140 +6565,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 210.82 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd03332c-1498-4794-8a64-dff1bfe5837d")
-		(property "Reference" "#PWR013"
-			(at 210.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 213.868 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 210.82 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f952a90-7790-44b9-8b25-c09417918533")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 93.98 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd55e8af-4eae-40d1-b741-7ca5c29960fa")
-		(property "Reference" "#PWR08"
-			(at 93.98 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 97.028 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 93.98 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66b9efcf-3ec8-422a-aca2-98d057b589b8")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 73.66 261.62 90)
+		(at 158.115 215.265 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8473,7 +6575,7 @@
 		(fields_autoplaced yes)
 		(uuid "be547290-54da-45f6-9c9c-730f0b1b1ea8")
 		(property "Reference" "R3"
-			(at 73.66 255.27 90)
+			(at 158.115 208.915 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8481,7 +6583,7 @@
 			)
 		)
 		(property "Value" "2.7K"
-			(at 73.66 257.81 90)
+			(at 158.115 211.455 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,7 +6591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 263.398 90)
+			(at 158.115 217.043 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8498,7 +6600,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 261.62 0)
+			(at 158.115 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8507,7 +6609,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 261.62 0)
+			(at 158.115 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8531,16 +6633,52 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 265.43 83.82 0)
+		(lib_id "B340A-E3_61T:B340A-E3_61T")
+		(at 323.85 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c03a8db9-99bd-4a0d-be36-9862a7974e33")
-		(property "Reference" "#PWR014"
-			(at 265.43 87.63 0)
+		(uuid "bfcee958-0cdb-40f4-b9ab-26df982484ef")
+		(property "Reference" "D5"
+			(at 316.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B340A-E3_61T"
+			(at 316.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DIOM5127X229N"
+			(at 312.42 -3.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/B340A-E3_61T.pdf"
+			(at 312.42 -103.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - B340A-E3/61T - Schottky Rectifier, 40 V, 3 A, Single, DO-214AC (SMA), 2 Pins, 550 mV"
+			(at 323.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8548,48 +6686,186 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 261.366 83.82 0)
+		(property "Height" "2.29"
+			(at 312.42 -303.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 265.43 83.82 0)
+		(property "Mouser Part Number" "625-BD340A-E3/61T"
+			(at 312.42 -403.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 265.43 83.82 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/B340A-E3-61T?qs=tdXsjSi%2FIMY4I2dGLbnpzg%3D%3D"
+			(at 312.42 -503.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 312.42 -603.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B340A-E3/61T"
+			(at 312.42 -703.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "0e8012a3-f674-4d82-9412-ad638885fc3e")
+			(uuid "8273b69e-a06f-4dcb-b6c4-bec205ad77ce")
+		)
+		(pin "2"
+			(uuid "6b81e77b-29a5-42a7-9e92-6a2021c7cbd6")
 		)
 		(instances
 			(project "Elytra"
 				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "#PWR014")
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B340A-E3_61T:B340A-E3_61T")
+		(at 208.915 93.345 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0bb8c0f-4ef8-461a-9133-f0b4902a556d")
+		(property "Reference" "D4"
+			(at 216.535 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B340A-E3_61T"
+			(at 216.535 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DIOM5127X229N"
+			(at 220.345 190.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/B340A-E3_61T.pdf"
+			(at 220.345 290.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - B340A-E3/61T - Schottky Rectifier, 40 V, 3 A, Single, DO-214AC (SMA), 2 Pins, 550 mV"
+			(at 208.915 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.29"
+			(at 220.345 490.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "625-BD340A-E3/61T"
+			(at 220.345 590.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/B340A-E3-61T?qs=tdXsjSi%2FIMY4I2dGLbnpzg%3D%3D"
+			(at 220.345 690.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 220.345 790.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B340A-E3/61T"
+			(at 220.345 890.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85b4af99-d24a-4d57-b40f-6e430b885051")
+		)
+		(pin "2"
+			(uuid "efb9d209-1381-4bc8-a997-b04a3ff8ebe8")
+		)
+		(instances
+			(project "Elytra"
+				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -8597,7 +6873,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 242.57 0)
+		(at 227.965 196.215 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8606,7 +6882,7 @@
 		(fields_autoplaced yes)
 		(uuid "c133b16b-fe89-4bff-bebf-b0366cad6fa2")
 		(property "Reference" "R15"
-			(at 146.05 241.2999 0)
+			(at 230.505 194.9449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8615,7 +6891,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 146.05 243.8399 0)
+			(at 230.505 197.4849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8624,7 +6900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 141.732 242.57 90)
+			(at 226.187 196.215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,7 +6909,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 242.57 0)
+			(at 227.965 196.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8642,7 +6918,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 242.57 0)
+			(at 227.965 196.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,7 +6943,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 325.12 133.35 0)
+		(at 351.79 160.655 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8677,7 +6953,7 @@
 		(fields_autoplaced yes)
 		(uuid "c330ca75-530f-40b4-8b6d-edc4f9c3d175")
 		(property "Reference" "R26"
-			(at 322.58 132.0799 0)
+			(at 349.25 159.3849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8686,7 +6962,7 @@
 			)
 		)
 		(property "Value" "1.2K"
-			(at 322.58 134.6199 0)
+			(at 349.25 161.9249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8695,7 +6971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 326.898 133.35 90)
+			(at 353.568 160.655 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,7 +6980,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 325.12 133.35 0)
+			(at 351.79 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8713,7 +6989,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 325.12 133.35 0)
+			(at 351.79 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8738,16 +7014,15 @@
 	)
 	(symbol
 		(lib_id "B340A-E3_61T:B340A-E3_61T")
-		(at 63.5 66.04 180)
+		(at 81.28 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c423da4e-4fcd-4efc-ad96-2571ca599e1d")
 		(property "Reference" "D1"
-			(at 55.88 58.42 0)
+			(at 73.66 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,7 +7030,7 @@
 			)
 		)
 		(property "Value" "B340A-E3_61T"
-			(at 55.88 60.96 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8763,7 +7038,7 @@
 			)
 		)
 		(property "Footprint" "DIOM5127X229N"
-			(at 52.07 -31.42 0)
+			(at 69.85 0.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8773,7 +7048,7 @@
 			)
 		)
 		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/B340A-E3_61T.pdf"
-			(at 52.07 -131.42 0)
+			(at 69.85 -99.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8783,7 +7058,7 @@
 			)
 		)
 		(property "Description" "VISHAY - B340A-E3/61T - Schottky Rectifier, 40 V, 3 A, Single, DO-214AC (SMA), 2 Pins, 550 mV"
-			(at 63.5 66.04 0)
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8792,7 +7067,7 @@
 			)
 		)
 		(property "Height" "2.29"
-			(at 52.07 -331.42 0)
+			(at 69.85 -299.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8802,7 +7077,7 @@
 			)
 		)
 		(property "Mouser Part Number" "625-BD340A-E3/61T"
-			(at 52.07 -431.42 0)
+			(at 69.85 -399.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +7087,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/B340A-E3-61T?qs=tdXsjSi%2FIMY4I2dGLbnpzg%3D%3D"
-			(at 52.07 -531.42 0)
+			(at 69.85 -499.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8822,7 +7097,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 52.07 -631.42 0)
+			(at 69.85 -599.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8832,7 +7107,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B340A-E3/61T"
-			(at 52.07 -731.42 0)
+			(at 69.85 -699.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +7133,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 269.24 0)
+		(at 154.305 222.885 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8867,7 +7142,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4634bf2-225e-48a5-be9b-e6a885f4663f")
 		(property "Reference" "#PWR06"
-			(at 69.85 275.59 0)
+			(at 154.305 229.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +7151,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 274.32 0)
+			(at 154.305 227.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8884,7 +7159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 269.24 0)
+			(at 154.305 222.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,7 +7168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 269.24 0)
+			(at 154.305 222.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8902,7 +7177,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 269.24 0)
+			(at 154.305 222.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,193 +7198,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 31.75 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4c7fd70-7713-482c-9583-63f894a1dc2d")
-		(property "Reference" "#PWR02"
-			(at 31.75 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 27.686 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 31.75 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a01be522-a32f-42fd-bd6c-c7921698cfc4")
-		)
-		(instances
-			(project ""
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "B340A-E3_61T:B340A-E3_61T")
-		(at 297.18 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c87daf89-ab45-4575-95d6-5cd1bf547a90")
-		(property "Reference" "D6"
-			(at 304.8 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B340A-E3_61T"
-			(at 304.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DIOM5127X229N"
-			(at 308.61 163.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/B340A-E3_61T.pdf"
-			(at 308.61 263.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "VISHAY - B340A-E3/61T - Schottky Rectifier, 40 V, 3 A, Single, DO-214AC (SMA), 2 Pins, 550 mV"
-			(at 297.18 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.29"
-			(at 308.61 463.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "625-BD340A-E3/61T"
-			(at 308.61 563.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/B340A-E3-61T?qs=tdXsjSi%2FIMY4I2dGLbnpzg%3D%3D"
-			(at 308.61 663.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 308.61 763.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B340A-E3/61T"
-			(at 308.61 863.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd7cf97c-2a53-43d0-9716-98a4c88d0d65")
-		)
-		(pin "2"
-			(uuid "ee70117b-3e52-4bbb-b88c-f7f265bd2aa9")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "G3VM-31DR_TR05_:G3VM-31DR_TR05_")
-		(at 91.44 83.82 90)
+		(at 118.11 104.14 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9119,7 +7209,7 @@
 		(fields_autoplaced yes)
 		(uuid "cddec7e2-01b8-468d-b87c-17e887924477")
 		(property "Reference" "K2"
-			(at 87.63 93.9799 90)
+			(at 114.3 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9128,7 +7218,7 @@
 			)
 		)
 		(property "Value" "G3VM-31DR_TR05_"
-			(at 87.63 96.5199 90)
+			(at 114.3 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9137,7 +7227,7 @@
 			)
 		)
 		(property "Footprint" "G3VM31DRTR05"
-			(at 186.36 102.87 0)
+			(at 213.03 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9147,7 +7237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 286.36 102.87 0)
+			(at 313.03 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9157,7 +7247,7 @@
 			)
 		)
 		(property "Description" "Solid State Relays - PCB Mount High power, 4.0-A switching with a 30-V load voltage, DIP4 package. Low 25 mO ON Resistance."
-			(at 91.44 83.82 0)
+			(at 118.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9166,7 +7256,7 @@
 			)
 		)
 		(property "Height" "3.8"
-			(at 486.36 102.87 0)
+			(at 513.03 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,7 +7266,7 @@
 			)
 		)
 		(property "Mouser Part Number" "653-G3VM-31DR(TR05)"
-			(at 586.36 102.87 0)
+			(at 613.03 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9186,7 +7276,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G3VM-31DRTR05?qs=wnTfsH77Xs5ttufbIZctbg%3D%3D"
-			(at 686.36 102.87 0)
+			(at 713.03 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9196,7 +7286,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Omron Electronics"
-			(at 786.36 102.87 0)
+			(at 813.03 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9206,7 +7296,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "G3VM-31DR(TR05)"
-			(at 886.36 102.87 0)
+			(at 913.03 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9238,7 +7328,7 @@
 	)
 	(symbol
 		(lib_id "G3VM-31DR_TR05_:G3VM-31DR_TR05_")
-		(at 325.12 83.82 90)
+		(at 351.79 104.14 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9248,7 +7338,7 @@
 		(fields_autoplaced yes)
 		(uuid "ceddf84c-9964-4a75-8d7e-e742196a0c45")
 		(property "Reference" "K6"
-			(at 321.31 93.9799 90)
+			(at 347.98 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9257,7 +7347,7 @@
 			)
 		)
 		(property "Value" "G3VM-31DR_TR05_"
-			(at 321.31 96.5199 90)
+			(at 347.98 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9266,7 +7356,7 @@
 			)
 		)
 		(property "Footprint" "G3VM31DRTR05"
-			(at 420.04 102.87 0)
+			(at 446.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9276,7 +7366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 520.04 102.87 0)
+			(at 546.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9286,7 +7376,7 @@
 			)
 		)
 		(property "Description" "Solid State Relays - PCB Mount High power, 4.0-A switching with a 30-V load voltage, DIP4 package. Low 25 mO ON Resistance."
-			(at 325.12 83.82 0)
+			(at 351.79 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9295,7 +7385,7 @@
 			)
 		)
 		(property "Height" "3.8"
-			(at 720.04 102.87 0)
+			(at 746.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9305,7 +7395,7 @@
 			)
 		)
 		(property "Mouser Part Number" "653-G3VM-31DR(TR05)"
-			(at 820.04 102.87 0)
+			(at 846.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9315,7 +7405,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G3VM-31DRTR05?qs=wnTfsH77Xs5ttufbIZctbg%3D%3D"
-			(at 920.04 102.87 0)
+			(at 946.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9325,7 +7415,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Omron Electronics"
-			(at 1020.04 102.87 0)
+			(at 1046.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9335,7 +7425,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "G3VM-31DR(TR05)"
-			(at 1120.04 102.87 0)
+			(at 1146.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9367,7 +7457,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 311.15 54.61 270)
+		(at 337.82 74.93 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9376,7 +7466,7 @@
 		(dnp no)
 		(uuid "cefa24bb-85d9-4f49-928c-e944dae40a49")
 		(property "Reference" "JP6"
-			(at 322.326 53.34 90)
+			(at 348.996 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9385,7 +7475,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 328.168 55.626 90)
+			(at 354.838 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9394,7 +7484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 311.15 54.61 0)
+			(at 337.82 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9403,7 +7493,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 311.15 54.61 0)
+			(at 337.82 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9412,7 +7502,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 311.15 54.61 0)
+			(at 337.82 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9437,7 +7527,7 @@
 	)
 	(symbol
 		(lib_id "FJB102TM:FJB102TM")
-		(at 16.51 114.3 0)
+		(at 45.085 144.145 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9446,7 +7536,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfb15dbf-dc4c-4d46-977d-33cf39b25a7c")
 		(property "Reference" "Q1"
-			(at 38.1 116.8399 0)
+			(at 66.675 146.6849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,7 +7545,7 @@
 			)
 		)
 		(property "Value" "FJB102TM"
-			(at 38.1 119.3799 0)
+			(at 66.675 149.2249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +7554,7 @@
 			)
 		)
 		(property "Footprint" "FJB102TM"
-			(at 38.1 216.84 0)
+			(at 66.675 246.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9474,7 +7564,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FJB102-D.pdf"
-			(at 38.1 316.84 0)
+			(at 66.675 346.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +7574,7 @@
 			)
 		)
 		(property "Description" "Industrial Use; High DC Current Gain : hFE=1000 @ VCE= 4 V, IC= 3 A (Min.); High Collector-Emitter Sustaining Voltage; Low Collector-Emitter Saturation Voltage; Monolithic Construction with Built-in Base-Emitter Shunt Resistors"
-			(at 16.51 114.3 0)
+			(at 45.085 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9493,7 +7583,7 @@
 			)
 		)
 		(property "Height" "5.08"
-			(at 38.1 516.84 0)
+			(at 66.675 546.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9503,7 +7593,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-FJB102TM"
-			(at 38.1 616.84 0)
+			(at 66.675 646.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9513,7 +7603,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FJB102TM?qs=VOMQJJE%252BBNn2%2F6TQhKCUSQ%3D%3D"
-			(at 38.1 716.84 0)
+			(at 66.675 746.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9523,7 +7613,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 38.1 816.84 0)
+			(at 66.675 846.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9533,7 +7623,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FJB102TM"
-			(at 38.1 916.84 0)
+			(at 66.675 946.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9561,195 +7651,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ERJ-P06F5600V:ERJ-P06F5600V")
-		(at 312.42 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e40a2f62-68b2-4fff-9ce3-c1de80c35abf")
-		(property "Reference" "R25"
-			(at 314.96 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ERJ-P06F5600V"
-			(at 314.96 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ERJP06D1000V"
-			(at 216.23 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf"
-			(at 116.23 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Anti-Surge Thick Film Chip Resistor, 0603, 0.5W"
-			(at 312.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at -83.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-ERJ-P06F5600V"
-			(at -183.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-P06F5600V?qs=iIVTEDlrHA1ahTQP0kElew%3D%3D"
-			(at -283.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at -383.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-P06F5600V"
-			(at -483.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "814a7cad-b76d-4160-b23e-faee95bc1c89")
-		)
-		(pin "1"
-			(uuid "6af47d7d-7a12-4243-bfd2-feba24bd530f")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 148.59 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e5c9b247-c0e3-4dfd-994c-6235b31907b8")
-		(property "Reference" "#PWR010"
-			(at 148.59 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 144.526 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 148.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec228112-954e-4821-bc56-137665c4865a")
-		)
-		(instances
-			(project "Elytra"
-				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 151.13 137.16 0)
+		(at 177.8 163.195 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9758,7 +7661,7 @@
 		(fields_autoplaced yes)
 		(uuid "e713a397-cb4c-44fa-9c2f-9b7018ae8157")
 		(property "Reference" "#PWR011"
-			(at 151.13 143.51 0)
+			(at 177.8 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9767,7 +7670,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 142.24 0)
+			(at 177.8 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9775,7 +7678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 137.16 0)
+			(at 177.8 163.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9784,7 +7687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 137.16 0)
+			(at 177.8 163.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9793,7 +7696,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 137.16 0)
+			(at 177.8 163.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9815,7 +7718,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 234.95 0)
+		(at 217.805 188.595 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9824,7 +7727,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea42ccc7-9857-4c4b-a330-7b53443dbb75")
 		(property "Reference" "R14"
-			(at 135.89 233.6799 0)
+			(at 220.345 187.3249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9833,7 +7736,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 135.89 236.2199 0)
+			(at 220.345 189.8649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9842,7 +7745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 131.572 234.95 90)
+			(at 216.027 188.595 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9851,7 +7754,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 234.95 0)
+			(at 217.805 188.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9860,7 +7763,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 234.95 0)
+			(at 217.805 188.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9885,7 +7788,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 267.97 133.35 0)
+		(at 294.64 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9894,7 +7797,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea576a1e-8c92-47cb-b077-7ed3bcf50d04")
 		(property "Reference" "R23"
-			(at 270.51 132.0799 0)
+			(at 297.18 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9903,7 +7806,7 @@
 			)
 		)
 		(property "Value" "1.2K"
-			(at 270.51 134.6199 0)
+			(at 297.18 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9912,7 +7815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.192 133.35 90)
+			(at 292.862 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9921,7 +7824,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 133.35 0)
+			(at 294.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9930,7 +7833,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 267.97 133.35 0)
+			(at 294.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9954,8 +7857,128 @@
 		)
 	)
 	(symbol
+		(lib_id "B340A-E3_61T:B340A-E3_61T")
+		(at 331.47 94.615 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec766d17-f0a8-419e-8a8b-4ac87e1d8ee0")
+		(property "Reference" "D6"
+			(at 339.09 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B340A-E3_61T"
+			(at 339.09 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DIOM5127X229N"
+			(at 342.9 192.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/B340A-E3_61T.pdf"
+			(at 342.9 292.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - B340A-E3/61T - Schottky Rectifier, 40 V, 3 A, Single, DO-214AC (SMA), 2 Pins, 550 mV"
+			(at 331.47 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.29"
+			(at 342.9 492.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "625-BD340A-E3/61T"
+			(at 342.9 592.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/B340A-E3-61T?qs=tdXsjSi%2FIMY4I2dGLbnpzg%3D%3D"
+			(at 342.9 692.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 342.9 792.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B340A-E3/61T"
+			(at 342.9 892.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55cda139-3425-443f-987e-970d15877577")
+		)
+		(pin "2"
+			(uuid "d782bee2-b834-47a4-aa6d-f820253f92f3")
+		)
+		(instances
+			(project "Elytra"
+				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 106.68 242.57 0)
+		(at 191.135 196.215 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9964,7 +7987,7 @@
 		(fields_autoplaced yes)
 		(uuid "f03063cc-7ee4-440a-a98e-0c0a18a4fa74")
 		(property "Reference" "R9"
-			(at 109.22 241.2999 0)
+			(at 193.675 194.9449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9973,7 +7996,7 @@
 			)
 		)
 		(property "Value" "200K"
-			(at 109.22 243.8399 0)
+			(at 193.675 197.4849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9982,7 +8005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.902 242.57 90)
+			(at 189.357 196.215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9991,7 +8014,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 242.57 0)
+			(at 191.135 196.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,7 +8023,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 242.57 0)
+			(at 191.135 196.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10025,16 +8048,15 @@
 	)
 	(symbol
 		(lib_id "PFNF_035_2:PFNF.035.2")
-		(at 187.96 63.5 90)
+		(at 222.25 83.185 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f24315be-8e01-4e45-8ec5-6226ca512add")
 		(property "Reference" "F4"
-			(at 190.5 53.3399 90)
+			(at 224.79 73.0249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10043,7 +8065,7 @@
 			)
 		)
 		(property "Value" "PFNF.035.2"
-			(at 190.5 55.8799 90)
+			(at 224.79 75.5649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10052,7 +8074,7 @@
 			)
 		)
 		(property "Footprint" "FUSC3216X85N"
-			(at 284.15 49.53 0)
+			(at 318.44 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10062,7 +8084,7 @@
 			)
 		)
 		(property "Datasheet" "https://ch.schurter.com/en/datasheet/typ_PFNF.pdf"
-			(at 384.15 49.53 0)
+			(at 418.44 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10072,7 +8094,7 @@
 			)
 		)
 		(property "Description" "PCB;Fuse;Fast;Resetable Schurter 0.35A Resettable Surface Mount Fuse, 6 V dc"
-			(at 187.96 63.5 0)
+			(at 222.25 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10081,7 +8103,7 @@
 			)
 		)
 		(property "Height" "0.85"
-			(at 584.15 49.53 0)
+			(at 618.44 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10091,7 +8113,7 @@
 			)
 		)
 		(property "Mouser Part Number" "693-PFNF.035.2"
-			(at 684.15 49.53 0)
+			(at 718.44 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,7 +8123,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Schurter/PFNF0352?qs=1auRipcfynAU6bHG9P5yrg%3D%3D"
-			(at 784.15 49.53 0)
+			(at 818.44 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10111,7 +8133,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 884.15 49.53 0)
+			(at 918.44 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10121,7 +8143,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PFNF.035.2"
-			(at 984.15 49.53 0)
+			(at 1018.44 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,7 +8169,7 @@
 	)
 	(symbol
 		(lib_id "FJB102TM:FJB102TM")
-		(at 109.22 114.3 0)
+		(at 136.525 143.51 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10157,7 +8179,7 @@
 		(fields_autoplaced yes)
 		(uuid "f364788b-e889-4db9-a041-ea3c4911117c")
 		(property "Reference" "Q2"
-			(at 87.63 116.8399 0)
+			(at 114.935 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10166,7 +8188,7 @@
 			)
 		)
 		(property "Value" "FJB102TM"
-			(at 87.63 119.3799 0)
+			(at 114.935 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10175,7 +8197,7 @@
 			)
 		)
 		(property "Footprint" "FJB102TM"
-			(at 87.63 216.84 0)
+			(at 114.935 246.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10185,7 +8207,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FJB102-D.pdf"
-			(at 87.63 316.84 0)
+			(at 114.935 346.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10195,7 +8217,7 @@
 			)
 		)
 		(property "Description" "Industrial Use; High DC Current Gain : hFE=1000 @ VCE= 4 V, IC= 3 A (Min.); High Collector-Emitter Sustaining Voltage; Low Collector-Emitter Saturation Voltage; Monolithic Construction with Built-in Base-Emitter Shunt Resistors"
-			(at 109.22 114.3 0)
+			(at 136.525 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10204,7 +8226,7 @@
 			)
 		)
 		(property "Height" "5.08"
-			(at 87.63 516.84 0)
+			(at 114.935 546.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10214,7 +8236,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-FJB102TM"
-			(at 87.63 616.84 0)
+			(at 114.935 646.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10224,7 +8246,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FJB102TM?qs=VOMQJJE%252BBNn2%2F6TQhKCUSQ%3D%3D"
-			(at 87.63 716.84 0)
+			(at 114.935 746.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10234,7 +8256,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 87.63 816.84 0)
+			(at 114.935 846.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10244,7 +8266,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FJB102TM"
-			(at 87.63 916.84 0)
+			(at 114.935 946.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10273,7 +8295,7 @@
 	)
 	(symbol
 		(lib_id "PFNF_035_2:PFNF.035.2")
-		(at 71.12 63.5 90)
+		(at 104.775 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10282,7 +8304,7 @@
 		(fields_autoplaced yes)
 		(uuid "f630ca0f-9d6c-4750-8227-58ad6d49c587")
 		(property "Reference" "F2"
-			(at 73.66 53.3399 90)
+			(at 107.315 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10291,7 +8313,7 @@
 			)
 		)
 		(property "Value" "PFNF.035.2"
-			(at 73.66 55.8799 90)
+			(at 107.315 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10300,7 +8322,7 @@
 			)
 		)
 		(property "Footprint" "FUSC3216X85N"
-			(at 167.31 49.53 0)
+			(at 200.965 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10310,7 +8332,7 @@
 			)
 		)
 		(property "Datasheet" "https://ch.schurter.com/en/datasheet/typ_PFNF.pdf"
-			(at 267.31 49.53 0)
+			(at 300.965 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10320,7 +8342,7 @@
 			)
 		)
 		(property "Description" "PCB;Fuse;Fast;Resetable Schurter 0.35A Resettable Surface Mount Fuse, 6 V dc"
-			(at 71.12 63.5 0)
+			(at 104.775 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10329,7 +8351,7 @@
 			)
 		)
 		(property "Height" "0.85"
-			(at 467.31 49.53 0)
+			(at 500.965 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10339,7 +8361,7 @@
 			)
 		)
 		(property "Mouser Part Number" "693-PFNF.035.2"
-			(at 567.31 49.53 0)
+			(at 600.965 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10349,7 +8371,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Schurter/PFNF0352?qs=1auRipcfynAU6bHG9P5yrg%3D%3D"
-			(at 667.31 49.53 0)
+			(at 700.965 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10359,7 +8381,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 767.31 49.53 0)
+			(at 800.965 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10369,7 +8391,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PFNF.035.2"
-			(at 867.31 49.53 0)
+			(at 900.965 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10394,32 +8416,52 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 50.8 45.72 180)
+		(lib_id "B340A-E3_61T:B340A-E3_61T")
+		(at 201.295 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ffe61366-a1ce-44c8-be0e-8b91cb2034d5")
-		(property "Reference" "J1"
-			(at 43.18 40.132 0)
+		(uuid "fa10a380-b213-4154-922f-7656c4ad2377")
+		(property "Reference" "D2"
+			(at 193.675 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 43.942 42.926 0)
+		(property "Value" "B340A-E3_61T"
+			(at 193.675 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 50.8 45.72 0)
+		(property "Footprint" "DIOM5127X229N"
+			(at 189.865 -4.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/B340A-E3_61T.pdf"
+			(at 189.865 -104.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - B340A-E3/61T - Schottky Rectifier, 40 V, 3 A, Single, DO-214AC (SMA), 2 Pins, 550 mV"
+			(at 201.295 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10427,31 +8469,66 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 50.8 45.72 0)
+		(property "Height" "2.29"
+			(at 189.865 -304.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 50.8 45.72 0)
+		(property "Mouser Part Number" "625-BD340A-E3/61T"
+			(at 189.865 -404.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/B340A-E3-61T?qs=tdXsjSi%2FIMY4I2dGLbnpzg%3D%3D"
+			(at 189.865 -504.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 189.865 -604.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B340A-E3/61T"
+			(at 189.865 -704.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "3b0abff2-243e-4a41-a959-170ef2aa67c5")
+			(uuid "1ff1ba74-2a3c-4bdd-9e04-253f7e4c4f88")
+		)
+		(pin "2"
+			(uuid "631631bf-9bc2-4ea5-8df9-463b93b46e6f")
 		)
 		(instances
-			(project ""
+			(project "Elytra"
 				(path "/04c6cb0c-33b6-43b4-8e8f-9ceec40a005a"
-					(reference "J1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
