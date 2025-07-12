@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model FJB102TM
+#/15548331/1715029/2.50/3/2/Transistor Darlington Pair
+DEF FJB102TM Q 0 30 Y Y 1 F N
+F0 "Q" 850 0 50 H V L CNN
+F1 "FJB102TM" 850 -100 50 H V L CNN
+F2 "FJB102TM" 850 -200 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/FJB102-D.pdf" 850 -300 50 H I L CNN
+F4 "Industrial Use; High DC Current Gain : hFE=1000 @ VCE= 4 V, IC= 3 A (Min.); High Collector-Emitter Sustaining Voltage; Low Collector-Emitter Saturation Voltage; Monolithic Construction with Built-in Base-Emitter Shunt Resistors" 850 -400 50 H I L CNN "Description"
+F5 "5.08" 850 -500 50 H I L CNN "Height"
+F6 "512-FJB102TM" 850 -600 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FJB102TM?qs=VOMQJJE%252BBNn2%2F6TQhKCUSQ%3D%3D" 850 -700 50 H I L CNN "Mouser Price/Stock"
+F8 "onsemi" 850 -800 50 H I L CNN "Manufacturer_Name"
+F9 "FJB102TM" 850 -900 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 700 300 100 D 50 50 0 0 P
+X ~ 3 700 -600 100 U 50 50 0 0 P
+P 2 0 1 6 700 -150 700 200 N
+P 2 0 1 6 700 -450 700 -500 N
+P 2 0 1 6 600 -350 700 -450 N
+P 2 0 1 6 600 -250 700 -150 N
+P 2 0 1 20 600 -200 600 -400 N
+P 2 0 1 6 100 0 300 0 N
+P 2 0 1 6 400 150 400 200 N
+P 2 0 1 6 400 -150 400 -300 N
+P 2 0 1 6 300 -50 400 -150 N
+P 2 0 1 6 300 50 400 150 N
+P 2 0 1 20 300 100 300 -100 N
+P 2 0 1 6 400 -300 600 -300 N
+P 2 0 1 6 400 200 700 200 N
+C 650 -300 158 0 1 10 N
+C 350 0 158 0 1 10 N
+P 4 0 1 10 630 -400 650 -380 670 -420 630 -400 F
+P 4 0 1 10 330 -100 350 -80 370 -120 330 -100 F
+ENDDRAW
+ENDDEF
+#
+#End Library
