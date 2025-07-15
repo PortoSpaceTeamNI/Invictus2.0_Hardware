@@ -102,6 +102,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -451,7 +452,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TVCS.kicad_pro",
+    "filename": "HYDRA.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -505,6 +506,12 @@
         "schematic_color": "rgb(255, 155, 65)"
       },
       {
+        "name": "AGND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(82, 34, 255)"
+      },
+      {
         "name": "Analog",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
@@ -527,12 +534,6 @@
         "pcb_color": "rgb(0, 0, 194)",
         "priority": 3,
         "schematic_color": "rgb(0, 0, 255)"
-      },
-      {
-        "name": "GNDA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgb(82, 34, 255)"
       },
       {
         "name": "I2C",
@@ -658,8 +659,12 @@
         "pattern": "*2.5V"
       },
       {
-        "netclass": "GNDA",
-        "pattern": "*GNDA"
+        "netclass": "AGND",
+        "pattern": "*AGND"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*Crystal"
       }
     ]
   },

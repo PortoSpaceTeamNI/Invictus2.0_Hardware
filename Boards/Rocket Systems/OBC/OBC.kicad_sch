@@ -8170,6 +8170,16 @@
 		)
 		(uuid "e39cab84-5920-4ef1-8c0e-8b566f02892c")
 	)
+	(text "BUCK para 3.3V isolado + RS-485 isolado"
+		(exclude_from_sim no)
+		(at 413.385 83.185 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "fb8bb70d-5f1c-47e0-b795-3ce09c07a3c2")
+	)
 	(junction
 		(at 191.77 113.03)
 		(diameter 0)
@@ -17783,70 +17793,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 113.03 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d0d6db9-9dc1-4a06-b571-8978918aa994")
-		(property "Reference" "H3"
-			(at 115.57 121.9199 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 115.57 124.4599 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 113.03 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 113.03 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "R COMMS"
-				(path "/169b1789-9bea-4709-830d-1c7983087293"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 181.61 198.755 0)
 		(unit 1)
@@ -19724,7 +19670,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3k6"
+		(property "Value" "36k"
 			(at 154.94 107.95 90)
 			(effects
 				(font
