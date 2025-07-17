@@ -1,0 +1,68 @@
+
+(footprint FIL_ADFC15-2450.00-A-T (layer F.Cu) (tedit 687817DD)
+  (descr "")
+  (attr smd)
+  (fp_text reference REF** (at 0.835 -1.67 0) (layer F.SilkS)
+    (effects (font (size 0.787401574803 0.787401574803) (thickness 0.15)))
+  )
+  (fp_text value FIL_ADFC15-2450.00-A-T (at 9.19 2.08 0) (layer F.Fab)
+    (effects (font (size 0.787401574803 0.787401574803) (thickness 0.15)))
+  )
+  (pad 4 smd rect (at -0.6125 0.0) (size 0.6 0.6) (layers F.Cu F.Paste))
+  (pad 2 smd rect (at 0.6125 0.0) (size 0.6 0.6) (layers F.Cu F.Paste))
+  (pad 3 smd rect (at 0.0 -0.425) (size 0.25 0.6) (layers F.Cu F.Paste))
+  (pad 1 smd rect (at 0.0 0.425) (size 0.25 0.6) (layers F.Cu F.Paste))
+  (fp_line (start -0.5 -0.25) (end 0.5 -0.25) (layer F.Fab) (width 0.127))
+  (fp_line (start 0.5 -0.25) (end 0.5 0.25) (layer F.Fab) (width 0.127))
+  (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer F.Fab) (width 0.127))
+  (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.127))
+  (fp_poly
+    (pts
+      (xy -0.975 -0.35)
+      (xy -0.275 -0.35)
+      (xy -0.275 0.35)
+      (xy -0.975 0.35)
+    ) (layer F.Mask) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.175 -0.775)
+      (xy 0.175 -0.775)
+      (xy 0.175 -0.075)
+      (xy -0.175 -0.075)
+    ) (layer F.Mask) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.275 -0.35)
+      (xy 0.975 -0.35)
+      (xy 0.975 0.35)
+      (xy 0.275 0.35)
+    ) (layer F.Mask) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.175 0.075)
+      (xy 0.175 0.075)
+      (xy 0.175 0.775)
+      (xy -0.175 0.775)
+    ) (layer F.Mask) (width 0.01)
+  )
+  (fp_circle (center 0.0 1.255) (end 0.1 1.255) (layer F.SilkS) (width 0.2))
+  (fp_line (start -1.1625 -0.975) (end 1.1625 -0.975) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 1.1625 -0.975) (end 1.1625 0.975) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 1.1625 0.975) (end -1.1625 0.975) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1.1625 0.975) (end -1.1625 -0.975) (layer F.CrtYd) (width 0.05))
+  (fp_circle (center 0.0 1.255) (end 0.1 1.255) (layer F.Fab) (width 0.2))
+  (model "ADFC15-2450.00-A-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

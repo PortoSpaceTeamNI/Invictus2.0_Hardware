@@ -3204,6 +3204,42 @@
 		)
 		(uuid "b5b4098c-8df8-481b-9b42-c52a64d31f38")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "1cb7ca8a-ce2b-4bfc-a0ad-3b1830f518db")
+		(name "Keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -4.075 -2.95) (xy -3.75 -2.95) (xy -3.75 -3.75) (xy -2.95 -3.75) (xy -2.95 -4.075) (xy 2.95 -4.075)
+				(xy 2.95 -3.775) (xy 3.75 -3.775) (xy 3.75 -2.95) (xy 4.075 -2.95) (xy 4.075 2.95) (xy 3.75 2.95)
+				(xy 3.75 3.725) (xy 2.95 3.725) (xy 2.95 4.05) (xy -2.95 4.05) (xy -2.95 3.75) (xy -3.775 3.75)
+				(xy -3.775 2.95) (xy -4.1 2.95)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(model "QFN56_7X7_RPI.step"
 		(offset

@@ -264,6 +264,39 @@
 		(solder_mask_margin 0)
 		(uuid "32378e0d-31d7-4530-8a15-86cac77c56db")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "2578e575-a159-4862-9d19-6da10c339591")
+		(name "keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.2 -1.4) (xy -1.2 1.4) (xy 1.2 1.4) (xy 1.2 -1.4)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(model "NX2016SA-52MHZ-EXS00A-CS07103.STEP"
 		(offset

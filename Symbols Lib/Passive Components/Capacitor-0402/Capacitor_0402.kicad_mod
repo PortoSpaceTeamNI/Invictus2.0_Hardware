@@ -254,6 +254,39 @@
 		(net 0)
 		(net_name "")
 		(layer "F.Cu")
+		(uuid "0f8e60ef-c444-4ddd-8206-68b712fd8961")
+		(name "keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.1 -0.5) (xy 1.075 -0.5) (xy 1.075 0.5) (xy -1.1 0.5)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
 		(uuid "49c8ebc4-d154-4597-ba02-fbae7ae61345")
 		(hatch full 0.508)
 		(connect_pads

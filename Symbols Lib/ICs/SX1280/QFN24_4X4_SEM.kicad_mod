@@ -1628,9 +1628,9 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(teardrops
 			(best_length_ratio 0.2)
-			(max_length 1)
+			(max_length 0.5)
 			(best_width_ratio 0.6)
-			(max_width 2)
+			(max_width 0.5)
 			(curved_edges yes)
 			(filter_ratio 0.9)
 			(enabled yes)
@@ -1638,6 +1638,41 @@
 			(prefer_zone_connections yes)
 		)
 		(uuid "a3920b19-74ac-45cd-8864-c957693b74cf")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "d994c3ab-6ca0-463f-9e6f-5859b38736e7")
+		(name "FillOut")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 1.625 2.6) (xy -1.625 2.6) (xy -1.625 2.3) (xy -2.3 2.3) (xy -2.3 1.625) (xy -2.6 1.625) (xy -2.6 -1.625)
+				(xy -2.3 -1.625) (xy -2.3 -2.3) (xy -1.625 -2.3) (xy -1.625 -2.625) (xy 1.65 -2.625) (xy 1.65 -2.3)
+				(xy 2.3 -2.3) (xy 2.3 -1.625) (xy 2.625 -1.625) (xy 2.625 1.625) (xy 2.3 1.625) (xy 2.3 2.275) (xy 1.625 2.275)
+			)
+		)
 	)
 	(embedded_fonts no)
 	(model "SX1280IMLTRT.STEP"
