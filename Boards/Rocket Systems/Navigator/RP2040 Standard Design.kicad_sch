@@ -4034,7 +4034,7 @@
 			(symbol "BM03B-SRSS-TBLFSN_1_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -7.62)
+						(xy 5.08 2.54) (xy 5.08 -9.398)
 					)
 					(stroke
 						(width 0.127)
@@ -4046,7 +4046,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -7.62) (xy 12.7 -7.62)
+						(xy 5.08 -9.398) (xy 12.7 -9.398)
 					)
 					(stroke
 						(width 0.127)
@@ -4178,7 +4178,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -7.62) (xy 12.7 2.54)
+						(xy 12.7 -9.398) (xy 12.7 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -4235,6 +4235,42 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -7.62 0)
+					(length 3.81)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -7.62 0)
+					(length 3.81)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9745,6 +9781,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 97.155 161.925 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "524ce42d-cbb1-41ac-8a10-c86248abf3e4")
+		(property "Reference" "#PWR058"
+			(at 103.505 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.235 161.925 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.155 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.155 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.155 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35ee8b7e-5a59-4c75-9613-0658f7e46c1b")
+		)
+		(instances
+			(project "Navigator"
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe/131a9704-942d-4843-a3d4-218a5885dac4"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 179.07 83.82 0)
 		(unit 1)
@@ -10349,6 +10450,12 @@
 		)
 		(pin "2"
 			(uuid "b5b54d3f-5f94-458e-bbd3-e38249b6290d")
+		)
+		(pin "4"
+			(uuid "a1e58f27-0351-4593-a05b-abe24a88245b")
+		)
+		(pin "5"
+			(uuid "91ae1ee1-487f-44b1-972e-1b47220fe551")
 		)
 		(instances
 			(project "Navigator"

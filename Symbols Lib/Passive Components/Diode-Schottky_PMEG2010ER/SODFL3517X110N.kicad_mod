@@ -188,6 +188,39 @@
 		(solder_mask_margin 0.102)
 		(uuid "9a469582-46c9-4b22-b010-a1431d944074")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "502f0159-cadd-449a-8304-662dabbcfd2d")
+		(name "keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.2 -1.1) (xy 2.2 -1.1) (xy 2.2 1.1) (xy -2.2 1.1)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(model "PMEG2010ER.step"
 		(offset
