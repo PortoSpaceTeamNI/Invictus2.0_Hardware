@@ -283,6 +283,40 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "74a3f881-e3c3-4bfb-a175-da8f1bb53f70")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "f1dd40b3-d173-4a46-b17e-876112c1b9c9")
+		(name "keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.75 0.65) (xy -0.75 0.5) (xy -1 0.5) (xy -1 -0.5) (xy -0.75 -0.5) (xy -0.75 -0.65) (xy 0.75 -0.65)
+				(xy 0.75 -0.5) (xy 1 -0.5) (xy 1 0.5) (xy 0.8 0.5) (xy 0.8 0.65)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(model "STLM20DD9F.STEP"
 		(offset

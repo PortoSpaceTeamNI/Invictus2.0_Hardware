@@ -1,36 +1,237 @@
-(module "SOT96P237X111-3N" (layer F.Cu)
-  (descr "SOT-23 (TO-236)CASE 318-08 ISSUE AR")
-  (tags "Integrated Circuit")
-  (attr smd)
-  (fp_text reference IC** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "SOT96P237X111-3N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.925 -1.77) (end 1.925 -1.77) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.925 -1.77) (end 1.925 1.77) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.925 1.77) (end -1.925 1.77) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.925 1.77) (end -1.925 -1.77) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.65 -1.46) (end 0.65 -1.46) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.65 -1.46) (end 0.65 1.46) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.65 1.46) (end -0.65 1.46) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.65 1.46) (end -0.65 -1.46) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.65 -0.505) (end 0.305 -1.46) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.075 -1.46) (end 0.075 -1.46) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.075 -1.46) (end 0.075 1.46) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.075 1.46) (end -0.075 1.46) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.075 1.46) (end -0.075 -1.46) (layer F.SilkS) (width 0.2))
-  (fp_line (start -1.675 -1.505) (end -0.425 -1.505) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -1.05 -0.955 90) (size 0.6 1.25) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -1.05 0.955 90) (size 0.6 1.25) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 1.05 0 90) (size 0.6 1.25) (layers F.Cu F.Paste F.Mask))
-  (model BC846BLT1G.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SOT96P237X111-3N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT-23 (TO-236)CASE 318-08 ISSUE AR")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "6a739881-9473-44fe-88d6-4e47ffc31aed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT96P237X111-3N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ac8c1459-8aa3-45ff-96e8-f1ce5cec56b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77158b63-c2ca-4e26-b6c3-e0e40fefddfd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2229fdaf-3e38-4f0c-b533-7a951c444f8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.675 -1.575)
+		(end -0.425 -1.575)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4661974-f0df-453d-aa05-cfe764bc4e9c")
+	)
+	(fp_line
+		(start -0.075 -1.46)
+		(end 0.075 -1.46)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b59525b-982a-423e-aa9c-c620b416cab5")
+	)
+	(fp_line
+		(start -0.075 1.46)
+		(end -0.075 -1.46)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9c84e40-3ca6-4c57-ae61-7d100e50ec7a")
+	)
+	(fp_line
+		(start 0.075 -1.46)
+		(end 0.075 1.46)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e2e9601-af3a-4984-86c2-eda94e4f303b")
+	)
+	(fp_line
+		(start 0.075 1.46)
+		(end -0.075 1.46)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "392a7234-237e-4236-9620-100cfbe22161")
+	)
+	(fp_line
+		(start -1.925 -1.77)
+		(end 1.925 -1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34958d91-3783-465e-9d6a-9c544cd8c450")
+	)
+	(fp_line
+		(start -1.925 1.77)
+		(end -1.925 -1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95981697-2bf7-46d8-8883-5aaf3e125bae")
+	)
+	(fp_line
+		(start 1.925 -1.77)
+		(end 1.925 1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e600471-2a1b-48d8-a1bc-9f81d2f64668")
+	)
+	(fp_line
+		(start 1.925 1.77)
+		(end -1.925 1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6de85e8d-6f28-4e26-b5c6-80e68be5fa72")
+	)
+	(fp_line
+		(start -0.65 -1.46)
+		(end 0.65 -1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90192c15-0b78-49e9-81b2-29dabc9eff1d")
+	)
+	(fp_line
+		(start -0.65 -0.505)
+		(end 0.305 -1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e3ff617-01df-48bd-98a5-3ded3199e152")
+	)
+	(fp_line
+		(start -0.65 1.46)
+		(end -0.65 -1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b2fcb6a-16d7-46a1-83ca-91dd4a5c94cc")
+	)
+	(fp_line
+		(start 0.65 -1.46)
+		(end 0.65 1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e13de69-ba54-4c1d-8486-f77272c1c568")
+	)
+	(fp_line
+		(start 0.65 1.46)
+		(end -0.65 1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa62a983-e873-4da3-9510-f993ec26b060")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dd60fab3-14e0-49f2-9fdd-81677d0c2c95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.05 -0.955 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4df514eb-c0cf-4b84-8218-d976901e0477")
+	)
+	(pad "2" smd rect
+		(at -1.05 0.955 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2b562d08-810a-4972-bdc0-718ab37b309f")
+	)
+	(pad "3" smd rect
+		(at 1.05 0 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "33d9c39a-808a-41a7-8b21-91cd3c699f72")
+	)
+	(embedded_fonts no)
+	(model "BC846BLT1G.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
