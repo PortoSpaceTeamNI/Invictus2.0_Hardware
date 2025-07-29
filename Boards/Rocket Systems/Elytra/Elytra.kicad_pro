@@ -51,7 +51,18 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.195,
+          "via_gap": 2.0,
+          "width": 0.185
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -74,7 +85,7 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_to_hole": "warning",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -117,20 +128,20 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.15,
+        "min_connection": 0.12,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.22,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_silk_clearance": 0.11,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.1,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.13,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -148,7 +159,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -159,7 +170,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -170,7 +181,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -180,13 +191,25 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.13,
+        0.185,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.25,
+        1.5,
+        1.75,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.1,
           "single_sided": false,
           "spacing": 1.0
         },
@@ -194,20 +217,41 @@
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.1,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.8
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.1,
           "single_sided": false,
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -458,21 +502,81 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.195,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.185,
         "line_style": 0,
-        "microvia_diameter": 0.3,
+        "microvia_diameter": 0.25,
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.125,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
         "wire_width": 6
+      },
+      {
+        "name": "3V3",
+        "pcb_color": "rgb(217, 255, 5)",
+        "priority": 3,
+        "schematic_color": "rgb(217, 255, 5)"
+      },
+      {
+        "name": "5V",
+        "pcb_color": "rgb(222, 177, 47)",
+        "priority": 4,
+        "schematic_color": "rgb(222, 177, 47)"
+      },
+      {
+        "name": "Analog",
+        "pcb_color": "rgb(226, 0, 255)",
+        "priority": 0,
+        "schematic_color": "rgb(226, 0, 255)"
+      },
+      {
+        "name": "Differential",
+        "pcb_color": "rgb(255, 116, 224)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 116, 224)"
+      },
+      {
+        "name": "Digital",
+        "pcb_color": "rgb(43, 255, 182)",
+        "priority": 6,
+        "schematic_color": "rgb(43, 255, 182)"
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 0, 255)"
+      },
+      {
+        "name": "I2C",
+        "pcb_color": "rgb(39, 200, 210)",
+        "priority": 8,
+        "schematic_color": "rgb(39, 200, 210)"
+      },
+      {
+        "name": "POWER",
+        "pcb_color": "rgb(165, 64, 47)",
+        "priority": 5,
+        "schematic_color": "rgb(165, 64, 47)"
+      },
+      {
+        "name": "SPI",
+        "pcb_color": "rgb(0, 119, 194)",
+        "priority": 9,
+        "schematic_color": "rgb(0, 119, 194)"
+      },
+      {
+        "name": "UART",
+        "pcb_color": "rgb(0, 216, 175)",
+        "priority": 7,
+        "schematic_color": "rgb(0, 216, 175)"
       }
     ],
     "meta": {
@@ -480,7 +584,76 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Differential",
+        "pattern": "*DN"
+      },
+      {
+        "netclass": "Differential",
+        "pattern": "*DP"
+      },
+      {
+        "netclass": "Differential",
+        "pattern": "*+"
+      },
+      {
+        "netclass": "Differential",
+        "pattern": "*-"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*SPI"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*I2C"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "*Status"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "*RDY"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "*UART"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "*Crystal"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "*~{BOOT}"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "*SWD"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "*VBAT"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
