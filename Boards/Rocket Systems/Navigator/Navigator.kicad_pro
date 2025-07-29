@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.508,
-          "width": 0.5588
+          "height": 5.1,
+          "width": 2.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.16
         }
       },
       "diff_pair_dimensions": [
@@ -63,92 +63,7 @@
           "width": 0.185
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|112380000|78250000|1ba648cb-7452-4f3e-8409-c2951ffd6961|b3a30666-0df4-4e15-87ae-cee575edc536",
-          ""
-        ],
-        [
-          "clearance|134681410|86825768|01e270c5-67f4-4c42-b096-8ebce6c463d6|819291a6-8813-4b68-a0ab-c08317a09bb9",
-          ""
-        ],
-        [
-          "clearance|135855769|87644590|fb5aad45-2b5d-40fd-80a9-334a56a31766|b5592e74-5cb0-4880-b429-f084f298d3f6",
-          ""
-        ],
-        [
-          "clearance|136004232|85731990|4d0a1c01-9ef4-43ee-9aff-66e355020165|409b94d5-62aa-46da-a93c-379fa5e0f624",
-          ""
-        ],
-        [
-          "clearance|136504231|85731990|a98af9f6-6fcd-4c17-a352-5ce4674deff1|4d0a1c01-9ef4-43ee-9aff-66e355020165",
-          ""
-        ],
-        [
-          "clearance|137041658|76925768|cc0a647f-98ff-48eb-bd58-75e2544bcfb5|326a4c0d-e245-45a2-bd01-9b6d8bbbbaac",
-          ""
-        ],
-        [
-          "clearance|137054231|76438340|2f3db900-2921-43be-9de8-e37960ba91fd|cc0a647f-98ff-48eb-bd58-75e2544bcfb5",
-          ""
-        ],
-        [
-          "clearance|137054231|77561660|7b532779-3e8f-4394-9a8a-81c594dba9fc|326a4c0d-e245-45a2-bd01-9b6d8bbbbaac",
-          ""
-        ],
-        [
-          "clearance|137102010|85974232|6a82eab8-06aa-4fa3-bb6a-3831a4fa6c23|dd68baa4-7815-4796-90c5-7805b05bcd5f",
-          ""
-        ],
-        [
-          "clearance|137102010|86474232|608ac9e8-852c-4a12-b9c2-cc701da43350|6a82eab8-06aa-4fa3-bb6a-3831a4fa6c23",
-          ""
-        ],
-        [
-          "clearance|137102010|86974233|27db996f-22f4-4e80-ac48-34a2a4f7eb79|608ac9e8-852c-4a12-b9c2-cc701da43350",
-          ""
-        ],
-        [
-          "clearance|137405767|77938342|7b532779-3e8f-4394-9a8a-81c594dba9fc|b14b8167-ed02-484f-b318-33979cbad285",
-          ""
-        ],
-        [
-          "clearance|137905768|77938342|b14b8167-ed02-484f-b318-33979cbad285|11e83c82-aee7-4283-901a-daf2b2228246",
-          ""
-        ],
-        [
-          "clearance|138054232|76438340|4c8d02cf-2a34-4924-8602-7d1b47e528b1|267c28c0-d95c-4878-aee2-f2ae952ff49d",
-          ""
-        ],
-        [
-          "clearance|138405768|77938342|11e83c82-aee7-4283-901a-daf2b2228246|cb5a83e5-9535-472e-b99d-55ff9438d2d7",
-          ""
-        ],
-        [
-          "clearance|138541660|77074232|a645e7f6-1198-409a-a135-2871b0c1365b|2b701585-a9b5-4a93-96f3-1a45157121ff",
-          ""
-        ],
-        [
-          "clearance|138554233|76438340|155db735-7dc6-4ede-a47e-8a2c2c8553d7|4c8d02cf-2a34-4924-8602-7d1b47e528b1",
-          ""
-        ],
-        [
-          "clearance|138554233|76574232|2b701585-a9b5-4a93-96f3-1a45157121ff|155db735-7dc6-4ede-a47e-8a2c2c8553d7",
-          ""
-        ],
-        [
-          "clearance|138554233|77561660|cb5a83e5-9535-472e-b99d-55ff9438d2d7|a645e7f6-1198-409a-a135-2871b0c1365b",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|133918928|69862798|78eda296-5bff-4086-98b8-573baf7008b2|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|166140000|77130000|be211efc-0cc8-44d9-ab62-95f312212ac2|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -788,7 +703,7 @@
       "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Nav.step",
+      "step": "3D/Nav.step",
       "svg": "",
       "vrml": ""
     },
@@ -796,7 +711,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "..\\..\\..\\..\\Navigator.csv",
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -846,168 +761,12 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "AVAILABILITY",
-          "name": "AVAILABILITY",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DESCRIPTION",
-          "name": "DESCRIPTION",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field5",
-          "name": "Field5",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PACKAGE",
-          "name": "PACKAGE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PRICE",
-          "name": "PRICE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SNAPEDA_PACKAGE_ID",
-          "name": "SNAPEDA_PACKAGE_ID",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Teste",
-          "name": "Teste",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
