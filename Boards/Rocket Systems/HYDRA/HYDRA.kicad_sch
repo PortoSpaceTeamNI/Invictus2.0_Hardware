@@ -6235,16 +6235,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.965 100.965) (xy 105.41 100.965)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08877717-7af0-4a9b-aa54-6348ebc1ef51")
-	)
-	(wire
-		(pts
 			(xy 389.255 207.645) (xy 389.255 205.105)
 		)
 		(stroke
@@ -6512,16 +6502,6 @@
 			(type default)
 		)
 		(uuid "2ddcba49-01f0-4b08-a67f-9685240ae68a")
-	)
-	(wire
-		(pts
-			(xy 100.965 98.425) (xy 107.95 98.425)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f2ecafb-5d2a-4d85-8e38-75efb5325db5")
 	)
 	(wire
 		(pts
@@ -6885,7 +6865,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.965 95.885) (xy 139.065 95.885)
+			(xy 100.965 91.44) (xy 139.065 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8134,7 +8114,7 @@
 		(uuid "43566b1b-6692-4616-87df-166d2f397558")
 	)
 	(label "PCB Temperature Sense"
-		(at 109.22 95.885 0)
+		(at 109.3648 91.6859 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15686,7 +15666,7 @@
 			)
 		)
 		(pin "GPIO22" bidirectional
-			(at 139.065 122.555 180)
+			(at 139.065 121.92 180)
 			(uuid "8ae994ff-d0d8-4bfe-b073-3c8206b871aa")
 			(effects
 				(font
@@ -15696,7 +15676,7 @@
 			)
 		)
 		(pin "GP26_ADC0" bidirectional
-			(at 139.065 95.885 180)
+			(at 139.065 91.44 180)
 			(uuid "b93e73d7-bafe-4e1e-b6d4-93bdfc7a692f")
 			(effects
 				(font
@@ -15746,7 +15726,7 @@
 			)
 		)
 		(pin "GP15{slash}I2C1 SCL" bidirectional
-			(at 139.065 120.015 180)
+			(at 139.065 119.38 180)
 			(uuid "e0a4e907-c3ff-4219-8690-2d4b6ec26152")
 			(effects
 				(font
@@ -15766,7 +15746,7 @@
 			)
 		)
 		(pin "GP14{slash}I2C1 SDA" bidirectional
-			(at 139.065 117.475 180)
+			(at 139.065 116.84 180)
 			(uuid "2cad0155-e3c5-4cb0-9c71-05b78add642a")
 			(effects
 				(font
@@ -15916,7 +15896,7 @@
 			)
 		)
 		(pin "GPIO23" bidirectional
-			(at 139.065 125.095 180)
+			(at 139.065 124.46 180)
 			(uuid "3a94d303-1949-46f7-8818-9e0d4f89863e")
 			(effects
 				(font
@@ -15948,6 +15928,26 @@
 		(pin "USB DP" bidirectional
 			(at 139.065 135.89 180)
 			(uuid "659fd203-7a0e-4923-8a1d-3cf85455a8dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADDR ADC" bidirectional
+			(at 139.065 96.52 180)
+			(uuid "bff19549-8b47-4313-831b-f95adda1e6d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET} ADC" bidirectional
+			(at 139.065 99.06 180)
+			(uuid "72c3206c-28f2-45c9-8e75-fb93aeb247b7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16099,7 +16099,7 @@
 			)
 		)
 		(pin "SDA I2C" bidirectional
-			(at 100.965 98.425 0)
+			(at 100.965 100.33 0)
 			(uuid "10ad2870-e10c-4fd2-a49b-5002d1e9125a")
 			(effects
 				(font
@@ -16109,7 +16109,7 @@
 			)
 		)
 		(pin "SCL I2C" bidirectional
-			(at 100.965 100.965 0)
+			(at 100.965 102.87 0)
 			(uuid "f9e7a9f4-5b27-498b-8085-20f87fd2cda0")
 			(effects
 				(font
@@ -16349,8 +16349,28 @@
 			)
 		)
 		(pin "Temp_Sense" output
-			(at 100.965 95.885 0)
+			(at 100.965 91.44 0)
 			(uuid "e09a34bf-0939-4e6e-906c-752247941b24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADDR ADC" bidirectional
+			(at 100.965 95.25 0)
+			(uuid "7355a22e-3775-46dd-a829-89e857912626")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RESET} ADC" bidirectional
+			(at 100.965 97.79 0)
+			(uuid "ea7fd851-122a-420b-bee2-b182d9a74df3")
 			(effects
 				(font
 					(size 1.27 1.27)
