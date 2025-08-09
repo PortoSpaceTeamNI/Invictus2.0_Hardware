@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 20.32 10.16 0)
+			(at 4.826 10.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "NCR321UX"
-			(at 20.32 7.62 0)
+			(at 4.826 7.62 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "TSOP6_SOT457_NEX"
-			(at 0 0 0)
+			(at -11.43 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "NCR321UX"
-			(at 0 0 0)
+			(at -11.43 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,7 +83,7 @@
 		(symbol "NCR321UX_0_1"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -10.16)
+					(xy -3.81 6.35) (xy -3.81 -6.35)
 				)
 				(stroke
 					(width 0.127)
@@ -95,7 +95,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -10.16) (xy 33.02 -10.16)
+					(xy -3.81 -6.35) (xy 12.7 -6.35)
 				)
 				(stroke
 					(width 0.127)
@@ -107,7 +107,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
+					(xy 12.7 6.35) (xy -3.81 6.35)
 				)
 				(stroke
 					(width 0.127)
@@ -119,7 +119,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 -10.16) (xy 33.02 5.08)
+					(xy 12.7 -6.35) (xy 12.7 6.35)
 				)
 				(stroke
 					(width 0.127)
@@ -130,7 +130,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at -11.43 2.54 0)
 				(length 7.62)
 				(name "VEN"
 					(effects
@@ -148,7 +148,25 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
+				(at -11.43 -2.54 0)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 2.54 180)
 				(length 7.62)
 				(name "IOUT"
 					(effects
@@ -166,7 +184,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 0)
+				(at 20.32 2.54 180)
 				(length 7.62)
 				(name "IOUT"
 					(effects
@@ -184,25 +202,7 @@
 				)
 			)
 			(pin passive line
-				(at 40.64 0 180)
-				(length 7.62)
-				(name "REXT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 40.64 -2.54 180)
+				(at 20.32 2.54 180)
 				(length 7.62)
 				(name "IOUT"
 					(effects
@@ -220,16 +220,16 @@
 				)
 			)
 			(pin passive line
-				(at 40.64 -5.08 180)
+				(at 20.32 -2.54 180)
 				(length 7.62)
-				(name "GND"
+				(name "REXT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
