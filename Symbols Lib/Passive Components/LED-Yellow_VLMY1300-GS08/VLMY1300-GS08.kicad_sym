@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "VLMY1300-GS08"
 		(pin_names
 			(offset 0.254)
@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDC1608X100N"
+		(property "Footprint" "LED-Yellow_VLMY1300-GS08:LEDC1608X100N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52,14 +52,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "VLMY1300-GS08"
@@ -107,7 +99,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -1.905) (xy 6.35 0)
+					(xy 3.81 1.905) (xy 3.81 -1.905)
 				)
 				(stroke
 					(width 0.2032)
@@ -119,7 +111,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 1.905) (xy 3.81 -1.905)
+					(xy 3.81 -1.905) (xy 6.35 0)
 				)
 				(stroke
 					(width 0.2032)
@@ -143,7 +135,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 -1.905) (xy 6.35 1.905)
+					(xy 6.35 4.445) (xy 6.985 3.81)
 				)
 				(stroke
 					(width 0.2032)
@@ -179,19 +171,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 4.445) (xy 6.985 3.81)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.985 2.54) (xy 8.255 3.81)
+					(xy 6.35 -1.905) (xy 6.35 1.905)
 				)
 				(stroke
 					(width 0.2032)
@@ -215,6 +195,18 @@
 			)
 			(polyline
 				(pts
+					(xy 6.985 2.54) (xy 8.255 3.81)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 7.62 5.08) (xy 8.255 4.445)
 				)
 				(stroke
@@ -227,7 +219,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.255 3.81) (xy 8.89 3.175)
+					(xy 8.255 5.08) (xy 7.62 5.08)
 				)
 				(stroke
 					(width 0.2032)
@@ -251,7 +243,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.255 5.08) (xy 7.62 5.08)
+					(xy 8.255 3.81) (xy 8.89 3.175)
 				)
 				(stroke
 					(width 0.2032)
@@ -287,7 +279,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 3.81) (xy 10.16 4.445)
+					(xy 10.16 4.445) (xy 9.525 4.445)
 				)
 				(stroke
 					(width 0.2032)
@@ -299,7 +291,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 4.445) (xy 9.525 4.445)
+					(xy 10.16 3.81) (xy 10.16 4.445)
 				)
 				(stroke
 					(width 0.2032)
@@ -307,24 +299,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(pin passive line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin passive line
@@ -345,20 +319,26 @@
 					)
 				)
 			)
-		)
-		(symbol "VLMY1300-GS08_1_2"
-			(polyline
-				(pts
-					(xy -5.08 7.62) (xy -4.445 8.255)
+			(pin passive line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
+		)
+		(symbol "VLMY1300-GS08_1_2"
 			(polyline
 				(pts
 					(xy -5.08 8.255) (xy -5.08 7.62)
@@ -373,31 +353,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.445 6.35) (xy -3.81 6.985)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.445 8.255) (xy -5.08 8.255)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.445 9.525) (xy -3.81 10.16)
+					(xy -5.08 7.62) (xy -4.445 8.255)
 				)
 				(stroke
 					(width 0.2032)
@@ -421,7 +377,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 6.985) (xy -5.08 8.255)
+					(xy -4.445 9.525) (xy -3.81 10.16)
 				)
 				(stroke
 					(width 0.2032)
@@ -433,7 +389,19 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 8.255) (xy -3.175 8.89)
+					(xy -4.445 8.255) (xy -5.08 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 6.35) (xy -3.81 6.985)
 				)
 				(stroke
 					(width 0.2032)
@@ -457,7 +425,19 @@
 			)
 			(polyline
 				(pts
-					(xy -3.175 5.08) (xy -4.445 6.35)
+					(xy -3.81 8.255) (xy -3.175 8.89)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 6.985) (xy -5.08 8.255)
 				)
 				(stroke
 					(width 0.2032)
@@ -470,6 +450,18 @@
 			(polyline
 				(pts
 					(xy -3.175 8.89) (xy -4.445 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 5.08) (xy -4.445 6.35)
 				)
 				(stroke
 					(width 0.2032)
@@ -505,30 +497,6 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0 3.4798)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 3.175) (xy 0 3.81)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 6.35) (xy -1.905 3.81)
 				)
 				(stroke
@@ -553,7 +521,19 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 3.81) (xy 0 6.35)
+					(xy 0 3.175) (xy 0 3.81)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 3.4798)
 				)
 				(stroke
 					(width 0.2032)
@@ -566,6 +546,18 @@
 			(polyline
 				(pts
 					(xy 1.905 6.35) (xy -1.905 6.35)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 3.81) (xy 0 6.35)
 				)
 				(stroke
 					(width 0.2032)
@@ -612,5 +604,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

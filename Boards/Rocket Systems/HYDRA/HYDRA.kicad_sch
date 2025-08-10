@@ -2324,7 +2324,7 @@
 		)
 		(uuid "69d2c118-1fe0-4815-9dab-88161a79363d")
 	)
-	(text "TODO:\nEscolher connectores\nFiltros Anti-aliasing\nADC FAULT DESIGN\n\nATUALIZAR PROJECT SYMBOLS LIB\nADICIONAR FOOTPRINTS\nCORRER ERC\n-- LAYOUT"
+	(text "TODO:\nEscolher connectores\nADC FAULT DESIGN\n\nATUALIZAR PROJECT SYMBOLS LIB\nADICIONAR FOOTPRINTS\nCORRER ERC\n-- LAYOUT"
 		(exclude_from_sim no)
 		(at 386.08 340.995 0)
 		(effects
@@ -2760,16 +2760,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.335 243.84) (xy 165.1 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d34f10a-bac2-4499-8bf5-fcc5408e7ba6")
-	)
-	(wire
-		(pts
 			(xy 249.555 115.57) (xy 235.585 115.57)
 		)
 		(stroke
@@ -2807,16 +2797,6 @@
 			(type default)
 		)
 		(uuid "411d450f-214e-4edb-a308-7e1135913689")
-	)
-	(wire
-		(pts
-			(xy 140.335 252.095) (xy 165.1 252.095)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41f018e8-a2b6-472d-a420-03c8bfc690f2")
 	)
 	(wire
 		(pts
@@ -3560,16 +3540,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.335 249.555) (xy 165.1 249.555)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c24595fd-02e8-4c4c-95cc-2e4ecc300fa2")
-	)
-	(wire
-		(pts
 			(xy 127 79.375) (xy 165.1 79.375)
 		)
 		(stroke
@@ -3657,16 +3627,6 @@
 			(type default)
 		)
 		(uuid "d9a1151f-9d72-4405-a060-53b60972cced")
-	)
-	(wire
-		(pts
-			(xy 140.335 246.38) (xy 165.1 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dba50cfb-5671-4415-bb46-a9e8a5a14bec")
 	)
 	(wire
 		(pts
@@ -3898,16 +3858,6 @@
 		)
 		(uuid "0f6525b7-1d10-41c4-8717-6c169aa9f2ee")
 	)
-	(label "CAM 2 IN"
-		(at 140.335 243.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "12a353e7-ee0a-483c-b597-0639829c1609")
-	)
 	(label "THERMO2 DN"
 		(at 152.4 52.07 0)
 		(effects
@@ -3978,16 +3928,6 @@
 		)
 		(uuid "40e5574b-4b99-4861-924e-1c544051fd3c")
 	)
-	(label "CAM 2 OUT"
-		(at 140.335 246.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "410a35ce-53cd-4fe6-9070-5b7736ba4102")
-	)
 	(label "~{CS} THERMO2 SPI"
 		(at 219.075 46.99 0)
 		(effects
@@ -4037,16 +3977,6 @@
 			(justify left bottom)
 		)
 		(uuid "54c7f238-a172-4d34-be44-cf48fb21e67a")
-	)
-	(label "CAM 3 OUT"
-		(at 140.335 252.095 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55dc68db-b21e-408f-bc5a-6ee6cc1131b8")
 	)
 	(label "MOSI SPI"
 		(at 219.075 57.15 0)
@@ -4117,16 +4047,6 @@
 			(justify left bottom)
 		)
 		(uuid "7c3d5ee8-a49b-47c4-91c9-eb5580363557")
-	)
-	(label "CAM 3 IN"
-		(at 140.335 249.555 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d83b035-6f04-43d4-8df5-1f3943c67b81")
 	)
 	(label "MISO SPI"
 		(at 219.075 54.61 0)
@@ -8185,7 +8105,7 @@
 				(justify right)
 			)
 		)
-		(pin "CAM 1 IN" input
+		(pin "CAM IN" input
 			(at 165.1 238.125 180)
 			(uuid "fbed08f8-602e-4f48-bb2f-86e3ab72352a")
 			(effects
@@ -8195,49 +8115,9 @@
 				(justify left)
 			)
 		)
-		(pin "CAM 1 OUT" input
+		(pin "CAM OUT" input
 			(at 165.1 240.665 180)
 			(uuid "c3088844-1faa-4225-b0e0-4ee990b38168")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAM 2 IN" input
-			(at 165.1 243.84 180)
-			(uuid "9f69d7d8-6189-439a-8d8f-9bbb63489f2c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAM 2 OUT" input
-			(at 165.1 246.38 180)
-			(uuid "7a2d92c8-9848-4702-af86-5965c631edb3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAM 3 IN" input
-			(at 165.1 249.555 180)
-			(uuid "71e4d472-796c-4478-8df8-1a47e0eafd74")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAM 3 OUT" input
-			(at 165.1 252.095 180)
-			(uuid "b2ddb650-7535-4f0d-aaa1-985fd7d26be3")
 			(effects
 				(font
 					(size 1.27 1.27)
