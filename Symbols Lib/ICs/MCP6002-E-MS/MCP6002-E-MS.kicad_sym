@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "MPQ3431AGL-AEC1-Z"
+	(symbol "MCP6002-E_MS"
 		(pin_names
 			(offset 0.254)
 		)
@@ -10,23 +10,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 20.32 1.016 0)
+			(at 18.796 9.652 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "MPQ3431AGL-AEC1-Z"
-			(at 20.32 -1.524 0)
+		(property "Value" "MCP6002-E/MS"
+			(at 18.796 7.112 0)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "MPQ3431AGL-AEC1-Z:QFN-13_MPQ3431A_MNP"
-			(at 0.762 9.398 0)
+		(property "Footprint" "MSOP8_MC_MCH"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,8 +35,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPQ3431AGL-AEC1"
-			(at 1.524 9.652 0)
+		(property "Datasheet" "MCP6002-E/MS"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,7 +54,15 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "MPQ3431AGL-AEC1-Z"
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "MCP6002-E/MS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63,7 +71,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "QFN-13_MPQ3431A_MNP"
+		(property "ki_fp_filters" "MSOP8_MC_MCH MSOP8_MC_MCH-M MSOP8_MC_MCH-L"
 			(at 0 0 0)
 			(effects
 				(font
@@ -72,10 +80,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "MPQ3431AGL-AEC1-Z_0_1"
+		(symbol "MCP6002-E_MS_0_1"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -20.32)
+					(xy 7.62 5.08) (xy 7.62 -20.066)
 				)
 				(stroke
 					(width 0.127)
@@ -87,7 +95,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -20.32) (xy 33.02 -20.32)
+					(xy 7.62 -20.066) (xy 27.94 -20.066)
 				)
 				(stroke
 					(width 0.127)
@@ -99,7 +107,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
+					(xy 27.94 5.08) (xy 7.62 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -111,7 +119,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 -20.32) (xy 33.02 5.08)
+					(xy 27.94 -20.066) (xy 27.94 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -121,66 +129,10 @@
 					(type none)
 				)
 			)
-		)
-		(symbol "MPQ3431AGL-AEC1-Z_1_1"
 			(pin passive line
-				(at 3.81 1.27 0)
-				(length 3.81)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 3.81 -5.08 0)
-				(length 3.81)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 3.81 -8.89 0)
-				(length 3.81)
-				(name "MODE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 3.81 -12.7 0)
-				(length 3.81)
-				(name "VDD"
+				(at 0 2.54 0)
+				(length 7.62)
+				(name "VINA-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -196,9 +148,9 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -16.51 0)
-				(length 3.81)
-				(name "SS"
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "VINA+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -214,27 +166,9 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 8.89 270)
-				(length 3.81)
-				(name "SW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -24.13 90)
-				(length 3.81)
-				(name "AGND"
+				(at 0 -8.89 0)
+				(length 7.62)
+				(name "VINB-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -250,63 +184,9 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 8.89 270)
-				(length 3.81)
-				(name "BST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -24.13 90)
-				(length 3.81)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 36.83 1.27 180)
-				(length 3.81)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 36.83 -5.08 180)
-				(length 3.81)
-				(name "FB"
+				(at 0 -13.97 0)
+				(length 7.62)
+				(name "VINB+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -322,9 +202,27 @@
 				)
 			)
 			(pin passive line
-				(at 36.83 -8.89 180)
-				(length 3.81)
-				(name "COMP"
+				(at 15.24 -22.86 90)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 -22.86 90)
+				(length 2.54)
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -340,16 +238,34 @@
 				)
 			)
 			(pin passive line
-				(at 36.83 -16.51 180)
-				(length 3.81)
-				(name "ILIM"
+				(at 35.56 0 180)
+				(length 7.62)
+				(name "VOUTA"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -11.43 180)
+				(length 7.62)
+				(name "VOUTB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
