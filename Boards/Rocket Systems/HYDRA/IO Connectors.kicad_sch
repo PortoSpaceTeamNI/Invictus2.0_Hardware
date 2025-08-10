@@ -2403,6 +2403,106 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ThermoPCBConnector:ThermoPCBConnector"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ThermoConnector"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ThermoPCBConnector:Thermo Type K PCB Connector"
+				(at -1.524 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ThermoPCBConnector_0_1"
+				(rectangle
+					(start -3.81 -3.556)
+					(end 2.54 3.302)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ThermoPCBConnector_1_1"
+				(pin input line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "T+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "T-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "XT30UPB-F:XT30UPB-F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2934,7 +3034,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.205 95.25) (xy 113.665 95.25)
+			(xy 171.45 51.435) (xy 168.91 51.435)
 		)
 		(stroke
 			(width 0)
@@ -2944,7 +3044,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.975 91.44) (xy 56.515 91.44)
+			(xy 59.055 84.455) (xy 61.595 84.455)
 		)
 		(stroke
 			(width 0)
@@ -2954,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.205 97.79) (xy 113.665 97.79)
+			(xy 171.45 53.975) (xy 168.91 53.975)
 		)
 		(stroke
 			(width 0)
@@ -2963,8 +3063,8 @@
 		(uuid "e51f1811-2570-492c-910e-4da7058fecb2")
 	)
 	(hierarchical_label "RS_DP"
-		(shape bidirectional)
-		(at 113.03 45.085 0)
+		(shape output)
+		(at 113.03 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2974,19 +3074,19 @@
 		(uuid "01bfa122-dd8b-481f-8351-a7b793c1570b")
 	)
 	(hierarchical_label "THERMO3 DN"
-		(shape input)
-		(at 114.3 114.3 180)
+		(shape output)
+		(at 109.22 92.075 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0c74f7ce-39b6-469d-82c9-601ad030f549")
 	)
 	(hierarchical_label "QuickDisco N2O PWR"
-		(shape bidirectional)
-		(at 53.975 81.28 0)
+		(shape input)
+		(at 59.055 74.295 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2996,8 +3096,8 @@
 		(uuid "11b26077-3a60-41ef-9c96-07b36da7b893")
 	)
 	(hierarchical_label "PRESSURE2 Sense"
-		(shape input)
-		(at 113.03 59.055 0)
+		(shape output)
+		(at 113.03 61.595 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3008,7 +3108,7 @@
 	)
 	(hierarchical_label "Servo_OUT1 PWM"
 		(shape output)
-		(at 116.205 95.25 0)
+		(at 171.45 51.435 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3018,19 +3118,19 @@
 		(uuid "218275e6-1d48-4b99-8749-d715efe63499")
 	)
 	(hierarchical_label "THERMO1 DP"
-		(shape input)
-		(at 114.3 102.87 180)
+		(shape output)
+		(at 109.22 74.295 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "231899fc-83c1-4122-a0b4-2ddd278468c0")
 	)
 	(hierarchical_label "QuickDisco N2O OUT"
-		(shape bidirectional)
-		(at 53.975 83.82 0)
+		(shape output)
+		(at 59.055 76.835 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3041,7 +3141,7 @@
 	)
 	(hierarchical_label "SERVO OUT"
 		(shape input)
-		(at 116.205 85.725 0)
+		(at 171.45 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3051,8 +3151,8 @@
 		(uuid "2bc9c959-0c47-418b-b523-58b2c8a23507")
 	)
 	(hierarchical_label "Extra Valve PWR"
-		(shape bidirectional)
-		(at 53.975 86.36 0)
+		(shape input)
+		(at 59.055 79.375 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3062,8 +3162,8 @@
 		(uuid "2be9396f-684f-4c88-92ff-8637171fda10")
 	)
 	(hierarchical_label "ACT_N2O PWR"
-		(shape bidirectional)
-		(at 53.975 66.04 0)
+		(shape input)
+		(at 59.055 59.055 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3073,8 +3173,8 @@
 		(uuid "2d139c4f-33e3-470d-bfa1-2429e7f1783d")
 	)
 	(hierarchical_label "ACT_N2 OUT"
-		(shape bidirectional)
-		(at 53.975 58.42 0)
+		(shape output)
+		(at 59.055 51.435 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3084,8 +3184,8 @@
 		(uuid "39c35492-b147-4ca1-8734-e9f0e98f4587")
 	)
 	(hierarchical_label "QuickDisco N2 OUT"
-		(shape bidirectional)
-		(at 53.975 78.74 0)
+		(shape output)
+		(at 59.055 71.755 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3095,30 +3195,30 @@
 		(uuid "4f9b9387-6707-46a6-be37-aa549854cc4d")
 	)
 	(hierarchical_label "THERMO2 DN"
-		(shape input)
-		(at 114.3 111.125 180)
+		(shape output)
+		(at 109.22 84.455 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "649e8b06-9154-4f0b-b9fb-996f1432469d")
 	)
 	(hierarchical_label "THERMO2 DP"
-		(shape input)
-		(at 114.3 108.585 180)
+		(shape output)
+		(at 109.22 81.915 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6c78700d-2825-474e-ac6d-1461cf6179fb")
 	)
 	(hierarchical_label "PRESSURE3 Sense"
-		(shape input)
-		(at 113.03 61.595 0)
+		(shape output)
+		(at 113.03 64.135 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3129,7 +3229,7 @@
 	)
 	(hierarchical_label "SERVO PWR"
 		(shape input)
-		(at 116.205 88.265 0)
+		(at 171.45 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3139,8 +3239,8 @@
 		(uuid "788ff1f5-ad5b-43cf-9f26-ade1de4bee2b")
 	)
 	(hierarchical_label "RS_DN"
-		(shape bidirectional)
-		(at 113.03 42.545 0)
+		(shape output)
+		(at 113.03 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3150,8 +3250,8 @@
 		(uuid "7967eba2-7fb8-41d0-8f4e-b01fc9399550")
 	)
 	(hierarchical_label "PRESSURE1 Sense"
-		(shape input)
-		(at 113.03 56.515 0)
+		(shape output)
+		(at 113.03 59.055 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3162,7 +3262,7 @@
 	)
 	(hierarchical_label "CAM OUT"
 		(shape input)
-		(at 115.57 75.565 0)
+		(at 171.45 62.865 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3172,8 +3272,8 @@
 		(uuid "7fe54408-e77b-4f3d-81ef-bb35b159a296")
 	)
 	(hierarchical_label "VENT_N2O PWR"
-		(shape bidirectional)
-		(at 53.975 71.12 0)
+		(shape input)
+		(at 59.055 64.135 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3183,19 +3283,19 @@
 		(uuid "89d777c3-0fe8-4bf2-8843-2356f7c0678a")
 	)
 	(hierarchical_label "THERMO3 DP"
-		(shape input)
-		(at 114.3 116.84 180)
+		(shape output)
+		(at 109.22 89.535 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "936119cc-996d-4197-817b-b04948706565")
 	)
 	(hierarchical_label "VENT_N2 PWR"
-		(shape bidirectional)
-		(at 53.975 60.96 0)
+		(shape input)
+		(at 59.055 53.975 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3205,8 +3305,8 @@
 		(uuid "954b8c5a-2a8a-4277-80bf-7175d405fef9")
 	)
 	(hierarchical_label "Extra Valve OUT"
-		(shape bidirectional)
-		(at 53.975 88.9 0)
+		(shape output)
+		(at 59.055 81.915 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3216,8 +3316,8 @@
 		(uuid "a4e168f2-26ae-43f7-b65e-656c88c586b2")
 	)
 	(hierarchical_label "VENT_N2 OUT"
-		(shape bidirectional)
-		(at 53.975 63.5 0)
+		(shape output)
+		(at 59.055 56.515 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3228,7 +3328,7 @@
 	)
 	(hierarchical_label "CAM IN"
 		(shape input)
-		(at 115.57 73.025 0)
+		(at 171.45 60.325 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3239,7 +3339,7 @@
 	)
 	(hierarchical_label "Servo_OUT2 PWM"
 		(shape output)
-		(at 116.205 97.79 0)
+		(at 171.45 53.975 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3249,8 +3349,8 @@
 		(uuid "d51644e4-0ff9-44c8-bcfd-32912c2e667d")
 	)
 	(hierarchical_label "ACT_N2O OUT"
-		(shape bidirectional)
-		(at 53.975 68.58 0)
+		(shape output)
+		(at 59.055 61.595 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3260,8 +3360,8 @@
 		(uuid "d7522602-2350-4cdb-a6b8-5e7aa3e64891")
 	)
 	(hierarchical_label "VENT_N2O OUT"
-		(shape bidirectional)
-		(at 53.975 73.66 0)
+		(shape output)
+		(at 59.055 66.675 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3271,8 +3371,8 @@
 		(uuid "db7ee61a-bf6f-4028-9112-4aaf32d6905f")
 	)
 	(hierarchical_label "ACT_N2 PWR"
-		(shape bidirectional)
-		(at 53.975 55.88 0)
+		(shape input)
+		(at 59.055 48.895 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3282,8 +3382,8 @@
 		(uuid "eec38bfd-3f8a-4911-b648-e24b5a43143d")
 	)
 	(hierarchical_label "QuickDisco N2 PWR"
-		(shape bidirectional)
-		(at 53.975 76.2 0)
+		(shape input)
+		(at 59.055 69.215 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3293,19 +3393,19 @@
 		(uuid "f4c3461a-4799-4960-8ac3-bd3885f561a7")
 	)
 	(hierarchical_label "THERMO1 DN"
-		(shape input)
-		(at 114.3 105.41 180)
+		(shape output)
+		(at 109.22 76.835 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f8a6164d-2afe-429f-8c99-274e5ccc294b")
 	)
 	(symbol
 		(lib_id "HDL15-SL-B:HDL15-SL-B")
-		(at 43.815 87.63 180)
+		(at 48.895 80.645 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3314,7 +3414,7 @@
 		(fields_autoplaced yes)
 		(uuid "08d27212-5683-4917-a6cc-5876df3fbe4a")
 		(property "Reference" "DSUB1"
-			(at 45.085 50.8 0)
+			(at 50.165 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +3422,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 45.085 52.07 0)
+			(at 50.165 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,7 +3430,7 @@
 			)
 		)
 		(property "Footprint" "HDL15-SL-B:HDL15-SL-B"
-			(at 43.815 87.63 0)
+			(at 48.895 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +3439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.815 87.63 0)
+			(at 48.895 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3448,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.815 87.63 0)
+			(at 48.895 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +3512,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 64.135 0)
+		(at 113.03 66.675 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3421,7 +3521,7 @@
 		(dnp no)
 		(uuid "1efda209-2e9e-471d-8233-c531e14ac724")
 		(property "Reference" "#PWR0208"
-			(at 113.03 70.485 0)
+			(at 113.03 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3530,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.125 67.945 0)
+			(at 111.125 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 64.135 0)
+			(at 113.03 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3448,7 +3548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 64.135 0)
+			(at 113.03 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3457,7 +3557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 64.135 0)
+			(at 113.03 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,8 +3578,148 @@
 		)
 	)
 	(symbol
+		(lib_id "ThermoPCBConnector:ThermoPCBConnector")
+		(at 102.87 83.185 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "403c4cd8-d848-4231-85f1-72f167138b6f")
+		(property "Reference" "U32"
+			(at 95.885 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ThermoConnector"
+			(at 83.185 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ThermoPCBConnector:Thermo Type K PCB Connector"
+			(at 102.87 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47cefc15-a719-4cfb-8408-cbdca880a838")
+		)
+		(pin "1"
+			(uuid "c8fe264e-a6f9-4607-8c52-3ee985080966")
+		)
+		(instances
+			(project "HYDRA"
+				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334/872f74d5-2274-4bcf-9725-9d40ced4c2eb"
+					(reference "U32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ThermoPCBConnector:ThermoPCBConnector")
+		(at 102.87 90.805 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5951c52c-87e6-45e5-b08a-4798530ae68c")
+		(property "Reference" "U33"
+			(at 95.885 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ThermoConnector"
+			(at 83.185 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ThermoPCBConnector:Thermo Type K PCB Connector"
+			(at 102.87 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42194b3f-d052-4c4b-b3ff-4420a0a49e8b")
+		)
+		(pin "1"
+			(uuid "5e24023c-f533-4a87-bba9-a7816c317dcb")
+		)
+		(instances
+			(project "HYDRA"
+				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334/872f74d5-2274-4bcf-9725-9d40ced4c2eb"
+					(reference "U33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "5024430270:5024430270")
-		(at 113.03 42.545 0)
+		(at 113.03 45.72 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3489,7 +3729,7 @@
 		(fields_autoplaced yes)
 		(uuid "769b30bc-c9b3-4220-a84f-8153b2bd88af")
 		(property "Reference" "J5"
-			(at 98.425 42.5449 0)
+			(at 98.425 45.7199 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3498,7 +3738,7 @@
 			)
 		)
 		(property "Value" "5024430270"
-			(at 98.425 45.0849 0)
+			(at 98.425 48.2599 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3507,7 +3747,7 @@
 			)
 		)
 		(property "Footprint" "CONN_502443-02xx_MOL"
-			(at 113.03 42.545 0)
+			(at 113.03 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3757,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5024430270?display=pdf"
-			(at 113.03 42.545 0)
+			(at 113.03 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3767,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 42.545 0)
+			(at 113.03 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +3792,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 56.515 91.44 0)
+		(at 61.595 84.455 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3560,7 +3800,7 @@
 		(dnp no)
 		(uuid "793bc046-d673-407d-9777-0739cbf660dd")
 		(property "Reference" "#PWR0206"
-			(at 56.515 97.79 0)
+			(at 61.595 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3809,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 56.515 96.52 0)
+			(at 61.595 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 56.515 91.44 0)
+			(at 61.595 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +3826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 56.515 91.44 0)
+			(at 61.595 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +3835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 56.515 91.44 0)
+			(at 61.595 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3857,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 43.18 104.14 0)
+		(at 49.53 95.885 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3626,7 +3866,7 @@
 		(fields_autoplaced yes)
 		(uuid "90948b5f-e9b6-49d0-bd2d-1f6064d74d2e")
 		(property "Reference" "H1"
-			(at 45.72 102.8699 0)
+			(at 52.07 94.6149 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3635,7 +3875,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 45.72 105.4099 0)
+			(at 52.07 97.1549 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3644,7 +3884,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 43.18 104.14 0)
+			(at 49.53 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,7 +3893,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 104.14 0)
+			(at 49.53 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3902,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 43.18 104.14 0)
+			(at 49.53 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +3921,7 @@
 	)
 	(symbol
 		(lib_id "5024430570:5024430570")
-		(at 113.03 53.975 0)
+		(at 113.03 56.515 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3691,15 +3931,6 @@
 		(fields_autoplaced yes)
 		(uuid "9478294f-7191-4111-85cb-04700956fd85")
 		(property "Reference" "J6"
-			(at 98.425 57.7849 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5024430570"
 			(at 98.425 60.3249 0)
 			(effects
 				(font
@@ -3708,8 +3939,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "5024430570"
+			(at 98.425 62.8649 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "CONN_502443-05xx_MOL"
-			(at 113.03 53.975 0)
+			(at 113.03 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,7 +3959,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5024430570?display=pdf"
-			(at 113.03 53.975 0)
+			(at 113.03 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3969,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 53.975 0)
+			(at 113.03 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +4003,7 @@
 	)
 	(symbol
 		(lib_id "XT30UPB-F:XT30UPB-F")
-		(at 116.205 88.265 180)
+		(at 171.45 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3772,7 +4012,7 @@
 		(fields_autoplaced yes)
 		(uuid "99e02bf7-d1a8-49d5-ab74-cbf1f272a7f2")
 		(property "Reference" "J4"
-			(at 99.695 88.2651 0)
+			(at 154.94 45.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +4021,7 @@
 			)
 		)
 		(property "Value" "XT30UPB-F"
-			(at 99.695 85.7251 0)
+			(at 154.94 43.1801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,7 +4030,7 @@
 			)
 		)
 		(property "Footprint" "XT30UPB-F:XT30UPBF"
-			(at 99.695 -6.655 0)
+			(at 154.94 -49.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,7 +4040,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/81f11ca924696756331f21b972812074/XT30PB-F.pdf"
-			(at 99.695 -106.655 0)
+			(at 154.94 -149.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +4050,7 @@
 			)
 		)
 		(property "Description" "Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; Colour: yellow"
-			(at 116.205 88.265 0)
+			(at 171.45 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +4059,7 @@
 			)
 		)
 		(property "Height" "9.4"
-			(at 99.695 -306.655 0)
+			(at 154.94 -349.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +4069,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 99.695 -406.655 0)
+			(at 154.94 -449.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3839,7 +4079,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 99.695 -506.655 0)
+			(at 154.94 -549.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +4089,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amass"
-			(at 99.695 -606.655 0)
+			(at 154.94 -649.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +4099,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XT30UPB-F"
-			(at 99.695 -706.655 0)
+			(at 154.94 -749.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,7 +4125,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 64.77 118.11 0)
+		(at 71.12 109.855 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3894,7 +4134,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b8b75b2-1e60-4a4e-84c2-e30d900196f5")
 		(property "Reference" "H4"
-			(at 67.31 116.8399 0)
+			(at 73.66 108.5849 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3903,7 +4143,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 67.31 119.3799 0)
+			(at 73.66 111.1249 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3912,7 +4152,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 64.77 118.11 0)
+			(at 71.12 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,7 +4161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 118.11 0)
+			(at 71.12 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +4170,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 64.77 118.11 0)
+			(at 71.12 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,7 +4189,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 64.77 107.95 0)
+		(at 71.12 99.695 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3957,7 +4197,7 @@
 		(dnp no)
 		(uuid "b8e5a13e-6eca-4213-9af5-b05a4a282536")
 		(property "Reference" "#PWR079"
-			(at 64.77 114.3 0)
+			(at 71.12 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,7 +4206,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 64.77 111.76 0)
+			(at 71.12 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +4214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 107.95 0)
+			(at 71.12 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,7 +4223,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 107.95 0)
+			(at 71.12 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3992,7 +4232,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 64.77 107.95 0)
+			(at 71.12 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +4254,7 @@
 	)
 	(symbol
 		(lib_id "XT30UPB-F:XT30UPB-F")
-		(at 115.57 73.025 0)
+		(at 171.45 60.325 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4024,7 +4264,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1373f27-0f52-453a-b574-69cb20cc43ff")
 		(property "Reference" "J3"
-			(at 99.06 73.0249 0)
+			(at 154.94 60.3249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +4273,7 @@
 			)
 		)
 		(property "Value" "XT30UPB-F"
-			(at 99.06 75.5649 0)
+			(at 154.94 62.8649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +4282,7 @@
 			)
 		)
 		(property "Footprint" "XT30UPB-F:XT30UPBF"
-			(at 99.06 167.945 0)
+			(at 154.94 155.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,7 +4292,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/81f11ca924696756331f21b972812074/XT30PB-F.pdf"
-			(at 99.06 267.945 0)
+			(at 154.94 255.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,7 +4302,7 @@
 			)
 		)
 		(property "Description" "Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; Colour: yellow"
-			(at 115.57 73.025 0)
+			(at 171.45 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4071,7 +4311,7 @@
 			)
 		)
 		(property "Height" "9.4"
-			(at 99.06 467.945 0)
+			(at 154.94 455.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +4321,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 99.06 567.945 0)
+			(at 154.94 555.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4331,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 99.06 667.945 0)
+			(at 154.94 655.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,7 +4341,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amass"
-			(at 99.06 767.945 0)
+			(at 154.94 755.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +4351,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XT30UPB-F"
-			(at 99.06 867.945 0)
+			(at 154.94 855.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +4377,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 113.03 53.975 0)
+		(at 113.03 56.515 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4146,7 +4386,7 @@
 		(dnp no)
 		(uuid "c23e9ad2-09cf-4562-99fd-588db8c16fa5")
 		(property "Reference" "#PWR0209"
-			(at 113.03 57.785 0)
+			(at 113.03 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,7 +4395,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 113.03 50.165 0)
+			(at 113.03 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4403,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 53.975 0)
+			(at 113.03 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4172,7 +4412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 53.975 0)
+			(at 113.03 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +4421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 113.03 53.975 0)
+			(at 113.03 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +4443,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 64.77 105.41 0)
+		(at 71.12 97.155 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4212,7 +4452,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb11cf9c-f61d-4021-9fb1-acec1d49d933")
 		(property "Reference" "H2"
-			(at 67.945 102.8699 0)
+			(at 74.295 94.6149 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4221,7 +4461,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 67.945 105.4099 0)
+			(at 74.295 97.1549 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4230,7 +4470,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-			(at 64.77 105.41 0)
+			(at 71.12 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4479,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 105.41 0)
+			(at 71.12 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4488,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 64.77 105.41 0)
+			(at 71.12 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +4510,7 @@
 	)
 	(symbol
 		(lib_id "5024430270:5024430270")
-		(at 113.665 95.25 0)
+		(at 168.91 51.435 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4280,7 +4520,7 @@
 		(fields_autoplaced yes)
 		(uuid "e61d505a-cdab-45fb-b21e-5960f870e162")
 		(property "Reference" "J7"
-			(at 99.06 95.2499 0)
+			(at 154.305 51.4349 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4289,7 +4529,7 @@
 			)
 		)
 		(property "Value" "5024430270"
-			(at 99.06 97.7899 0)
+			(at 154.305 53.9749 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4298,7 +4538,7 @@
 			)
 		)
 		(property "Footprint" "CONN_502443-02xx_MOL"
-			(at 113.665 95.25 0)
+			(at 168.91 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4548,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5024430270?display=pdf"
-			(at 113.665 95.25 0)
+			(at 168.91 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +4558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.665 95.25 0)
+			(at 168.91 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +4583,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 43.18 117.475 0)
+		(at 49.53 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4352,7 +4592,7 @@
 		(fields_autoplaced yes)
 		(uuid "f053b9de-9131-4f3a-b8ba-9325e8fce862")
 		(property "Reference" "H3"
-			(at 45.72 116.2049 0)
+			(at 52.07 107.9499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4361,7 +4601,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 45.72 118.7449 0)
+			(at 52.07 110.4899 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4370,7 +4610,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 43.18 117.475 0)
+			(at 49.53 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +4619,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 117.475 0)
+			(at 49.53 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,7 +4628,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 43.18 117.475 0)
+			(at 49.53 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,6 +4640,76 @@
 			(project "HYDRA"
 				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334/872f74d5-2274-4bcf-9725-9d40ced4c2eb"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ThermoPCBConnector:ThermoPCBConnector")
+		(at 102.87 75.565 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1a2b12c-30cc-4f49-ac66-bb450d1b737f")
+		(property "Reference" "U31"
+			(at 95.885 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ThermoConnector"
+			(at 83.185 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ThermoPCBConnector:Thermo Type K PCB Connector"
+			(at 102.87 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1880e463-0f16-41af-b7db-311470de4c3e")
+		)
+		(pin "1"
+			(uuid "3fab86e9-c0f1-49d5-ba31-33dd0fd44736")
+		)
+		(instances
+			(project ""
+				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334/872f74d5-2274-4bcf-9725-9d40ced4c2eb"
+					(reference "U31")
 					(unit 1)
 				)
 			)
