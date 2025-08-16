@@ -1676,48 +1676,50 @@
 			(embedded_fonts no)
 		)
 		(symbol "BC846BLT1G:BC846BLT1G"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 0 10.668 0)
+			(property "Reference" "U"
+				(at 0 16.002 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
+					(hide yes)
 				)
 			)
 			(property "Value" "BC846BLT1G"
-				(at 0 8.128 0)
+				(at 0 13.462 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT96P237X111-3N"
-				(at 16.51 -94.92 0)
+			(property "Footprint" "BC846BLT1G:SOT-23_ONS"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"
-				(at 16.51 -194.92 0)
+			(property "Datasheet" "BC846BLT1G"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Moisture Sensitivity Level: 1; ESD Rating - Human Body Model: >4000 V ESD Rating - Machine Model: >400 V; Pb-Free Packages are Available; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1726,63 +1728,31 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.11"
-				(at 16.51 -394.92 0)
+			(property "ki_keywords" "BC846BLT1G"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "863-BC846BLT1G"
-				(at 16.51 -494.92 0)
+			(property "ki_fp_filters" "SOT-23_ONS SOT-23_ONS-M SOT-23_ONS-L"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BC846BLT1G?qs=vNc2DXHODiJuwwGLruzsRg%3D%3D"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "onsemi"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "BC846BLT1G"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
 					(hide yes)
 				)
 			)
 			(symbol "BC846BLT1G_0_1"
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 5.715 0)
+						(xy -5.08 0) (xy -1.905 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1791,7 +1761,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.715 1.905) (xy 5.715 -1.905) (xy 5.715 -1.905)
+						(xy -1.905 1.905) (xy -1.905 -1.905)
 					)
 					(stroke
 						(width 0.508)
@@ -1801,32 +1771,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.715 0.635) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -0.635) (xy 7.62 -2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
-					(center 6.35 0)
+					(center -1.27 0)
 					(radius 2.8194)
 					(stroke
 						(width 0.254)
@@ -1836,9 +1782,35 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "BC846BLT1G_1_1"
 				(polyline
 					(pts
-						(xy 6.35 -1.778) (xy 6.858 -1.27) (xy 7.366 -2.286) (xy 6.35 -1.778) (xy 6.35 -1.778)
+						(xy -1.905 0.635) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -0.635) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.778) (xy -0.762 -1.27) (xy -0.254 -2.286) (xy -1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -1848,34 +1820,8 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.874 -1.27) (xy 7.874 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 -1.27) (xy 7.874 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BC846BLT1G_1_1"
-				(pin passive line
-					(at 0 0 0)
+				(pin input line
+					(at -7.62 0 0)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -1893,7 +1839,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 270)
+					(at 0 5.08 270)
 					(length 2.54)
 					(name "C"
 						(effects
@@ -1911,7 +1857,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 90)
+					(at 0 -5.08 90)
 					(length 2.54)
 					(name "E"
 						(effects
@@ -6963,7 +6909,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT-563_1P3X1P7_ONS"
+			(property "Footprint" "NSVT30010MXV6T1G:SOTFL50P160X60-6N"
 				(at 19.05 -94.92 0)
 				(effects
 					(font
@@ -8476,7 +8422,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LEDC1608X100N"
+			(property "Footprint" "LED-Yellow_VLMY1300-GS08:LEDC1608X100N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8503,14 +8449,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "VLMY1300-GS08"
@@ -8798,6 +8736,610 @@
 				)
 			)
 			(symbol "VLMY1300-GS08_1_2"
+				(polyline
+					(pts
+						(xy -5.08 8.255) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 7.62) (xy -4.445 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 10.16) (xy -4.445 9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 9.525) (xy -3.81 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 8.255) (xy -5.08 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 6.35) (xy -3.81 6.985)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 10.16) (xy -4.445 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 8.255) (xy -3.175 8.89)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 6.985) (xy -5.08 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 8.89) (xy -4.445 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 5.08) (xy -4.445 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 6.985) (xy -3.81 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 3.81) (xy 1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 6.35) (xy -1.905 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.81) (xy 0 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VLMY1300-GS08_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR"
+				(at 5.08 -4.445 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "VLMY1300-GS08"
+				(at 5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "LED-Yellow_VLMY1300-GS08:LEDC1608X100N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "VLMY1300-GS08"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "VLMY1300-GS08"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED_VISHAY_VLMX1300_VIS LED_VISHAY_VLMX1300_VIS-M LED_VISHAY_VLMX1300_VIS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VLMY1300-GS08_1_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.175) (xy 6.35 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 4.445) (xy 6.985 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 3.81) (xy 8.255 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 2.54) (xy 8.255 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 8.255 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 4.445) (xy 8.255 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 3.81) (xy 8.89 3.175)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 3.175) (xy 10.16 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 4.445) (xy 10.16 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 4.445) (xy 9.525 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 3.81) (xy 10.16 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "VLMY1300-GS08_1_1_2"
 				(polyline
 					(pts
 						(xy -5.08 8.255) (xy -5.08 7.62)
@@ -10426,6 +10968,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 118.11) (xy 140.97 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b341bc8-622e-4c8c-9c48-d303a405d7ad")
+	)
+	(wire
+		(pts
 			(xy 45.72 69.215) (xy 62.23 69.215)
 		)
 		(stroke
@@ -10923,16 +11475,6 @@
 			(type default)
 		)
 		(uuid "445f23b3-ecf8-4ce0-a78e-4ff552549525")
-	)
-	(wire
-		(pts
-			(xy 129.54 118.11) (xy 140.97 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "446562db-3be4-45fd-b396-3c6076b187de")
 	)
 	(wire
 		(pts
@@ -11776,7 +12318,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 123.19) (xy 124.46 125.73)
+			(xy 124.46 118.11) (xy 124.46 125.73)
 		)
 		(stroke
 			(width 0)
@@ -12126,16 +12668,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 123.19) (xy 140.97 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3b36e98-d7b4-4e48-892c-849c25658f8d")
-	)
-	(wire
-		(pts
 			(xy 194.945 252.095) (xy 210.185 252.095)
 		)
 		(stroke
@@ -12163,6 +12695,16 @@
 			(type default)
 		)
 		(uuid "a5f78536-2349-4b97-a737-35ec2400258d")
+	)
+	(wire
+		(pts
+			(xy 129.54 123.19) (xy 140.97 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5fa3cff-aa0e-466b-b994-382233d68e4d")
 	)
 	(wire
 		(pts
@@ -13124,16 +13666,6 @@
 		)
 		(uuid "06a1603e-7dcd-4efe-bf9c-6bc56fe038eb")
 	)
-	(label "V5"
-		(at 113.03 327.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "128c8adf-72fd-4156-af9e-6e9c8e3ae81f")
-	)
 	(label "OBC RX UART"
 		(at 16.51 130.81 0)
 		(effects
@@ -13163,6 +13695,16 @@
 			(justify left bottom)
 		)
 		(uuid "1bba556f-7ce2-4170-a6f3-e699cfe87844")
+	)
+	(label "V1_IN"
+		(at 113.03 317.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20828b09-dcd8-4366-9f8d-9714f648fb0c")
 	)
 	(label "OBC RTS UART"
 		(at 76.2 133.35 0)
@@ -13204,16 +13746,6 @@
 		)
 		(uuid "2b6b90d8-9790-4b60-b03d-655ac46c7e28")
 	)
-	(label "PYRO2"
-		(at 129.54 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2dbd60be-1a81-448e-9d3b-c969767e7f61")
-	)
 	(label "MAG ~{CS} SPI"
 		(at 200.025 46.99 0)
 		(effects
@@ -13243,6 +13775,26 @@
 			(justify left bottom)
 		)
 		(uuid "3848b660-bd66-47f9-9c2e-454fb46fc322")
+	)
+	(label "V5_IN"
+		(at 113.03 327.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e8f5b73-ba05-4a7e-813c-1b27f9f96a45")
+	)
+	(label "V0_IN"
+		(at 113.03 314.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "401c2788-9edc-4b6f-ba29-64c69bd7599c")
 	)
 	(label "SCL1 I2C"
 		(at 124.46 64.135 180)
@@ -13304,7 +13856,7 @@
 		)
 		(uuid "4bf478fb-8f13-45ae-9894-15f388674f98")
 	)
-	(label "V4"
+	(label "V4_IN"
 		(at 129.54 113.03 0)
 		(effects
 			(font
@@ -13324,7 +13876,7 @@
 		)
 		(uuid "4eeed02f-33b2-475e-9245-95ab46480432")
 	)
-	(label "V2"
+	(label "V2_IN"
 		(at 129.54 102.87 0)
 		(effects
 			(font
@@ -13364,7 +13916,7 @@
 		)
 		(uuid "559c5bd3-e1b1-4dfd-9129-727b6a6503e9")
 	)
-	(label "V0"
+	(label "V0_IN"
 		(at 129.54 107.95 0)
 		(effects
 			(font
@@ -13383,16 +13935,6 @@
 			(justify left bottom)
 		)
 		(uuid "58ead22b-bcc7-423d-bcc8-797993c1d42b")
-	)
-	(label "V4"
-		(at 113.03 325.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5c80778e-2d81-4f9c-ad4c-dca7295154e9")
 	)
 	(label "SDA0 I2C"
 		(at 198.755 264.795 0)
@@ -13434,6 +13976,16 @@
 		)
 		(uuid "60b088e7-8f10-4726-9bd2-54dafaa0228a")
 	)
+	(label "PYRO2"
+		(at 129.54 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61c85d48-83e2-4b6a-9058-da670e6b6213")
+	)
 	(label "Green Status"
 		(at 57.15 272.415 0)
 		(effects
@@ -13453,6 +14005,16 @@
 			(justify right bottom)
 		)
 		(uuid "6a322212-470e-4bb0-84c5-7047f68704c9")
+	)
+	(label "V4_IN"
+		(at 113.03 325.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a8f844d-e1bd-48ab-8392-d2d9369e31fc")
 	)
 	(label "SCK SPI"
 		(at 200.025 41.91 0)
@@ -13474,7 +14036,7 @@
 		)
 		(uuid "6f33010b-f57b-4334-bdc1-6d1d2ab4b31e")
 	)
-	(label "V3"
+	(label "V3_IN"
 		(at 129.54 110.49 0)
 		(effects
 			(font
@@ -13483,16 +14045,6 @@
 			(justify left bottom)
 		)
 		(uuid "6f4e0692-5bda-481a-afb6-41a2ac6a7eac")
-	)
-	(label "PYRO1"
-		(at 129.54 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "75f1098b-95af-40f0-8f91-fdf599c78217")
 	)
 	(label "GPS TX UART"
 		(at 31.115 168.275 0)
@@ -13503,16 +14055,6 @@
 			(justify left bottom)
 		)
 		(uuid "763e322f-3402-4cba-9313-d8a7377c9c00")
-	)
-	(label "V3"
-		(at 113.03 322.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7cf677d6-4733-4ff0-ab1d-7be3693348b5")
 	)
 	(label "SDA0 I2C"
 		(at 124.46 42.545 180)
@@ -13544,15 +14086,15 @@
 		)
 		(uuid "81fdb7d0-6ca9-4d33-b461-dec5f6e24f7e")
 	)
-	(label "V1"
-		(at 113.03 317.5 180)
+	(label "V2_IN"
+		(at 113.03 320.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "88f86a27-6807-41fa-abdf-94d74e4484d3")
+		(uuid "89629a4c-a894-4875-9d06-cacdca5c0d9c")
 	)
 	(label "MOSI SPI"
 		(at 209.55 123.825 0)
@@ -13584,17 +14126,7 @@
 		)
 		(uuid "8b3cf970-b2ea-479f-8c4e-b192faa44651")
 	)
-	(label "V2"
-		(at 113.03 320.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8b573406-e4f5-4256-80f7-b3d69a567c16")
-	)
-	(label "V5"
+	(label "V5_IN"
 		(at 129.54 115.57 0)
 		(effects
 			(font
@@ -13613,6 +14145,16 @@
 			(justify right bottom)
 		)
 		(uuid "8ef46265-72fb-44ef-b840-3bf1cfd62cc3")
+	)
+	(label "V3_IN"
+		(at 113.03 322.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "963d126f-c084-4276-a342-6e2ec85227e9")
 	)
 	(label "GPS TX UART"
 		(at 45.72 58.42 0)
@@ -13664,16 +14206,6 @@
 		)
 		(uuid "a1e381dc-2b09-4978-8c9f-a0bee024670d")
 	)
-	(label "V0"
-		(at 113.03 314.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a1e873f9-f757-4313-bb59-5da739816ee5")
-	)
 	(label "MAG ~{CS} SPI"
 		(at 45.72 74.295 0)
 		(effects
@@ -13714,7 +14246,7 @@
 		)
 		(uuid "ad67e853-da1e-4862-acca-c46fc949e50f")
 	)
-	(label "V1"
+	(label "V1_IN"
 		(at 129.54 105.41 0)
 		(effects
 			(font
@@ -13773,16 +14305,6 @@
 			(justify right bottom)
 		)
 		(uuid "b939013b-1f8f-49d6-bea2-2806774b3910")
-	)
-	(label "PYRO3"
-		(at 129.54 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bbe2db1c-5255-4f57-9eb7-24f756fc2d70")
 	)
 	(label "GPS VBACKUP"
 		(at 31.115 173.355 0)
@@ -13914,6 +14436,16 @@
 		)
 		(uuid "d75c00a6-a877-4b35-85f4-3f979021dedb")
 	)
+	(label "PYRO3"
+		(at 129.54 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7830cd3-a72f-4068-a467-e7572ceebf45")
+	)
 	(label "OBC TX UART"
 		(at 16.51 128.27 0)
 		(effects
@@ -13943,6 +14475,16 @@
 			(justify left bottom)
 		)
 		(uuid "e3262a14-d8e4-4aac-84d0-ac81b414bba5")
+	)
+	(label "PYRO1"
+		(at 129.54 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5f2e604-9db2-487e-8cb3-0c8218f9b257")
 	)
 	(label "SCL0 I2C"
 		(at 209.55 188.595 0)
@@ -15111,7 +15653,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 19.05 104.775 0)
+		(at 19.05 102.235 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15120,7 +15662,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e2903e5-135f-4608-b823-502875e8da18")
 		(property "Reference" "H2"
-			(at 21.59 103.5049 0)
+			(at 21.59 100.9649 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -15129,7 +15671,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 21.59 106.0449 0)
+			(at 21.59 103.5049 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -15138,7 +15680,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 19.05 104.775 0)
+			(at 19.05 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15147,7 +15689,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 19.05 104.775 0)
+			(at 19.05 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15156,7 +15698,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 19.05 104.775 0)
+			(at 19.05 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15380,6 +15922,7 @@
 		)
 	)
 	(symbol
+		(lib_name "VLMY1300-GS08_1")
 		(lib_id "VLMY1300-GS08:VLMY1300-GS08")
 		(at 26.035 255.905 90)
 		(mirror x)
@@ -15859,7 +16402,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 19.05 113.03 0)
+		(at 19.05 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15868,7 +16411,7 @@
 		(fields_autoplaced yes)
 		(uuid "30f2a772-e5be-4818-bf8e-289d70707e5c")
 		(property "Reference" "H3"
-			(at 21.59 111.7599 0)
+			(at 21.59 109.2199 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -15877,7 +16420,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 21.59 114.2999 0)
+			(at 21.59 111.7599 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -15886,7 +16429,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 19.05 113.03 0)
+			(at 19.05 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15895,7 +16438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 19.05 113.03 0)
+			(at 19.05 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15904,7 +16447,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 19.05 113.03 0)
+			(at 19.05 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17144,7 +17687,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 39.37 104.14 0)
+		(at 39.37 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17153,7 +17696,7 @@
 		(fields_autoplaced yes)
 		(uuid "574cec72-db88-41fb-b159-dd348aa54690")
 		(property "Reference" "H1"
-			(at 41.91 102.8699 0)
+			(at 41.91 100.3299 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -17162,7 +17705,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 41.91 105.4099 0)
+			(at 41.91 102.8699 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -17171,7 +17714,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 39.37 104.14 0)
+			(at 39.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17180,7 +17723,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 104.14 0)
+			(at 39.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17189,7 +17732,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 39.37 104.14 0)
+			(at 39.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17201,131 +17744,6 @@
 			(project "Navigator"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BC846BLT1G:BC846BLT1G")
-		(at 121.285 269.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a5bad00-0eaa-49a2-9c6c-88719b069074")
-		(property "Reference" "IC3"
-			(at 131.445 267.9699 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC846BLT1G"
-			(at 131.445 270.5099 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BJT NPN:SOT96P237X111-3N"
-			(at 137.795 364.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF"
-			(at 137.795 464.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Moisture Sensitivity Level: 1; ESD Rating - Human Body Model: >4000 V ESD Rating - Machine Model: >400 V; Pb-Free Packages are Available; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable"
-			(at 121.285 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.11"
-			(at 137.795 664.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-BC846BLT1G"
-			(at 137.795 764.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/BC846BLT1G?qs=vNc2DXHODiJuwwGLruzsRg%3D%3D"
-			(at 137.795 864.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 137.795 964.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BC846BLT1G"
-			(at 137.795 1064.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4853e216-5f13-4269-9f16-9997e262a9ac")
-		)
-		(pin "2"
-			(uuid "03530d90-f9e2-4c41-becb-fcce40a1c485")
-		)
-		(pin "1"
-			(uuid "b9bc78da-d0d9-43fb-b0f4-70ff23ac9768")
-		)
-		(instances
-			(project "OBC"
-				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
-					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -18717,6 +19135,80 @@
 			(project "OBC"
 				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BC846BLT1G:BC846BLT1G")
+		(at 128.905 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "810bd693-9f37-4286-86fe-48c7767a3a18")
+		(property "Reference" "U13"
+			(at 131.445 267.335 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC846BLT1G"
+			(at 131.445 269.875 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BC846BLT1G:SOT-23_ONS"
+			(at 128.905 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "BC846BLT1G"
+			(at 128.905 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.905 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "759c205f-4dab-426d-b51d-6a575b79014b")
+		)
+		(pin "2"
+			(uuid "c5b13a9b-687a-4435-b13d-ceeb7b766616")
+		)
+		(pin "3"
+			(uuid "4e494a99-f65e-4893-bd95-f35e1d38c8db")
+		)
+		(instances
+			(project ""
+				(path "/1ff41ee6-31ba-481b-ae3a-c725064eb5fe"
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -20121,7 +20613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2 PNP:SOT-563_1P3X1P7_ONS"
+		(property "Footprint" "NSVT30010MXV6T1G:SOTFL50P160X60-6N"
 			(at 86.995 364.795 0)
 			(effects
 				(font

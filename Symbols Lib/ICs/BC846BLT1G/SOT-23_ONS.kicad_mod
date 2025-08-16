@@ -424,6 +424,39 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fc6911ff-f68f-4d0a-9008-6886d99cc76b")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "5e71525c-9dd6-45f9-a72d-525a5d5ed1bd")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.5 2) (xy -1.5 1) (xy -1.8 1) (xy -1.8 -0.9) (xy -0.5 -0.9) (xy -0.5 -1.9) (xy 0.5 -1.9) (xy 0.5 -0.9)
+				(xy 1.8 -0.9) (xy 1.8 0.9) (xy 1.5 0.9) (xy 1.5 1.9)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(model "BC846BLT1G.step"
 		(offset

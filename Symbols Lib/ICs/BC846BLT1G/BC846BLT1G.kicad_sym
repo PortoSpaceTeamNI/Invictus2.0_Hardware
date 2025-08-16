@@ -10,15 +10,16 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -10.16 20.32 0)
+			(at 0 16.002 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "BC846BLT1G"
-			(at -10.16 17.78 0)
+			(at 0 13.462 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -75,10 +76,10 @@
 		(symbol "BC846BLT1G_0_1"
 			(polyline
 				(pts
-					(xy -20.32 7.62) (xy -12.7 7.62)
+					(xy -5.08 0) (xy -1.905 0)
 				)
 				(stroke
-					(width 0.127)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -87,34 +88,10 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 9.525) (xy -7.62 12.065)
+					(xy -1.905 1.905) (xy -1.905 -1.905)
 				)
 				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 5.715) (xy -7.62 3.175)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 5.08) (xy -12.7 10.16)
-				)
-				(stroke
-					(width 0.127)
+					(width 0.508)
 					(type default)
 				)
 				(fill
@@ -122,10 +99,24 @@
 				)
 			)
 			(circle
-				(center -10.16 7.62)
-				(radius 5.08)
+				(center -1.27 0)
+				(radius 2.8194)
 				(stroke
-					(width 0.127)
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "BC846BLT1G_1_1"
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -134,10 +125,10 @@
 			)
 			(polyline
 				(pts
-					(xy -8.89 4.6038) (xy -9.525 3.6513)
+					(xy -1.905 -0.635) (xy 0 -2.54)
 				)
 				(stroke
-					(width 0.127)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -146,31 +137,7 @@
 			)
 			(polyline
 				(pts
-					(xy -8.89 4.6038) (xy -8.5725 3.6513)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.5725 3.6513) (xy -9.525 3.6513)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.5725 3.6513) (xy -9.525 3.6513) (xy -8.89 4.6038)
+					(xy -1.27 -1.778) (xy -0.762 -1.27) (xy -0.254 -2.286) (xy -1.27 -1.778)
 				)
 				(stroke
 					(width 0)
@@ -180,34 +147,8 @@
 					(type outline)
 				)
 			)
-			(polyline
-				(pts
-					(xy -7.62 15.24) (xy -7.62 12.065)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 0) (xy -7.62 3.175)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "BC846BLT1G_1_1"
-			(pin passive line
-				(at -22.86 7.62 0)
+			(pin input line
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -225,7 +166,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 17.78 270)
+				(at 0 5.08 270)
 				(length 2.54)
 				(name "C"
 					(effects
@@ -243,7 +184,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -2.54 90)
+				(at 0 -5.08 90)
 				(length 2.54)
 				(name "E"
 					(effects
