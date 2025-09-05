@@ -1,0 +1,108 @@
+(footprint "SRP6030CA-2R2M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.1 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "82a8b691-75a5-453f-b847-cc53afc088e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SRP6030CA"
+		(at -0.1 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3cc97d99-2f80-47d8-b616-a8b3151a224b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc139d31-f5f4-45d0-8aec-b36407d6365e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d591743f-19f1-4027-8697-d9e0a813e366")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.3 -3.2)
+		(end 3.3 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "9c1d4ab8-c475-4265-80fe-2e00320197ce")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2c682694-0729-4d6e-99bb-bf39b37e7c4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -2.025)
+		(size 5.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "02a0ab67-d47d-47f8-a4e0-b14b4eab1be3")
+	)
+	(pad "2" smd roundrect
+		(at 0 2.025)
+		(size 5.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "6d2b5aff-e009-422c-a5d5-d8607c4b8ac3")
+	)
+	(embedded_fonts no)
+	(model "SRP6030CA-2R2M.stp"
+		(offset
+			(xyz 0 0 1.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "STLM20DD9F"
 		(pin_names
 			(offset 0.254)
@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UDFN-4L_STM"
+		(property "Footprint" "STLM20DD9F:UDFN-4L_STM"
 			(at -6.35 0 0)
 			(effects
 				(font
@@ -54,14 +54,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "STLM20DD9F"
 			(at 0 0 0)
 			(effects
@@ -83,18 +75,6 @@
 		(symbol "STLM20DD9F_0_1"
 			(polyline
 				(pts
-					(xy 1.27 -7.62) (xy 15.24 -7.62)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.27 5.08) (xy 1.27 -7.62)
 				)
 				(stroke
@@ -107,7 +87,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 -7.62) (xy 15.24 5.08)
+					(xy 1.27 -7.62) (xy 15.24 -7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -120,6 +100,18 @@
 			(polyline
 				(pts
 					(xy 15.24 5.08) (xy 1.27 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -7.62) (xy 15.24 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -168,24 +160,6 @@
 		)
 		(symbol "STLM20DD9F_1_1"
 			(pin passive line
-				(at 22.86 -5.08 180)
-				(length 7.62)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 22.86 2.54 180)
 				(length 7.62)
 				(name "VCC"
@@ -203,6 +177,25 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 22.86 -5.08 180)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 )

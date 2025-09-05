@@ -1,28 +1,179 @@
-
-(footprint IND_ASPI-0630HI-4R7M-T15 (layer F.Cu) (tedit 68B4DE14)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at -2.418 -4.2314 0) (layer F.SilkS)
-    (effects (font (size 0.64 0.64) (thickness 0.15)))
-  )
-  (fp_text value IND_ASPI-0630HI-4R7M-T15 (at 5.3036 4.2314 0) (layer F.Fab)
-    (effects (font (size 0.64 0.64) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -3.025 0.0) (size 2.35 3.4) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 3.025 0.0) (size 2.35 3.4) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -3.6 -3.325) (end -3.6 3.325) (layer F.Fab) (width 0.127))
-  (fp_line (start 3.6 -3.325) (end 3.6 3.325) (layer F.Fab) (width 0.127))
-  (fp_line (start -3.6 -3.325) (end 3.6 -3.325) (layer F.Fab) (width 0.127))
-  (fp_line (start -3.6 3.325) (end 3.6 3.325) (layer F.Fab) (width 0.127))
-  (fp_line (start -4.45 -3.575) (end -4.45 3.575) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -4.45 3.575) (end 4.45 3.575) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 4.45 3.575) (end 4.45 -3.575) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 4.45 -3.575) (end -4.45 -3.575) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -3.6 -3.325) (end 3.6 -3.325) (layer F.SilkS) (width 0.127))
-  (fp_line (start -3.6 3.325) (end 3.6 3.325) (layer F.SilkS) (width 0.127))
-  (model "Inductor-7.2mm-4u7.step"
-    (offset (xyz 0 0 0))
-    (scale  (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "Inductor-7.2mm-4u7"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.418 -4.2314 0)
+		(layer "F.SilkS")
+		(uuid "3889f69a-316b-48e8-b63b-160a0d246878")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND_ASPI-0630HI-4R7M-T15"
+		(at 5.3036 4.2314 0)
+		(layer "F.Fab")
+		(uuid "7fad83ee-8320-4052-825e-43f760a646fa")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "435f6af9-206c-42d0-a4d2-f9eb3ef4f579")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cc4ec46-10b3-498e-8e86-25c786b78889")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.6 -3.325)
+		(end 3.6 -3.325)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8814bba-6099-436d-8715-23b4ba889e39")
+	)
+	(fp_line
+		(start -3.6 3.325)
+		(end 3.6 3.325)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "937a3e53-46eb-4c70-8c5a-62910fdea894")
+	)
+	(fp_line
+		(start -4.45 -3.575)
+		(end -4.45 3.575)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f924635f-694f-4b3e-b5fe-bcf96e3f866c")
+	)
+	(fp_line
+		(start -4.45 3.575)
+		(end 4.45 3.575)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b1b2f268-e653-4964-949a-85979ebc949d")
+	)
+	(fp_line
+		(start 4.45 -3.575)
+		(end -4.45 -3.575)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e99139dc-0315-4f60-9b3c-22e28f941e86")
+	)
+	(fp_line
+		(start 4.45 3.575)
+		(end 4.45 -3.575)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ccb7c081-77e6-4195-ba16-d00489341f3b")
+	)
+	(fp_line
+		(start -3.6 -3.325)
+		(end -3.6 3.325)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa7d059e-f376-49ad-9081-e9ab2f410523")
+	)
+	(fp_line
+		(start -3.6 -3.325)
+		(end 3.6 -3.325)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ed869a9-7fc0-41ed-b94b-c11ee396fe79")
+	)
+	(fp_line
+		(start -3.6 3.325)
+		(end 3.6 3.325)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "823a49b6-921d-4b60-996c-3d067d20e854")
+	)
+	(fp_line
+		(start 3.6 -3.325)
+		(end 3.6 3.325)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e3f5cd3-14a4-4bbe-aa08-f2a3075de208")
+	)
+	(pad "1" smd rect
+		(at -3.025 0)
+		(size 2.35 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "cde63f41-a9c9-441f-bb43-a7aa45dbba6d")
+	)
+	(pad "2" smd rect
+		(at 3.025 0)
+		(size 2.35 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "2d33faf0-9298-4d99-adfa-b9b6c7f70129")
+	)
+	(embedded_fonts no)
+	(model "Inductor-7.2mm-4u7.step"
+		(offset
+			(xyz 0 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
