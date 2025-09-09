@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "2cb205da-01dc-4dd5-90f3-3844dc2f7334")
-	(paper "User" 469.9 431.8)
+	(paper "User" 330.2 355.6)
 	(title_block
 		(title "Hydraulic Regulation & Actuation system")
 		(date "2025-09-01")
@@ -2669,16 +2669,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 158.75) (xy 118.11 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25d828f6-ce3c-4083-b035-5ba3a4f5832f")
-	)
-	(wire
-		(pts
 			(xy 177.8 189.865) (xy 219.075 189.865)
 		)
 		(stroke
@@ -2686,6 +2676,16 @@
 			(type default)
 		)
 		(uuid "2630dc2c-0c53-451b-b33d-6e83974a4852")
+	)
+	(wire
+		(pts
+			(xy 114.3 161.29) (xy 134.62 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289f46e5-0771-4389-896d-38bf4f65257e")
 	)
 	(wire
 		(pts
@@ -2789,6 +2789,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 33.02) (xy 219.075 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf92d7f-9808-46d0-8f93-99bde3217b04")
+	)
+	(wire
+		(pts
 			(xy 177.8 201.295) (xy 219.075 201.295)
 		)
 		(stroke
@@ -2886,16 +2896,6 @@
 			(type default)
 		)
 		(uuid "4a54c2e6-357b-4c2e-a719-e0f5180d9a8c")
-	)
-	(wire
-		(pts
-			(xy 177.8 33.02) (xy 219.075 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ad83dce-eae6-441f-a8ad-5b975b095f5d")
 	)
 	(wire
 		(pts
@@ -3079,16 +3079,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 35.56) (xy 219.075 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64ec63af-ad95-49da-8b82-7f8384e073f5")
-	)
-	(wire
-		(pts
 			(xy 80.645 123.825) (xy 134.62 123.825)
 		)
 		(stroke
@@ -3166,6 +3156,16 @@
 			(type default)
 		)
 		(uuid "6d23d88b-f49b-4b9f-9fe4-0e1240e6c780")
+	)
+	(wire
+		(pts
+			(xy 118.11 158.75) (xy 134.62 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d57a75d-1bc8-4df3-bb4d-6d0ef65257a4")
 	)
 	(wire
 		(pts
@@ -3279,16 +3279,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 161.29) (xy 114.3 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f615719-b5cd-4bd5-a67c-2e3f0999e5da")
-	)
-	(wire
-		(pts
 			(xy 177.8 226.695) (xy 219.075 226.695)
 		)
 		(stroke
@@ -3376,6 +3366,16 @@
 			(type default)
 		)
 		(uuid "8d6d7de2-78f5-4c50-8e30-49a6fc17ecca")
+	)
+	(wire
+		(pts
+			(xy 177.8 35.56) (xy 219.075 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efdaabc-2c1c-44dc-95b2-7620de67c080")
 	)
 	(wire
 		(pts
@@ -3526,16 +3526,6 @@
 			(type default)
 		)
 		(uuid "b4dfa253-6f2a-4856-a36a-c587d3dced1e")
-	)
-	(wire
-		(pts
-			(xy 134.62 163.83) (xy 110.49 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7bc0562-d61c-449d-be07-e7b196af94c3")
 	)
 	(wire
 		(pts
@@ -3877,6 +3867,16 @@
 		)
 		(uuid "fda5939f-a589-4b87-93b5-b5062243c763")
 	)
+	(wire
+		(pts
+			(xy 110.49 163.83) (xy 134.62 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffdf330a-75ae-43a7-be4c-0060f96578f2")
+	)
 	(label "3~{DRDY} THERMO"
 		(at 186.69 81.28 0)
 		(effects
@@ -3927,6 +3927,16 @@
 		)
 		(uuid "44060c3a-b593-4216-80fa-0870d5584330")
 	)
+	(label "MISO SPI"
+		(at 185.42 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5627ee18-6261-44e4-a779-229674564605")
+	)
 	(label "MOSI SPI"
 		(at 185.42 38.1 0)
 		(effects
@@ -3946,26 +3956,6 @@
 			(justify left bottom)
 		)
 		(uuid "582cab50-393e-4e35-8e1d-25197841648f")
-	)
-	(label "MISO SPI"
-		(at 185.42 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "85ecb222-32ec-4a65-918d-cfdae991cb6e")
-	)
-	(label "SCK SPI"
-		(at 185.42 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "89fef632-5cc5-4ee0-9df7-898fc2d95868")
 	)
 	(label "ENABLE_RS"
 		(at 185.42 47.625 0)
@@ -4066,6 +4056,16 @@
 			(justify left bottom)
 		)
 		(uuid "faf328da-2338-47cb-aa47-7c5ddbac6367")
+	)
+	(label "SCK SPI"
+		(at 185.42 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb092e33-d6ce-489a-b920-bb9f5a6df5eb")
 	)
 	(symbol
 		(lib_id "power:Earth")
@@ -7172,7 +7172,7 @@
 			)
 		)
 		(pin "SCK SPI" output
-			(at 177.8 33.02 0)
+			(at 177.8 35.56 0)
 			(uuid "2e5b94ea-f6f3-4a95-95c2-876d18c20b53")
 			(effects
 				(font
@@ -7232,7 +7232,7 @@
 			)
 		)
 		(pin "MISO SPI" input
-			(at 177.8 35.56 0)
+			(at 177.8 33.02 0)
 			(uuid "911262c0-9d76-4822-8647-657481d0c484")
 			(effects
 				(font
@@ -7634,7 +7634,7 @@
 			)
 		)
 		(pin "SOL_VALVE_1 DUTY" input
-			(at 134.62 158.75 180)
+			(at 134.62 163.83 180)
 			(uuid "f4cbab5e-4c85-4ca0-ac45-1012c98eb6d3")
 			(effects
 				(font
@@ -7734,7 +7734,7 @@
 			)
 		)
 		(pin "SOL_VALVE_3 DUTY" input
-			(at 134.62 163.83 180)
+			(at 134.62 158.75 180)
 			(uuid "270de3b1-b233-48db-a165-b0ef40b41338")
 			(effects
 				(font

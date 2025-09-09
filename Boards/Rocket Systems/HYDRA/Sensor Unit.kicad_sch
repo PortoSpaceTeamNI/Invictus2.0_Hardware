@@ -13198,71 +13198,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 471.17 224.155 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f09077d-21f6-4c47-9ee5-0bd0577c9895")
-		(property "Reference" "#PWR0148"
-			(at 471.17 230.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 470.916 228.219 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 471.17 224.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 471.17 224.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 471.17 224.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e575a16e-ca83-433c-aca0-f711011c1c0c")
-		)
-		(instances
-			(project "HYDRA"
-				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334/2cbeb4b4-96df-4eba-affc-b7f2c346466c"
-					(reference "#PWR0148")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "STLM20DD9F:STLM20DD9F")
 		(at 365.125 212.09 0)
 		(unit 1)
@@ -19451,6 +19386,71 @@
 			(project "TVCS"
 				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334/2cbeb4b4-96df-4eba-affc-b7f2c346466c"
 					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 471.17 224.155 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f70fd96-b615-4b50-b3fc-9a489215eaee")
+		(property "Reference" "#PWR0148"
+			(at 471.17 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 471.17 227.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 471.17 224.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 471.17 224.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 471.17 224.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aa9063b-efd7-43ce-b794-ec4172d1e357")
+		)
+		(instances
+			(project "HYDRA"
+				(path "/2cb205da-01dc-4dd5-90f3-3844dc2f7334/2cbeb4b4-96df-4eba-affc-b7f2c346466c"
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -28633,7 +28633,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 43.815 270)
+		(at 161.29 43.815 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28641,7 +28642,7 @@
 		(dnp no)
 		(uuid "f83efd0a-945d-4788-b9dd-83a6f568ea07")
 		(property "Reference" "R49"
-			(at 159.385 43.815 90)
+			(at 163.195 43.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28650,7 +28651,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 160.02 45.72 90)
+			(at 162.56 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
