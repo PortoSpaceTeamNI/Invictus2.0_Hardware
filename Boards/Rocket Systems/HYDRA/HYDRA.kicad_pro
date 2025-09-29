@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -236,10 +236,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.2
         },
         {
           "diameter": 0.6,
@@ -500,20 +496,20 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.0,
-        "diff_pair_gap": 0.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.0,
+        "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.0,
-        "microvia_drill": 0.0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.0,
-        "via_diameter": 0.0,
-        "via_drill": 0.0,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -559,8 +555,6 @@
         "schematic_color": "rgb(226, 0, 255)"
       },
       {
-        "diff_pair_gap": 0.195,
-        "diff_pair_width": 0.185,
         "name": "Differential",
         "pcb_color": "rgb(194, 194, 194)",
         "priority": 2,
@@ -983,7 +977,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "Schematics/",
+    "plot_directory": "../../../../../Esquemas/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
