@@ -3378,6 +3378,16 @@
 		)
 		(uuid "054ce2a9-f3c8-4d97-8bf4-9f5488f24ff5")
 	)
+	(label "RS-"
+		(at 50.8 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d320930-c33b-4159-bf5b-5c2084e372cc")
+	)
 	(label "SD_MOSI"
 		(at 189.23 71.12 180)
 		(effects
@@ -3397,6 +3407,16 @@
 			(justify left bottom)
 		)
 		(uuid "0f9a374a-e078-488b-a301-0a2ed1916b7a")
+	)
+	(label "RS+"
+		(at 50.8 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14e3bb3b-4f93-4da8-bbaf-3106c149b163")
 	)
 	(label "DT3"
 		(at 72.39 85.09 0)
@@ -5196,6 +5216,76 @@
 			(project "LIFT"
 				(path "/7a147a4c-ab1c-4b30-b55b-4c0b22c37b2b"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 55.88 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89c2a6bd-1a44-4d02-9e6b-2153b5d30b7b")
+		(property "Reference" "J6"
+			(at 58.42 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 58.42 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa6e5f59-cc33-4b7b-b47f-eb38b5e70f0b")
+		)
+		(pin "1"
+			(uuid "914cbe8c-6efd-47ba-9ec5-eaaa22022db3")
+		)
+		(instances
+			(project "LIFT"
+				(path "/7a147a4c-ab1c-4b30-b55b-4c0b22c37b2b"
+					(reference "J6")
 					(unit 1)
 				)
 			)
