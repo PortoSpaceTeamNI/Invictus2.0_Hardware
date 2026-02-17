@@ -1,0 +1,241 @@
+(footprint "Canbus"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "CanBus Module"
+		(at 0 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "83812da6-a0fc-481d-a794-aba091b6fe86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Canbus"
+		(at 0 2.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f63c97a9-fe2c-4e7f-a3d9-fc1edcd6913c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab405d81-920d-4ae4-a261-dc6be0f61aaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9bb17a5-c36e-42d0-b5f1-914cd2d0f4bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb6a009f-aaca-4533-bee4-a86aa0cfaf3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9 -9)
+		(end 8 11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7e5db566-0902-408f-a9d1-600d34c10b6a")
+	)
+	(fp_rect
+		(start -9 -9)
+		(end 8 11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b40e653f-3ee2-49d7-b52e-32c2c5ce6e4b")
+	)
+	(fp_text user "CANL"
+		(at -7.5 -6.5 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3aa832c1-cc06-4b7b-8157-bea599f74905")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "VCC"
+		(at 5 -6.5 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "552b617a-0e5a-435c-a7bf-127c0730678a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "CANH"
+		(at -5 -6.5 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5632712f-f25c-4e12-9873-41577caec71f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Design by MD"
+		(at -7 10.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5718bee3-8803-4c23-ac33-49d975c6ab91")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+			)
+		)
+	)
+	(fp_text user "CRX"
+		(at -2.5 -6.5 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6d4527dc-c4e2-4024-aad2-63a5577ec908")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "CTX"
+		(at 0 -6.5 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "961b5992-62f0-44f8-b9d7-3f50f9fb3b04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 2.5 -6.5 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ed767900-7e5c-4723-8c16-114de9492f3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -6.75 -7.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec2ebea2-fc73-4294-ba65-365eb92f3d19")
+	)
+	(pad "2" thru_hole circle
+		(at -4.25 -7.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e78168c1-8ecc-437d-90f4-8b98ba29fca0")
+	)
+	(pad "3" thru_hole circle
+		(at -1.75 -7.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6a03d17-79b6-4bd0-9ae9-182c0f56975a")
+	)
+	(pad "4" thru_hole circle
+		(at 0.75 -7.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "99f0e2aa-8b77-4c1d-9d7e-5aff3a6310d9")
+	)
+	(pad "5" thru_hole circle
+		(at 3.25 -7.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2f3f2dbe-0efd-4627-8407-35f68f8c6a93")
+	)
+	(pad "6" thru_hole circle
+		(at 5.75 -7.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "29dd8e6a-ceb0-47b1-b07e-67e377685c3b")
+	)
+	(model "C:/Users/marco/Downloads/Modulo Can v10.step"
+		(offset
+			(xyz -9 -11 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
