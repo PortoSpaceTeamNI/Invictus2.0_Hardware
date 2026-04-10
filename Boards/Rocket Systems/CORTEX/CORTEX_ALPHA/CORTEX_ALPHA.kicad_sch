@@ -5,45 +5,46 @@
 	(uuid "b3433ded-bc33-4d30-8ca0-59a8e98dfeda")
 	(paper "A4")
 	(lib_symbols
-		(symbol "CONN_1200700164_MOL:1200700164"
+		(symbol "1723163304:1723163304"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 8.89 6.35 0)
+				(at -7.62 8.89 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "1200700164"
-				(at 0 0 0)
+			(property "Value" "1723163304"
+				(at -7.62 -10.16 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CONN_1200700164_MOL"
+			(property "Footprint" "1723163304:MOLEX_1723163304"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1200700164?display=pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
@@ -57,39 +58,53 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "PARTREV" "D"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "1200700164"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CONN_1200700164_MOL"
+			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "1200700164_1_1"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "13.56 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Molex"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "1723163304_0_0"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
+						(xy -7.62 5.08) (xy -5.715 5.08)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -98,10 +113,10 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
+						(xy -7.62 2.54) (xy -5.715 2.54)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -110,10 +125,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 5.08 0)
+						(xy -7.62 -2.54) (xy -5.715 -2.54)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -122,10 +137,99 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
+						(xy -7.62 -5.08) (xy -5.715 -5.08)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -6.985 4.7625)
+					(end -5.3975 5.3975)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 2.2225)
+					(end -5.3975 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 -2.8575)
+					(end -5.3975 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 -5.3975)
+					(end -5.3975 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.3975 4.7625)
+					(end 6.985 5.3975)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.3975 2.2225)
+					(end 6.985 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.715 5.08)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -134,482 +238,120 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
+						(xy 7.62 2.54) (xy 5.715 2.54)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 8.89 -6.7733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 8.89 -8.4667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 3.81)
 					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 3.81)
 					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "SHIELD1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name "SHIELD2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 3.81)
 					(name "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 5.08)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 3.81)
 					(name "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "1200700164_1_2"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -6.7733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -8.4667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1427,6 +1169,156 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3706,7 +3598,7 @@
 		(at 93.98 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "526d167f-4b8b-4c25-917b-920562cf8a6a")
+		(uuid "42109e44-eb16-440a-96c9-084b91a5719c")
 	)
 	(junction
 		(at 38.1 149.86)
@@ -3832,16 +3724,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 33.02) (xy 260.35 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01f0da35-80fa-4c08-9a96-a64766d7219d")
-	)
-	(wire
-		(pts
 			(xy 157.48 38.1) (xy 157.48 43.18)
 		)
 		(stroke
@@ -3859,16 +3741,6 @@
 			(type default)
 		)
 		(uuid "08463151-f82f-473f-8706-3c04a4c2a4ae")
-	)
-	(wire
-		(pts
-			(xy 34.29 149.86) (xy 38.1 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a68a0f8-45c1-4d3e-a79d-b11f7409738d")
 	)
 	(bus
 		(pts
@@ -4002,6 +3874,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 149.86) (xy 38.1 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c99e4a-4ff2-49d1-9a75-7af9b7f06406")
+	)
+	(wire
+		(pts
 			(xy 49.53 142.24) (xy 53.34 142.24)
 		)
 		(stroke
@@ -4009,16 +3891,6 @@
 			(type default)
 		)
 		(uuid "620b2aeb-7833-47a6-a64f-0be1e9d72e12")
-	)
-	(wire
-		(pts
-			(xy 32.0547 151.2005) (xy 34.29 151.2005)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "626d4759-7a43-46b8-9908-31ddc066f2e6")
 	)
 	(wire
 		(pts
@@ -4162,6 +4034,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 142.24) (xy 110.49 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b30c057-05f0-4fa5-906c-55cd1a5b5568")
+	)
+	(wire
+		(pts
 			(xy 62.23 179.07) (xy 73.66 179.07)
 		)
 		(stroke
@@ -4210,16 +4092,6 @@
 		)
 		(uuid "bd3648df-bcb7-4aa6-a4db-17e1e2feb8ee")
 	)
-	(wire
-		(pts
-			(xy 251.46 30.48) (xy 260.35 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd56e056-6646-4eb8-b074-f58de3f386b4")
-	)
 	(bus
 		(pts
 			(xy 11.43 118.11) (xy 120.7438 118.11)
@@ -4249,6 +4121,16 @@
 			(type default)
 		)
 		(uuid "c34db980-cd6d-49db-b964-d670180998fa")
+	)
+	(wire
+		(pts
+			(xy 251.46 33.02) (xy 257.81 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3994305-6cde-4643-943d-74bbaa385826")
 	)
 	(wire
 		(pts
@@ -4289,16 +4171,6 @@
 			(type default)
 		)
 		(uuid "cb62232b-40c0-4d68-8ef6-17909c6338a3")
-	)
-	(wire
-		(pts
-			(xy 93.98 142.24) (xy 99.06 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf4650c6-1421-49df-b951-6e2346a38698")
 	)
 	(wire
 		(pts
@@ -4382,16 +4254,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 151.2005) (xy 34.29 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e61f5d48-bab7-4a86-ad58-7c29f4bbe6ff")
-	)
-	(wire
-		(pts
 			(xy 149.86 133.35) (xy 149.86 134.62)
 		)
 		(stroke
@@ -4399,6 +4261,26 @@
 			(type default)
 		)
 		(uuid "e80f888f-6990-48a7-bafb-02dba2dbd168")
+	)
+	(wire
+		(pts
+			(xy 93.98 142.24) (xy 97.79 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d1cf02-0a40-4ab8-a7cb-b0a717fd64e9")
+	)
+	(wire
+		(pts
+			(xy 251.46 35.56) (xy 257.81 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9234b5e-8c79-4161-9378-ef0616274c26")
 	)
 	(wire
 		(pts
@@ -25611,6 +25493,28 @@
 		)
 		(uuid "29a17cfa-1572-4ff7-a73c-02e75765a9a3")
 	)
+	(label "RS_A"
+		(at 278.13 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b7d1178-844e-4680-9d37-57dd24afda26")
+	)
+	(label "+12.8V"
+		(at 251.46 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e033b4a-90d4-4d4d-b0cf-4e24a581962c")
+	)
 	(label "RS_ENABLE"
 		(at 147.32 133.35 180)
 		(effects
@@ -25757,28 +25661,6 @@
 		)
 		(uuid "b720b3d1-c0c4-4618-aef9-7d67bca4d5d0")
 	)
-	(label "+12.8V"
-		(at 251.46 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b98fe9a5-53f9-4c77-8167-3961cfdd8f59")
-	)
-	(label "RS_B"
-		(at 260.35 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "b9949951-d9d9-4193-b8e9-803aa45261c3")
-	)
 	(label "NAV CTS UART"
 		(at 259.08 83.82 0)
 		(effects
@@ -25788,18 +25670,6 @@
 			(justify left bottom)
 		)
 		(uuid "bb2ad7a2-8c6f-47db-a4c4-28012456fd49")
-	)
-	(label "RS_A"
-		(at 260.35 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "c1e98130-debd-4997-aeef-b58b7c720231")
 	)
 	(label "MOSI"
 		(at 40.64 87.63 180)
@@ -25860,6 +25730,18 @@
 			(justify right bottom)
 		)
 		(uuid "cf8651a7-05bd-44c7-a6eb-45208a47ce5d")
+	)
+	(label "RS_B"
+		(at 278.13 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "db72b7dd-b02d-4fe5-a4d0-f5be07cd9791")
 	)
 	(label "ANT_NRESET"
 		(at 195.58 55.88 0)
@@ -26051,7 +25933,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 99.06 142.24 0)
+		(at 110.49 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26060,7 +25942,7 @@
 		(fields_autoplaced yes)
 		(uuid "0995a6d8-939e-46c9-881f-0d541baa7af0")
 		(property "Reference" "#PWR02"
-			(at 99.06 146.05 0)
+			(at 110.49 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26069,7 +25951,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 99.06 137.16 0)
+			(at 110.49 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26077,7 +25959,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 142.24 0)
+			(at 110.49 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26086,7 +25968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 142.24 0)
+			(at 110.49 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26095,7 +25977,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 99.06 142.24 0)
+			(at 110.49 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26107,7 +25989,7 @@
 			(uuid "c003de64-e2ff-406c-a2ae-82473bc1962e")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "#PWR02")
 					(unit 1)
@@ -26173,9 +26055,77 @@
 			(uuid "537e5988-36ad-4a08-b175-d7328a1ef995")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 101.6 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d639abd-d9bd-47b0-b4fd-3a5fbea40577")
+		(property "Reference" "D1"
+			(at 101.9175 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 101.9175 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 101.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f78a422f-bfe9-455c-b814-b9d153be902a")
+		)
+		(pin "2"
+			(uuid "c157209b-8ed2-48cb-b15d-86dc3a737d8c")
+		)
+		(instances
+			(project "CORTEX_ALPHA"
+				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -26384,7 +26334,7 @@
 			(uuid "3a0b7d15-db22-4811-a7f5-4710382003fc")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "J1")
 					(unit 1)
@@ -26586,7 +26536,7 @@
 			(uuid "4c64698a-effe-46a2-8330-cb5834111003")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "#PWR027")
 					(unit 1)
@@ -26652,7 +26602,7 @@
 			(uuid "c1473f83-32f8-4c2f-b93b-37a441b90182")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "#PWR023")
 					(unit 1)
@@ -26717,9 +26667,130 @@
 			(uuid "d7a60dc2-d02e-4bdd-9935-409c57367acd")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1723163304:1723163304")
+		(at 267.97 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b5f83ed-dd59-4938-9c9d-df150d5ba306")
+		(property "Reference" "J5"
+			(at 267.97 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1723163304"
+			(at 267.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1723163304:MOLEX_1723163304"
+			(at 267.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 267.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 267.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13.56 mm"
+			(at 267.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
+			(at 267.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e55322a6-6b09-4f6e-9e13-1be77fd0c07c")
+		)
+		(pin "4"
+			(uuid "8dfd3d37-4183-4d7d-b444-6fb5372b6de6")
+		)
+		(pin "S2"
+			(uuid "2e075e5e-61fc-4deb-8ff7-46c490f70ea5")
+		)
+		(pin "S1"
+			(uuid "24b75d33-e876-43da-907b-15cf20412f74")
+		)
+		(pin "2"
+			(uuid "0e1ea248-b924-4b38-9675-49743a9cba88")
+		)
+		(pin "1"
+			(uuid "b8fe2854-dc27-434c-8f9c-757447d182eb")
+		)
+		(instances
+			(project "CORTEX_ALPHA"
+				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -26785,7 +26856,7 @@
 			(uuid "d879b331-bef2-4ebc-96d9-85846a8abc9f")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "R1")
 					(unit 1)
@@ -27094,7 +27165,7 @@
 			(uuid "8ea609e4-e376-4d5b-a7d6-9e4d6d947690")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "#PWR04")
 					(unit 1)
@@ -27360,7 +27431,7 @@
 			(uuid "0a831634-c77b-424c-8c31-aca4022a7242")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "U3")
 					(unit 1)
@@ -27426,7 +27497,7 @@
 			(uuid "e0309a1c-e3c3-4a4d-8282-502b03698cbc")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "#PWR019")
 					(unit 1)
@@ -27436,7 +27507,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 32.0547 151.2005 0)
+		(at 31.75 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27445,7 +27516,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ab3cf6f-578e-4bc5-94fc-f0a31c164c33")
 		(property "Reference" "#PWR011"
-			(at 32.0547 157.5505 0)
+			(at 31.75 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27454,7 +27525,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 32.0547 156.2805 0)
+			(at 31.75 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27462,7 +27533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 32.0547 151.2005 0)
+			(at 31.75 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27471,7 +27542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 32.0547 151.2005 0)
+			(at 31.75 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27480,7 +27551,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 32.0547 151.2005 0)
+			(at 31.75 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27562,7 +27633,7 @@
 			(uuid "38de372d-6719-46df-87fa-8a0483589392")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "R2")
 					(unit 1)
@@ -27632,7 +27703,7 @@
 			(uuid "34c6f94a-1e4c-46e5-a60c-bc8900f1a498")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "C1")
 					(unit 1)
@@ -27858,7 +27929,7 @@
 			(uuid "8a1789e1-d97c-4fbc-b4e9-2e6d66c1054f")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "CanBus_Module1")
 					(unit 1)
@@ -27924,7 +27995,7 @@
 			(uuid "40d06ebf-5173-4eca-bbbb-d6790f98fea8")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "#PWR026")
 					(unit 1)
@@ -27990,7 +28061,7 @@
 			(uuid "552c4ef8-ed19-4db7-9647-ab66e8359f7a")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "#PWR024")
 					(unit 1)
@@ -28130,7 +28201,7 @@
 			(uuid "7559a680-7342-4a17-a026-8611972e7c84")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "U5")
 					(unit 1)
@@ -28140,7 +28211,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 33.02 0)
+		(at 251.46 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28149,7 +28220,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdcc2d8c-d698-4899-9d0a-01cd54e8c308")
 		(property "Reference" "#PWR020"
-			(at 251.46 39.37 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28158,7 +28229,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 38.1 0)
+			(at 251.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28166,7 +28237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 33.02 0)
+			(at 251.46 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28175,7 +28246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 33.02 0)
+			(at 251.46 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28184,7 +28255,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 33.02 0)
+			(at 251.46 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28196,7 +28267,7 @@
 			(uuid "9828c04c-11a6-4f77-846a-46e75c711a9b")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "#PWR020")
 					(unit 1)
@@ -28332,7 +28403,7 @@
 			(uuid "8a0cb361-1f29-4dfc-bfd6-e28ef4eaa54a")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "#PWR07")
 					(unit 1)
@@ -28398,7 +28469,7 @@
 			(uuid "ff0b8493-ced8-4d5d-95fb-09dca025139b")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "#PWR01")
 					(unit 1)
@@ -28659,86 +28730,9 @@
 			(uuid "57f046ba-7345-453c-80cf-7658fcb49cef")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CONN_1200700164_MOL:1200700164")
-		(at 260.35 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed759bda-c870-4b64-8f97-2c20b2c30374")
-		(property "Reference" "J3"
-			(at 274.32 33.0199 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1200700164"
-			(at 261.366 42.164 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CONN_1200700164_MOL"
-			(at 260.35 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1200700164?display=pdf"
-			(at 260.35 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "07d145a9-634a-4939-b62a-7881eb09891d")
-		)
-		(pin "3"
-			(uuid "a8846356-abd9-4d2a-bf37-87f5c857b046")
-		)
-		(pin "2"
-			(uuid "9c4212ad-3623-4855-a3a6-9832ceaa210a")
-		)
-		(pin "1"
-			(uuid "676f8b28-a8f0-4f38-9d5b-6919af849ca9")
-		)
-		(instances
-			(project ""
-				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -28867,7 +28861,7 @@
 			(uuid "40e90aeb-1809-49fc-83ae-f025b38da4ac")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "#PWR06")
 					(unit 1)
@@ -28933,7 +28927,7 @@
 			(uuid "a24f5981-ab5c-4ae5-9e28-ebbcc70cb644")
 		)
 		(instances
-			(project ""
+			(project "CORTEX_ALPHA"
 				(path "/b3433ded-bc33-4d30-8ca0-59a8e98dfeda"
 					(reference "#PWR022")
 					(unit 1)
