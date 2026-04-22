@@ -6001,6 +6001,19 @@
 		)
 		(uuid "7c45d693-627e-40a0-a5b7-32e5b94d6030")
 	)
+	(text "Cortex--Antenna"
+		(exclude_from_sim no)
+		(at 343.408 25.908 0)
+		(effects
+			(font
+				(size 7 7)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "7d72c738-4fe9-4ba8-b643-5a3fce0ee963")
+	)
 	(text "COMMS W/ \nNAVIGATOR"
 		(exclude_from_sim no)
 		(at 29.464 229.362 0)
@@ -6093,6 +6106,26 @@
 			(justify left top)
 		)
 		(uuid "9bdf2bc2-870e-43a6-9cb7-bd450cb3f2a5")
+	)
+	(text_box "Aqui, os sinais de disparos nao deviam estar diretamente conectados ao STM32, pois estes sinais requerem altas correntes.\nPelo oq pesquisei, talvez devo conectar-los primeiro a um gate MOSFET"
+		(exclude_from_sim no)
+		(at 177.8 259.08 0)
+		(size 40.64 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(uuid "bbde1798-bfa0-415b-9fec-0e229c3ac71f")
 	)
 	(junction
 		(at 127 55.88)
@@ -6227,6 +6260,12 @@
 		(uuid "4d7fe1d4-b907-490d-b0e7-0b1a7a5ea8f2")
 	)
 	(junction
+		(at 219.71 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5067a2da-2509-42b4-9de2-b62ccb891f43")
+	)
+	(junction
 		(at 116.84 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6261,6 +6300,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "649b896d-031f-4c4b-a4fe-7d5a1173fe0c")
+	)
+	(junction
+		(at 167.64 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74f6a1d6-171e-4a90-8bc5-c310e3bd619c")
 	)
 	(junction
 		(at 58.42 135.89)
@@ -6347,6 +6392,12 @@
 		(uuid "9ccf4d73-23be-4ea8-91a1-caa09639b5bf")
 	)
 	(junction
+		(at 167.64 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a021df7d-9271-4f97-afea-27aaab24bed0")
+	)
+	(junction
 		(at 39.37 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6369,6 +6420,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c524d7ee-cb8e-4862-a34a-bcd26416be5d")
+	)
+	(junction
+		(at 167.64 271.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca6338ff-6b32-4a6a-a136-03c397974de9")
 	)
 	(junction
 		(at 138.43 52.07)
@@ -6934,6 +6991,16 @@
 	)
 	(bus
 		(pts
+			(xy 219.71 271.78) (xy 167.64 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28bee0f3-72f4-4454-b09b-1b697ad011ec")
+	)
+	(bus
+		(pts
 			(xy 12.7 181.61) (xy 48.26 181.61)
 		)
 		(stroke
@@ -7011,6 +7078,16 @@
 			(type default)
 		)
 		(uuid "2f81552a-4003-4b51-825c-ef3f347944b2")
+	)
+	(bus
+		(pts
+			(xy 167.64 181.61) (xy 219.71 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8b6313-3e60-46fb-9ceb-cf02ede18393")
 	)
 	(wire
 		(pts
@@ -7131,6 +7208,16 @@
 			(type default)
 		)
 		(uuid "38dcf4a3-e399-4629-9199-6e25c504704f")
+	)
+	(bus
+		(pts
+			(xy 219.71 181.61) (xy 219.71 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f5a744-bff9-4d88-a020-ff1b9de76955")
 	)
 	(wire
 		(pts
@@ -7291,6 +7378,16 @@
 			(type default)
 		)
 		(uuid "487fde24-6e67-4a33-8203-7742e00f930a")
+	)
+	(bus
+		(pts
+			(xy 219.71 224.79) (xy 219.71 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48bc9da9-80e2-4466-8ee3-288752792fdb")
 	)
 	(wire
 		(pts
@@ -8003,6 +8100,16 @@
 		)
 		(uuid "806fa36c-3a0e-4f0b-a9c9-58acd401d91d")
 	)
+	(bus
+		(pts
+			(xy 167.64 224.79) (xy 167.64 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80882272-a836-40e2-9c74-4c051b39cbb7")
+	)
 	(wire
 		(pts
 			(xy 76.2 210.82) (xy 76.2 213.36)
@@ -8423,6 +8530,16 @@
 		)
 		(uuid "a195747d-215b-466f-afe3-5ca4cb00efc5")
 	)
+	(bus
+		(pts
+			(xy 167.64 224.79) (xy 219.71 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dac9e7-8c82-4fda-bde9-5fb58bcc76c8")
+	)
 	(wire
 		(pts
 			(xy 209.55 121.92) (xy 220.98 121.92)
@@ -8716,7 +8833,7 @@
 	)
 	(bus
 		(pts
-			(xy 167.64 181.61) (xy 167.64 271.78)
+			(xy 167.64 181.61) (xy 167.64 224.79)
 		)
 		(stroke
 			(width 0)
@@ -38380,18 +38497,6 @@
 		)
 		(uuid "a7ee1790-0781-4752-a456-a69dbaa5ff1a")
 	)
-	(label "RS_A"
-		(at 209.55 204.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "af6cf24b-495b-46da-ab4c-25c0bc091e70")
-	)
 	(label "SWCLK"
 		(at 160.02 100.33 0)
 		(effects
@@ -38433,18 +38538,6 @@
 			(justify left bottom)
 		)
 		(uuid "d29a1e25-45b9-4d0f-9dbf-c1523abc1036")
-	)
-	(label "RS_B"
-		(at 209.55 201.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "ed51967c-2f41-49f6-ae0e-993277a4187f")
 	)
 	(global_label "VCC"
 		(shape input)
@@ -38525,6 +38618,28 @@
 		(uuid "15ca4780-3433-4254-adb9-0bdb47eddcfa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 169.1635 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS_B"
+		(shape input)
+		(at 209.55 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "1a798d8f-87ef-4a7c-8d23-361c302d65a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.4017 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38820,6 +38935,28 @@
 			)
 		)
 	)
+	(global_label "RS_A"
+		(shape input)
+		(at 209.55 204.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "69a7d9ac-6350-4a83-bc18-2207e9e0a223")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.2874 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NAV_RX_UART"
 		(shape input)
 		(at 158.75 72.39 0)
@@ -39018,6 +39155,28 @@
 			)
 		)
 	)
+	(global_label "RS_B"
+		(shape input)
+		(at 137.16 213.36 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right)
+		)
+		(uuid "835e133f-cdf5-464b-9e1d-65ef9ee089a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 218.2117 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FDCAN2_RX"
 		(shape input)
 		(at 123.19 115.57 180)
@@ -39163,6 +39322,28 @@
 		(uuid "aa42742a-317c-4b1d-9512-b5bd43f7056c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.97 201.8026 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS_A"
+		(shape input)
+		(at 138.43 210.82 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left)
+		)
+		(uuid "b621139a-6396-4bad-9295-9341a385960d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.43 206.0826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
