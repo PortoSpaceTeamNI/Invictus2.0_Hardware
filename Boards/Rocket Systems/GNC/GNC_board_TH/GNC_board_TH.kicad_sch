@@ -2728,10 +2728,6 @@
 		(uuid "6c35b593-8ca6-4a19-b473-72f3af6fa772")
 	)
 	(no_connect
-		(at 212.09 105.41)
-		(uuid "7c575727-a350-4851-9186-58d801e18c0d")
-	)
-	(no_connect
 		(at 257.81 95.25)
 		(uuid "869b8be0-1e6d-416d-92db-618f5ffa1569")
 	)
@@ -9571,6 +9567,28 @@
 			)
 		)
 	)
+	(global_label "PPS_GPS"
+		(shape input)
+		(at 212.09 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right)
+		)
+		(uuid "fa3714fc-2cad-4065-b33c-0c59193d720e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.5813 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+5V")
 		(at 93.98 163.83 0)
@@ -10947,7 +10965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 146.05 123.19 0)
 			(effects
 				(font
