@@ -654,213 +654,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Converter_DCDC:ITX0509SA-H"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "PC1"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "JOY-IT SBC-Buck02"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Converter_DCDC:Converter_DCDC_XP_POWER-ITXxxxxSA_THT"
-				(at -26.67 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.xppower.com/pdfs/SF_ITX.pdf"
-				(at 26.67 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Fully Regulated Single Output Voltage 9V, ±666mA, 5V Input Voltage, SIP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "XP_POWER DC/DC isolated Converter module"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*XP?POWER?ITXxxxxSA*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ITX0509SA-H_0_0"
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "+Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "+Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ITX0509SA-H_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ITX0509SA-H_1_0"
-				(pin bidirectional line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3402,6 +3195,140 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mini Dc-Dc:MiniDCDCBoost"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MiniDCDCBoost_1_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8441,7 +8368,7 @@
 		(uuid "45180624-ce99-483e-90aa-7bda491efcff")
 	)
 	(junction
-		(at 401.32 300.99)
+		(at 408.94 298.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45fd8a11-0d1d-417f-8343-9a5f83b9895a")
@@ -8571,6 +8498,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c59bc0b-e29a-46aa-9aa8-1bd7ee90219c")
+	)
+	(junction
+		(at 391.16 313.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8350476b-3052-46fb-acc9-8cb484b23361")
 	)
 	(junction
 		(at 293.37 309.88)
@@ -8711,6 +8644,12 @@
 		(uuid "baa00cc1-c662-4127-b23c-92c33d3ef729")
 	)
 	(junction
+		(at 403.86 309.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb73e24f-bb35-4869-9a5b-599ca72b4c45")
+	)
+	(junction
 		(at 48.26 358.775)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8745,12 +8684,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1c98e8b-933c-49ae-b4ea-04ef7e35f059")
-	)
-	(junction
-		(at 386.08 313.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c24113a4-f77f-4ec1-a6f0-0684a22604a2")
 	)
 	(junction
 		(at 262.89 67.31)
@@ -9140,7 +9073,7 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 299.72) (xy 401.32 300.99)
+			(xy 408.94 297.18) (xy 408.94 298.45)
 		)
 		(stroke
 			(width 0)
@@ -9160,7 +9093,7 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 300.99) (xy 406.4 300.99)
+			(xy 408.94 298.45) (xy 414.02 298.45)
 		)
 		(stroke
 			(width 0)
@@ -9477,6 +9410,16 @@
 			(type default)
 		)
 		(uuid "1d2673af-8f2d-4921-854b-3b0e2b620da3")
+	)
+	(wire
+		(pts
+			(xy 403.86 304.8) (xy 403.86 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3574df-c3ab-430d-9a91-01b4858aabb3")
 	)
 	(wire
 		(pts
@@ -10160,7 +10103,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 300.99) (xy 401.32 300.99)
+			(xy 403.86 298.45) (xy 408.94 298.45)
 		)
 		(stroke
 			(width 0)
@@ -10240,6 +10183,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 313.69) (xy 391.16 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412b534b-e4f9-426e-ac01-906938dc5022")
+	)
+	(wire
+		(pts
 			(xy 41.91 363.855) (xy 41.91 361.315)
 		)
 		(stroke
@@ -10307,16 +10260,6 @@
 			(type default)
 		)
 		(uuid "44a6eb7f-7fa7-478d-aa12-7857cf49ca89")
-	)
-	(wire
-		(pts
-			(xy 386.08 314.96) (xy 386.08 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46a1b205-a7d5-4ba1-aab9-e21ffcc9ff77")
 	)
 	(wire
 		(pts
@@ -10520,7 +10463,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 300.99) (xy 375.92 300.99)
+			(xy 373.38 298.45) (xy 378.46 298.45)
 		)
 		(stroke
 			(width 0)
@@ -11460,16 +11403,6 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 313.69) (xy 386.08 311.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8866515c-5595-4a81-93e2-60938d43ce15")
-	)
-	(wire
-		(pts
 			(xy 92.71 129.54) (xy 92.71 127)
 		)
 		(stroke
@@ -11707,6 +11640,16 @@
 			(type default)
 		)
 		(uuid "944c3a9c-9d72-43fb-b9bf-a992982705b5")
+	)
+	(wire
+		(pts
+			(xy 391.16 313.69) (xy 391.16 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959d06b2-7729-428d-914a-2da074f3c047")
 	)
 	(wire
 		(pts
@@ -12210,7 +12153,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 299.72) (xy 370.84 300.99)
+			(xy 373.38 297.18) (xy 373.38 298.45)
 		)
 		(stroke
 			(width 0)
@@ -12227,6 +12170,16 @@
 			(type default)
 		)
 		(uuid "aa24b439-3b5c-4bca-b5dc-639fbd17c7dc")
+	)
+	(wire
+		(pts
+			(xy 403.86 309.88) (xy 414.02 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4bcf27-9f08-4ea3-914f-0e40a8b9cc50")
 	)
 	(wire
 		(pts
@@ -12520,7 +12473,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 313.69) (xy 397.51 313.69)
+			(xy 391.16 313.69) (xy 403.86 313.69)
 		)
 		(stroke
 			(width 0)
@@ -13280,6 +13233,16 @@
 	)
 	(wire
 		(pts
+			(xy 403.86 309.88) (xy 403.86 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e805f74f-09fc-4d4b-9f34-55ece72b6f46")
+	)
+	(wire
+		(pts
 			(xy 519.43 114.3) (xy 515.62 114.3)
 		)
 		(stroke
@@ -13357,6 +13320,16 @@
 			(type default)
 		)
 		(uuid "ecc41168-63c2-49f6-b7ea-926933feb964")
+	)
+	(wire
+		(pts
+			(xy 378.46 304.8) (xy 378.46 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd62479-159e-4151-a664-5e766e4d61d7")
 	)
 	(wire
 		(pts
@@ -14565,7 +14538,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 386.08 314.96 0)
+		(at 391.16 314.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14574,7 +14547,7 @@
 		(fields_autoplaced yes)
 		(uuid "006c92f6-ac39-43b9-9700-be7f59d82bc2")
 		(property "Reference" "#PWR014"
-			(at 386.08 321.31 0)
+			(at 391.16 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14583,7 +14556,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 386.08 320.04 0)
+			(at 391.16 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14591,7 +14564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 386.08 314.96 0)
+			(at 391.16 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14600,7 +14573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 386.08 314.96 0)
+			(at 391.16 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14609,7 +14582,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 386.08 314.96 0)
+			(at 391.16 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14888,7 +14861,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 406.4 300.99 0)
+		(at 414.02 298.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14896,7 +14869,7 @@
 		(dnp no)
 		(uuid "028eff0f-519f-403c-b25e-544a96e2ff5a")
 		(property "Reference" "TP1"
-			(at 407.416 296.672 0)
+			(at 415.036 294.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14905,7 +14878,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 407.416 298.45 0)
+			(at 415.036 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14914,7 +14887,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 411.48 300.99 0)
+			(at 419.1 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14923,7 +14896,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 411.48 300.99 0)
+			(at 419.1 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14932,7 +14905,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 406.4 300.99 0)
+			(at 414.02 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25145,7 +25118,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 397.51 313.69 0)
+		(at 414.02 309.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25153,7 +25126,7 @@
 		(dnp no)
 		(uuid "8772f345-fc7d-4c6a-93f7-f2d87c5e1dec")
 		(property "Reference" "TP7"
-			(at 398.526 309.372 0)
+			(at 415.036 305.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25162,7 +25135,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 398.526 311.15 0)
+			(at 415.036 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25171,7 +25144,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 402.59 313.69 0)
+			(at 419.1 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25180,7 +25153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 402.59 313.69 0)
+			(at 419.1 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25189,7 +25162,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 397.51 313.69 0)
+			(at 414.02 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28448,7 +28421,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 401.32 299.72 0)
+		(at 408.94 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28456,7 +28429,7 @@
 		(dnp no)
 		(uuid "b39986b1-0a9f-4f24-b6da-411f3d55d0a5")
 		(property "Reference" "#PWR06"
-			(at 401.32 303.53 0)
+			(at 408.94 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28465,7 +28438,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 401.32 296.164 0)
+			(at 408.94 293.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28473,7 +28446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 401.32 299.72 0)
+			(at 408.94 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28482,7 +28455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 401.32 299.72 0)
+			(at 408.94 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28491,7 +28464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 401.32 299.72 0)
+			(at 408.94 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29987,7 +29960,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 370.84 299.72 0)
+		(at 373.38 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29995,7 +29968,7 @@
 		(dnp no)
 		(uuid "cb7e4817-7e40-422d-99b3-a02e4e56a6e2")
 		(property "Reference" "#PWR05"
-			(at 370.84 303.53 0)
+			(at 373.38 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30004,7 +29977,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 370.84 295.91 0)
+			(at 373.38 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30012,7 +29985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 370.84 299.72 0)
+			(at 373.38 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30021,7 +29994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 299.72 0)
+			(at 373.38 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30030,7 +30003,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 370.84 299.72 0)
+			(at 373.38 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32659,6 +32632,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Mini Dc-Dc:MiniDCDCBoost")
+		(at 391.16 302.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec1938df-c231-4c69-9fe2-06d0f00b09c9")
+		(property "Reference" "U2"
+			(at 391.16 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 391.16 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DCDCModule:DCDC_Module"
+			(at 391.16 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 391.16 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6664140-94c9-4183-b758-0e21697c3250")
+		)
+		(pin "1"
+			(uuid "b3b5be4a-c54b-4a25-9f19-085e06265836")
+		)
+		(pin "3"
+			(uuid "e35a762f-352c-46b1-86ff-abab97f186f8")
+		)
+		(pin "4"
+			(uuid "daa55280-d13e-4fdf-9c9e-e2f12e05353b")
+		)
+		(instances
+			(project "PMU"
+				(path "/c5b65bf5-90be-440c-9851-559ec764e764"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NCV8114ASN165T1G:NCV8114ASN165T1G")
 		(at 384.81 373.38 0)
 		(unit 1)
@@ -33582,82 +33629,6 @@
 			(project "PMU"
 				(path "/c5b65bf5-90be-440c-9851-559ec764e764"
 					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Converter_DCDC:ITX0509SA-H")
-		(at 386.08 303.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fde12121-27d0-4f52-a393-81c3c11b6a68")
-		(property "Reference" "PC1"
-			(at 386.08 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JOY-IT SBC-Buck02"
-			(at 386.08 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_XP_POWER-ITXxxxxSA_THT"
-			(at 359.41 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.xppower.com/pdfs/SF_ITX.pdf"
-			(at 412.75 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Fully Regulated Single Output Voltage 9V, ±666mA, 5V Input Voltage, SIP"
-			(at 386.08 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6d06756f-793b-4aef-bf4c-c0a1007df80e")
-		)
-		(pin "8"
-			(uuid "3370ce26-226f-4b34-9e06-cf4e07922cb7")
-		)
-		(pin "6"
-			(uuid "36f9ea0c-0618-4843-a6aa-2cf5265e996b")
-		)
-		(pin "7"
-			(uuid "284c321e-95c2-4fc9-9ac6-f01c7f61bebf")
-		)
-		(instances
-			(project ""
-				(path "/c5b65bf5-90be-440c-9851-559ec764e764"
-					(reference "PC1")
 					(unit 1)
 				)
 			)
